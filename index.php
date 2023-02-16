@@ -47,7 +47,7 @@
         </div>
       </div>
     </section>
-
+ 
     <section class="journey_main ptb_100">
       <div class="container">
         <div class="journey_title toTop" data-scroll>
