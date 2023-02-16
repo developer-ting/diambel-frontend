@@ -96,8 +96,8 @@ $(document).ready(function (evt) {
     }
     progressbar(".our_catalogue_slider", ".progress1");
     progressbar(".our_catalogue_slider_two", ".progress2");
-    // progressbar(".customers_slider", ".progress3");
-    // progressbar("#quick_reads_slider", ".progress4");
+    progressbar(".upcoming_events_slider", ".progress3");
+    progressbar(".corporate_social_slider", ".progress4");
 
     $(".our_catalogue_slider").slick({
       dots: false,
@@ -155,6 +155,101 @@ $(document).ready(function (evt) {
         },
       ],
     });
+
+    $(".working_across_slider").slick({
+      dots: false,
+      infinite: true,
+      autoplay: true,
+      arrows: false,
+      speed: 1000,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      fade: true,
+      cssEase: "linear",
+    });
+
+    $(".logo_slider").slick({
+      dots: false,
+      infinite: true,
+      autoplay: true,
+      arrows: false,
+      speed: 1000,
+      slidesToShow: 5,
+      slidesToScroll: 1,
+      variableWidth: true,
+    });
+
+    $(".review_content_slider").slick({
+      dots: true,
+      infinite: true,
+      autoplay: true,
+      arrows: false,
+      speed: 1000,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      vertical: true,
+      verticalSwiping: true,
+    });
+
+    $(".upcoming_events_slider").slick({
+      dots: false,
+      autoplay: false,
+      arrows: true,
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      pauseOnHover: false,
+      prevArrow:
+        '<img src="img/arrow_prev.png" class="slide-arrow prev-arrow">',
+      nextArrow:
+        '<img src="img/arrow_next.png" class="slide-arrow next-arrow">',
+      responsive: [
+        {
+          breakpoint: 991,
+          settings: {
+            slidesToShow: 2,
+          },
+        },
+        {
+          breakpoint: 767,
+          settings: {
+            slidesToShow: 1,
+            arrows: false,
+            dots: true,
+          },
+        },
+      ],
+    });
+
+    $(".corporate_social_slider").slick({
+      dots: false,
+      autoplay: false,
+      arrows: true,
+      slidesToShow: 2,
+      slidesToScroll: 1,
+      pauseOnHover: false,
+      variableWidth: true,
+      prevArrow:
+        '<img src="img/arrow_prev.png" class="slide-arrow prev-arrow">',
+      nextArrow:
+        '<img src="img/arrow_next.png" class="slide-arrow next-arrow">',
+      responsive: [
+        {
+          breakpoint: 991,
+          settings: {
+            slidesToShow: 2,
+          },
+        },
+        {
+          breakpoint: 767,
+          settings: {
+            slidesToShow: 1,
+            arrows: false,
+            dots: true,
+            variableWidth: false,
+          },
+        },
+      ],
+    });
   }
 });
 
@@ -189,4 +284,9 @@ $(window).on("resize", function () {});
 //################### window orientation change function ############################
 window.addEventListener("orientationchange", function () {
   location.reload();
+});
+
+//scrollout
+ScrollOut({
+  once: true,
 });

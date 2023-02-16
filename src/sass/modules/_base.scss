@@ -185,6 +185,71 @@ h6 {
   border-radius: 15px;
 }
 
+//bootstrap custom css
+.hidden {
+  display: none !important;
+}
+
+.visible-lg {
+  display: block;
+
+  @media (max-width: 1199px) {
+    display: none !important;
+  }
+}
+
+.hidden-xs {
+  display: block;
+
+  @media (max-width: 767px) {
+    display: none !important;
+  }
+}
+
+.hidden-sm {
+  display: block;
+
+  @media (min-width: 767px) and (max-width: 1024px) {
+    display: none !important;
+  }
+}
+
+.hidden-sm-xs {
+  display: block;
+
+  @media (max-width: 1024px) {
+    display: none !important;
+  }
+}
+
+.visible-sm-xs {
+  display: none;
+
+  @media (max-width: 1024px) {
+    display: block !important;
+  }
+}
+
+.visible-sm {
+  display: none;
+
+  @media (min-width: 767px) and (max-width: 1024px) {
+    display: block !important;
+  }
+}
+
+.visible-xs {
+  display: block;
+
+  @media (min-width: 767px) {
+    display: none !important;
+  }
+}
+
+.overflow_h {
+  overflow: hidden;
+}
+
 // scroll out css
 .toTop {
   &[data-scroll] {
@@ -295,8 +360,15 @@ h6 {
         width: 8px;
         height: 8px;
         background-color: var(--secondary-color);
-        border-radius: 50%;
-        // clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+        // border-radius: 50%;
+        clip-path: polygon(
+          25% 0%,
+          75% 0%,
+          100% 50%,
+          75% 100%,
+          25% 100%,
+          0% 50%
+        );
       }
     }
   }
@@ -310,6 +382,7 @@ h6 {
   bottom: -10px;
   right: 0;
   cursor: pointer;
+  z-index: 1;
 }
 
 .prev-arrow {

@@ -9,6 +9,11 @@
   // box-shadow: 0 0 14px -10px #333;
   //   margin: 0 auto;
   background-color: #fcf9f8;
+  transform: translateY(-100%);
+  transition: all 1.5s;
+  &.headerAnim {
+    transform: translateY(0%);
+  }
   .navbar {
     display: flex;
     justify-content: space-between;

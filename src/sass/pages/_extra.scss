@@ -1,0 +1,126 @@
+.solution_main_img {
+  &.imgSec {
+    position: relative;
+  }
+}
+.imgSec {
+  opacity: 0;
+  transition: 1s all;
+  position: absolute !important;
+
+  &.showing {
+    position: relative;
+    z-index: 1;
+    transition: 1s all;
+    opacity: 1;
+  }
+}
+.banner-sec {
+  background-image: url("../../img/intro/banner.jpg");
+  height: calc(100vw * 818 / 1452);
+  // height: 100vh;
+  background-size: 110%;
+  background-repeat: no-repeat;
+  transition: all 1.5s;
+  transition-delay: 2s;
+  transform-origin: left bottom;
+  background-position: center;
+  position: relative;
+  @extend .f_r_a_center;
+  justify-content: flex-start;
+
+  .bannerText {
+    margin-left: var(--container_left_space);
+    .bannerHead {
+      font-size: 63px;
+      color: #fff;
+      font-family: var(--marcellus_r);
+      line-height: 1.2;
+      margin-bottom: 20px;
+      .italictxt {
+        color: var(--secondary-color);
+        font-family: var(--p_f_s_r);
+      }
+      span {
+        display: block;
+        transform: translateX(calc(var(--container_width) * -1));
+        transition: all 1s;
+        transition-delay: 4s;
+        &:nth-child(2) {
+          transition-delay: 5s;
+        }
+        &.spanAnim {
+          transform: translateX(0);
+        }
+      }
+    }
+    .bannerPara {
+      font-size: 20px;
+      font-family: var(--font_text);
+      color: var(--secondary-color);
+      transform: translateX(calc(var(--container_width) * -1));
+      transition: all 1s;
+      transition-delay: 6s;
+      &.bannerParaAnim {
+        transform: translateX(0);
+      }
+    }
+  }
+  &.banner-sec-anim {
+    background-size: 100%;
+  }
+  .DiamondImg {
+    position: absolute;
+    right: 23%;
+    top: 28%;
+    transform: translateY(60px);
+    transition: all 1.5s;
+    transition-delay: 2s;
+    &.DiamondImgAnim {
+      transform: translateY(0);
+    }
+  }
+  .bgDiamondImg {
+    position: absolute;
+    right: 22%;
+    top: 22%;
+    transform: scaleX(0.4) translateY(40px);
+    transition: all 1.5s;
+    transition-delay: 2s;
+    opacity: 0;
+    transform-origin: center;
+    &.bgDiamondImgAnim {
+      opacity: 1;
+      transform: scaleX(1) translateY(0);
+    }
+    .str {
+      position: absolute;
+      opacity: 0;
+      transition: all 1.5s;
+      transition-delay: 3s;
+      &.str1 {
+        top: 0;
+        left: 0;
+      }
+      &.str2 {
+        bottom: 40px;
+        right: -35px;
+        width: 30px;
+      }
+      &.strAnim {
+        opacity: 1;
+      }
+    }
+  }
+}
+.intro-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  video {
+    width: var(--winWidth);
+    height: var(--winHeight);
+    object-fit: cover;
+  }
+}
