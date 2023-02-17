@@ -24,7 +24,7 @@ $(window).on("load", function () {
     $("body").removeClass("overflowAU");
   }, 6000);
   function loadBannerAnim() {
-    $(".banner-sec").addClass("banner-sec-anim");
+    $(".bannerImg").addClass("bannerImgAnim");
     $(".DiamondImg").addClass("DiamondImgAnim");
     $(".bgDiamondImg").addClass("bgDiamondImgAnim");
     $(".str").addClass("strAnim");
@@ -46,7 +46,7 @@ var sliderNav = $(".slider-nav");
 
 if (sliderNav.length) {
   sliderNav.slick({
-    slidesToShow: 3,
+    slidesToShow: 2,
     slidesToScroll: 1,
     autoplay: true,
     vertical: true,
@@ -95,3 +95,10 @@ $(".slider-nav").on(
     $(".slider-nav .slick-list").css("min-height", NextSlideDom.height());
   }
 );
+
+ScrollOut({
+  targets: ".prlx",
+  cssProps: {
+    viewportY: true,
+  },
+});

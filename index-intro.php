@@ -23,11 +23,14 @@
 
         <!--  insert body content  -->
         <section class="intro-video">
-            <video autoplay muted>
+            <video autoplay muted class="hidden-xs">
                 <source src="img/intro/1920x1080.mp4" type="video/mp4">
             </video>
+            <video autoplay muted class="visible-xs">
+                <source src="img/intro/480x900.mp4" type="video/mp4">
+            </video>
         </section>
-        <section class="banner-sec">
+        <section class="banner-sec hidden-xs">
             <picture>
                 <!-- <source media="(max-width:465px)" srcset="img_white_flower.jpg"> -->
                 <img src="img/intro/banner.jpg" class="bannerImg">
@@ -129,22 +132,35 @@
                         <div class="slider slider-for">
                             <div class="slider_image">
                                 <img src="img/home/slider_one.jpg" alt="slider_one" />
-                                <img class="line_layer" src="img/home/line_layer.png" alt="line_layer" />
+
+
+                            </div>
+                            <div class="slider_image">
+                                <img src="img/home/slider_one.jpg" alt="slider_one" />
+                                <!-- <img class="line_layer" src="img/home/line_layer.png" alt="line_layer" /> -->
                                 <img class="slider_layer_two" src="img/home/review_layer_two.png" alt="slider_one" />
                             </div>
                             <div class="slider_image">
                                 <img src="img/home/slider_one.jpg" alt="slider_one" />
+                                <img class="slider_layer_two" src="img/home/review_layer_two.png" alt="slider_one" />
                             </div>
                             <div class="slider_image">
                                 <img src="img/home/slider_one.jpg" alt="slider_one" />
+                                <img class="slider_layer_two" src="img/home/review_layer_two.png" alt="slider_one" />
                             </div>
                             <div class="slider_image">
                                 <img src="img/home/slider_one.jpg" alt="slider_one" />
+                                <img class="slider_layer_two" src="img/home/review_layer_two.png" alt="slider_one" />
                             </div>
                             <div class="slider_image">
                                 <img src="img/home/slider_one.jpg" alt="slider_one" />
+
+                                <img class="slider_layer_two" src="img/home/review_layer_two.png" alt="slider_one" />
                             </div>
                         </div>
+
+                        <img class="line_layer" src="img/home/line_layer.png" alt="line_layer" />
+                        <img class="slider_layer_two" src="img/home/review_layer_two.png" alt="slider_one" />
                     </div>
                 </div>
             </div>
@@ -228,7 +244,7 @@
                     </div>
                 </div>
 
-                <div class="nature_img toTop" data-scroll>
+                <div class="nature_img">
                     <img src="img/home/nature_img.jpg" alt="nature_img" />
                     <div class="vactor_one postion_vector">
                         <img src="img/home/nature_vector_one.png" alt="nature_vector_one" />
@@ -667,10 +683,14 @@
             </div>
 
             <div class="working_across pt_100">
-                <img class="working_layer_one p_s" src="img/home/working_layer_one.png" alt="working_layer" />
-                <img class="working_layer_two p_s" src="img/home/working_layer_two.png" alt="working_layer" />
-                <img class="working_layer_three p_s" src="img/home/working_layer_three.png" alt="working_layer" />
-                <img class="working_layer_four p_s" src="img/home/working_layer_four.png" alt="working_layer" />
+                <img class="working_layer_one p_s prlx" data-scroll-parallax src="img/home/working_layer_one.png"
+                    alt="working_layer" />
+                <img class="working_layer_two p_s prlx" data-scroll-parallax src="img/home/working_layer_two.png"
+                    alt="working_layer" />
+                <img class="working_layer_three p_s prlx" data-scroll-parallax src="img/home/working_layer_three.png"
+                    alt="working_layer" />
+                <img class="working_layer_four p_s prlx" data-scroll-parallax src="img/home/working_layer_four.png"
+                    alt="working_layer" />
                 <div class="container">
                     <div class="title_info pb_40 toTop" data-scroll>
                         <div class="title">
@@ -759,8 +779,10 @@
       </div> -->
 
             <div class="container">
-                <img class="review_layer_one" src="img/home/review_layer_one.png" alt="review_layer_one" />
-                <img class="review_layer_two" src="img/home/review_layer_two.png" alt="review_layer_two" />
+                <img class="review_layer_one prlx" data-scroll-parallax src="img/home/review_layer_one.png"
+                    alt="review_layer_one" />
+                <img class="review_layer_two prlx" data-scroll-parallax src="img/home/review_layer_two.png"
+                    alt="review_layer_two" />
                 <div class="review_content_slider toTop" data-scroll>
 
                     <div class="review_content">
@@ -1049,7 +1071,7 @@
                     <div class="corporate_content">
                         <div class="corporate_social_item">
                             <img src="img/home/go_green.jpg" alt="go_green" />
-                            <div class="corporate_content">
+                            <div class="corporate_content_desc">
                                 <h6 class="text_md f_w_m">Lorem ipsum dolor
                                     <br>sit amet.
                                     <span><a href=""><img src="img/home/arrow_white.png" alt="arrow_white"></a></span>
@@ -1061,7 +1083,7 @@
                     <div class="corporate_content">
                         <div class="corporate_social_item">
                             <img src="img/home/go_green.jpg" alt="go_green" />
-                            <div class="corporate_content">
+                            <div class="corporate_content_desc">
                                 <h6 class="text_md f_w_m">Lorem ipsum dolor
                                     <br>sit amet.
                                     <span><a href=""><img src="img/home/arrow_white.png" alt="arrow_white"></a></span>
@@ -1073,7 +1095,7 @@
                     <div class="corporate_content">
                         <div class="corporate_social_item">
                             <img src="img/home/go_green.jpg" alt="go_green" />
-                            <div class="corporate_content">
+                            <div class="corporate_content_desc">
                                 <h6 class="text_md f_w_m">Lorem ipsum dolor
                                     <br>sit amet.
                                     <span><a href=""><img src="img/home/arrow_white.png" alt="arrow_white"></a></span>
@@ -1107,7 +1129,6 @@
                 </div>
             </div>
         </section>
-
         <!--  end body content -->
     </main>
     <?php include("includes/footer.html") ?>

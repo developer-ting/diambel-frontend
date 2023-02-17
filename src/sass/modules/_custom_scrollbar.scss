@@ -1,17 +1,17 @@
 ::-webkit-scrollbar {
-    width: 5px;
-    background: #333;
+  width: 5px;
+  background: #333;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-    border-radius: 50px;
+  border-radius: 50px;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: var(--color_primary);
-    border-radius: 50px;
+  background: var(--secondary-color);
+  border-radius: 50px;
 }
 
 /* Handle on hover */
