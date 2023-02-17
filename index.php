@@ -986,13 +986,7 @@
       }
     });
 
-    ScrollOut({
-      targets: ".nature_img",
-      threshhold: 0.5,
-      cssProps: {
-        visibleY: true,
-      },
-    });
+
 
 
   });

@@ -539,6 +539,10 @@
       position: absolute;
       top: -40px;
       right: -60px;
+      @include mv-media(max, 1199px) {
+        top: -30px;
+        right: 0px;
+      }
       @include mv-media(max, 991px) {
         display: none;
       }
@@ -635,6 +639,9 @@
       bottom: 0px;
       width: max-content;
       height: max-content;
+      @include mv-media(max, 1199px) {
+        right: -25px;
+      }
       @include mv-media(max, 767px) {
         width: 100%;
         right: 0px;
