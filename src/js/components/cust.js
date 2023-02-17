@@ -53,7 +53,6 @@ if (sliderNav.length) {
     asNavFor: ".slider-for",
     dots: false,
     infinite: true,
-    loop: true,
     focusOnSelect: true,
     verticalSwiping: true,
     prevArrow: '<img src="img/arrow_prev.png" class="slide-arrow prev-arrow">',
