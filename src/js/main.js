@@ -286,7 +286,15 @@ window.addEventListener("orientationchange", function () {
   location.reload();
 });
 
-//scrollout
-// ScrollOut({
-//   once: true,
-// });
+// scrollout;
+ScrollOut({
+  once: true,
+});
+
+ScrollOut({
+  targets: ".nature_img",
+  threshhold: 0.5,
+  cssProps: {
+    visibleY: true,
+  },
+});
