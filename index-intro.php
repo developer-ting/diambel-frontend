@@ -50,7 +50,7 @@
             </div>
             <img src="img/intro/DiamondImg.png" class="DiamondImg" alt="">
 
-
+            <a class="scrlDown" href="javascript:void(0)">SCROLL DOWN <img src="img/intro/scrollDown.png" alt=""></a>
         </section>
 
 
@@ -82,8 +82,70 @@
 
         <section class="journey_main ptb_100">
             <div class="container">
-                <div class="journey_title toTop" data-scroll>
+                <div class="journey_title toTop pb_40" data-scroll>
                     <h2 class="text_xxl">Our illustrious journey at a glance</h2>
+                </div>
+                <div class="illustrious_flex d_flex">
+                    <div class="illustrious_left">
+                        <img class="line_two" src="img/home/line_two.png" alt="line_two" />
+                        <div class="slider slider-nav">
+                            <div class="thumbnail_txt">
+                                <h2 class="text_xxl">2021</h2>
+                                <p class="text_reg">Lorem ipsum dolor sit amet, consetetur
+                                    sadipscing elitr, sed diam nonumy eirmod tempor
+                                    invidunt ut labore et dolore magna aliquyam erat.</p>
+                            </div>
+                            <div class="thumbnail_txt">
+                                <h2 class="text_xxl">2022</h2>
+                                <p class="text_reg">Lorem ipsum dolor sit amet, consetetur
+                                    sadipscing elitr, sed diam nonumy eirmod tempor
+                                    invidunt ut labore et dolore magna aliquyam erat.</p>
+                            </div>
+                            <div class="thumbnail_txt">
+                                <h2 class="text_xxl">2023</h2>
+                                <p class="text_reg">Lorem ipsum dolor sit amet, consetetur
+                                    sadipscing elitr, sed diam nonumy eirmod tempor
+                                    invidunt ut labore et dolore magna aliquyam erat.</p>
+                            </div>
+                            <div class="thumbnail_txt">
+                                <h2 class="text_xxl">2024</h2>
+                                <p class="text_reg">Lorem ipsum dolor sit amet, consetetur
+                                    sadipscing elitr, sed diam nonumy eirmod tempor
+                                    invidunt ut labore et dolore magna aliquyam erat.</p>
+                            </div>
+                            <div class="thumbnail_txt">
+                                <h2 class="text_xxl">2026</h2>
+                                <p class="text_reg">Lorem ipsum dolor sit amet, consetetur
+                                    sadipscing elitr, sed diam nonumy eirmod tempor
+                                    invidunt ut labore et dolore magna aliquyam erat.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="illustrious_right">
+                        <div class="slider_layer">
+                            <img class="slider_layer_one" src="img/home/working_layer_four.png" alt="slider_one" />
+                            <img class="slider_layer_three" src="img/home/nature_vector_two.png" alt="slider_one" />
+                        </div>
+                        <div class="slider slider-for">
+                            <div class="slider_image">
+                                <img src="img/home/slider_one.jpg" alt="slider_one" />
+                                <img class="line_layer" src="img/home/line_layer.png" alt="line_layer" />
+                                <img class="slider_layer_two" src="img/home/review_layer_two.png" alt="slider_one" />
+                            </div>
+                            <div class="slider_image">
+                                <img src="img/home/slider_one.jpg" alt="slider_one" />
+                            </div>
+                            <div class="slider_image">
+                                <img src="img/home/slider_one.jpg" alt="slider_one" />
+                            </div>
+                            <div class="slider_image">
+                                <img src="img/home/slider_one.jpg" alt="slider_one" />
+                            </div>
+                            <div class="slider_image">
+                                <img src="img/home/slider_one.jpg" alt="slider_one" />
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -494,7 +556,17 @@
 
                     <div class="solutions_diamonds_flex d_flex">
                         <div class="solutions_diamonds_left toTop" data-scroll>
-                            <img class="border_r15 solution_main_img" src="img/home/solutions_img.jpg"
+                            <img id="FQ1" class="border_r15 solution_main_img imgSec showing"
+                                src="img/home/solutions_img.jpg" alt="solutions_img" />
+                            <img id="FQ2" class="border_r15 solution_main_img imgSec" src="img/home/solutions_img.jpg"
+                                alt="solutions_img" />
+                            <img id="FQ3" class="border_r15 solution_main_img imgSec" src="img/home/solutions_img.jpg"
+                                alt="solutions_img" />
+                            <img id="FQ4" class="border_r15 solution_main_img imgSec" src="img/home/solutions_img.jpg"
+                                alt="solutions_img" />
+                            <img id="FQ5" class="border_r15 solution_main_img imgSec" src="img/home/solutions_img.jpg"
+                                alt="solutions_img" />
+                            <img id="FQ6" class="border_r15 solution_main_img imgSec" src="img/home/solutions_img.jpg"
                                 alt="solutions_img" />
                             <img class="solutions_layer_one p_s" src="img/home/solutions_layer_one.png"
                                 alt="solutions_img" />
@@ -506,7 +578,7 @@
                         <div class="solutions_diamonds_right toTop" data-scroll>
                             <div class="faq_section">
                                 <div class="faq_box ptb_20">
-                                    <a href="javascript:void(0)" class="faq_title">
+                                    <a href="javascript:void(0)" class="faq_title" step-name="FQ1">
                                         <h5 class="text_md">Inventory Management</h5>
                                         <span>
                                             <i class="fa-solid fa-minus"></i>
@@ -519,7 +591,7 @@
                                     </div>
                                 </div>
                                 <div class="faq_box ptb_20">
-                                    <a href="javascript:void(0)" class="faq_title">
+                                    <a href="javascript:void(0)" class="faq_title" step-name="FQ2">
                                         <h5 class="text_md ">Tech Support</h5>
                                         <span>
                                             <i class="fa-solid fa-plus"></i>
@@ -533,7 +605,7 @@
                                 </div>
 
                                 <div class="faq_box ptb_20">
-                                    <a href="javascript:void(0)" class="faq_title">
+                                    <a href="javascript:void(0)" class="faq_title" step-name="FQ3">
                                         <h5 class="text_md">Customer Support</h5>
                                         <span>
                                             <i class="fa-solid fa-plus"></i>
@@ -547,7 +619,7 @@
                                 </div>
 
                                 <div class="faq_box ptb_20">
-                                    <a href="javascript:void(0)" class="faq_title">
+                                    <a href="javascript:void(0)" class="faq_title" step-name="FQ4">
                                         <h5 class="text_md">Marketing</h5>
                                         <span>
                                             <i class="fa-solid fa-plus"></i>
@@ -561,7 +633,7 @@
                                 </div>
 
                                 <div class="faq_box ptb_20">
-                                    <a href="javascript:void(0)" class="faq_title">
+                                    <a href="javascript:void(0)" class="faq_title" step-name="FQ5">
                                         <h5 class="text_md">Lorem Ipsum</h5>
                                         <span>
                                             <i class="fa-solid fa-plus"></i>
@@ -574,7 +646,7 @@
                                     </div>
                                 </div>
                                 <div class="faq_box ptb_20">
-                                    <a href="javascript:void(0)" class="faq_title">
+                                    <a href="javascript:void(0)" class="faq_title" step-name="FQ6">
                                         <h5 class="text_md">Lorem Ipsum</h5>
                                         <span>
                                             <i class="fa-solid fa-plus"></i>

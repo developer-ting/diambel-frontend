@@ -33,3 +33,66 @@ $(window).on("load", function () {
     $("header").addClass("headerAnim");
   }
 });
+
+$(".slider-for").slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  arrows: false,
+  fade: true,
+  infinite: true,
+  asNavFor: ".slider-nav",
+});
+var sliderNav = $(".slider-nav");
+
+if (sliderNav.length) {
+  sliderNav.slick({
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    autoplay: true,
+    vertical: true,
+    asNavFor: ".slider-for",
+    dots: false,
+    infinite: true,
+    loop: true,
+    focusOnSelect: true,
+    verticalSwiping: true,
+    prevArrow: '<img src="img/arrow_prev.png" class="slide-arrow prev-arrow">',
+    nextArrow: '<img src="img/arrow_next.png" class="slide-arrow next-arrow">',
+    responsive: [
+      {
+        breakpoint: 1199,
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+      {
+        breakpoint: 992,
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+      {
+        breakpoint: 767,
+        settings: {
+          slidesToShow: 1,
+          dots: true,
+          arrows: false,
+        },
+      },
+    ],
+  });
+  sliderNav.slick("slickPlay");
+}
+
+$(".slider-nav").on(
+  "beforeChange",
+  function (event, slick, currentSlide, nextSlide) {
+    // get the nextSlide as an Object
+    var NextSlideDom = $(slick.$slides.get(nextSlide));
+    // Add a transition when you're changing the min-height
+    $(".slider-nav .slick-list").css("transition", "min-height 1s ease");
+
+    // Change the height
+    $(".slider-nav .slick-list").css("min-height", NextSlideDom.height());
+  }
+);
