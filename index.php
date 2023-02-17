@@ -47,7 +47,7 @@
         </div>
       </div>
     </section>
- 
+
     <section class="journey_main ptb_100">
       <div class="container">
         <div class="journey_title toTop" data-scroll>
@@ -128,7 +128,7 @@
           </div>
         </div>
 
-        <div class="nature_img toTop" data-scroll>
+        <div class="nature_img">
           <img src="img/home/nature_img.jpg" alt="nature_img" />
           <div class="vactor_one postion_vector">
             <img src="img/home/nature_vector_one.png" alt="nature_vector_one" />
@@ -878,7 +878,7 @@
 
         <div class="title_info d_flex pb_40 toTop" data-scroll>
           <div class="title">
-            <h2 class="text_xxl pb_20">Corporate social responsibility</h2> 
+            <h2 class="text_xxl pb_20">Corporate social responsibility</h2>
             <p class="text_reg">Lorem ipsum dolor sit amet, consetetur sadipscing <br>elitr, sed diam nonumy eirmod
               tempor.
             </p>
@@ -893,7 +893,7 @@
           <div class="corporate_content">
             <div class="corporate_social_item">
               <img src="img/home/go_green.jpg" alt="go_green" />
-              <div class="corporate_content">
+              <div class="corporate_content_desc">
                 <h6 class="text_md f_w_m">Lorem ipsum dolor
                   <br>sit amet.
                   <span><a href=""><img src="img/home/arrow_white.png" alt="arrow_white"></a></span>
@@ -905,7 +905,7 @@
           <div class="corporate_content">
             <div class="corporate_social_item">
               <img src="img/home/go_green.jpg" alt="go_green" />
-              <div class="corporate_content">
+              <div class="corporate_content_desc">
                 <h6 class="text_md f_w_m">Lorem ipsum dolor
                   <br>sit amet.
                   <span><a href=""><img src="img/home/arrow_white.png" alt="arrow_white"></a></span>
@@ -917,7 +917,7 @@
           <div class="corporate_content">
             <div class="corporate_social_item">
               <img src="img/home/go_green.jpg" alt="go_green" />
-              <div class="corporate_content">
+              <div class="corporate_content_desc">
                 <h6 class="text_md f_w_m">Lorem ipsum dolor
                   <br>sit amet.
                   <span><a href=""><img src="img/home/arrow_white.png" alt="arrow_white"></a></span>
@@ -986,6 +986,13 @@
       }
     });
 
+    ScrollOut({
+      targets: ".nature_img",
+      threshhold: 0.5,
+      cssProps: {
+        visibleY: true,
+      },
+    });
 
 
   });
