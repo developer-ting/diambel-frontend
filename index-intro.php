@@ -1115,9 +1115,9 @@
 
     <script>
     $(document).ready(function(evt) {
-        // ScrollOut({
-        //     once: true,
-        // });
+        ScrollOut({
+            once: true,
+        });
 
         $(".faq_section .faq_box > a").on("click", function() {
             if ($(this).hasClass("active")) {
