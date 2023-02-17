@@ -159,6 +159,9 @@
   .nature_main {
     .nature_img {
       position: relative;
+      opacity: calc(var(--visible-y) * var(--visible-y));
+      transform: scale(calc(0.5 + calc(var(--visible-y) * 0.5)));
+      z-index: 1;
       .postion_vector {
         position: absolute;
       }
@@ -451,7 +454,7 @@
           img {
             margin: 0 auto;
           }
-          .txt{
+          .txt {
             font-size: 60px;
             line-height: 80px;
             color: var(--secondary-color);
@@ -464,14 +467,14 @@
               line-height: 40px;
             }
           }
-          
-          .txt_one{
+
+          .txt_one {
             right: 80px;
             @include mv-media(max, 767px) {
               right: 50px;
             }
           }
-          .txt_two{
+          .txt_two {
             right: 30px;
             @include mv-media(max, 767px) {
               right: 20px;
@@ -536,6 +539,10 @@
       position: absolute;
       top: -40px;
       right: -60px;
+      @include mv-media(max, 1199px) {
+        top: -30px;
+        right: 0px;
+      }
       @include mv-media(max, 991px) {
         display: none;
       }
@@ -632,6 +639,9 @@
       bottom: 0px;
       width: max-content;
       height: max-content;
+      @include mv-media(max, 1199px) {
+        right: -25px;
+      }
       @include mv-media(max, 767px) {
         width: 100%;
         right: 0px;
@@ -775,7 +785,7 @@
           border-bottom-left-radius: 15px;
           border-bottom-right-radius: 15px;
         }
-        .corporate_content {
+        .corporate_content_desc {
           position: absolute;
           width: 100%;
           bottom: 30px;

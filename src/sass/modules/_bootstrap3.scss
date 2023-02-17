@@ -27,3 +27,57 @@ img {
   @extend .d_flex;
   flex-wrap: wrap;
 }
+
+.hidden {
+  display: none !important;
+}
+
+.visible-lg {
+  display: block;
+
+  @media (max-width: 1199px) {
+    display: none !important;
+  }
+}
+
+.hidden-xs {
+  display: block;
+
+  @include mv-media(max, 767px) {
+    display: none !important;
+  }
+}
+.hidden-sm {
+  display: block;
+
+  @include mv-media(767px, 1024px) {
+    display: none !important;
+  }
+}
+.hidden-sm-xs {
+  display: block;
+
+  @include mv-media(max, 1024px) {
+    display: none !important;
+  }
+}
+.visible-sm-xs {
+  display: none;
+
+  @include mv-media(max, 1024px) {
+    display: block !important;
+  }
+}
+.visible-sm {
+  display: none;
+  @include mv-media(767px, 1024px) {
+    display: block !important;
+  }
+}
+.visible-xs {
+  display: block;
+
+  @include mv-media(min, 767px) {
+    display: none !important;
+  }
+}
