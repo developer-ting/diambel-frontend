@@ -96,7 +96,12 @@
         padding: 25px 30px;
         margin-top: 40px;
         border: 1px solid rgba(192, 162, 128, 0.5);
-        transition: 0.5s ease-in-out;
+        background: linear-gradient(
+          90deg,
+          rgba(255, 255, 255, 1) 0%,
+          rgba(255, 255, 255, 1) 48%,
+          rgba(255, 255, 255, 1) 100%
+        );
         @include mv-media(max, 1199px) {
           padding: 15px 15px;
         }
@@ -110,12 +115,15 @@
           background-color: #efe5df;
           border: 1px solid #efe5df;
           box-shadow: 0 15px 18px -3px rgba(212, 190, 168, 0.36);
-          transition: 0.5s ease-in-out;
-          background: linear-gradient(
-            215deg,
-            rgba(239, 229, 223, 1) 75%,
-            rgba(212, 190, 168, 1) 93%
-          );
+          background-image: url("../../img/home/bgHover.svg");
+          background-size: 155%;
+          background-repeat: no-repeat;
+          // background: linear-gradient(
+          //   215deg,
+          //   rgba(239, 229, 223, 1) 75%,
+          //   rgba(212, 190, 168, 1) 93%
+          // );
+          animation: 0.5s gradientMove forwards;
           .value_hover_img {
             opacity: 1;
             transition: 0.5s ease-in-out;
@@ -127,6 +135,14 @@
               filter: invert(1);
               transition: 0.5s ease-in-out;
             }
+          }
+        }
+        @keyframes gradientMove {
+          from {
+            background-size: 155%;
+          }
+          to {
+            background-size: 100%;
           }
         }
         .value_shape_img {
@@ -698,12 +714,24 @@
             box-shadow: 0 15px 18px -3px rgba(212, 190, 168, 0.36);
             transition: 0.5s ease-in-out;
             background: rgb(227, 216, 203);
-            background: linear-gradient(
-              140deg,
-              #e3d8cb 10%,
-              #f2f0ed 26%,
-              #ddd0c0 70%
-            );
+            // background: linear-gradient(
+            //   140deg,
+            //   #e3d8cb 10%,
+            //   #f2f0ed 26%,
+            //   #ddd0c0 70%
+            // );
+            background-image: url("../../img/home/bgHover2.svg");
+            background-size: 150%;
+            background-repeat: no-repeat;
+            animation: 0.5s gradientMove forwards;
+          }
+          @keyframes gradientMove {
+            from {
+              background-size: 155%;
+            }
+            to {
+              background-size: 100%;
+            }
           }
 
           .upcoming_btn {
