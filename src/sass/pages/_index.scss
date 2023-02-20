@@ -40,6 +40,7 @@
             width: 100%;
           }
           .hallmark_item {
+            padding-left: 50px;
             img {
               margin: 0 auto;
             }
@@ -83,6 +84,9 @@
   }
 
   .journey_main {
+    .journey_title {
+      padding-bottom: 80px;
+    }
   }
   .values_shape_main {
     .values_shape_flex {
@@ -131,10 +135,10 @@
           }
           .value_shape_img {
             background-color: var(--white-color);
-            transition: 0.5s ease-in-out;
+            transition: 1s ease-in-out;
             img {
               filter: invert(1);
-              transition: 0.5s ease-in-out;
+              transition: 1s ease-in-out;
             }
           }
         }
@@ -242,6 +246,7 @@
               font-size: 20px;
               opacity: 0.3;
               font-weight: 500;
+              padding: 0 0 7px;
               &.active-a {
                 opacity: 1;
               }
@@ -367,10 +372,12 @@
           .solutions_layer_one {
             top: -15px;
             right: 15px;
+            z-index: 1;
           }
           .solutions_layer_two {
             top: 78px;
             left: -10px;
+            z-index: 1;
           }
           .solutions_layer_three {
             bottom: -15px;
@@ -526,6 +533,13 @@
           }
           img {
             margin: 0 auto;
+            filter: grayscale(100%);
+            transition: all 0.5s;
+          }
+          &:hover {
+            img {
+              filter: grayscale(0%);
+            }
           }
         }
       }
@@ -747,6 +761,9 @@
               border-color: var(--secondary-color);
               color: var(--white-color);
             }
+          }
+          .text_md {
+            font-weight: 500;
           }
 
           .upcoming_events_desc {

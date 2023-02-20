@@ -15,7 +15,7 @@
 .text_reg {
   font-size: 18px;
   line-height: 26px;
-  color: var(--color_primary);
+  color: var(--color_text);
   @include sm-down {
     font-size: 16px;
   }

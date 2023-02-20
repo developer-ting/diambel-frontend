@@ -85,7 +85,7 @@
 
         <section class="journey_main ptb_100">
             <div class="container">
-                <div class="journey_title toTop pb_40" data-scroll>
+                <div class="journey_title toTop" data-scroll>
                     <h2 class="text_xxl">Our illustrious journey at a glance</h2>
                 </div>
                 <div class="illustrious_flex d_flex">
@@ -94,32 +94,32 @@
                         <div class="slider slider-nav">
                             <div class="thumbnail_txt">
                                 <h2 class="text_xxl">2021</h2>
-                                <p class="text_reg">Lorem ipsum dolor sit amet, consetetur
-                                    sadipscing elitr, sed diam nonumy eirmod tempor
+                                <p class="text_reg">Lorem ipsum dolor sit amet, consetetur<br>
+                                    sadipscing elitr, sed diam nonumy eirmod tempor<br>
                                     invidunt ut labore et dolore magna aliquyam erat.</p>
                             </div>
                             <div class="thumbnail_txt">
                                 <h2 class="text_xxl">2022</h2>
-                                <p class="text_reg">Lorem ipsum dolor sit amet, consetetur
-                                    sadipscing elitr, sed diam nonumy eirmod tempor
+                                <p class="text_reg">Lorem ipsum dolor sit amet, consetetur<br>
+                                    sadipscing elitr, sed diam nonumy eirmod tempor<br>
                                     invidunt ut labore et dolore magna aliquyam erat.</p>
                             </div>
                             <div class="thumbnail_txt">
                                 <h2 class="text_xxl">2023</h2>
-                                <p class="text_reg">Lorem ipsum dolor sit amet, consetetur
-                                    sadipscing elitr, sed diam nonumy eirmod tempor
+                                <p class="text_reg">Lorem ipsum dolor sit amet, consetetur<br>
+                                    sadipscing elitr, sed diam nonumy eirmod tempor<br>
                                     invidunt ut labore et dolore magna aliquyam erat.</p>
                             </div>
                             <div class="thumbnail_txt">
                                 <h2 class="text_xxl">2024</h2>
-                                <p class="text_reg">Lorem ipsum dolor sit amet, consetetur
-                                    sadipscing elitr, sed diam nonumy eirmod tempor
+                                <p class="text_reg">Lorem ipsum dolor sit amet, consetetur<br>
+                                    sadipscing elitr, sed diam nonumy eirmod tempor<br>
                                     invidunt ut labore et dolore magna aliquyam erat.</p>
                             </div>
                             <div class="thumbnail_txt">
                                 <h2 class="text_xxl">2026</h2>
-                                <p class="text_reg">Lorem ipsum dolor sit amet, consetetur
-                                    sadipscing elitr, sed diam nonumy eirmod tempor
+                                <p class="text_reg">Lorem ipsum dolor sit amet, consetetur<br>
+                                    sadipscing elitr, sed diam nonumy eirmod tempor<br>
                                     invidunt ut labore et dolore magna aliquyam erat.</p>
                             </div>
                         </div>
@@ -128,39 +128,40 @@
                         <div class="slider_layer">
                             <img class="slider_layer_one" src="img/home/working_layer_four.png" alt="slider_one" />
                             <img class="slider_layer_three" src="img/home/nature_vector_two.png" alt="slider_one" />
-                        </div>
-                        <div class="slider slider-for">
-                            <div class="slider_image">
-                                <img src="img/home/slider_one.jpg" alt="slider_one" />
-
-
-                            </div>
-                            <div class="slider_image">
-                                <img src="img/home/slider_one.jpg" alt="slider_one" />
-                                <!-- <img class="line_layer" src="img/home/line_layer.png" alt="line_layer" /> -->
-                                <img class="slider_layer_two" src="img/home/review_layer_two.png" alt="slider_one" />
-                            </div>
-                            <div class="slider_image">
-                                <img src="img/home/slider_one.jpg" alt="slider_one" />
-                                <img class="slider_layer_two" src="img/home/review_layer_two.png" alt="slider_one" />
-                            </div>
-                            <div class="slider_image">
-                                <img src="img/home/slider_one.jpg" alt="slider_one" />
-                                <img class="slider_layer_two" src="img/home/review_layer_two.png" alt="slider_one" />
-                            </div>
-                            <div class="slider_image">
-                                <img src="img/home/slider_one.jpg" alt="slider_one" />
-                                <img class="slider_layer_two" src="img/home/review_layer_two.png" alt="slider_one" />
-                            </div>
-                            <div class="slider_image">
-                                <img src="img/home/slider_one.jpg" alt="slider_one" />
-
-                                <img class="slider_layer_two" src="img/home/review_layer_two.png" alt="slider_one" />
-                            </div>
+                            <img class="slider_layer_four" src="img/home/working_layer_four.png" alt="slider_one" />
+                            <img class="slider_layer_five" src="img/home/review_layer_two.png" alt="slider_one" />
                         </div>
 
                         <img class="line_layer" src="img/home/line_layer.png" alt="line_layer" />
                         <img class="slider_layer_two" src="img/home/review_layer_two.png" alt="slider_one" />
+                        <div class="slider slider-for">
+                            <div class="slider_image">
+                                <img src="img/home/slider_one.jpg" alt="slider_one" />
+                            </div>
+                            <div class="slider_image">
+                                <img src="img/home/slider_one.jpg" alt="slider_one" />
+                                <!-- <img class="line_layer" src="img/home/line_layer.png" alt="line_layer" /> -->
+                                <!-- <img class="slider_layer_two" src="img/home/review_layer_two.png" alt="slider_one" /> -->
+                            </div>
+                            <div class="slider_image">
+                                <img src="img/home/slider_one.jpg" alt="slider_one" />
+                                <!-- <img class="slider_layer_two" src="img/home/review_layer_two.png" alt="slider_one" /> -->
+                            </div>
+                            <div class="slider_image">
+                                <img src="img/home/slider_one.jpg" alt="slider_one" />
+                                <!-- <img class="slider_layer_two" src="img/home/review_layer_two.png" alt="slider_one" /> -->
+                            </div>
+                            <div class="slider_image">
+                                <img src="img/home/slider_one.jpg" alt="slider_one" />
+                                <!-- <img class="slider_layer_two" src="img/home/review_layer_two.png" alt="slider_one" /> -->
+                            </div>
+                            <div class="slider_image">
+                                <img src="img/home/slider_one.jpg" alt="slider_one" />
+
+                                <!-- <img class="slider_layer_two" src="img/home/review_layer_two.png" alt="slider_one" /> -->
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
@@ -553,10 +554,10 @@
                 </div>
             </div>
 
-            <div class="solutions_diamonds pt_100">
+            <div class="solutions_diamonds ptb_100">
                 <div class="container">
 
-                    <div class="title_info d_flex pb_40 toTop" data-scroll>
+                    <div class="title_info d_flex pb_60 toTop" data-scroll>
                         <div class="title">
                             <h2 class="text_xxl pb_20">Solutions beyond diamonds</h2>
                             <p class="text_reg">We go over and above the industry norms to provide you with 360-degree
@@ -580,10 +581,10 @@
                                 alt="solutions_img" />
                             <img id="FQ4" class="border_r15 solution_main_img imgSec" src="img/home/solutions_img.jpg"
                                 alt="solutions_img" />
-                            <img id="FQ5" class="border_r15 solution_main_img imgSec" src="img/home/solutions_img.jpg"
-                                alt="solutions_img" />
-                            <img id="FQ6" class="border_r15 solution_main_img imgSec" src="img/home/solutions_img.jpg"
-                                alt="solutions_img" />
+                            <img id="FQ5" class="border_r15 solution_main_img imgSec opac0"
+                                src="img/home/solutions_img.jpg" alt="solutions_img" />
+                            <img id="FQ6" class="border_r15 solution_main_img imgSec opac0"
+                                src="img/home/solutions_img.jpg" alt="solutions_img" />
                             <img class="solutions_layer_one p_s" src="img/home/solutions_layer_one.png"
                                 alt="solutions_img" />
                             <img class="solutions_layer_two p_s" src="img/home/solutions_layer_two.png"
@@ -648,7 +649,7 @@
                                     </div>
                                 </div>
 
-                                <div class="faq_box ptb_20">
+                                <div class="faq_box ptb_20 opac0" style="position:relative; z-index:-1">
                                     <a href="javascript:void(0)" class="faq_title" step-name="FQ5">
                                         <h5 class="text_md">Lorem Ipsum</h5>
                                         <span>
@@ -661,7 +662,7 @@
                                             Ipsum has been the industry's standard dummy text ever since.</p>
                                     </div>
                                 </div>
-                                <div class="faq_box ptb_20">
+                                <div class="faq_box ptb_20 opac0" style="position:relative; z-index:-1">
                                     <a href="javascript:void(0)" class="faq_title" step-name="FQ6">
                                         <h5 class="text_md">Lorem Ipsum</h5>
                                         <span>
@@ -731,40 +732,28 @@
             <div class="crystallising_logo toTop" data-scroll>
                 <div class="logo_slider">
                     <div class="logo_item">
-                        <img src="img/home/unilever_logo.jpg" alt="unilever_logo" />
+                        <img src="img/home/harshid.png" alt="unilever_logo" />
                     </div>
                     <div class="logo_item">
-                        <img src="img/home/johnson_logo.jpg" alt="johnson_logo" />
+                        <img src="img/home/mireya-gold.png" alt="johnson_logo" />
                     </div>
                     <div class="logo_item">
-                        <img src="img/home/diamond_logo.jpg" alt="diamond_logo" />
+                        <img src="img/home/rio.png" alt="diamond_logo" />
                     </div>
                     <div class="logo_item">
-                        <img src="img/home/ITC_logo.jpg" alt="ITC_logo" />
+                        <img src="img/home/sightholder.png" alt="ITC_logo" />
                     </div>
                     <div class="logo_item">
-                        <img src="img/home/GAIA_logo.jpg" alt="GAIA_logo" />
+                        <img src="img/home/harshid.png" alt="unilever_logo" />
                     </div>
                     <div class="logo_item">
-                        <img src="img/home/fresenius_logo.jpg" alt="fresenius_logo" />
+                        <img src="img/home/mireya-gold.png" alt="johnson_logo" />
                     </div>
                     <div class="logo_item">
-                        <img src="img/home/unilever_logo.jpg" alt="unilever_logo" />
+                        <img src="img/home/rio.png" alt="diamond_logo" />
                     </div>
                     <div class="logo_item">
-                        <img src="img/home/johnson_logo.jpg" alt="johnson_logo" />
-                    </div>
-                    <div class="logo_item">
-                        <img src="img/home/diamond_logo.jpg" alt="diamond_logo" />
-                    </div>
-                    <div class="logo_item">
-                        <img src="img/home/ITC_logo.jpg" alt="ITC_logo" />
-                    </div>
-                    <div class="logo_item">
-                        <img src="img/home/GAIA_logo.jpg" alt="GAIA_logo" />
-                    </div>
-                    <div class="logo_item">
-                        <img src="img/home/fresenius_logo.jpg" alt="fresenius_logo" />
+                        <img src="img/home/sightholder.png" alt="ITC_logo" />
                     </div>
                 </div>
             </div>
@@ -964,7 +953,7 @@
                                     <span class="box_txt">January 8 - 10</span>
                                 </p>
                                 <div class="book_appointment_btn pt_40">
-                                    <a class="btn_project_default" href="">Book Appoinment</a>
+                                    <a class="btn_project_secondary" href="">Book Appoinment</a>
                                 </div>
                             </div>
                         </div>
@@ -989,7 +978,7 @@
                                     <span class="box_txt">January 8 - 10</span>
                                 </p>
                                 <div class="book_appointment_btn pt_40">
-                                    <a class="btn_project_default" href="">Book Appoinment</a>
+                                    <a class="btn_project_secondary" href="">Book Appoinment</a>
                                 </div>
                             </div>
                         </div>
@@ -1013,7 +1002,7 @@
                                     <span class="box_txt">January 8 - 10</span>
                                 </p>
                                 <div class="book_appointment_btn pt_40">
-                                    <a class="btn_project_default" href="">Book Appoinment</a>
+                                    <a class="btn_project_secondary" href="">Book Appoinment</a>
                                 </div>
                             </div>
                         </div>
@@ -1037,7 +1026,7 @@
                                     <span class="box_txt">January 8 - 10</span>
                                 </p>
                                 <div class="book_appointment_btn pt_40">
-                                    <a class="btn_project_default" href="">Book Appoinment</a>
+                                    <a class="btn_project_secondary" href="">Book Appoinment</a>
                                 </div>
                             </div>
                         </div>
@@ -1123,7 +1112,7 @@
                             <a class="btn_project_default black_btn" href="">Create Account</a>
                         </div>
                         <div class="inquire_btn">
-                            <a class="btn_project_default" href="">Inquire Now</a>
+                            <a class="btn_project_secondary" href="">Inquire Now</a>
                         </div>
                     </div>
                 </div>
