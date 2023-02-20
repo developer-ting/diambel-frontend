@@ -13,6 +13,9 @@
   transition: all 1.5s;
   &.headerAnim {
     transform: translateY(0%);
+    @media only screen and (max-width: 992px) {
+      transform: unset;
+    }
   }
   .navbar {
     display: flex;

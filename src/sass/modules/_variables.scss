@@ -2,7 +2,6 @@ $browser-prefixes: false !default;
 // $placeholder-color-default: #ff6666;
 
 :root {
-   
   --container_width: 100%;
 
   @media (min-width: 768px) and (max-width: 991px) {
@@ -23,22 +22,20 @@ $browser-prefixes: false !default;
 
   --container_left_space: calc((100% - var(--container_width)) / 2);
 
-  
-
   //fonts variables code
 
   --marcellus_r: "Marcellus-Regular";
   --p_f_s_r: "PetitFormalScript-Regular";
-  --work_sans: 'Work Sans', sans-serif;
-  
+  --work_sans: "Work Sans", sans-serif;
+
   --font_heading: "Open Sans", sans-serif;
   --font_text: "Open Sans", sans-serif;
 
   //color variables code
-  --color_primary: #3C0E22;
-  --color_text: #333;
-  --secondary-color: #C0A280;
+  --color_primary: #3c0e22;
+  --color_text: #413e3e;
+  --secondary-color: #c0a280;
   --white-color: #fff;
   --color-black: #000000;
-  --color-bg: #F7F7F7;
+  --color-bg: #f7f7f7;
 }

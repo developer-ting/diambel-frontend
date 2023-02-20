@@ -71,8 +71,8 @@ body {
       }
     }
     .bannerPara {
-      font-size: 20px;
-      font-family: var(--font_text);
+      font-size: 19px;
+      font-family: var(--work_sans);
       color: var(--secondary-color);
       transform: translateX(calc(var(--container_width) * -1));
       transition: all 1s;
@@ -146,11 +146,13 @@ body {
   top: 0;
   left: 0;
   z-index: 9999;
-  video {
-    width: var(--winWidth);
-    height: var(--winHeight);
-    object-fit: cover;
-  }
+  width: 100vw;
+  height: 100vh;
+  @extend .f_r_aj_center;
+  background-color: #010001;
+  // video {
+  //   object-fit: cover;
+  // }
 }
 
 .journey_main {
