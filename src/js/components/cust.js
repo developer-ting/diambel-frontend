@@ -23,6 +23,10 @@ $(window).on("load", function () {
     "--corporate_contentW",
     $(".corporate_content").outerHeight() + "px"
   );
+  document.documentElement.style.setProperty(
+    "--illustrious_flex",
+    $(".illustrious_left").outerHeight() + "px"
+  );
   document.documentElement.style.setProperty("--winHeight", winH + "px");
   document.documentElement.style.setProperty("--winWidth", winW + "px");
   setTimeout(loadBannerAnim, 6100);
@@ -90,6 +94,21 @@ if (sliderNav.length) {
   });
   sliderNav.slick("slickPlay");
 }
+function progressbar(sliderName, progressClass) {
+  var $slider = $(sliderName);
+  var $progressBar = $(progressClass);
+  var $progressBarLabel = $(".progress_bar");
+  $slider.on("beforeChange", function (event, slick, currentSlide, nextSlide) {
+    var calc = (nextSlide / (slick.slideCount - 1)) * 100;
+
+    $progressBar
+      .css("background-size", calc + "% 100%")
+      .attr("aria-valuenow", calc);
+
+    $progressBarLabel.text(calc + "% completed");
+  });
+}
+progressbar(".slider-for", ".progress5");
 
 $(".slider-nav").on(
   "beforeChange",
@@ -103,6 +122,11 @@ $(".slider-nav").on(
     $(".slider-nav .slick-list").css("min-height", NextSlideDom.height());
   }
 );
+
+$("#skip").on("click", function () {
+  $(".intro-video").fadeOut();
+  loadBannerAnim();
+});
 
 ScrollOut({
   targets: ".prlx",

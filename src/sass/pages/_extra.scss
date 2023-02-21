@@ -163,9 +163,18 @@ body {
   // video {
   //   object-fit: cover;
   // }
+  .btn_project_default {
+    @extend .rel_x_center;
+    background-color: #fff;
+    bottom: 5%;
+    right: 2%;
+    transform: translateX(0);
+    left: auto;
+  }
 }
 
 .journey_main {
+  position: relative;
   .illustrious_flex {
     justify-content: space-between;
     @include mv-media(max, 767px) {
@@ -353,6 +362,13 @@ body {
         }
       }
     }
+  }
+  .progress {
+    position: absolute;
+    top: 0;
+    left: 0;
+    // height: var(--illustrious_flex);
+    transform: rotate(90deg);
   }
 }
 .slider_image {

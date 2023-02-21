@@ -29,6 +29,7 @@
             <video autoplay muted class="visible-xs">
                 <source src="img/intro/480x900.mp4" type="video/mp4">
             </video>
+            <a id="skip" class="btn_project_default" href="javascript:void(0)">Skip Intro</a>
         </section>
         <section class="banner-sec hidden-xs">
             <picture>
@@ -164,6 +165,10 @@
 
                     </div>
                 </div>
+
+                <!-- <div class="progress progress_green progress5">
+                    <div class="progress_bar"></div>
+                </div> -->
             </div>
         </section>
 
@@ -693,7 +698,7 @@
                 <img class="working_layer_four p_s prlx" data-scroll-parallax src="img/home/working_layer_four.png"
                     alt="working_layer" />
                 <div class="container">
-                    <div class="title_info pb_40 toTop" data-scroll>
+                    <div class="title_info pb_60 toTop" data-scroll>
                         <div class="title">
                             <h2 class="text_xl pb_20">Working across the pipeline</h2>
                             <p class="text_reg">Diambel has created a vertically integrated pipeline in the natural
@@ -722,7 +727,7 @@
 
         <section class="crystallising_main ptb_100">
             <div class="container">
-                <div class="title_info pb_40 toTop" data-scroll>
+                <div class="title_info pb_60 toTop" data-scroll>
                     <div class="title">
                         <h2 class="text_xl pb_20">Crystallising partnerships <br class="hidden-xs">for 30+ years</h2>
                         <p class="text_reg">Businesses across the pipeline have put their faith in us.</p>
@@ -1051,7 +1056,7 @@
                         </p>
                     </div>
                     <div class="btn_box">
-                        <a class="btn_project_default black_btn" href="">Know More</a>
+                        <a class="btn_project_default black_btn" href="">View All</a>
                     </div>
                 </div>
 
@@ -1063,7 +1068,7 @@
                                 <img src="img/home/go_green.jpg" class="sldImg" alt="go_green" />
                                 <div class="corporate_content_desc">
                                     <h6 class="text_md f_w_m">Lorem ipsum dolor
-                                        <br>sit amet.1
+                                        <br>sit amet.
                                         <span><a href=""><img src="img/home/arrow_white.png"
                                                     alt="arrow_white"></a></span>
                                     </h6>
@@ -1076,7 +1081,7 @@
                                 <img src="img/home/go_green.jpg" class="sldImg" alt="go_green" />
                                 <div class="corporate_content_desc">
                                     <h6 class="text_md f_w_m">Lorem ipsum dolor
-                                        <br>sit amet.2
+                                        <br>sit amet.
                                         <span><a href=""><img src="img/home/arrow_white.png"
                                                     alt="arrow_white"></a></span>
                                     </h6>
@@ -1089,7 +1094,7 @@
                                 <img src="img/home/go_green.jpg" class="sldImg" alt="go_green" />
                                 <div class="corporate_content_desc">
                                     <h6 class="text_md f_w_m">Lorem ipsum dolor
-                                        <br>sit amet.3
+                                        <br>sit amet.
                                         <span><a href=""><img src="img/home/arrow_white.png"
                                                     alt="arrow_white"></a></span>
                                     </h6>
@@ -1104,7 +1109,7 @@
                                 <img src="img/home/go_green.jpg" class="sldImg" alt="go_green" />
                                 <div class="corporate_content_desc">
                                     <h6 class="text_md f_w_m">Lorem ipsum dolor
-                                        <br>sit amet.2
+                                        <br>sit amet.
                                         <span><a href=""><img src="img/home/arrow_white.png"
                                                     alt="arrow_white"></a></span>
                                     </h6>
@@ -1117,7 +1122,7 @@
                                 <img src="img/home/go_green.jpg" class="sldImg" alt="go_green" />
                                 <div class="corporate_content_desc">
                                     <h6 class="text_md f_w_m">Lorem ipsum dolor
-                                        <br>sit amet.3
+                                        <br>sit amet.
                                         <span><a href=""><img src="img/home/arrow_white.png"
                                                     alt="arrow_white"></a></span>
                                     </h6>
@@ -1129,7 +1134,7 @@
                                 <img src="img/home/go_green.jpg" class="sldImg" alt="go_green" />
                                 <div class="corporate_content_desc">
                                     <h6 class="text_md f_w_m">Lorem ipsum dolor
-                                        <br>sit amet.1
+                                        <br>sit amet.
                                         <span><a href=""><img src="img/home/arrow_white.png"
                                                     alt="arrow_white"></a></span>
                                     </h6>

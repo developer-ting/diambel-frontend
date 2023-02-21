@@ -56,6 +56,8 @@
   color: var(--color_primary);
   position: relative;
   text-decoration: none;
+  font-weight: 400;
+  font-family: var(--font_text);
   &::before {
     content: " ";
     width: 100%;
