@@ -1055,44 +1055,89 @@
                     </div>
                 </div>
 
-                <div class="corporate_social_flex corporate_social_slider toTop" data-scroll>
+                <div class="parentBx">
+                    <div class="corporate_social_flex corporate_social_slider toTop" data-scroll>
 
-                    <div class="corporate_content">
-                        <div class="corporate_social_item">
-                            <img src="img/home/go_green.jpg" alt="go_green" />
-                            <div class="corporate_content_desc">
-                                <h6 class="text_md f_w_m">Lorem ipsum dolor
-                                    <br>sit amet.
-                                    <span><a href=""><img src="img/home/arrow_white.png" alt="arrow_white"></a></span>
-                                </h6>
+                        <div class="corporate_content">
+                            <div class="corporate_social_item">
+                                <img src="img/home/go_green.jpg" class="sldImg" alt="go_green" />
+                                <div class="corporate_content_desc">
+                                    <h6 class="text_md f_w_m">Lorem ipsum dolor
+                                        <br>sit amet.1
+                                        <span><a href=""><img src="img/home/arrow_white.png"
+                                                    alt="arrow_white"></a></span>
+                                    </h6>
+                                </div>
                             </div>
                         </div>
-                    </div>
 
-                    <div class="corporate_content">
-                        <div class="corporate_social_item">
-                            <img src="img/home/go_green.jpg" alt="go_green" />
-                            <div class="corporate_content_desc">
-                                <h6 class="text_md f_w_m">Lorem ipsum dolor
-                                    <br>sit amet.
-                                    <span><a href=""><img src="img/home/arrow_white.png" alt="arrow_white"></a></span>
-                                </h6>
+                        <div class="corporate_content">
+                            <div class="corporate_social_item">
+                                <img src="img/home/go_green.jpg" class="sldImg" alt="go_green" />
+                                <div class="corporate_content_desc">
+                                    <h6 class="text_md f_w_m">Lorem ipsum dolor
+                                        <br>sit amet.2
+                                        <span><a href=""><img src="img/home/arrow_white.png"
+                                                    alt="arrow_white"></a></span>
+                                    </h6>
+                                </div>
                             </div>
                         </div>
-                    </div>
 
-                    <div class="corporate_content">
-                        <div class="corporate_social_item">
-                            <img src="img/home/go_green.jpg" alt="go_green" />
-                            <div class="corporate_content_desc">
-                                <h6 class="text_md f_w_m">Lorem ipsum dolor
-                                    <br>sit amet.
-                                    <span><a href=""><img src="img/home/arrow_white.png" alt="arrow_white"></a></span>
-                                </h6>
+                        <div class="corporate_content">
+                            <div class="corporate_social_item">
+                                <img src="img/home/go_green.jpg" class="sldImg" alt="go_green" />
+                                <div class="corporate_content_desc">
+                                    <h6 class="text_md f_w_m">Lorem ipsum dolor
+                                        <br>sit amet.3
+                                        <span><a href=""><img src="img/home/arrow_white.png"
+                                                    alt="arrow_white"></a></span>
+                                    </h6>
+                                </div>
                             </div>
                         </div>
-                    </div>
 
+                    </div>
+                    <div class="corporate_social_flex corporate_social_slider2 toTop" data-scroll>
+                        <div class="corporate_content">
+                            <div class="corporate_social_item">
+                                <img src="img/home/go_green.jpg" class="sldImg" alt="go_green" />
+                                <div class="corporate_content_desc">
+                                    <h6 class="text_md f_w_m">Lorem ipsum dolor
+                                        <br>sit amet.2
+                                        <span><a href=""><img src="img/home/arrow_white.png"
+                                                    alt="arrow_white"></a></span>
+                                    </h6>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="corporate_content">
+                            <div class="corporate_social_item">
+                                <img src="img/home/go_green.jpg" class="sldImg" alt="go_green" />
+                                <div class="corporate_content_desc">
+                                    <h6 class="text_md f_w_m">Lorem ipsum dolor
+                                        <br>sit amet.3
+                                        <span><a href=""><img src="img/home/arrow_white.png"
+                                                    alt="arrow_white"></a></span>
+                                    </h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="corporate_content">
+                            <div class="corporate_social_item">
+                                <img src="img/home/go_green.jpg" class="sldImg" alt="go_green" />
+                                <div class="corporate_content_desc">
+                                    <h6 class="text_md f_w_m">Lorem ipsum dolor
+                                        <br>sit amet.1
+                                        <span><a href=""><img src="img/home/arrow_white.png"
+                                                    alt="arrow_white"></a></span>
+                                    </h6>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
                 </div>
 
                 <div class="progress progress_green progress4">

@@ -136,7 +136,7 @@ body {
     font-family: var(--marcellus_r);
     text-decoration: none;
     animation: transY 2s infinite alternate;
-    transform: translateY(0);
+    transform: translateX(-50%) translateY(0);
     img {
       display: inline-block;
       vertical-align: middle;
@@ -144,10 +144,10 @@ body {
   }
   @keyframes transY {
     0% {
-      transform: translateY(0);
+      transform: translateX(-50%) translateY(0);
     }
     100% {
-      transform: translateY(10px);
+      transform: translateX(-50%) translateY(10px);
     }
   }
 }

@@ -223,11 +223,42 @@ $(document).ready(function (evt) {
     $(".corporate_social_slider").slick({
       dots: false,
       autoplay: false,
-      arrows: true,
-      slidesToShow: 2,
+      arrows: false,
+      slidesToShow: 1,
       slidesToScroll: 1,
       pauseOnHover: false,
-      variableWidth: true,
+      asNavFor: ".corporate_social_slider2",
+      // variableWidth: true,
+      prevArrow:
+        '<img src="img/arrow_prev.png" class="slide-arrow prev-arrow">',
+      nextArrow:
+        '<img src="img/arrow_next.png" class="slide-arrow next-arrow">',
+      responsive: [
+        {
+          breakpoint: 991,
+          settings: {
+            slidesToShow: 2,
+          },
+        },
+        {
+          breakpoint: 767,
+          settings: {
+            slidesToShow: 1,
+            arrows: false,
+            dots: true,
+            variableWidth: false,
+          },
+        },
+      ],
+    });
+    $(".corporate_social_slider2").slick({
+      dots: false,
+      autoplay: false,
+      arrows: true,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      pauseOnHover: false,
+      asNavFor: ".corporate_social_slider",
       prevArrow:
         '<img src="img/arrow_prev.png" class="slide-arrow prev-arrow">',
       nextArrow:
@@ -255,6 +286,7 @@ $(document).ready(function (evt) {
 
 //################################### window load function ##############################################
 $(window).on("load", function () {
+  equalHeight(".corporate_content");
   setTimeout(function () {
     $(".loader_overlay").fadeOut(300);
   }, 100);

@@ -15,6 +15,14 @@ $(window).on("load", function () {
     "--headerHeight",
     $(".header").outerHeight() + "px"
   );
+  document.documentElement.style.setProperty(
+    "--corporate_contentH",
+    $(".corporate_content").outerHeight() + "px"
+  );
+  document.documentElement.style.setProperty(
+    "--corporate_contentW",
+    $(".corporate_content").outerHeight() + "px"
+  );
   document.documentElement.style.setProperty("--winHeight", winH + "px");
   document.documentElement.style.setProperty("--winWidth", winW + "px");
   setTimeout(loadBannerAnim, 6100);
