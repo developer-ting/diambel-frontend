@@ -157,7 +157,7 @@
                 },
                 body: new URLSearchParams(formData).toString(),
             })
-            .then(() => $('#thankyou').show(); $('#contact_form')[0].reset())
+            .then(() => $('#thankyou').show(), $('#contact_form')[0].reset())
             .catch((error) => alert(error));
     };
 
