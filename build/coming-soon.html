@@ -1,0 +1,218 @@
+<!doctype html>
+<!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>
+<html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>
+<html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8" />
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+<meta
+  name="viewport"
+  content="width=device-width, initial-scale=1.0, maximum-scale=5.0"
+/>
+
+<meta name="theme-color" content="#3c0e22" />
+
+<meta property="og:title" content="project name" />
+<meta property="og:description" content="project description" />
+<!-- <meta property="og:url" content="https://domainname.in/" /> -->
+<meta property="og:type" content="website" />
+<meta property="og:image" content="img/og-image.jpg" />
+<meta property="og:image:secure_url" content="img/og-image.jpg" />
+
+<title>Diambel</title>
+<meta name="description" content="Diambel" />
+
+<link rel="shortcut icon" type="image/x-icon" href="img/favicon.png" />
+
+<!-- <link
+    rel="preload"
+    href="dist/fonts/fa/fa-solid-900.woff2"
+    as="font"
+    crossorigin="anonymous"
+/> -->
+<link
+  href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800;900&display=swap"
+  rel="stylesheet"
+/>
+<link
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+  rel="stylesheet"
+/>
+
+<link rel="stylesheet" href="dist/css/app.min.css" />
+</head>
+
+<body class="">
+    <!--[if lt IE 8]>
+	<p class="browserupgrade">
+		You are using an <strong>outdated</strong> browser.
+		Please <a href="http://browsehappy.com/"> upgrade your browser </a>
+		to improve your experience.
+	</p>
+<![endif]-->    <div class="loader_overlay">
+    <div class="loader_spinner"></div>
+</div>
+
+    <main id="coming_soon_page" class="smooth_scroll_pages">
+        <img class="shape_one" src="img/coming-soon/shape_one.png" alt="shape" />
+        <img class="shape_three" src="img/coming-soon/shape_three.png" alt="shape" />
+        <img class="shape_four" src="img/coming-soon/shape_four.png" alt="shape" />
+        <!--  insert body content  -->
+        <section class="coming_soon_header">
+            <div class="container">
+                <div class="logo">
+                    <img src="img/coming-soon/logo.png" alt="logo" />
+                </div>
+            </div>
+        </section>
+        <section class="coming_soon_main pt_60">
+            <div class="container">
+                <div class="coming_soon_flex">
+                    <div class="coming_soon_left">
+                        <h2 class="text_xxxxl pb_30">Coming Soon</h2>
+                        <p class="text_reg">With over four decades of experience, we have built a vertically integrated
+                            pipeline to source rough diamonds from reputed miners, cut and polish in our
+                            state-of-the-art facility, and strategically partner with jewellery manufacturers and retail
+                            stores to offer 360-degree solutions in every step of a natural diamond's journey.</p>
+                        <p class="text_reg font22 pt_30">While we work hard to forge a website for you,<br>
+                            you can register here to stay updated on all things Diambel.</p>
+                    </div>
+                    <div class="coming_soon_right">
+                        <img class="shape_two" src="img/coming-soon/shape_two.png" alt="shape" />
+                        <img class="star_shape_one" src="img/coming-soon/star_shape_one.png" alt="shape" />
+                        <img class="star_shape_two" src="img/coming-soon/star_shape_two.png" alt="shape" />
+                        <form class="form f_w_a" id="contact_form" name="contact" method="POST" data-netlify="true">
+                            <input type="hidden" name="form-name" value="contact">
+                            <h5 class="text_reg pb_30">Register your interest</h5>
+                            <div class="form_field">
+                                <input class="text_sm" type="text" id="name" name="name" placeholder="Name">
+                            </div>
+                            <div class="form_field">
+                                <input class="text_sm" type="email" id="email" name="email" placeholder="Email ID">
+                            </div>
+                            <div class="form_field">
+                                <input class="text_sm" type="text" id="company" name="company" placeholder="Company">
+                            </div>
+                            <div class="btn_box pt_20">
+                                <button type="submit" class="btn_project_default black_btn">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div id="thankyou" class="">
+            <div class="pop">
+                <div class="inner_box">
+                    <img src="img/coming-soon/cancel.png" class="img-responsive close" alt="close">
+                    <p>Thank you for writing to us.</p>
+                    <p>We will get back to you shortly.</p>
+                </div>
+            </div>
+        </div>
+        <!--  end body content -->
+    </main>
+    <script src="dist/js/app.min.js"></script>
+    <script defer>
+    //for letters only
+    $.validator.addMethod("lettersonly", function(value, element) {
+        return this.optional(element) || /^[a-zA-Z][a-zA-Z ]+$/i.test(value);
+    });
+
+    //for email only
+    $.validator.addMethod("emailtest", function(value, element) {
+        return this.optional(element) || /^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$/i.test(value);
+    });
+
+    $("#thankyou").hide();
+    $("#contact_form").validate({
+        rules: {
+            name: {
+                required: true,
+                lettersonly: true,
+                minlength: 2
+            },
+            email: {
+                emailtest: true,
+                required: true,
+                email: true
+            },
+            company: {
+                required: true,
+            },
+        },
+        messages: {
+            name: {
+                required: "This field is required",
+                lettersonly: "Please enter a text only"
+            },
+            email: {
+                required: "This field is required",
+                emailtest: "Please enter a valid email address"
+            },
+            company: {
+                required: "This field is required",
+            },
+        },
+        // submitHandler: function(form) {
+        //     $.ajax({
+        //         url: 'https://script.google.com/macros/s/AKfycbzCKn2HhiZt5dAzEhY2bQO-G6hd8_1RkKEtayr_RDZcnhBWI8ZvXe444-QjfRaJAdhX/exec',
+        //         type: 'post',
+        //         data: $("#contact_form").serializeArray(),
+        //         success: function($response) {
+        //             $('#thankyou').show();
+        //             $('body').css({
+        //                 "overflow": "hidden",
+        //                 "position": "relative"
+        //             });
+        //             $('#contact_form')[0].reset();
+        //             setTimeout(function() {
+        //                 $('#thankyou').hide();
+        //                 $('body').css({
+        //                     "overflow": "unset",
+        //                     "position": "unset"
+        //                 });
+        //             }, 5000);
+        //         },
+        //         error: function() {
+        //             alert("There was an error. PLease try again.")
+        //         }
+        //     });
+        // }
+    });
+    const handleSubmit = (event) => {
+        event.preventDefault();
+
+        const myForm = event.target;
+        const formData = new FormData(myForm);
+
+        fetch("/", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/x-www-form-urlencoded"
+                },
+                body: new URLSearchParams(formData).toString(),
+            })
+            .then(() => $('#thankyou').show())
+            .catch((error) => alert(error));
+    };
+
+    document
+        .querySelector("form")
+        .addEventListener("submit", handleSubmit);
+    $("img.close").click(function() {
+        $("#thankyou").hide();
+    });
+    </script>
+</body>
+
+</html>
