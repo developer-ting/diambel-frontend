@@ -10,6 +10,17 @@ step_sec.each(function (ind, item) {
   });
 });
 
+function loadBannerAnim() {
+  $(".bannerImg").addClass("bannerImgAnim");
+  $(".DiamondImg").addClass("DiamondImgAnim");
+  $(".bgDiamondImg").addClass("bgDiamondImgAnim");
+  $(".str").addClass("strAnim");
+  $(".bannerPara").addClass("bannerParaAnim");
+  $(".bannerHead span").addClass("spanAnim");
+  $("header").addClass("headerAnim");
+  $("body").removeClass("overflowAU");
+}
+
 $(window).on("load", function () {
   document.documentElement.style.setProperty(
     "--headerHeight",
@@ -35,15 +46,6 @@ $(window).on("load", function () {
     $(".intro-video").fadeOut();
     $("body").removeClass("overflowAU");
   }, 6000);
-  function loadBannerAnim() {
-    $(".bannerImg").addClass("bannerImgAnim");
-    $(".DiamondImg").addClass("DiamondImgAnim");
-    $(".bgDiamondImg").addClass("bgDiamondImgAnim");
-    $(".str").addClass("strAnim");
-    $(".bannerPara").addClass("bannerParaAnim");
-    $(".bannerHead span").addClass("spanAnim");
-    $("header").addClass("headerAnim");
-  }
 });
 
 $(".slider-for").slick({
@@ -52,6 +54,7 @@ $(".slider-for").slick({
   arrows: false,
   fade: true,
   infinite: true,
+  pauseOnHover: false,
   asNavFor: ".slider-nav",
 });
 var sliderNav = $(".slider-nav");
@@ -63,12 +66,14 @@ if (sliderNav.length) {
     autoplay: true,
     vertical: true,
     asNavFor: ".slider-for",
+    arrows: true,
     dots: false,
     infinite: true,
     focusOnSelect: true,
+    pauseOnHover: false,
     verticalSwiping: true,
-    prevArrow: '<img src="img/arrow_prev.png" class="slide-arrow prev-arrow">',
-    nextArrow: '<img src="img/arrow_next.png" class="slide-arrow next-arrow">',
+    prevArrow: '<img src="img/dotsSlide.png" class="slide-arrow prev-arrow">',
+    nextArrow: '<img src="img/dotsSlide.png" class="slide-arrow next-arrow">',
     responsive: [
       {
         breakpoint: 1199,
@@ -108,7 +113,7 @@ function progressbar(sliderName, progressClass) {
     $progressBarLabel.text(calc + "% completed");
   });
 }
-progressbar(".slider-for", ".progress5");
+progressbar(".slider-nav", ".progress5");
 
 $(".slider-nav").on(
   "beforeChange",

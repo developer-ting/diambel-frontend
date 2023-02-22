@@ -4,14 +4,11 @@ body {
   }
 }
 .solution_main_img {
-  &.imgSec {
-    position: relative;
-  }
 }
 .imgSec {
   opacity: 0;
   transition: 1s all;
-  position: absolute !important;
+  position: absolute;
 
   &.showing {
     position: relative;
@@ -22,16 +19,16 @@ body {
 }
 .banner-sec {
   position: relative;
-  // background-image: url("../../img/intro/banner.jpg");
+  background-image: url("../../img/intro/banner.jpg");
   // height: calc(100vw * 818 / 1452);
-  // // height: 100vh;
-  // background-size: 110%;
-  // background-repeat: no-repeat;
-  // transition: all 1.5s;
-  // transition-delay: 2s;
-  // transform-origin: left bottom;
-  // background-position: center;
-  // position: relative;
+  height: 100vh;
+  background-size: 110%;
+  background-repeat: no-repeat;
+  transition: all 1.5s;
+  transition-delay: 2s;
+  transform-origin: left bottom;
+  background-position: center;
+  position: relative;
   // @extend .f_r_a_center;
   // justify-content: flex-start;
   overflow: hidden;
@@ -170,11 +167,17 @@ body {
     right: 2%;
     transform: translateX(0);
     left: auto;
+    &:hover {
+      color: var(--color_primary);
+    }
   }
 }
 
 .journey_main {
   position: relative;
+  .illustrious_flex_outer {
+    position: relative;
+  }
   .illustrious_flex {
     justify-content: space-between;
     @include mv-media(max, 767px) {
@@ -244,26 +247,43 @@ body {
       .slick-list {
         padding-bottom: 0px;
       }
-      .slick-arrow {
-        position: absolute;
-        left: -50px;
-        top: 40%;
-        transform: rotate(90deg);
-        @include mv-media(max, 1199px) {
-          left: -40px;
-        }
-        @include mv-media(max, 767px) {
-          left: 0px;
-          top: 0px;
-          transform: rotate(0deg);
+      .prev-arrow {
+        bottom: -20px;
+        right: unset;
+        left: -12%;
+        @include mv-media(max, 1280px) {
+          left: -9%;
         }
       }
       .next-arrow {
-        top: 55%;
-        @include mv-media(max, 767px) {
-          top: 0px;
+        right: unset;
+        bottom: unset;
+        left: -12%;
+        top: 0;
+        @include mv-media(max, 1280px) {
+          left: -9%;
         }
       }
+      // .slick-arrow {
+      //   position: absolute;
+      //   left: -50px;
+      //   top: 40%;
+      //   transform: rotate(90deg);
+      //   @include mv-media(max, 1199px) {
+      //     left: -40px;
+      //   }
+      //   @include mv-media(max, 767px) {
+      //     left: 0px;
+      //     top: 0px;
+      //     transform: rotate(0deg);
+      //   }
+      // }
+      // .next-arrow {
+      //   top: 55%;
+      //   @include mv-media(max, 767px) {
+      //     top: 0px;
+      //   }
+      // }
     }
     .illustrious_right {
       width: 54%;
@@ -365,10 +385,14 @@ body {
   }
   .progress {
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 45%;
+    left: -45%;
+    width: calc(var(--illustrious_flex) - 100px);
     // height: var(--illustrious_flex);
     transform: rotate(90deg);
+    @include mv-media(max, 1280px) {
+      left: -42%;
+    }
   }
 }
 .slider_image {
