@@ -1,5 +1,8 @@
 #index_page {
   padding-top: var(--headerHeight);
+  @include mv-media(max, 1280px) {
+    overflow: hidden;
+  }
   .hallmark_credibilty {
     background-color: var(--color-bg);
     .hallmark_credibilty_inside {
@@ -128,17 +131,17 @@
           //   rgba(239, 229, 223, 1) 75%,
           //   rgba(212, 190, 168, 1) 93%
           // );
-          animation: 0.5s gradientMove forwards;
+          animation: 0.2s gradientMove forwards;
           .value_hover_img {
             opacity: 1;
-            transition: 0.5s ease-in-out;
+            transition: 0.2s ease-in-out;
           }
           .value_shape_img {
             background-color: var(--white-color);
-            transition: 1s ease-in-out;
+            transition: 0.2s ease-in-out;
             img {
               filter: invert(1);
-              transition: 1s ease-in-out;
+              transition: 0.2s ease-in-out;
             }
           }
         }
@@ -159,9 +162,9 @@
           display: flex;
           align-items: center;
           justify-content: center;
-          transition: 0.5s ease-in-out;
+          transition: 0.2s ease-in-out;
           img {
-            transition: 0.5s ease-in-out;
+            transition: 0.2s ease-in-out;
           }
           @include mv-media(max, 992px) {
             margin: 0 auto;
@@ -407,6 +410,7 @@
           .faq_section {
             .faq_box {
               border-top: 1px solid rgba(60, 14, 34, 0.5);
+              padding: 25px 0;
               &:last-child {
                 border-bottom: 1px solid rgba(60, 14, 34, 0.5);
               }
@@ -837,6 +841,7 @@
       justify-content: space-between;
       margin: 0px -15px;
       .corporate_content {
+        padding: 0 10px;
       }
       .corporate_social_item {
         position: relative;

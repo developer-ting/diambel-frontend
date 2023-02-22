@@ -92,6 +92,10 @@ body {
     &.DiamondImgAnim {
       transform: translateY(0);
     }
+    @include mv-media(min, 1680px) {
+      top: 39%;
+      right: 22%;
+    }
   }
   .bgDiamondImg {
     position: absolute;
@@ -123,6 +127,9 @@ body {
       &.strAnim {
         opacity: 1;
       }
+    }
+    @include mv-media(min, 1680px) {
+      top: 35%;
     }
   }
   .scrlDown {
@@ -164,9 +171,10 @@ body {
     @extend .rel_x_center;
     background-color: #fff;
     bottom: 5%;
-    right: 2%;
+    right: 5%;
     transform: translateX(0);
     left: auto;
+    padding: 10px 25px;
     &:hover {
       color: var(--color_primary);
     }

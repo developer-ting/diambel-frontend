@@ -87,7 +87,7 @@
       // transform: translateX(100%);
       background-color: #fff;
       z-index: 1;
-      animation: btnHover 1s linear;
+      animation: btnHover 0.5s linear;
       transform-origin: left;
     }
     @keyframes btnHover {
