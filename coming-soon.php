@@ -49,13 +49,13 @@
                             <input type="hidden" name="form-name" value="contact">
                             <h5 class="text_reg pb_30">Register your interest</h5>
                             <div class="form_field">
-                                <input class="text_sm" type="text" id="name" name="name" placeholder="Name">
+                                <input class="text_sm" type="text" id="name" name="name" placeholder="Name" required>
                             </div>
                             <div class="form_field">
-                                <input class="text_sm" type="email" id="email" name="email" placeholder="Email ID">
+                                <input class="text_sm" type="email" id="email" name="email" placeholder="Email ID" required>
                             </div>
                             <div class="form_field">
-                                <input class="text_sm" type="text" id="company" name="company" placeholder="Company">
+                                <input class="text_sm" type="text" id="company" name="company" placeholder="Company" required>
                             </div>
                             <div class="btn_box pt_20">
                                 <button type="submit" class="btn_project_default black_btn">Submit</button>
