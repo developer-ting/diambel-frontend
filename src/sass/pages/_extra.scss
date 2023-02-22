@@ -393,6 +393,9 @@ body {
     @include mv-media(max, 1280px) {
       left: -42%;
     }
+    @include mv-media(max, 992px) {
+      display: none;
+    }
   }
 }
 .slider_image {
