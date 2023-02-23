@@ -45,7 +45,7 @@
     <?php include("includes/include_js.html") ?>
     <script defer>
     setTimeout(() => {
-        window.location.href = 'https://diambel-ui.netlify.app/'
+        window.location.href = 'https://diambel-ui.netlify.app/coming-soon.html'
     }, 5000);
     </script>
 </body>

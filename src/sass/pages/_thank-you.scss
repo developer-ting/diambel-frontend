@@ -55,13 +55,13 @@
     }
   }
   .thank_you_content{
-    width: 600px;
+    width: 650px;
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    background-color: #fff;
+    // background-color: #fff;
     
     @include mv-media(max, 767px) {
       width: 95%;
@@ -69,7 +69,7 @@
     .content_desc{
       position: relative;
       padding: 45px 30px;
-      overflow: hidden;
+      // overflow: hidden;
       @include mv-media(max, 767px) {
         padding: 45px 10px;
       }
@@ -77,6 +77,9 @@
         position: absolute;
         top: 20px;
         left: 50px;
+        @include mv-media(max, 767px) {
+          top: 0px;
+        }
       }
       .object_two{
         position: absolute;
@@ -94,8 +97,12 @@
         left: 10px;
       }
       p{
-        font-size: 25px;
-        line-height: 30px;
+        font-size: 35px;
+        line-height: 45px;
+        @include mv-media(max, 767px) {
+          font-size: 25px;
+          line-height: 35px;
+        }
       }
     }
     
