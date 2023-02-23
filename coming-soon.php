@@ -52,10 +52,12 @@
                                 <input class="text_sm" type="text" id="name" name="name" placeholder="Name" required>
                             </div>
                             <div class="form_field">
-                                <input class="text_sm" type="email" id="email" name="email" placeholder="Email ID" required>
+                                <input class="text_sm" type="email" id="email" name="email" placeholder="Email ID"
+                                    required>
                             </div>
                             <div class="form_field">
-                                <input class="text_sm" type="text" id="company" name="company" placeholder="Company" required>
+                                <input class="text_sm" type="text" id="company" name="company" placeholder="Company"
+                                    required>
                             </div>
                             <div class="btn_box pt_20">
                                 <button type="submit" class="btn_project_default black_btn">Submit</button>
@@ -65,7 +67,7 @@
                 </div>
             </div>
         </section>
-        <div id="thankyou" class="">
+        <!-- <div id="thankyou" class="">
             <div class="pop">
                 <div class="inner_box">
                     <img src="img/coming-soon/cancel.png" class="img-responsive close" alt="close">
@@ -73,7 +75,7 @@
                     <p>We will get back to you shortly.</p>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!--  end body content -->
     </main>
     <?php include("includes/include_js.html") ?>
@@ -118,31 +120,6 @@
                 required: "This field is required",
             },
         },
-        // submitHandler: function(form) {
-        //     $.ajax({
-        //         url: 'https://script.google.com/macros/s/AKfycbzCKn2HhiZt5dAzEhY2bQO-G6hd8_1RkKEtayr_RDZcnhBWI8ZvXe444-QjfRaJAdhX/exec',
-        //         type: 'post',
-        //         data: $("#contact_form").serializeArray(),
-        //         success: function($response) {
-        //             $('#thankyou').show();
-        //             $('body').css({
-        //                 "overflow": "hidden",
-        //                 "position": "relative"
-        //             });
-        //             $('#contact_form')[0].reset();
-        //             setTimeout(function() {
-        //                 $('#thankyou').hide();
-        //                 $('body').css({
-        //                     "overflow": "unset",
-        //                     "position": "unset"
-        //                 });
-        //             }, 5000);
-        //         },
-        //         error: function() {
-        //             alert("There was an error. PLease try again.")
-        //         }
-        //     });
-        // }
     });
     const handleSubmit = (event) => {
         event.preventDefault();
@@ -157,16 +134,13 @@
                 },
                 body: new URLSearchParams(formData).toString(),
             })
-            .then(() => $('#thankyou').show(), $('#contact_form')[0].reset())
+            .then(() => $('#contact_form')[0].reset())
             .catch((error) => alert(error));
     };
 
     document
         .querySelector("form")
         .addEventListener("submit", handleSubmit);
-    $("img.close").click(function() {
-        $("#thankyou").hide();
-    });
     </script>
 </body>
 
