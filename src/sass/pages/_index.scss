@@ -512,6 +512,9 @@
             position: absolute;
             bottom: 35px;
             right: 0px;
+            background: linear-gradient(115deg, #c0a280 40%, #3c0e22 60%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
             @include mv-media(max, 767px) {
               font-size: 32px;
               line-height: 40px;

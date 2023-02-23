@@ -161,7 +161,7 @@ $(document).ready(function (evt) {
       infinite: true,
       autoplay: true,
       arrows: false,
-      speed: 1000,
+      speed: 500,
       slidesToShow: 1,
       slidesToScroll: 1,
       fade: true,
