@@ -298,8 +298,10 @@ $(window).on("scroll", function (e) {
 
   var hallmark_credibiltyOff = $(".hallmark_credibilty").offset();
 
-  if (hallmark_credibiltyOff.top < scrollTopPos + winH) {
+  if (hallmark_credibiltyOff.top <= scrollTopPos + $("header").outerHeight()) {
     $("header").addClass("headerShadow");
+  } else {
+    $("header").removeClass("headerShadow");
   }
 
   //lazy loading images

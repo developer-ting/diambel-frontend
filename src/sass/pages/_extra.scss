@@ -78,6 +78,9 @@ body {
         transform: translateX(0);
       }
     }
+    @include mv-media(max, 992px) {
+      top: 25%;
+    }
   }
   &.banner-sec-anim {
     background-size: 100%;
@@ -91,10 +94,19 @@ body {
     transition-delay: 2s;
     &.DiamondImgAnim {
       transform: translateY(0);
+      @include mv-media(max, 992px) {
+        transform: translateY(0) translateX(-50%);
+      }
     }
     @include mv-media(min, 1680px) {
       top: 39%;
       right: 22%;
+    }
+    @include mv-media(max, 992px) {
+      transform: translateY(60px) translateX(-50%);
+      top: 50%;
+      left: 50%;
+      right: auto;
     }
   }
   .bgDiamondImg {
@@ -109,6 +121,9 @@ body {
     &.bgDiamondImgAnim {
       opacity: 1;
       transform: scaleX(1) translateY(0);
+      @include mv-media(max, 992px) {
+        transform: scaleX(1) translateY(0) translateX(-50%);
+      }
     }
     .str {
       position: absolute;
@@ -130,6 +145,12 @@ body {
     }
     @include mv-media(min, 1680px) {
       top: 35%;
+    }
+    @include mv-media(max, 992px) {
+      transform: scaleX(0.4) translateY(40px) translateX(-50%);
+      top: 46%;
+      left: 50%;
+      right: auto;
     }
   }
   .scrlDown {
@@ -153,6 +174,9 @@ body {
     100% {
       transform: translateX(-50%) translateY(10px);
     }
+  }
+  @include mv-media(max, 992px) {
+    background-size: cover;
   }
 }
 .intro-video {

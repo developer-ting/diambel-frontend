@@ -45,6 +45,10 @@ $(window).on("load", function () {
     $(".intro-video").fadeOut();
     $("body").removeClass("overflowAU");
   }, 6000);
+
+  if (winW < 992) {
+    loadBannerAnim();
+  }
 });
 
 $(".slider-for").slick({

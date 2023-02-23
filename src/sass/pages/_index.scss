@@ -3,6 +3,10 @@
   @include mv-media(max, 1280px) {
     overflow: hidden;
   }
+  section {
+    overflow: hidden;
+  }
+
   .hallmark_credibilty {
     background-color: var(--color-bg);
     .hallmark_credibilty_inside {
