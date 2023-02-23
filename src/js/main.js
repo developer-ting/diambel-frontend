@@ -296,6 +296,12 @@ $(window).on("load", function () {
 $(window).on("scroll", function (e) {
   var scrollTopPos = $(window).scrollTop();
 
+  var hallmark_credibiltyOff = $(".hallmark_credibilty").offset();
+
+  if (hallmark_credibiltyOff.top < scrollTopPos + winH) {
+    $("header").addClass("headerShadow");
+  }
+
   //lazy loading images
   //html syntax below
   //<img data-lazy-src="path/to/image" alt="" class="">

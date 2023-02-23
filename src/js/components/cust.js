@@ -41,7 +41,6 @@ $(window).on("load", function () {
   document.documentElement.style.setProperty("--winHeight", winH + "px");
   document.documentElement.style.setProperty("--winWidth", winW + "px");
   setTimeout(loadBannerAnim, 6100);
-  console.log("change");
   setTimeout(function () {
     $(".intro-video").fadeOut();
     $("body").removeClass("overflowAU");
