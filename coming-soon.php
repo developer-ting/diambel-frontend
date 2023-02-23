@@ -45,7 +45,8 @@
                         <img class="shape_two" src="img/coming-soon/shape_two.png" alt="shape" />
                         <img class="star_shape_one" src="img/coming-soon/star_shape_one.png" alt="shape" />
                         <img class="star_shape_two" src="img/coming-soon/star_shape_two.png" alt="shape" />
-                        <form class="form f_w_a" id="contact_form" action="thanks.html" name="contact" method="POST" data-netlify="true">
+                        <form class="form f_w_a" id="contact_form" action="thanks.html" name="contact" method="POST"
+                            data-netlify="true">
                             <input type="hidden" name="form-name" value="contact">
                             <h5 class="text_reg pb_30">Register your interest</h5>
                             <div class="form_field">
@@ -121,26 +122,26 @@
             },
         },
     });
-    const handleSubmit = (event) => {
-        event.preventDefault();
+    // const handleSubmit = (event) => {
+    //     event.preventDefault();
 
-        const myForm = event.target;
-        const formData = new FormData(myForm);
+    //     const myForm = event.target;
+    //     const formData = new FormData(myForm);
 
-        fetch("/", {
-                method: "POST",
-                headers: {
-                    "Content-Type": "application/x-www-form-urlencoded"
-                },
-                body: new URLSearchParams(formData).toString(),
-            })
-            .then(() => $('#contact_form')[0].reset())
-            .catch((error) => alert(error));
-    };
+    //     fetch("/", {
+    //             method: "POST",
+    //             headers: {
+    //                 "Content-Type": "application/x-www-form-urlencoded"
+    //             },
+    //             body: new URLSearchParams(formData).toString(),
+    //         })
+    //         .then(() => $('#contact_form')[0].reset())
+    //         .catch((error) => alert(error));
+    // };
 
-    document
-        .querySelector("form")
-        .addEventListener("submit", handleSubmit);
+    // document
+    //     .querySelector("form")
+    //     .addEventListener("submit", handleSubmit);
     </script>
 </body>
 
