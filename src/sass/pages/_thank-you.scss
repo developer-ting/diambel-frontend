@@ -1,0 +1,103 @@
+
+#thank_you_page {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  background-color: var(--secondary-color);
+  background: linear-gradient(
+    151deg,
+    rgba(239, 229, 223, 1) 75%,
+    rgba(212, 190, 168, 1) 93%
+  );
+  @media (min-width: 768px) and (max-height: 600px) {
+    padding-bottom: 30px;
+  }
+  @include mv-media(max, 767px) {
+    padding-bottom: 30px;
+  }
+  .shape_one {
+    position: absolute;
+    top: -25px;
+    left: 45%;
+    transform: translateX(-50%);
+    @include mv-media(max, 1199px) {
+      display: none;
+    }
+  }
+  .shape_three {
+    position: absolute;
+    bottom: -25px;
+    right: 100px;
+    @include mv-media(max, 1199px) {
+      display: none;
+    }
+  }
+  .shape_four {
+    position: absolute;
+    bottom: -25px;
+    left: 45px;
+    @include mv-media(max, 1199px) {
+      display: none;
+    }
+  }
+  .coming_soon_header {
+    padding-top: 60px;
+    @media (min-width: 768px) and (max-height: 700px) {
+      padding-top: 20px;
+    }
+    @include mv-media(max, 991px) {
+      padding-top: 30px;
+    }
+    .logo {
+      @include mv-media(max, 767px) {
+        width: 300px;
+      }
+    }
+  }
+  .thank_you_content{
+    width: 600px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: #fff;
+    
+    @include mv-media(max, 767px) {
+      width: 95%;
+    }
+    .content_desc{
+      position: relative;
+      padding: 45px 30px;
+      overflow: hidden;
+      @include mv-media(max, 767px) {
+        padding: 45px 10px;
+      }
+      .object_one{
+        position: absolute;
+        top: 20px;
+        left: 50px;
+      }
+      .object_two{
+        position: absolute;
+        top: -20px;
+        right: 50px;
+      }
+      .object_three{
+        position: absolute;
+        bottom: 30px;
+        right: 50px;
+      }
+      .object_four{
+        position: absolute;
+        bottom: -15px;
+        left: 10px;
+      }
+      p{
+        font-size: 25px;
+        line-height: 30px;
+      }
+    }
+    
+  }
+}
