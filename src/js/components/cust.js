@@ -136,6 +136,25 @@ $("#skip").on("click", function () {
   loadBannerAnim();
 });
 
+$(function () {
+  console.log("scrolllll");
+  var currentPosition = 0;
+  var photo = $(".photo");
+  var photoNums = photo.length;
+
+  var speed = 600;
+  var timeout = 5000;
+  $(".photo").eq(0).show();
+
+  function move() {
+    var nextPhoto = (currentPosition + 1) % photoNums;
+    photo.eq(currentPosition).fadeOut(speed);
+    photo.eq(nextPhoto).fadeIn(speed);
+    currentPosition = nextPhoto;
+  }
+  setInterval(move, timeout);
+});
+
 ScrollOut({
   targets: ".prlx",
   cssProps: {

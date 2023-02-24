@@ -535,6 +535,16 @@
           }
         }
       }
+      #autoSlider {
+        position: relative;
+        height: 520px;
+        display: none;
+        .photo {
+          position: absolute;
+          height: 520px;
+          display: none;
+        }
+      }
     }
   }
 

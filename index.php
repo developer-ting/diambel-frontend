@@ -721,7 +721,22 @@
                         </div>
                         <div class="working_across_slider_content">
                             <img class="" src="img/home/jewellery.png" alt="jewellery" />
-                            <p class="txt">‘Jewellery</p>
+                            <p class="txt">Jewellery</p>
+                        </div>
+                    </div>
+
+                    <div id="autoSlider " class="hidden">
+                        <div class="photo">
+                            <img class="" src="img/home/rough.png" alt="rough" />
+                            <!-- <p class="txt txt_one">Rough</p> -->
+                        </div>
+                        <div class="photo">
+                            <img class="" src="img/home/polished.png" alt="polished" />
+                            <!-- <p class="txt txt_two">Polished</p> -->
+                        </div>
+                        <div class="photo">
+                            <img class="" src="img/home/jewellery.png" alt="jewellery" />
+                            <!-- <p class="txt">Jewellery</p> -->
                         </div>
                     </div>
                 </div>
@@ -1070,7 +1085,7 @@
 
                         <div class="corporate_content">
                             <div class="corporate_social_item">
-                                <img src="img/home/go_green.jpg" class="sldImg" alt="go_green" />
+                                <img src="img/home/go_green2.jpg" class="sldImg" alt="go_green" />
                                 <div class="corporate_content_desc">
                                     <h6 class="text_md f_w_m">Lorem ipsum dolor
                                         <br>sit amet.
@@ -1098,7 +1113,7 @@
                     <div class="corporate_social_flex corporate_social_slider2 toTop" data-scroll>
                         <div class="corporate_content">
                             <div class="corporate_social_item">
-                                <img src="img/home/go_green.jpg" class="sldImg" alt="go_green" />
+                                <img src="img/home/go_green2.jpg" class="sldImg" alt="go_green" />
                                 <div class="corporate_content_desc">
                                     <h6 class="text_md f_w_m">Lorem ipsum dolor
                                         <br>sit amet.
