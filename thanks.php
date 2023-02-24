@@ -31,21 +31,21 @@
         </section>
 
         <div class="thank_you_content">
-          <div class="content_desc">
-            <img class="object_one" src="img/thank_you/object_one.png" alt="shape" />
-            <img class="object_two" src="img/thank_you/object_two.png" alt="shape" />
-            <img class="object_three" src="img/thank_you/object_three.png" alt="shape" />
-            <img class="object_four" src="img/thank_you/object_four.png" alt="shape" />
-            <p class="text_lg">Thank you for writing to us.</p>
-            <p class="text_lg">We will get back to you shortly.</p>
-          </div>
+            <div class="content_desc">
+                <img class="object_one" src="img/thank_you/object_one.png" alt="shape" />
+                <img class="object_two" src="img/thank_you/object_two.png" alt="shape" />
+                <img class="object_three" src="img/thank_you/object_three.png" alt="shape" />
+                <img class="object_four" src="img/thank_you/object_four.png" alt="shape" />
+                <p class="text_lg">Thank you for writing to us.</p>
+                <p class="text_lg">We will get back to you shortly.</p>
+            </div>
         </div>
-        
+
     </main>
     <?php include("includes/include_js.html") ?>
     <script defer>
     setTimeout(() => {
-        window.location.href = 'https://diambel-ui.netlify.app/coming-soon.html'
+        window.location.href = 'https://diambelgroup.com/'
     }, 5000);
     </script>
 </body>
