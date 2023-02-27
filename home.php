@@ -77,7 +77,7 @@
                             </div>
                         </div>
                         <div class="hallmark_btn">
-                            <a class="btn_project_default" href="">View Certification</a>
+                            <a class="btn_project_secondary" href="">View Certification</a>
                         </div>
                     </div>
                 </div>

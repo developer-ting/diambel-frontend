@@ -64,6 +64,15 @@ $(document).ready(function (evt) {
       slidesToScroll: 1,
       vertical: true,
       verticalSwiping: true,
+      responsive: [
+        {
+          breakpoint: 991,
+          settings: {
+            vertical: false,
+            verticalSwiping: false,
+          },
+        },
+      ],
     });
 
     $(".tab-a").click(function () {

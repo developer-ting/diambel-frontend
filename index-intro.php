@@ -31,7 +31,7 @@
             </video>
             <a id="skip" class="btn_project_default" href="javascript:void(0)">Skip Intro</a>
         </section>
-        <section class="banner-sec hidden-xs">
+        <section class="banner-sec">
             <!-- <picture>
                 <source media="(max-width:465px)" srcset="img/intro/banner.jpg"> 
             <img src="img/intro/banner.jpg" class="bannerImg">
@@ -43,7 +43,7 @@
                     <span>Forged to <i class="italictxt">perfection. </i></span>
                 </h1>
                 <p class="bannerPara">
-                    Reimagining the standards in the diamond industry <br>
+                    Reimagining the standards in the diamond industry <br class="hidden-xs">
                     through ethical practices and sustainable sourcing.
                 </p>
             </div>
@@ -77,7 +77,7 @@
                             </div>
                         </div>
                         <div class="hallmark_btn">
-                            <a class="btn_project_default" href="">View Certification</a>
+                            <a class="btn_project_secondary" href="">View Certification</a>
                         </div>
                     </div>
                 </div>
@@ -710,7 +710,7 @@
                                 offering end-to-end solutions in rough and polished diamonds as well as jewelry.</p>
                         </div>
                     </div>
-                    <div class="working_across_slider">
+                    <!-- <div class="working_across_slider">
                         <div class="working_across_slider_content">
                             <img class="" src="img/home/rough.png" alt="rough" />
                             <p class="txt txt_one">Rough</p>
@@ -723,20 +723,20 @@
                             <img class="" src="img/home/jewellery.png" alt="jewellery" />
                             <p class="txt">Jewellery</p>
                         </div>
-                    </div>
+                    </div> -->
 
-                    <div id="autoSlider " class="hidden">
-                        <div class="photo">
+                    <div id="autoSlider" class="">
+                        <div class="photo fade">
                             <img class="" src="img/home/rough.png" alt="rough" />
-                            <!-- <p class="txt txt_one">Rough</p> -->
+                            <p class="txt txt_one">Rough</p>
                         </div>
-                        <div class="photo">
+                        <div class="photocar1 fade">
                             <img class="" src="img/home/polished.png" alt="polished" />
-                            <!-- <p class="txt txt_two">Polished</p> -->
+                            <p class="txt txt_two">Polished</p>
                         </div>
-                        <div class="photo">
+                        <div class="photocar2 fade">
                             <img class="" src="img/home/jewellery.png" alt="jewellery" />
-                            <!-- <p class="txt">Jewellery</p> -->
+                            <p class="txt txt_thr">Jewellery</p>
                         </div>
                     </div>
                 </div>

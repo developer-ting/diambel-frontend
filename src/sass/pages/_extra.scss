@@ -32,6 +32,9 @@ body {
   // @extend .f_r_a_center;
   // justify-content: flex-start;
   overflow: hidden;
+  // @include mv-media(max, 992px) {
+  //   background-image: url("../../img/intro/banner-mobile.jpg");
+  // }
   .bannerImg {
     transform: scale(1.1);
     transition: all 1.5s;
@@ -50,6 +53,9 @@ body {
       font-family: var(--marcellus_r);
       line-height: 1.2;
       margin-bottom: 20px;
+      @include mv-media(max, 992px) {
+        font-size: 36px;
+      }
       .italictxt {
         color: var(--secondary-color);
         font-family: var(--p_f_s_r);
@@ -79,7 +85,9 @@ body {
       }
     }
     @include mv-media(max, 992px) {
-      top: 25%;
+      top: calc(var(--headerHeight) + 15px);
+      transform: translateY(0);
+      left: 15px;
     }
   }
   &.banner-sec-anim {
@@ -104,9 +112,10 @@ body {
     }
     @include mv-media(max, 992px) {
       transform: translateY(60px) translateX(-50%);
-      top: 50%;
+      top: 60%;
       left: 50%;
       right: auto;
+      width: 180px;
     }
   }
   .bgDiamondImg {
@@ -148,7 +157,7 @@ body {
     }
     @include mv-media(max, 992px) {
       transform: scaleX(0.4) translateY(40px) translateX(-50%);
-      top: 46%;
+      top: 55%;
       left: 50%;
       right: auto;
     }
@@ -165,6 +174,9 @@ body {
     img {
       display: inline-block;
       vertical-align: middle;
+    }
+    @include mv-media(max, 992px) {
+      bottom: 3%;
     }
   }
   @keyframes transY {
@@ -200,7 +212,10 @@ body {
     left: auto;
     padding: 10px 25px;
     &:hover {
-      color: var(--color_primary);
+      // color: var(--color_primary);
+      color: #fff;
+      background-color: #010001;
+      border: 1px solid #fff;
     }
   }
 }

@@ -48,8 +48,12 @@
           }
           .hallmark_item {
             padding-left: 50px;
+            margin: 10px 0;
             img {
               margin: 0 auto;
+            }
+            @include mv-media(max, 767px) {
+              padding-left: 0;
             }
           }
 
@@ -58,9 +62,17 @@
             top: 50%;
             transform: translateY(-50%);
             bottom: 0px;
+            @include mv-media(max, 767px) {
+              top: unset;
+              transform: unset;
+              bottom: -90%;
+            }
             li {
               margin: 5px 5px;
               display: block;
+              @include mv-media(max, 767px) {
+                display: inline-block;
+              }
             }
           }
           .slick-list {
@@ -538,10 +550,63 @@
       #autoSlider {
         position: relative;
         height: 520px;
-        display: none;
+        // display: none;
+        @extend .f_r_aj_center;
         .photo {
           position: absolute;
           height: 520px;
+          display: none;
+          .txt {
+            font-size: 60px;
+            line-height: 80px;
+            color: var(--secondary-color);
+            font-family: var(--p_f_s_r);
+            position: absolute;
+            bottom: 35px;
+            right: 25px;
+            background: linear-gradient(115deg, #c0a280 40%, #3c0e22 60%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            @include mv-media(max, 767px) {
+              font-size: 32px;
+              line-height: 40px;
+            }
+          }
+
+          .txt_one {
+            right: 25px;
+            @include mv-media(max, 767px) {
+              right: 50px;
+            }
+          }
+          .txt_two {
+            right: -15px;
+            @include mv-media(max, 767px) {
+              right: 20px;
+            }
+          }
+          .txt_thr {
+            right: -35px;
+            @include mv-media(max, 767px) {
+              right: 20px;
+            }
+          }
+        }
+
+        .fade {
+          animation-name: fade;
+          animation-duration: 1.5s;
+        }
+        @keyframes fade {
+          from {
+            opacity: 0.4;
+          }
+          to {
+            opacity: 1;
+          }
+        }
+        .photocar1,
+        .photocar2 {
           display: none;
         }
       }
