@@ -59,6 +59,7 @@ $(".slider-for").slick({
   infinite: true,
   pauseOnHover: false,
   asNavFor: ".slider-nav",
+  autoplay: false,
 });
 var sliderNav = $(".slider-nav");
 
@@ -94,8 +95,12 @@ if (sliderNav.length) {
         breakpoint: 767,
         settings: {
           slidesToShow: 1,
-          dots: true,
+          dots: false,
           arrows: false,
+          variableWidth: true,
+          // centerMode: true,
+          vertical: false,
+          autoplay: false,
         },
       },
     ],
@@ -135,26 +140,30 @@ $("#skip").on("click", function () {
   $(".intro-video").fadeOut();
   loadBannerAnim();
 });
-
-$(function () {
-  console.log("scrolllll");
-  var currentPosition = 0;
-  var photo = $(".photo");
-  var photoNums = photo.length;
-
-  var speed = 600;
-  var timeout = 5000;
-  $(".photo").eq(0).show();
-
-  function move() {
-    var nextPhoto = (currentPosition + 1) % photoNums;
-    photo.eq(currentPosition).fadeOut(speed);
-    photo.eq(nextPhoto).fadeIn(speed);
-    currentPosition = nextPhoto;
+$(window).on("scroll", function (e) {
+  var scrollTopPos = $(window).scrollTop();
+  var getOffsetTop = $("#autoSlider").offset().top;
+  if (getOffsetTop <= scrollTopPos + ($(".header").outerHeight() + 50)) {
+    $(".photocar1").addClass("photo");
+    $(".photocar2").addClass("photo");
   }
-  setInterval(move, timeout);
 });
+var slideIndex = 0;
+showSlides();
 
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("photo");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {
+    slideIndex = 1;
+  }
+  slides[slideIndex - 1].style.display = "block";
+  setTimeout(showSlides, 5000); // Change image every 2 seconds
+}
 ScrollOut({
   targets: ".prlx",
   cssProps: {

@@ -64,6 +64,15 @@ $(document).ready(function (evt) {
       slidesToScroll: 1,
       vertical: true,
       verticalSwiping: true,
+      responsive: [
+        {
+          breakpoint: 991,
+          settings: {
+            vertical: false,
+            verticalSwiping: false,
+          },
+        },
+      ],
     });
 
     $(".tab-a").click(function () {
@@ -121,8 +130,9 @@ $(document).ready(function (evt) {
           breakpoint: 767,
           settings: {
             slidesToShow: 1,
-            arrows: false,
-            dots: true,
+            arrows: true,
+            dots: false,
+            variableWidth: true,
           },
         },
       ],
@@ -149,8 +159,8 @@ $(document).ready(function (evt) {
           breakpoint: 767,
           settings: {
             slidesToShow: 1,
-            arrows: false,
-            dots: true,
+            arrows: true,
+            dots: false,
           },
         },
       ],
@@ -213,8 +223,9 @@ $(document).ready(function (evt) {
           breakpoint: 767,
           settings: {
             slidesToShow: 1,
-            arrows: false,
-            dots: true,
+            arrows: true,
+            dots: false,
+            variableWidth: true,
           },
         },
       ],
@@ -244,8 +255,8 @@ $(document).ready(function (evt) {
           breakpoint: 767,
           settings: {
             slidesToShow: 1,
-            arrows: false,
-            dots: true,
+            arrows: true,
+            dots: false,
             variableWidth: false,
           },
         },
