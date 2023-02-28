@@ -383,10 +383,18 @@ h6 {
   right: 0;
   cursor: pointer;
   z-index: 1;
+  @include mv-media(max, 767px) {
+    width: 30px;
+  }
 }
 
 .prev-arrow {
   right: 55px;
+}
+.next-arrow {
+  @include mv-media(max, 767px) {
+    right: 10px;
+  }
 }
 
 //progress bar css start here
@@ -412,6 +420,6 @@ h6 {
   }
   @media only screen and (max-width: 767px) {
     width: 70%;
-    display: none;
+    // display: none;
   }
 }

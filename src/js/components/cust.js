@@ -59,6 +59,7 @@ $(".slider-for").slick({
   infinite: true,
   pauseOnHover: false,
   asNavFor: ".slider-nav",
+  autoplay: false,
 });
 var sliderNav = $(".slider-nav");
 
@@ -94,8 +95,12 @@ if (sliderNav.length) {
         breakpoint: 767,
         settings: {
           slidesToShow: 1,
-          dots: true,
+          dots: false,
           arrows: false,
+          variableWidth: true,
+          // centerMode: true,
+          vertical: false,
+          autoplay: false,
         },
       },
     ],
