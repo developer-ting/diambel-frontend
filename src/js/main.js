@@ -184,7 +184,7 @@ $(document).ready(function (evt) {
       autoplay: true,
       arrows: false,
       speed: 1000,
-      slidesToShow: 5,
+      slidesToShow: 3,
       slidesToScroll: 1,
       variableWidth: true,
     });
@@ -249,6 +249,7 @@ $(document).ready(function (evt) {
           breakpoint: 991,
           settings: {
             slidesToShow: 2,
+            arrows: true,
           },
         },
         {

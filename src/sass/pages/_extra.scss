@@ -343,6 +343,9 @@ body {
         @include mv-media(max, 1280px) {
           left: -9%;
         }
+        @include mv-media(max, 991px) {
+          left: -7%;
+        }
       }
       .next-arrow {
         right: unset;
@@ -351,6 +354,9 @@ body {
         top: 0;
         @include mv-media(max, 1280px) {
           left: -9%;
+        }
+        @include mv-media(max, 991px) {
+          left: -7%;
         }
       }
       // .slick-arrow {
@@ -484,7 +490,8 @@ body {
       left: -42%;
     }
     @include mv-media(max, 992px) {
-      display: none;
+      display: block;
+      left: -49%;
     }
   }
 }
