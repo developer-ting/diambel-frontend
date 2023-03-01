@@ -30,13 +30,14 @@ footer {
       justify-content: center;
       padding-bottom: 60px;
       @include mv-media(max, 767px) {
-        flex-wrap: wrap;
-        padding-bottom: 40px;
+        // flex-wrap: wrap;
+        padding-bottom: 20px;
       }
       .logos_img {
         padding: 0px 20px;
         @include mv-media(max, 767px) {
           margin-top: 20px;
+          padding: 0px 5px;
         }
         img {
         }
@@ -49,7 +50,7 @@ footer {
         width: 22%;
       }
       @include mv-media(max, 767px) {
-        width: 47%;
+        width: 100%;
         margin-bottom: 20px;
       }
 
@@ -83,13 +84,20 @@ footer {
       h5 {
         font-size: 20px;
         margin-bottom: 15px;
+        @include mv-media(max, 767px) {
+          margin-bottom: 0px;
+          margin-top: 20px;
+        }
       }
 
       .footer_list {
         li {
           margin-bottom: 12px;
           text-decoration: none;
-
+          @include mv-media(max, 767px) {
+            margin-bottom: 0px;
+            margin-top: 12px;
+          }
           a {
             color: #413e3e;
 
@@ -120,6 +128,9 @@ footer {
           right: 0;
           top: 0px;
           opacity: 0.5;
+          @include mv-media(max, 767px) {
+           display: none;
+          }
         }
         @include mv-media(max, 767px) {
           padding-right: 0px;
@@ -154,7 +165,7 @@ footer {
 
     .copyright_text {
       @include mv-media(max, 767px) {
-        padding-bottom: 10px;
+        padding: 20px 0px;
       }
     }
 
@@ -165,6 +176,52 @@ footer {
 
     @include sm-down {
       flex-direction: column;
+    }
+    .footer_logo{
+      padding-top: 20px;
+      img{
+        margin: 0 auto;
+      }
+    }
+  }
+
+  .footer_box {
+    
+    @include mv-media(max, 767px) {
+      border-top: 1px solid rgba(192,162,128,0.5);
+    }
+
+    &.border_0 {
+      border-top: none;
+    }
+    
+    
+    h5 {
+      color: #000;
+      margin: 0;
+      font-weight: 500;
+      font-family: "Cabin", sans-serif;
+      text-align: left;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    span {
+      display: none;
+      @include mv-media(max, 767px) {
+        display: block;
+      }
+      i {
+        color: #000;
+        font-size: 21px;
+      }
+    }
+
+    .footer_content {
+      // display: none;
+      @include mv-media(max, 767px) {
+        display: none;
+      }
     }
   }
 }

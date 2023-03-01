@@ -170,3 +170,20 @@ ScrollOut({
     viewportY: true,
   },
 });
+
+if (window.innerWidth < 767) {
+  $(".footer_box > h5").on("click", function () {
+    if ($(this).hasClass("active")) {
+      $(this).removeClass("active");
+      $(this).siblings(".footer_content").slideUp(200);
+      $(".footer_box >h5 i").removeClass("fa-minus").addClass("fa-plus");
+    } else {
+      $(".footer_box > h5 i").removeClass("fa-minus").addClass("fa-plus");
+      $(this).find("i").removeClass("fa-plus").addClass("fa-minus");
+      $(".footer_box > h5").removeClass("active");
+      $(this).addClass("active");
+      $(".footer_content").slideUp(200);
+      $(this).siblings(".footer_content").slideDown(200);
+    }
+  });
+}
