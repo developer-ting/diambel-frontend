@@ -187,6 +187,14 @@ $(document).ready(function (evt) {
       slidesToShow: 3,
       slidesToScroll: 1,
       variableWidth: true,
+      responsive: [
+        {
+          breakpoint: 767,
+          settings: {
+            dots: true,
+          },
+        },
+      ],
     });
 
     $(".review_content_slider").slick({
