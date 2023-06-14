@@ -238,9 +238,6 @@
       opacity: calc(var(--visible-y) * var(--visible-y));
       transform: scale(calc(0.5 + calc(var(--visible-y) * 0.5)));
       z-index: 1;
-      .border_15{
-        border-radius: 15px;
-      }
       .postion_vector {
         position: absolute;
       }
@@ -279,14 +276,252 @@
       }
     }
   }
+  .bg_main {
+    background: #efe8e1;
+    background: linear-gradient(140deg, #efe8e1 10%, #faf9f9 26%, #eee8e0 70%);
+    .our_catalogue {
+      .title_info {
+        align-items: center;
+        @include mv-media(max, 767px) {
+          padding-bottom: 30px;
+        }
+      }
+      .tab-menu {
+        ul {
+          @include mv-media(max, 767px) {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+          }
+          li {
+            display: inline-block;
+            padding-right: 50px;
+            @include mv-media(max, 767px) {
+              padding-right: 10px;
+            }
+            a {
+              text-decoration: none;
+              border-bottom: 2px solid var(--secondary-color);
+              font-size: 20px;
+              opacity: 0.3;
+              font-weight: 500;
+              padding: 0 0 7px;
+              &.active-a {
+                opacity: 1;
+              }
+              @include mv-media(max, 767px) {
+                font-size: 17px;
+              }
+            }
+          }
+        }
+      }
+      .tab-box {
+        display: none;
+        &.tab-active {
+          display: block;
+        }
 
-  .working_across_main{
+        .our_catalogue_flex {
+          justify-content: space-between;
+          margin: 0px -10px;
+          @include mv-media(max, 991px) {
+            flex-wrap: wrap;
+          }
+          @include mv-media(max, 767px) {
+            padding-bottom: 30px;
+          }
+          .our_catalogue_content {
+            width: 33.33%;
+            padding: 0px 10px;
+            @include mv-media(max, 767px) {
+              width: 85vw;
+            }
+            .our_catalogue_box {
+              position: relative;
+              padding: 25px 30px;
+              margin-top: 40px;
+              background-color: var(--white-color);
+              transition: 0.5s ease-in-out;
+              @include mv-media(max, 1199px) {
+                padding: 15px 15px;
+              }
+
+              h5 {
+                font-size: 22px;
+                font-weight: 500;
+                @include mv-media(max, 767px) {
+                  padding-bottom: 60px;
+                }
+                span {
+                  color: var(--secondary-color);
+                }
+              }
+
+              .our_catalogue_img {
+                position: relative;
+                .main_img {
+                  transition: 0.5s ease-in-out;
+                }
+                img {
+                  margin: 0 auto;
+                  transition: 0.5s ease-in-out;
+                }
+                .hover_img {
+                  opacity: 0;
+                  position: absolute;
+                  top: 50%;
+                  left: 50%;
+                  width: 100%;
+                  transform: translate(-50%, -50%);
+                  transition: 0.5s ease-in-out;
+                }
+              }
+              .our_catalogue_desc {
+                @include mv-media(max, 767px) {
+                  padding-top: 30px;
+                }
+                h6 {
+                  font-size: 20px;
+                }
+                .arrow_box {
+                  display: flex;
+                  justify-content: space-between;
+                  span {
+                    a {
+                      background-color: var(--secondary-color);
+                      width: 30px;
+                      height: 30px;
+                      border-radius: 50px;
+                      display: flex;
+                      align-items: center;
+                      justify-content: center;
+                    }
+                  }
+                }
+                hr {
+                  width: 40px;
+                  margin-left: 0;
+                  border: 1px solid var(--secondary-color);
+                }
+              }
+              &:hover {
+                box-shadow: 0 15px 18px -3px rgba(212, 190, 168, 0.36);
+                .main_img {
+                  opacity: 0;
+                  transition: 0.5s ease-in-out;
+                }
+                .hover_img {
+                  opacity: 1;
+                  transition: 0.5s ease-in-out;
+                }
+              }
+            }
+          }
+        }
+      }
+
+      .btn_box {
+        @include mv-media(max, 767px) {
+          text-align: left;
+          padding-top: 50px;
+        }
+      }
+    }
+
+    .solutions_diamonds {
+      @include mv-media(max, 767px) {
+        padding-bottom: 0px;
+      }
+      .title_info {
+        align-items: center;
+      }
+      .solutions_diamonds_flex {
+        justify-content: space-between;
+        @include mv-media(max, 767px) {
+          flex-wrap: wrap;
+        }
+        .solutions_diamonds_left {
+          width: 45%;
+          position: relative;
+          @include mv-media(max, 767px) {
+            width: 100%;
+          }
+          .solution_main_img {
+            // position: relative;
+          }
+          .p_s {
+            position: absolute;
+          }
+          .solutions_layer_one {
+            top: -15px;
+            right: 15px;
+            z-index: 1;
+          }
+          .solutions_layer_two {
+            top: 78px;
+            left: -10px;
+            z-index: 1;
+          }
+          .solutions_layer_three {
+            bottom: -15px;
+            left: 50px;
+          }
+        }
+        .solutions_diamonds_right {
+          width: 55%;
+          padding-left: 60px;
+          @include mv-media(max, 991px) {
+            padding-left: 30px;
+          }
+          @include mv-media(max, 767px) {
+            width: 100%;
+            padding-left: 0px;
+            padding-top: 30px;
+          }
+
+          .faq_section {
+            .faq_box {
+              border-top: 1px solid rgba(60, 14, 34, 0.5);
+              padding: 25px 0;
+              &:last-child {
+                border-bottom: 1px solid rgba(60, 14, 34, 0.5);
+              }
+              .faq_title {
+                text-decoration: none;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                h5 {
+                  color: var(--secondary-color);
+                }
+                span {
+                  i {
+                    color: var(--color_primary);
+                    font-size: 24px;
+                  }
+                }
+              }
+              .content {
+                display: none;
+              }
+            }
+            .opac0 {
+              @include mv-media(max, 991px) {
+                display: none;
+              }
+            }
+          }
+        }
+      }
+    }
+
     .working_across {
       position: relative;
       overflow: hidden;
-      // @include mv-media(max, 767px) {
-      //   padding-top: 100px;
-      // }
+      @include mv-media(max, 767px) {
+        padding-top: 100px;
+      }
       .p_s {
         position: absolute;
       }
@@ -450,190 +685,6 @@
         }
       }
     }
-  }
-
-  .bg_main {
-    background: #efe8e1;
-    background: linear-gradient(140deg, #efe8e1 10%, #faf9f9 26%, #eee8e0 70%);
-    
-    .solutions_diamonds {
-      @include mv-media(max, 767px) {
-        padding-bottom: 0px;
-      }
-      .title_info {
-        align-items: center;
-      }
-      .solutions_diamonds_flex {
-        justify-content: space-between;
-        @include mv-media(max, 767px) {
-          flex-wrap: wrap;
-        }
-        .solutions_diamonds_left {
-          width: 45%;
-          position: relative;
-          @include mv-media(max, 767px) {
-            width: 100%;
-          }
-          .solution_main_img {
-            // position: relative;
-          }
-          .p_s {
-            position: absolute;
-          }
-          .solutions_layer_one {
-            top: -15px;
-            right: 15px;
-            z-index: 1;
-          }
-          .solutions_layer_two {
-            top: 78px;
-            left: -10px;
-            z-index: 1;
-          }
-          .solutions_layer_three {
-            bottom: -15px;
-            left: 50px;
-          }
-        }
-        .solutions_diamonds_right_box {
-          
-          @include mv-media(max, 991px) {
-            
-          }
-          @include mv-media(max, 767px) {
-            width: 100%;
-          }
-
-          .faq_section {
-            .faq_box {
-              padding: 20px 70px;
-              background-color: var(--white-color);
-              border-radius: 15px;
-              margin-bottom: 20px;
-              @include mv-media(max, 1199px) {
-                padding: 20px 40px;
-              }
-              @include mv-media(max, 767px) {
-                padding: 20px 15px;
-              }
-              .faq_title {
-                text-decoration: none;
-                display: flex;
-                align-items: center;
-                justify-content: space-between;
-
-                .header_icon_box{
-                  text-decoration: none;
-                  display: flex;
-                  align-items: center;
-                  position: relative;
-                  width: 100%;
-                  .icon_box{
-                    width: 17%;
-                    position: relative;
-                    @include mv-media(max, 991px) {
-                      width: 20%;
-                    }
-                    @include mv-media(max, 767px) {
-                      width: 35%;
-                    }
-                    .value_shape_img {
-                      position: relative;
-                      background-color: var(--secondary-color);
-                      width: 92px;
-                      height: 106px;
-                      clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
-                      display: flex;
-                      align-items: center;
-                      justify-content: center;
-                      transition: 0.2s ease-in-out;
-                      @include mv-media(max, 767px) {
-                        width: 80px;
-                        height: 90px;
-                      }
-                      img {
-                        transition: 0.2s ease-in-out;
-                      }
-                      // @include mv-media(max, 992px) {
-                      //   margin: 0 auto;
-                      // }
-                    }
-                    .value_hover_img {
-                      position: absolute;
-                      top: 5px;
-                      left: -5px;
-                      img {
-                        // @include mv-media(max, 767px) {
-                        //   margin: 0 auto;
-                        //   top: 30px;
-                        //   left: 25px;
-                        // }
-                      }
-            
-                    }
-                  }
-                  .header_txt{
-                    width: 80%;
-                    @include mv-media(max, 767px) {
-                      width: 65%;
-                    }
-                    h5 {
-                      color: var(--secondary-color);
-                      @include mv-media(max, 767px) {
-                       font-size: 20px;
-                       line-height: 30px;
-                      }
-                    }
-                  }
-                }
-                
-                span {
-                  i {
-                    color: var(--color_primary);
-                    font-size: 22px;
-                    @include mv-media(max, 767px) {
-                      font-size: 18px;
-                     }
-                  }
-                }
-              }
-              .content {
-                display: none;
-                .content_box{
-                  display: flex;
-                  padding-bottom: 20px;
-                  @include mv-media(max, 767px) {
-                    padding-top: 20px;
-                  }
-                  .blank_content{
-                    width: 17%;
-                    @include mv-media(max, 991px) {
-                      width: 20%;
-                    }
-                    @include mv-media(max, 767px) {
-                      display: none;
-                    }
-                  }
-                  p{
-                    width: 80%;
-                    @include mv-media(max, 767px) {
-                      width: 100%;
-                    }
-                  }
-                }
-              }
-            }
-            .opac0 {
-              @include mv-media(max, 991px) {
-                display: none;
-              }
-            }
-          }
-        }
-      }
-    }
-
-    
   }
 
   .crystallising_main {

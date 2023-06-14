@@ -22,7 +22,7 @@
   <main style="padding-top:0" id="index_page" class="smooth_scroll_pages">
 
     <!--  insert body content  -->
-    <!-- <section class="intro-video">
+    <section class="intro-video">
       <video autoplay muted playsinline class="hidden-xs">
         <source src="img/intro/1920x1080.mp4" type="video/mp4">
       </video>
@@ -30,7 +30,7 @@
         <source src="img/intro/480x900.mp4" type="video/mp4">
       </video>
       <a id="skip" class="btn_project_default" href="javascript:void(0)">Skip Intro</a>
-    </section> -->
+    </section>
     <section class="banner-sec">
       <!-- <picture>
                 <source media="(max-width:465px)" srcset="img/intro/banner.jpg"> 
@@ -62,7 +62,7 @@
       <div class="container">
         <div class="hallmark_credibilty_inside">
           <div class="hallmark_title">
-            <h2 class="text_lg">The Seal Of Integrity</h2>
+            <h2 class="text_lg">The hallmark of credibility</h2>
           </div>
           <div class="hallmark_credibilty_right">
             <div class="hallmark_slider">
@@ -87,26 +87,44 @@
     <section class="journey_main ptb_100">
       <div class="container">
         <div class="journey_title toTop" data-scroll>
-          <h2 class="text_xxl">Our Journey At a Glance</h2>
+          <h2 class="text_xxl">Our illustrious journey at a glance</h2>
         </div>
         <div class="illustrious_flex_outer">
 
           <div class="illustrious_flex d_flex">
             <div class="illustrious_left">
-              <img class="line_two" src="img/home/line_two_new.png" alt="line_two" />
+              <img class="line_two" src="img/home/line_two.png" alt="line_two" />
               <!-- <img class="dotsSlide visible-xs" src="img/dotsSlide.png" alt="line_two" /> -->
               <div class="slider slider-nav">
                 <div class="thumbnail_txt">
-                  <h2 class="text_xxl">Present Day</h2>
-                  <p class="text_reg">Today, we offer unmatched 360° solutions while exclusively working with reputed miners and retail partners.</p>
+                  <h2 class="text_xxl">2021</h2>
+                  <p class="text_reg">Lorem ipsum dolor sit amet, consetetur
+                    sadipscing elitr, sed diam nonumy eirmod tempor
+                    invidunt ut labore et dolore magna aliquyam erat.</p>
                 </div>
                 <div class="thumbnail_txt">
-                  <h2 class="text_xxl">2010</h2>
-                  <p class="text_reg">We go further downstream in the pipeline to get one step closer to retail by diversifying our offerings to jewellery distribution in London under ‘Mireya UK Ltd.’</p>
+                  <h2 class="text_xxl">2022</h2>
+                  <p class="text_reg">Lorem ipsum dolor sit amet, consetetur
+                    sadipscing elitr, sed diam nonumy eirmod tempor
+                    invidunt ut labore et dolore magna aliquyam erat.</p>
                 </div>
                 <div class="thumbnail_txt">
-                  <h2 class="text_xxl">1990</h2>
-                  <p class="text_reg">We establish Harshid Exports, with a long-term aim to grow our manufacturing and distribution of polished diamonds. </p>
+                  <h2 class="text_xxl">2023</h2>
+                  <p class="text_reg">Lorem ipsum dolor sit amet, consetetur
+                    sadipscing elitr, sed diam nonumy eirmod tempor
+                    invidunt ut labore et dolore magna aliquyam erat.</p>
+                </div>
+                <div class="thumbnail_txt">
+                  <h2 class="text_xxl">2024</h2>
+                  <p class="text_reg">Lorem ipsum dolor sit amet, consetetur
+                    sadipscing elitr, sed diam nonumy eirmod tempor
+                    invidunt ut labore et dolore magna aliquyam erat.</p>
+                </div>
+                <div class="thumbnail_txt">
+                  <h2 class="text_xxl">2026</h2>
+                  <p class="text_reg">Lorem ipsum dolor sit amet, consetetur
+                    sadipscing elitr, sed diam nonumy eirmod tempor
+                    invidunt ut labore et dolore magna aliquyam erat.</p>
                 </div>
               </div>
               <div class="progress progress_green progress5">
@@ -128,12 +146,25 @@
                   <img src="img/home/slider_one.jpg" alt="slider_one" />
                 </div>
                 <div class="slider_image">
-                  <img src="img/home/year_2010.jpg" alt="slider_one" />
+                  <img src="img/home/slider_one.jpg" alt="slider_one" />
                   <!-- <img class="line_layer" src="img/home/line_layer.png" alt="line_layer" /> -->
                   <!-- <img class="slider_layer_two" src="img/home/review_layer_two.png" alt="slider_one" /> -->
                 </div>
                 <div class="slider_image">
-                  <img src="img/home/year_1990.jpg" alt="slider_one" />
+                  <img src="img/home/slider_one.jpg" alt="slider_one" />
+                  <!-- <img class="slider_layer_two" src="img/home/review_layer_two.png" alt="slider_one" /> -->
+                </div>
+                <div class="slider_image">
+                  <img src="img/home/slider_one.jpg" alt="slider_one" />
+                  <!-- <img class="slider_layer_two" src="img/home/review_layer_two.png" alt="slider_one" /> -->
+                </div>
+                <div class="slider_image">
+                  <img src="img/home/slider_one.jpg" alt="slider_one" />
+                  <!-- <img class="slider_layer_two" src="img/home/review_layer_two.png" alt="slider_one" /> -->
+                </div>
+                <div class="slider_image">
+                  <img src="img/home/slider_one.jpg" alt="slider_one" />
+
                   <!-- <img class="slider_layer_two" src="img/home/review_layer_two.png" alt="slider_one" /> -->
                 </div>
               </div>
@@ -146,7 +177,7 @@
       </div>
     </section>
 
-    <!-- <section class="values_shape_main pb_100">
+    <section class="values_shape_main pb_100">
       <div class="container">
         <div class="values_shape_title toTop" data-scroll>
           <h2 class="text_xxl">Values that shape us</h2>
@@ -206,7 +237,7 @@
         </div>
 
       </div>
-    </section> -->
+    </section>
 
     <section class="nature_main pb_100">
       <div class="container">
@@ -214,13 +245,19 @@
         <div class="title_info d_flex pb_40 toTop" data-scroll>
           <div class="title">
             <h2 class="text_xxl pb_20">Committed to nature</h2>
-            <p class="text_reg">To honour the unmatched value of natural diamonds at every step of the process, we have alliances with top miners in the world. We only work with sustainably sourced natural diamonds that meet our ethical and quality standards.</p>
+            <p class="text_reg">To honor the unmatched value of natural diamonds at every step of the
+              process,
+              we have alliances with top miners in the world. We only work with sustainably
+              sourced natural diamonds that meet our ethical and quality standards.</p>
+          </div>
+          <div class="btn_box">
+            <a class="btn_project_default black_btn" href="">Learn More</a>
           </div>
         </div>
 
         <div class="nature_img">
-          <img class="hidden-xs border_15" src="img/home/nature_img_new.jpg" alt="nature_img" />
-          <img class="visible-xs border_15" src="img/home/nature_mobile_img_new.jpg" alt="nature_img" />
+          <img class="hidden-xs" src="img/home/nature_img.jpg" alt="nature_img" />
+          <img class="visible-xs" src="img/home/nature_mobile.jpg" alt="nature_img" />
           <div class="vactor_one postion_vector">
             <img src="img/home/nature_vector_one.png" alt="nature_vector_one" />
           </div>
@@ -232,8 +269,442 @@
       </div>
     </section>
 
-    <section class="working_across_main pb_100">
-      <div class="working_across">
+    <section class="bg_main ptb_100">
+
+      <div class="our_catalogue">
+        <div class="container">
+
+          <div class="title_info d_flex pb_40 toTop" data-scroll>
+            <div class="title">
+              <h2 class="text_xxl">Our catalogue</h2>
+            </div>
+            <div class="btn_box hidden-xs">
+              <a class="btn_project_default black_btn" href="">Learn More</a>
+            </div>
+          </div>
+
+          <div class="tab-menu toTop" data-scroll>
+            <ul>
+              <li><a href="javascript:void(0)" class="tab-a text_reg active-a" data-id="polished_diamonds">Polished
+                  Diamonds</a>
+              </li>
+              <li><a href="javascript:void(0)" class="tab-a text_reg" data-id="rough_diamonds">Rough
+                  Diamonds</a></li>
+            </ul>
+          </div>
+
+          <div class="tab-main-box toTop" data-scroll>
+
+            <div class="tab-box tab-active" data-id="polished_diamonds">
+
+              <div class="our_catalogue_flex d_flex our_catalogue_slider">
+
+                <div class="our_catalogue_content">
+                  <div class="our_catalogue_box border_r15">
+                    <h5 class="text_md pb_60">GIA <span>3245509</span></h5>
+                    <div class="our_catalogue_img">
+                      <div class="main_img">
+                        <img src="img/home/dim_img.jpg" alt="reliability" />
+                      </div>
+                      <div class="hover_img">
+                        <img src="img/home/dim_img_hover.jpg" alt="reliability" />
+                      </div>
+                    </div>
+                    <div class="our_catalogue_desc pt_20">
+                      <p class="text_reg">Cut Score</p>
+                      <h6 class="text_reg f_w_s">9.2</h6>
+                      <hr>
+                      <p class="text_reg">Visual Carat</p>
+                      <h6 class="text_reg f_w_s arrow_box">1.10
+                        <span><a href=""><img src="img/home/circle_arrow.png" alt="circle_arrow" /></a></span>
+                      </h6>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="our_catalogue_content">
+                  <div class="our_catalogue_box border_r15">
+                    <h5 class="text_md pb_60">GIA <span>3245509</span></h5>
+                    <div class="our_catalogue_img">
+                      <div class="main_img">
+                        <img src="img/home/dim_img.jpg" alt="reliability" />
+                      </div>
+                      <div class="hover_img">
+                        <img src="img/home/dim_img_hover.jpg" alt="reliability" />
+                      </div>
+                    </div>
+                    <div class="our_catalogue_desc pt_20">
+                      <p class="text_reg">Cut Score</p>
+                      <h6 class="text_reg f_w_s">9.2</h6>
+                      <hr>
+                      <p class="text_reg">Visual Carat</p>
+                      <h6 class="text_reg f_w_s arrow_box">1.10
+                        <span><a href=""><img src="img/home/circle_arrow.png" alt="circle_arrow" /></a></span>
+                      </h6>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="our_catalogue_content">
+                  <div class="our_catalogue_box border_r15">
+                    <h5 class="text_md pb_60">GIA <span>3245509</span></h5>
+                    <div class="our_catalogue_img">
+                      <div class="main_img">
+                        <img src="img/home/dim_img.jpg" alt="reliability" />
+                      </div>
+                      <div class="hover_img">
+                        <img src="img/home/dim_img_hover.jpg" alt="reliability" />
+                      </div>
+                    </div>
+                    <div class="our_catalogue_desc pt_20">
+                      <p class="text_reg">Cut Score</p>
+                      <h6 class="text_reg f_w_s">9.2</h6>
+                      <hr>
+                      <p class="text_reg">Visual Carat</p>
+                      <h6 class="text_reg f_w_s arrow_box">1.10
+                        <span><a href=""><img src="img/home/circle_arrow.png" alt="circle_arrow" /></a></span>
+                      </h6>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="our_catalogue_content">
+                  <div class="our_catalogue_box border_r15">
+                    <h5 class="text_md pb_60">GIA <span>3245509</span></h5>
+                    <div class="our_catalogue_img">
+                      <div class="main_img">
+                        <img src="img/home/dim_img.jpg" alt="reliability" />
+                      </div>
+                      <div class="hover_img">
+                        <img src="img/home/dim_img_hover.jpg" alt="reliability" />
+                      </div>
+                    </div>
+                    <div class="our_catalogue_desc pt_20">
+                      <p class="text_reg">Cut Score</p>
+                      <h6 class="text_reg f_w_s">9.2</h6>
+                      <hr>
+                      <p class="text_reg">Visual Carat</p>
+                      <h6 class="text_reg f_w_s arrow_box">1.10
+                        <span><a href=""><img src="img/home/circle_arrow.png" alt="circle_arrow" /></a></span>
+                      </h6>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="our_catalogue_content">
+                  <div class="our_catalogue_box border_r15">
+                    <h5 class="text_md pb_60">GIA <span>3245509</span></h5>
+                    <div class="our_catalogue_img">
+                      <div class="main_img">
+                        <img src="img/home/dim_img.jpg" alt="reliability" />
+                      </div>
+                      <div class="hover_img">
+                        <img src="img/home/dim_img_hover.jpg" alt="reliability" />
+                      </div>
+                    </div>
+                    <div class="our_catalogue_desc pt_20">
+                      <p class="text_reg">Cut Score</p>
+                      <h6 class="text_reg f_w_s">9.2</h6>
+                      <hr>
+                      <p class="text_reg">Visual Carat</p>
+                      <h6 class="text_reg f_w_s arrow_box">1.10
+                        <span><a href=""><img src="img/home/circle_arrow.png" alt="circle_arrow" /></a></span>
+                      </h6>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+              <div class="progress progress_green progress1">
+                <div class="progress_bar"></div>
+              </div>
+
+            </div>
+
+            <div class="tab-box" data-id="rough_diamonds">
+
+              <div class="our_catalogue_flex d_flex our_catalogue_slider_two">
+
+                <div class="our_catalogue_content">
+                  <div class="our_catalogue_box border_r15">
+                    <h5 class="text_md pb_60">GIA <span>356509</span></h5>
+                    <div class="our_catalogue_img">
+                      <div class="main_img">
+                        <img src="img/home/dim_img.jpg" alt="reliability" />
+                      </div>
+                      <div class="hover_img">
+                        <img src="img/home/dim_img_hover.jpg" alt="reliability" />
+                      </div>
+                    </div>
+                    <div class="our_catalogue_desc pt_20">
+                      <p class="text_reg">Cut Score</p>
+                      <h6 class="text_reg f_w_s">9.2</h6>
+                      <hr>
+                      <p class="text_reg">Visual Carat</p>
+                      <h6 class="text_reg f_w_s arrow_box">1.10
+                        <span><a href=""><img src="img/home/circle_arrow.png" alt="circle_arrow" /></a></span>
+                      </h6>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="our_catalogue_content">
+                  <div class="our_catalogue_box border_r15">
+                    <h5 class="text_md pb_60">GIA <span>3245509</span></h5>
+                    <div class="our_catalogue_img">
+                      <div class="main_img">
+                        <img src="img/home/dim_img.jpg" alt="reliability" />
+                      </div>
+                      <div class="hover_img">
+                        <img src="img/home/dim_img_hover.jpg" alt="reliability" />
+                      </div>
+                    </div>
+                    <div class="our_catalogue_desc pt_20">
+                      <p class="text_reg">Cut Score</p>
+                      <h6 class="text_reg f_w_s">9.2</h6>
+                      <hr>
+                      <p class="text_reg">Visual Carat</p>
+                      <h6 class="text_reg f_w_s arrow_box">1.10
+                        <span><a href=""><img src="img/home/circle_arrow.png" alt="circle_arrow" /></a></span>
+                      </h6>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="our_catalogue_content">
+                  <div class="our_catalogue_box border_r15">
+                    <h5 class="text_md pb_60">GIA <span>3245509</span></h5>
+                    <div class="our_catalogue_img">
+                      <div class="main_img">
+                        <img src="img/home/dim_img.jpg" alt="reliability" />
+                      </div>
+                      <div class="hover_img">
+                        <img src="img/home/dim_img_hover.jpg" alt="reliability" />
+                      </div>
+                    </div>
+                    <div class="our_catalogue_desc pt_20">
+                      <p class="text_reg">Cut Score</p>
+                      <h6 class="text_reg f_w_s">9.2</h6>
+                      <hr>
+                      <p class="text_reg">Visual Carat</p>
+                      <h6 class="text_reg f_w_s arrow_box">1.10
+                        <span><a href=""><img src="img/home/circle_arrow.png" alt="circle_arrow" /></a></span>
+                      </h6>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="our_catalogue_content">
+                  <div class="our_catalogue_box border_r15">
+                    <h5 class="text_md pb_60">GIA <span>3245509</span></h5>
+                    <div class="our_catalogue_img">
+                      <div class="main_img">
+                        <img src="img/home/dim_img.jpg" alt="reliability" />
+                      </div>
+                      <div class="hover_img">
+                        <img src="img/home/dim_img_hover.jpg" alt="reliability" />
+                      </div>
+                    </div>
+                    <div class="our_catalogue_desc pt_20">
+                      <p class="text_reg">Cut Score</p>
+                      <h6 class="text_reg f_w_s">9.2</h6>
+                      <hr>
+                      <p class="text_reg">Visual Carat</p>
+                      <h6 class="text_reg f_w_s arrow_box">1.10
+                        <span><a href=""><img src="img/home/circle_arrow.png" alt="circle_arrow" /></a></span>
+                      </h6>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="our_catalogue_content">
+                  <div class="our_catalogue_box border_r15">
+                    <h5 class="text_md pb_60">GIA <span>3245509</span></h5>
+                    <div class="our_catalogue_img">
+                      <div class="main_img">
+                        <img src="img/home/dim_img.jpg" alt="reliability" />
+                      </div>
+                      <div class="hover_img">
+                        <img src="img/home/dim_img_hover.jpg" alt="reliability" />
+                      </div>
+                    </div>
+                    <div class="our_catalogue_desc pt_20">
+                      <p class="text_reg">Cut Score</p>
+                      <h6 class="text_reg f_w_s">9.2</h6>
+                      <hr>
+                      <p class="text_reg">Visual Carat</p>
+                      <h6 class="text_reg f_w_s arrow_box">1.10
+                        <span><a href=""><img src="img/home/circle_arrow.png" alt="circle_arrow" /></a></span>
+                      </h6>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+              <div class="progress progress_green progress2">
+                <div class="progress_bar"></div>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="btn_box pt_100 visible-xs">
+            <a class="btn_project_default black_btn" href="">Learn More</a>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="solutions_diamonds ptb_100">
+        <div class="container">
+
+          <div class="title_info d_flex pb_60 toTop" data-scroll>
+            <div class="title">
+              <h2 class="text_xxl pb_20">Solutions beyond diamonds</h2>
+              <p class="text_reg">We go over and above the industry norms to provide you with 360-degree
+                services, from
+                customized orders to tech support to inventory management. Every step of the way, you
+                can trust us to
+                deliver on promises made, and beyond. </p>
+            </div>
+            <div class="btn_box">
+              <a class="btn_project_default black_btn" href="">Know More</a>
+            </div>
+          </div>
+
+          <div class="solutions_diamonds_flex d_flex">
+            <div class="solutions_diamonds_left hidden-xs toTop" data-scroll>
+              <img id="FQ1" class="border_r15 solution_main_img imgSec showing" src="img/home/solutions_img.jpg"
+                alt="solutions_img" />
+              <img id="FQ2" class="border_r15 solution_main_img imgSec" src="img/home/solutions_img.jpg"
+                alt="solutions_img" />
+              <img id="FQ3" class="border_r15 solution_main_img imgSec" src="img/home/solutions_img.jpg"
+                alt="solutions_img" />
+              <img id="FQ4" class="border_r15 solution_main_img imgSec" src="img/home/solutions_img.jpg"
+                alt="solutions_img" />
+              <img id="FQ5" class="border_r15 solution_main_img imgSec opac0" src="img/home/solutions_img.jpg"
+                alt="solutions_img" />
+              <img id="FQ6" class="border_r15 solution_main_img imgSec opac0" src="img/home/solutions_img.jpg"
+                alt="solutions_img" />
+              <img class="solutions_layer_one p_s" src="img/home/solutions_layer_one.png" alt="solutions_img" />
+              <img class="solutions_layer_two p_s" src="img/home/solutions_layer_two.png" alt="solutions_img" />
+              <img class="solutions_layer_three p_s" src="img/home/solutions_layer_three.png" alt="solutions_img" />
+            </div>
+
+            <div class="solutions_diamonds_right toTop" data-scroll>
+              <div class="faq_section">
+                <div class="faq_box">
+                  <a href="javascript:void(0)" class="faq_title" step-name="FQ1">
+                    <h5 class="text_md">Inventory Management</h5>
+                    <span>
+                      <i class="fa-solid fa-minus"></i>
+                    </span>
+                  </a>
+                  <div class="content pt_20" style="display:block">
+                    <p class="text_reg">Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry. Lorem
+                      Ipsum has been the industry's standard dummy text ever since.</p>
+                    <div class="solution_mobile_img pt_20 visible-xs">
+                      <img class="border_r15 solution_main_img" src="img/home/solutions_img.jpg" alt="solutions_img" />
+                    </div>
+                  </div>
+                </div>
+                <div class="faq_box">
+                  <a href="javascript:void(0)" class="faq_title" step-name="FQ2">
+                    <h5 class="text_md ">Tech Support</h5>
+                    <span>
+                      <i class="fa-solid fa-plus"></i>
+                    </span>
+                  </a>
+                  <div class="content pt_20">
+                    <p class="text_reg">Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry. Lorem
+                      Ipsum has been the industry's standard dummy text ever since.</p>
+                    <div class="solution_mobile_img pt_20 visible-xs">
+                      <img class="border_r15 solution_main_img" src="img/home/solutions_img.jpg" alt="solutions_img" />
+                    </div>
+                  </div>
+                </div>
+
+                <div class="faq_box">
+                  <a href="javascript:void(0)" class="faq_title" step-name="FQ3">
+                    <h5 class="text_md">Customer Support</h5>
+                    <span>
+                      <i class="fa-solid fa-plus"></i>
+                    </span>
+                  </a>
+                  <div class="content pt_20">
+                    <p class="text_reg">Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry. Lorem
+                      Ipsum has been the industry's standard dummy text ever since.</p>
+                    <div class="solution_mobile_img pt_20 visible-xs">
+                      <img class="border_r15 solution_main_img" src="img/home/solutions_img.jpg" alt="solutions_img" />
+                    </div>
+                  </div>
+                </div>
+
+                <div class="faq_box">
+                  <a href="javascript:void(0)" class="faq_title" step-name="FQ4">
+                    <h5 class="text_md">Marketing</h5>
+                    <span>
+                      <i class="fa-solid fa-plus"></i>
+                    </span>
+                  </a>
+                  <div class="content pt_20">
+                    <p class="text_reg">Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry. Lorem
+                      Ipsum has been the industry's standard dummy text ever since.</p>
+                    <div class="solution_mobile_img pt_20 visible-xs">
+                      <img class="border_r15 solution_main_img" src="img/home/solutions_img.jpg" alt="solutions_img" />
+                    </div>
+                  </div>
+                </div>
+
+                <!-- <div class="faq_box opac0" style="position:relative; z-index:-1">
+                  <a href="javascript:void(0)" class="faq_title" step-name="FQ5">
+                    <h5 class="text_md">Lorem Ipsum</h5>
+                    <span>
+                      <i class="fa-solid fa-plus"></i>
+                    </span>
+                  </a>
+                  <div class="content pt_20">
+                    <p class="text_reg">Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry. Lorem
+                      Ipsum has been the industry's standard dummy text ever since.</p>
+                    <div class="solution_mobile_img pt_20 visible-xs">
+                      <img class="border_r15 solution_main_img" src="img/home/solutions_img.jpg" alt="solutions_img" />
+                    </div>
+                  </div>
+                </div> -->
+
+                <!-- <div class="faq_box opac0" style="position:relative; z-index:-1">
+                  <a href="javascript:void(0)" class="faq_title" step-name="FQ6">
+                    <h5 class="text_md">Lorem Ipsum</h5>
+                    <span>
+                      <i class="fa-solid fa-plus"></i>
+                    </span>
+                  </a>
+                  <div class="content pt_20">
+                    <p class="text_reg">Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry. Lorem
+                      Ipsum has been the industry's standard dummy text ever since.</p>
+                    <div class="solution_mobile_img pt_20 visible-xs">
+                      <img class="border_r15 solution_main_img" src="img/home/solutions_img.jpg" alt="solutions_img" />
+                    </div>
+                  </div>
+                </div> -->
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="working_across pt_100">
         <img class="working_layer_one p_s prlx" data-scroll-parallax src="img/home/working_layer_one.png"
           alt="working_layer" />
         <img class="working_layer_two p_s prlx" data-scroll-parallax src="img/home/working_layer_two.png"
@@ -246,9 +717,25 @@
           <div class="title_info pb_60 toTop" data-scroll>
             <div class="title">
               <h2 class="text_xl pb_20">Working across the pipeline</h2>
-              <p class="text_reg">Diambel has created a vertically integrated pipeline in the natural diamond industry, offering end-to-end solutions in rough and polished diamonds as well as jewellery.</p>
+              <p class="text_reg">Diambel has created a vertically integrated pipeline in the natural
+                diamond industry,
+                offering end-to-end solutions in rough and polished diamonds as well as jewelry.</p>
             </div>
           </div>
+          <!-- <div class="working_across_slider">
+                        <div class="working_across_slider_content">
+                            <img class="" src="img/home/rough.png" alt="rough" />
+                            <p class="txt txt_one">Rough</p>
+                        </div>
+                        <div class="working_across_slider_content">
+                            <img class="" src="img/home/polished.png" alt="polished" />
+                            <p class="txt txt_two">Polished</p>
+                        </div>
+                        <div class="working_across_slider_content">
+                            <img class="" src="img/home/jewellery.png" alt="jewellery" />
+                            <p class="txt">Jewellery</p>
+                        </div>
+                    </div> -->
 
           <div id="autoSlider" class="">
             <div class="photo fade">
@@ -264,146 +751,6 @@
               <p class="txt txt_thr">Jewellery</p>
             </div>
           </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="bg_main ptb_100">
-      <div class="solutions_diamonds">
-        <div class="container">
-
-          <div class="title_info d_flex pb_60 toTop" data-scroll>
-            <div class="title">
-              <h2 class="text_xxl pb_20">Solutions beyond diamonds</h2>
-              <p class="text_reg">We go over and above the industry norms to provide you with 360-degree services, from customised orders to tech support to inventory management. Every step of the way, you can trust us to deliver on promises made, and beyond.</p>
-            </div>
-            <!-- <div class="btn_box">
-              <a class="btn_project_default black_btn" href="">Know More</a>
-            </div> -->
-          </div>
-
-          <div class="solutions_diamonds_flex">
-            
-            <div class="solutions_diamonds_right_box toTop" data-scroll>
-              <div class="faq_section">
-                <div class="faq_box">
-                  <a href="javascript:void(0)" class="faq_title active" step-name="FQ1">
-                    <div class="header_icon_box">
-                      <div class="icon_box">
-                        <div class="value_shape_img">
-                          <img src="img/home/faq_white_one.png" alt="reliability" />
-                        </div>
-                        <div class="value_hover_img">
-                          <img src="img/home/faq_curve_bg.png" alt="faq_curve_bg" />
-                        </div>
-                      </div>
-                      <div class="header_txt">
-                        <h5 class="text_md">Programme-Based Offerings </h5>
-                      </div>
-                    </div>
-                    <span>
-                      <i class="fa-solid fa-minus"></i>
-                    </span>
-                  </a>
-                  <div class="content" style="display:block">
-                    <div class="content_box">
-                      <span class="blank_content"></span>
-                        <p class="text_reg">We partner exclusively with reputed miners for large volume of specific assortments that creates the right value for natural diamonds in the market. We also offer a special assortment of rough diamonds to manufacturers which fulfils their requirements. Through our relationship with jewellery manufacturers and brands, we work on customised programmes to help them achieve their product vision.</p>
-                    </div>
-                    
-                  </div>
-                </div>
-                
-                <div class="faq_box">
-                  <a href="javascript:void(0)" class="faq_title" step-name="FQ1">
-                    <div class="header_icon_box">
-                      <div class="icon_box">
-                        <div class="value_shape_img">
-                          <img src="img/home/faq_white_two.png" alt="reliability" />
-                        </div>
-                        <div class="value_hover_img">
-                          <img src="img/home/faq_curve_bg.png" alt="faq_curve_bg" />
-                        </div>
-                      </div>
-                      <div class="header_txt">
-                        <h5 class="text_md">Tech Support </h5>
-                      </div>
-                    </div>
-                    <span>
-                      <i class="fa-solid fa-plus"></i>
-                    </span>
-                  </a>
-                  <div class="content">
-                    <div class="content_box">
-                      <span class="blank_content"></span>
-                        <p class="text_reg">We partner exclusively with reputed miners for large volume of specific assortments that creates the right value for natural diamonds in the market. We also offer a special assortment of rough diamonds to manufacturers which fulfils their requirements. Through our relationship with jewellery manufacturers and brands, we work on customised programmes to help them achieve their product vision.</p>
-                    </div>
-                    
-                  </div>
-                </div>
-
-                <div class="faq_box">
-                  <a href="javascript:void(0)" class="faq_title" step-name="FQ1">
-                    <div class="header_icon_box">
-                      <div class="icon_box">
-                        <div class="value_shape_img">
-                          <img src="img/home/faq_white_three.png" alt="reliability" />
-                        </div>
-                        <div class="value_hover_img">
-                          <img src="img/home/faq_curve_bg.png" alt="faq_curve_bg" />
-                        </div>
-                      </div>
-                      <div class="header_txt">
-                        <h5 class="text_md">Customer Support </h5>
-                      </div>
-                    </div>
-                    <span>
-                      <i class="fa-solid fa-plus"></i>
-                    </span>
-                  </a>
-                  <div class="content">
-                    <div class="content_box">
-                      <span class="blank_content"></span>
-                        <p class="text_reg">We partner exclusively with reputed miners for large volume of specific assortments that creates the right value for natural diamonds in the market. We also offer a special assortment of rough diamonds to manufacturers which fulfils their requirements. Through our relationship with jewellery manufacturers and brands, we work on customised programmes to help them achieve their product vision.</p>
-                    </div>
-                    
-                  </div>
-                </div>
-
-                <div class="faq_box">
-                  <a href="javascript:void(0)" class="faq_title" step-name="FQ1">
-                    <div class="header_icon_box">
-                      <div class="icon_box">
-                        <div class="value_shape_img">
-                          <img src="img/home/faq_white_four.png" alt="reliability" />
-                        </div>
-                        <div class="value_hover_img">
-                          <img src="img/home/faq_curve_bg.png" alt="faq_curve_bg" />
-                        </div>
-                      </div>
-                      <div class="header_txt">
-                        <h5 class="text_md">Mine To Market </h5>
-                      </div>
-                    </div>
-                    <span>
-                      <i class="fa-solid fa-plus"></i>
-                    </span>
-                  </a>
-                  <div class="content">
-                    <div class="content_box">
-                      <span class="blank_content"></span>
-                        <p class="text_reg">We partner exclusively with reputed miners for large volume of specific assortments that creates the right value for natural diamonds in the market. We also offer a special assortment of rough diamonds to manufacturers which fulfils their requirements. Through our relationship with jewellery manufacturers and brands, we work on customised programmes to help them achieve their product vision.</p>
-                    </div>
-                    
-                  </div>
-                </div>
-
-                
-
-              </div>
-            </div>
-          </div>
-
         </div>
       </div>
 
