@@ -22,7 +22,7 @@
   <main style="padding-top:0" id="index_page" class="smooth_scroll_pages">
 
     <!--  insert body content  -->
-    <section class="intro-video">
+    <!-- <section class="intro-video">
       <video autoplay muted playsinline class="hidden-xs">
         <source src="img/intro/1920x1080.mp4" type="video/mp4">
       </video>
@@ -30,7 +30,7 @@
         <source src="img/intro/480x900.mp4" type="video/mp4">
       </video>
       <a id="skip" class="btn_project_default" href="javascript:void(0)">Skip Intro</a>
-    </section>
+    </section> -->
     <section class="banner-sec">
       <!-- <picture>
                 <source media="(max-width:465px)" srcset="img/intro/banner.jpg"> 
@@ -404,193 +404,25 @@
             </div>
           </div>
 
-        </div>
-      </div>
-
-    </section>
-
-    <section class="crystallising_main ptb_100">
-      <div class="container">
-        <div class="title_info pb_60 toTop" data-scroll>
-          <div class="title">
-            <h2 class="text_xl pb_20">Crystallising partnerships <br class="hidden-xs">for 30+ years</h2>
-            <p class="text_reg">Businesses across the pipeline have put their faith in us.</p>
-          </div>
-        </div>
-      </div>
-      <div class="crystallising_logo toTop" data-scroll>
-        <div class="logo_slider">
-          <div class="logo_item">
-            <img src="img/home/harshid.png" alt="unilever_logo" />
-          </div>
-          <div class="logo_item">
-            <img src="img/home/mireya-gold.png" alt="johnson_logo" />
-          </div>
-          <div class="logo_item">
-            <img src="img/home/rio.png" alt="diamond_logo" />
-          </div>
-          <div class="logo_item">
-            <img src="img/home/sightholder.png" alt="ITC_logo" />
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="review_main">
-
-
-      <img class="review_layer_three" src="img/home/solutions_layer_one.png" alt="solutions_layer_one" />
-      <!-- <div class="review_bg_img">
-        <img src="img/home/review_img.jpg" alt="review_img" />
-      </div> -->
-
-      <div class="container">
-        <img class="review_layer_one prlx" data-scroll-parallax src="img/home/review_layer_one.png"
-          alt="review_layer_one" />
-        <img class="review_layer_two prlx" data-scroll-parallax src="img/home/review_layer_two.png"
-          alt="review_layer_two" />
-        <div class="review_content_slider toTop" data-scroll>
-
-          <div class="review_content">
-            <div class="review_content_inside">
-              <img class="quate" src="img/home/quate.png" alt="quate" />
-              <p class="text_reg">
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an
-                unknown printer
-                took
-                a
-                galley of type and scrambled it to make a type specimen book. Lorem Ipsum has been the
-                industry's
-                standard
-                dummy text ever since the 1500s when an unknown printer took a galley of type and
-                scrambled it to make a
-                type specimen book.Lorem Ipsum has been the industry's standard dummy text ever since
-                the 1500s
-              </p>
-              <div class="star ptb_20">
-                <img class="star" src="img/home/star.png" alt="star" />
-              </div>
-              <div class="name_bottom d_flex">
-                <div class="name_left">
-                  <p class="text_reg">
-                    Pranav Dandge
-                  </p>
-                  <p class="text_reg designation">
-                    Action VFX, Owner
-                  </p>
+          <div class="our_manufacturing pt_100">
+            <div class="our_manufacturing_content">
+              <h2 class="text_xl pb_20">Our Manufacturing Capabilities</h2>
+              <p class="text_reg pb_20">In 1990, we established Harshid Exports, with an aim to accomplish our vision of going downstream in the diamond pipeline. Since then, we’ve extended our operations across two state-of-the-art manufacturing centres driven solely by Harshid Exports. </p>
+              <p class="text_reg">We employ a diverse workforce made up of highly skilled craftsmen, each with 15+ years of experience, and young talent, who can unlock the true potential of technological advances in our industry. Today, we have further grown our distribution through the presence in Mumbai, Antwerp, Dubai and London.</p>
+              <div class="our_counter pt_40" id="counter">
+                <div class="counter_item">
+                  <h3 class="text_lg"><span class="count" data-count="1000"></span><span>+</span></h3>
+                  <p class="text_reg">People</p>
                 </div>
-                <div class="name_right">
-                  <span><img class="star" src="img/home/person_icon.png" alt="star" /></span>
+                <div class="counter_item">
+                <h3 class="text_lg"><span class="count" data-count="40"></span><span>+</span></h3>
+                  <p class="text_reg">Years Of Experience</p>
                 </div>
               </div>
             </div>
-
-          </div>
-
-          <div class="review_content">
-            <div class="review_content_inside">
-              <img class="quate" src="img/home/quate.png" alt="quate" />
-              <p class="text_reg">
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an
-                unknown printer
-                took
-                a
-                galley of type and scrambled it to make a type specimen book. Lorem Ipsum has been the
-                industry's
-                standard
-                dummy text ever since the 1500s when an unknown printer took a galley of type and
-                scrambled it to make a
-                type specimen book.Lorem Ipsum has been the industry's standard dummy text ever since
-                the 1500s
-              </p>
-              <div class="star ptb_20">
-                <img class="star" src="img/home/star.png" alt="star" />
-              </div>
-              <div class="name_bottom d_flex">
-                <div class="name_left">
-                  <p class="text_reg">
-                    Pranav Dandge
-                  </p>
-                  <p class="text_reg designation">
-                    Action VFX, Owner
-                  </p>
-                </div>
-                <div class="name_right">
-                  <span><img class="star" src="img/home/person_icon.png" alt="star" /></span>
-                </div>
-              </div>
+            <div class="our_manufacturing_img">
+             <img src="img/home/our_manufaturing.jpg" alt="our_manufaturing" />
             </div>
-
-          </div>
-          <div class="review_content">
-            <div class="review_content_inside">
-              <img class="quate" src="img/home/quate.png" alt="quate" />
-              <p class="text_reg">
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an
-                unknown printer
-                took
-                a
-                galley of type and scrambled it to make a type specimen book. Lorem Ipsum has been the
-                industry's
-                standard
-                dummy text ever since the 1500s when an unknown printer took a galley of type and
-                scrambled it to make a
-                type specimen book.Lorem Ipsum has been the industry's standard dummy text ever since
-                the 1500s
-              </p>
-              <div class="star ptb_20">
-                <img class="star" src="img/home/star.png" alt="star" />
-              </div>
-              <div class="name_bottom d_flex">
-                <div class="name_left">
-                  <p class="text_reg">
-                    Pranav Dandge
-                  </p>
-                  <p class="text_reg designation">
-                    Action VFX, Owner
-                  </p>
-                </div>
-                <div class="name_right">
-                  <span><img class="star" src="img/home/person_icon.png" alt="star" /></span>
-                </div>
-              </div>
-            </div>
-
-          </div>
-          <div class="review_content">
-            <div class="review_content_inside">
-              <img class="quate" src="img/home/quate.png" alt="quate" />
-              <p class="text_reg">
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an
-                unknown printer
-                took
-                a
-                galley of type and scrambled it to make a type specimen book. Lorem Ipsum has been the
-                industry's
-                standard
-                dummy text ever since the 1500s when an unknown printer took a galley of type and
-                scrambled it to make a
-                type specimen book.Lorem Ipsum has been the industry's standard dummy text ever since
-                the 1500s
-              </p>
-              <div class="star ptb_20">
-                <img class="star" src="img/home/star.png" alt="star" />
-              </div>
-              <div class="name_bottom d_flex">
-                <div class="name_left">
-                  <p class="text_reg">
-                    Pranav Dandge
-                  </p>
-                  <p class="text_reg designation">
-                    Action VFX, Owner
-                  </p>
-                </div>
-                <div class="name_right">
-                  <span><img class="star" src="img/home/person_icon.png" alt="star" /></span>
-                </div>
-              </div>
-            </div>
-
           </div>
 
         </div>
@@ -601,13 +433,13 @@
     <section class="upcoming_events ptb_100">
       <div class="container">
 
-        <div class="title_info d_flex pb_40 toTop" data-scroll>
+        <div class="title_info d_flex pb_20 toTop" data-scroll>
           <div class="title">
             <h2 class="text_xxl">Upcoming events</h2>
           </div>
-          <div class="btn_box hidden-xs">
+          <!-- <div class="btn_box hidden-xs">
             <a class="btn_project_default black_btn" href="">View All</a>
-          </div>
+          </div> -->
         </div>
 
         <div class="upcoming_events_flex d_flex upcoming_events_slider toTop" data-scroll>
@@ -615,37 +447,14 @@
           <div class="upcoming_events_content">
             <div class="upcoming_events_box border_r15">
               <div class="upcoming_btn pb_30">
-                <a class="btn_project_default" href="">Abu Dhabi</a>
+                <!-- <a class="btn_project_default" href="">Abu Dhabi</a> -->
+                <img src="img/home/logo_HKTDC.png" alt="logo_HKTDC" />
               </div>
               <h5 class="text_md ">Diamond Expo 2023</h5>
               <div class="upcoming_events_desc">
                 <p class="text_reg d_flex">
                   <span class="icon"><img src="img/home/location_icon.png" alt="location_icon" /></span>
-                  <span class="box_txt">Abu Dhabi National <br>Exhibition Centre</span>
-                </p>
-
-                <p class="text_reg d_flex">
-                  <span class="icon"><img src="img/home/date_icon.png" alt="location_icon" /></span>
-                  <span class="box_txt">January 8 - 10</span>
-                </p>
-                <div class="book_appointment_btn pt_40">
-                  <a class="btn_project_secondary" href="">Book Appoinment</a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-
-          <div class="upcoming_events_content">
-            <div class="upcoming_events_box border_r15">
-              <div class="upcoming_btn pb_30">
-                <a class="btn_project_default" href="">Abu Dhabi</a>
-              </div>
-              <h5 class="text_md ">Diamond Expo 2023</h5>
-              <div class="upcoming_events_desc">
-                <p class="text_reg d_flex">
-                  <span class="icon"><img src="img/home/location_icon.png" alt="location_icon" /></span>
-                  <span class="box_txt">Abu Dhabi National <br>Exhibition Centre</span>
+                  <span class="box_txt">Hong kong National Exhibition Centre</span>
                 </p>
 
                 <p class="text_reg d_flex">
@@ -662,13 +471,14 @@
           <div class="upcoming_events_content">
             <div class="upcoming_events_box border_r15">
               <div class="upcoming_btn pb_30">
-                <a class="btn_project_default" href="">Abu Dhabi</a>
+                <!-- <a class="btn_project_default" href="">Abu Dhabi</a> -->
+                <img src="img/home/vo_logo.png" alt="logo_HKTDC" />
               </div>
               <h5 class="text_md ">Diamond Expo 2023</h5>
               <div class="upcoming_events_desc">
                 <p class="text_reg d_flex">
                   <span class="icon"><img src="img/home/location_icon.png" alt="location_icon" /></span>
-                  <span class="box_txt">Abu Dhabi National <br>Exhibition Centre</span>
+                  <span class="box_txt">Hong kong National Exhibition Centre</span>
                 </p>
 
                 <p class="text_reg d_flex">
@@ -685,13 +495,85 @@
           <div class="upcoming_events_content">
             <div class="upcoming_events_box border_r15">
               <div class="upcoming_btn pb_30">
-                <a class="btn_project_default" href="">Abu Dhabi</a>
+                <!-- <a class="btn_project_default" href="">Abu Dhabi</a> -->
+                <img src="img/home/JewelleryGem_logo_RGB.png" alt="logo_HKTDC" />
               </div>
               <h5 class="text_md ">Diamond Expo 2023</h5>
               <div class="upcoming_events_desc">
                 <p class="text_reg d_flex">
                   <span class="icon"><img src="img/home/location_icon.png" alt="location_icon" /></span>
-                  <span class="box_txt">Abu Dhabi National <br>Exhibition Centre</span>
+                  <span class="box_txt">Hong kong National Exhibition Centre</span>
+                </p>
+
+                <p class="text_reg d_flex">
+                  <span class="icon"><img src="img/home/date_icon.png" alt="location_icon" /></span>
+                  <span class="box_txt">January 8 - 10</span>
+                </p>
+                <div class="book_appointment_btn pt_40">
+                  <a class="btn_project_secondary" href="">Book Appoinment</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="upcoming_events_content">
+            <div class="upcoming_events_box border_r15">
+              <div class="upcoming_btn pb_30">
+                <!-- <a class="btn_project_default" href="">Abu Dhabi</a> -->
+                <img src="img/home/logo_HKTDC.png" alt="logo_HKTDC" />
+              </div>
+              <h5 class="text_md ">Diamond Expo 2023</h5>
+              <div class="upcoming_events_desc">
+                <p class="text_reg d_flex">
+                  <span class="icon"><img src="img/home/location_icon.png" alt="location_icon" /></span>
+                  <span class="box_txt">Hong kong National Exhibition Centre</span>
+                </p>
+
+                <p class="text_reg d_flex">
+                  <span class="icon"><img src="img/home/date_icon.png" alt="location_icon" /></span>
+                  <span class="box_txt">January 8 - 10</span>
+                </p>
+                <div class="book_appointment_btn pt_40">
+                  <a class="btn_project_secondary" href="">Book Appoinment</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="upcoming_events_content">
+            <div class="upcoming_events_box border_r15">
+              <div class="upcoming_btn pb_30">
+                <!-- <a class="btn_project_default" href="">Abu Dhabi</a> -->
+                <img src="img/home/vo_logo.png" alt="logo_HKTDC" />
+              </div>
+              <h5 class="text_md ">Diamond Expo 2023</h5>
+              <div class="upcoming_events_desc">
+                <p class="text_reg d_flex">
+                  <span class="icon"><img src="img/home/location_icon.png" alt="location_icon" /></span>
+                  <span class="box_txt">Hong kong National Exhibition Centre</span>
+                </p>
+
+                <p class="text_reg d_flex">
+                  <span class="icon"><img src="img/home/date_icon.png" alt="location_icon" /></span>
+                  <span class="box_txt">January 8 - 10</span>
+                </p>
+                <div class="book_appointment_btn pt_40">
+                  <a class="btn_project_secondary" href="">Book Appoinment</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="upcoming_events_content">
+            <div class="upcoming_events_box border_r15">
+              <div class="upcoming_btn pb_30">
+                <!-- <a class="btn_project_default" href="">Abu Dhabi</a> -->
+                <img src="img/home/JewelleryGem_logo_RGB.png" alt="logo_HKTDC" />
+              </div>
+              <h5 class="text_md ">Diamond Expo 2023</h5>
+              <div class="upcoming_events_desc">
+                <p class="text_reg d_flex">
+                  <span class="icon"><img src="img/home/location_icon.png" alt="location_icon" /></span>
+                  <span class="box_txt">Hong kong National Exhibition Centre</span>
                 </p>
 
                 <p class="text_reg d_flex">
@@ -709,9 +591,9 @@
         <div class="progress progress_green progress3">
           <div class="progress_bar"></div>
         </div>
-        <div class="btn_box visible-xs">
+        <!-- <div class="btn_box visible-xs">
           <a class="btn_project_default black_btn" href="">View All</a>
-        </div>
+        </div> -->
       </div>
     </section>
 
@@ -720,15 +602,13 @@
 
         <div class="title_info d_flex pb_40 toTop" data-scroll>
           <div class="title">
-            <h2 class="text_xxl pb_20">Our CSR vision for 2030</h2>
-            <p class="text_reg">We want to create a sustainable future where education, environment, and economic
-              opportunities are accessible to everyone. By investing in these three key pillars of society, we can make
-              a meaningful impact on communities around the world.
+            <h2 class="text_xxl pb_20">Corporate Social Responsibilty </h2>
+            <p class="text_reg">We want to create a sustainable future where education, environment, and economic opportunities are accessible to everyone. By investing in these three key pillars of society, we can make a meaningful impact on communities around the world.
             </p>
           </div>
-          <div class="btn_box hidden-xs">
+          <!-- <div class="btn_box hidden-xs">
             <a class="btn_project_default black_btn" href="">View All</a>
-          </div>
+          </div> -->
         </div>
 
         <div class="parentBx">
@@ -814,9 +694,9 @@
           <div class="progress_bar"></div>
         </div>
 
-        <div class="btn_box visible-xs">
+        <!-- <div class="btn_box visible-xs">
           <a class="btn_project_default black_btn" href="">View All</a>
-        </div>
+        </div> -->
       </div>
     </section>
 
@@ -913,6 +793,41 @@
         matchHeight.init();
       });
     }, 1000);
+
+    //counter script
+
+    var counted = 0;
+$(window).scroll(function() {
+
+  var oTop = $('#counter').offset().top - window.innerHeight;
+  if (counted == 0 && $(window).scrollTop() > oTop) {
+    $('.count').each(function() {
+      var $this = $(this),
+        countTo = $this.attr('data-count');
+      $({
+        countNum: $this.text()
+      }).animate({
+          countNum: countTo
+        },
+
+        {
+
+          duration: 2000,
+          easing: 'swing',
+          step: function() {
+            $this.text(Math.floor(this.countNum));
+          },
+          complete: function() {
+            $this.text(this.countNum);
+            //alert('finished');
+          }
+
+        });
+    });
+    counted = 1;
+  }
+
+});
 
   });
   </script>
