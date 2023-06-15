@@ -28,7 +28,8 @@ footer {
       display: flex;
       align-items: flex-start;
       justify-content: center;
-      padding-bottom: 60px;
+      padding-bottom: 40px;
+      border-bottom: 1px solid rgba(192,162,128,0.5);
       @include mv-media(max, 767px) {
         // flex-wrap: wrap;
         padding-bottom: 20px;

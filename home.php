@@ -22,7 +22,7 @@
   <main style="padding-top:0" id="index_page" class="smooth_scroll_pages">
 
     <!--  insert body content  -->
-    <!-- <section class="intro-video">
+    <section class="intro-video">
       <video autoplay muted playsinline class="hidden-xs">
         <source src="img/intro/1920x1080.mp4" type="video/mp4">
       </video>
@@ -30,7 +30,7 @@
         <source src="img/intro/480x900.mp4" type="video/mp4">
       </video>
       <a id="skip" class="btn_project_default" href="javascript:void(0)">Skip Intro</a>
-    </section> -->
+    </section>
     <section class="banner-sec">
       <!-- <picture>
                 <source media="(max-width:465px)" srcset="img/intro/banner.jpg"> 
@@ -717,6 +717,26 @@
         </div>
       </div>
     </section>
+
+    <section class="subscribe_main pb_60">
+      <div class="container">
+        <div class="subscribe_flex d_flex toTop" data-scroll>
+          <div class="subscribe_left">
+            <img class="mail_icon" src="img/home/mail.png" alt="mail">
+            <h2 class="text_lg">Subscribe to our newsletter</h2>
+          </div>
+          <div class="subscribe_right">
+            <div class="input_group">
+              <input type="text" class="input_control text_sm" placeholder="Email Address">
+            </div>
+            <div class="btn_box">
+              <a class="btn_project_default black_btn" href="">Submit</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!--  end body content -->
   </main>
   <?php include("includes/footer.html") ?>

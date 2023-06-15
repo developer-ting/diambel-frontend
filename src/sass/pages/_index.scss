@@ -918,7 +918,7 @@
   }
   .get_started {
     .get_started_flex {
-      border-top: 1px solid rgba(192, 162, 128, 0.5);
+      // border-bottom: 1px solid rgba(192, 162, 128, 0.5);
       justify-content: space-between;
       align-items: center;
       @include mv-media(max, 767px) {
@@ -973,6 +973,88 @@
             &:hover {
               background-color: transparent;
               color: var(--color_primary);
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .subscribe_main {
+    .subscribe_flex {
+      justify-content: space-between;
+      align-items: center;
+      background: #ded0c0;
+      background: linear-gradient(136deg,#e8ddd2 3%,#faf9f9 23%,#e8ddd2 70%);
+      border-radius: 8px;
+      padding: 40px 70px;
+      @include mv-media(max, 767px) {
+        flex-wrap: wrap;
+      }
+      .subscribe_left {
+        width: 40%;
+        display: flex;
+        align-items: center;
+        @include mv-media(max, 767px) {
+          width: 100%;
+          text-align: left;
+        }
+        .mail_icon{
+          padding-right: 30px;
+        }
+        .text_lg{
+          font-size: 25px;
+        }
+      }
+      .subscribe_right {
+        width: 57%;
+        text-align: left;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        @include mv-media(max, 767px) {
+          width: 100%;
+          margin-top: 30px;
+          justify-content: space-between;
+          flex-wrap: wrap;
+        }
+        .btn_box {
+          width: 25%;
+          text-align: right;
+          @include mv-media(max, 767px) {
+            width: 100%;
+            text-align: left;
+            padding-bottom: 0px;
+          }
+          .btn_project_default {
+            
+            @include mv-media(max, 767px) {
+              padding: 8px 20px;
+            }
+        }
+        }
+        .input_group {
+          width: 75%;
+         
+          @include mv-media(max, 767px) {
+            width: 100%;
+            text-align: right;
+          }
+          .input_control {
+            width: 100%;
+            background-color: transparent;
+            border: none;
+            border-bottom: 1px solid #3C0E22;
+            font-family: var(--work_sans);
+            &:focus{
+              outline: none;
+            }
+            &::placeholder{
+              font-size: 16px;
+              line-height: 26px;
+              color: var(--color_primary);
+              font-family: var(--work_sans);
+              opacity: 0.5;
             }
           }
         }
