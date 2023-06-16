@@ -22,7 +22,7 @@
   <main style="padding-top:0" id="index_page" class="smooth_scroll_pages">
 
     <!--  insert body content  -->
-    <!-- <section class="intro-video">
+    <section class="intro-video">
       <video autoplay muted playsinline class="hidden-xs">
         <source src="img/intro/1920x1080.mp4" type="video/mp4">
       </video>
@@ -30,7 +30,7 @@
         <source src="img/intro/480x900.mp4" type="video/mp4">
       </video>
       <a id="skip" class="btn_project_default" href="javascript:void(0)">Skip Intro</a>
-    </section> -->
+    </section>
     <section class="banner-sec">
       <!-- <picture>
                 <source media="(max-width:465px)" srcset="img/intro/banner.jpg"> 
