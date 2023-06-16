@@ -22,7 +22,7 @@
   <main style="padding-top:0" id="index_page" class="smooth_scroll_pages">
 
     <!--  insert body content  -->
-    <section class="intro-video">
+    <!-- <section class="intro-video">
       <video autoplay muted playsinline class="hidden-xs">
         <source src="img/intro/1920x1080.mp4" type="video/mp4">
       </video>
@@ -30,7 +30,7 @@
         <source src="img/intro/480x900.mp4" type="video/mp4">
       </video>
       <a id="skip" class="btn_project_default" href="javascript:void(0)">Skip Intro</a>
-    </section>
+    </section> -->
     <section class="banner-sec">
       <!-- <picture>
                 <source media="(max-width:465px)" srcset="img/intro/banner.jpg"> 
@@ -98,15 +98,18 @@
               <div class="slider slider-nav">
                 <div class="thumbnail_txt">
                   <h2 class="text_xxl">Present Day</h2>
-                  <p class="text_reg">Today, we offer unmatched 360° solutions while exclusively working with reputed miners and retail partners.</p>
+                  <p class="text_reg">Today, we offer unmatched 360° solutions while exclusively working with reputed
+                    miners and retail partners.</p>
                 </div>
                 <div class="thumbnail_txt">
                   <h2 class="text_xxl">2010</h2>
-                  <p class="text_reg">We go further downstream in the pipeline to get one step closer to retail by diversifying our offerings to jewellery distribution in London under ‘Mireya UK Ltd.’</p>
+                  <p class="text_reg">We go further downstream in the pipeline to get one step closer to retail by
+                    diversifying our offerings to jewellery distribution in London under ‘Mireya UK Ltd.’</p>
                 </div>
                 <div class="thumbnail_txt">
                   <h2 class="text_xxl">1990</h2>
-                  <p class="text_reg">We establish Harshid Exports, with a long-term aim to grow our manufacturing and distribution of polished diamonds. </p>
+                  <p class="text_reg">We establish Harshid Exports, with a long-term aim to grow our manufacturing and
+                    distribution of polished diamonds. </p>
                 </div>
               </div>
               <div class="progress progress_green progress5">
@@ -214,7 +217,9 @@
         <div class="title_info d_flex pb_40 toTop" data-scroll>
           <div class="title">
             <h2 class="text_xxl pb_20">Committed to nature</h2>
-            <p class="text_reg">To honour the unmatched value of natural diamonds at every step of the process, we have alliances with top miners in the world. We only work with sustainably sourced natural diamonds that meet our ethical and quality standards.</p>
+            <p class="text_reg">To honour the unmatched value of natural diamonds at every step of the process, we have
+              alliances with top miners in the world. We only work with sustainably sourced natural diamonds that meet
+              our ethical and quality standards.</p>
           </div>
         </div>
 
@@ -246,7 +251,8 @@
           <div class="title_info pb_60 toTop" data-scroll>
             <div class="title">
               <h2 class="text_xl pb_20">Working across the pipeline</h2>
-              <p class="text_reg">Diambel has created a vertically integrated pipeline in the natural diamond industry, offering end-to-end solutions in rough and polished diamonds as well as jewellery.</p>
+              <p class="text_reg">Diambel has created a vertically integrated pipeline in the natural diamond industry,
+                offering end-to-end solutions in rough and polished diamonds as well as jewellery.</p>
             </div>
           </div>
 
@@ -275,7 +281,9 @@
           <div class="title_info d_flex pb_60 toTop" data-scroll>
             <div class="title">
               <h2 class="text_xxl pb_20">Solutions beyond diamonds</h2>
-              <p class="text_reg">We go over and above the industry norms to provide you with 360-degree services, from customised orders to tech support to inventory management. Every step of the way, you can trust us to deliver on promises made, and beyond.</p>
+              <p class="text_reg">We go over and above the industry norms to provide you with 360-degree services, from
+                customised orders to tech support to inventory management. Every step of the way, you can trust us to
+                deliver on promises made, and beyond.</p>
             </div>
             <!-- <div class="btn_box">
               <a class="btn_project_default black_btn" href="">Know More</a>
@@ -283,15 +291,15 @@
           </div>
 
           <div class="solutions_diamonds_flex">
-            
-            <div class="solutions_diamonds_right_box toTop" data-scroll>
+
+            <div class="solutions_diamonds_right_box">
               <div class="faq_section">
-                <div class="faq_box">
+                <div class="faq_box toTop" data-scroll>
                   <a href="javascript:void(0)" class="faq_title active" step-name="FQ1">
                     <div class="header_icon_box">
                       <div class="icon_box">
                         <div class="value_shape_img">
-                          <img src="img/home/faq_white_one.png" alt="reliability" />
+                          <img src="img/home/Programme-Based-Offerings.gif" alt="reliability" />
                         </div>
                         <div class="value_hover_img">
                           <img src="img/home/faq_curve_bg.png" alt="faq_curve_bg" />
@@ -308,18 +316,22 @@
                   <div class="content" style="display:block">
                     <div class="content_box">
                       <span class="blank_content"></span>
-                        <p class="text_reg">We partner exclusively with reputed miners for large volume of specific assortments that creates the right value for natural diamonds in the market. We also offer a special assortment of rough diamonds to manufacturers which fulfils their requirements. Through our relationship with jewellery manufacturers and brands, we work on customised programmes to help them achieve their product vision.</p>
+                      <p class="text_reg">We partner exclusively with reputed miners for large volume of specific
+                        assortments that creates the right value for natural diamonds in the market. We also offer a
+                        special assortment of rough diamonds to manufacturers which fulfils their requirements. Through
+                        our relationship with jewellery manufacturers and brands, we work on customised programmes to
+                        help them achieve their product vision.</p>
                     </div>
-                    
+
                   </div>
                 </div>
-                
-                <div class="faq_box">
+
+                <div class="faq_box toTop" data-scroll>
                   <a href="javascript:void(0)" class="faq_title" step-name="FQ1">
                     <div class="header_icon_box">
                       <div class="icon_box">
                         <div class="value_shape_img">
-                          <img src="img/home/faq_white_two.png" alt="reliability" />
+                          <img src="img/home/Tech-Support.gif" alt="reliability" />
                         </div>
                         <div class="value_hover_img">
                           <img src="img/home/faq_curve_bg.png" alt="faq_curve_bg" />
@@ -336,18 +348,22 @@
                   <div class="content">
                     <div class="content_box">
                       <span class="blank_content"></span>
-                        <p class="text_reg">We partner exclusively with reputed miners for large volume of specific assortments that creates the right value for natural diamonds in the market. We also offer a special assortment of rough diamonds to manufacturers which fulfils their requirements. Through our relationship with jewellery manufacturers and brands, we work on customised programmes to help them achieve their product vision.</p>
+                      <p class="text_reg">We partner exclusively with reputed miners for large volume of specific
+                        assortments that creates the right value for natural diamonds in the market. We also offer a
+                        special assortment of rough diamonds to manufacturers which fulfils their requirements. Through
+                        our relationship with jewellery manufacturers and brands, we work on customised programmes to
+                        help them achieve their product vision.</p>
                     </div>
-                    
+
                   </div>
                 </div>
 
-                <div class="faq_box">
+                <div class="faq_box toTop" data-scroll>
                   <a href="javascript:void(0)" class="faq_title" step-name="FQ1">
                     <div class="header_icon_box">
                       <div class="icon_box">
                         <div class="value_shape_img">
-                          <img src="img/home/faq_white_three.png" alt="reliability" />
+                          <img src="img/home/Customer-Support.gif" alt="reliability" />
                         </div>
                         <div class="value_hover_img">
                           <img src="img/home/faq_curve_bg.png" alt="faq_curve_bg" />
@@ -364,18 +380,22 @@
                   <div class="content">
                     <div class="content_box">
                       <span class="blank_content"></span>
-                        <p class="text_reg">We partner exclusively with reputed miners for large volume of specific assortments that creates the right value for natural diamonds in the market. We also offer a special assortment of rough diamonds to manufacturers which fulfils their requirements. Through our relationship with jewellery manufacturers and brands, we work on customised programmes to help them achieve their product vision.</p>
+                      <p class="text_reg">We partner exclusively with reputed miners for large volume of specific
+                        assortments that creates the right value for natural diamonds in the market. We also offer a
+                        special assortment of rough diamonds to manufacturers which fulfils their requirements. Through
+                        our relationship with jewellery manufacturers and brands, we work on customised programmes to
+                        help them achieve their product vision.</p>
                     </div>
-                    
+
                   </div>
                 </div>
 
-                <div class="faq_box">
+                <div class="faq_box toTop" data-scroll>
                   <a href="javascript:void(0)" class="faq_title" step-name="FQ1">
                     <div class="header_icon_box">
                       <div class="icon_box">
                         <div class="value_shape_img">
-                          <img src="img/home/faq_white_four.png" alt="reliability" />
+                          <img src="img/home/Mine-To-Market.gif" alt="reliability" />
                         </div>
                         <div class="value_hover_img">
                           <img src="img/home/faq_curve_bg.png" alt="faq_curve_bg" />
@@ -392,36 +412,45 @@
                   <div class="content">
                     <div class="content_box">
                       <span class="blank_content"></span>
-                        <p class="text_reg">We partner exclusively with reputed miners for large volume of specific assortments that creates the right value for natural diamonds in the market. We also offer a special assortment of rough diamonds to manufacturers which fulfils their requirements. Through our relationship with jewellery manufacturers and brands, we work on customised programmes to help them achieve their product vision.</p>
+                      <p class="text_reg">We partner exclusively with reputed miners for large volume of specific
+                        assortments that creates the right value for natural diamonds in the market. We also offer a
+                        special assortment of rough diamonds to manufacturers which fulfils their requirements. Through
+                        our relationship with jewellery manufacturers and brands, we work on customised programmes to
+                        help them achieve their product vision.</p>
                     </div>
-                    
+
                   </div>
                 </div>
 
-                
+
 
               </div>
             </div>
           </div>
 
-          <div class="our_manufacturing pt_100">
+          <div class="our_manufacturing pt_100 toTop" data-scroll>
             <div class="our_manufacturing_content">
               <h2 class="text_xl pb_20">Our Manufacturing Capabilities</h2>
-              <p class="text_reg pb_20">In 1990, we established Harshid Exports, with an aim to accomplish our vision of going downstream in the diamond pipeline. Since then, we’ve extended our operations across two state-of-the-art manufacturing centres driven solely by Harshid Exports. </p>
-              <p class="text_reg">We employ a diverse workforce made up of highly skilled craftsmen, each with 15+ years of experience, and young talent, who can unlock the true potential of technological advances in our industry. Today, we have further grown our distribution through the presence in Mumbai, Antwerp, Dubai and London.</p>
+              <p class="text_reg pb_20">In 1990, we established Harshid Exports, with an aim to accomplish our vision of
+                going downstream in the diamond pipeline. Since then, we’ve extended our operations across two
+                state-of-the-art manufacturing centres driven solely by Harshid Exports. </p>
+              <p class="text_reg">We employ a diverse workforce made up of highly skilled craftsmen, each with 15+ years
+                of experience, and young talent, who can unlock the true potential of technological advances in our
+                industry. Today, we have further grown our distribution through the presence in Mumbai, Antwerp, Dubai
+                and London.</p>
               <div class="our_counter pt_40" id="counter">
                 <div class="counter_item">
                   <h3 class="text_lg"><span class="count" data-count="1000"></span><span>+</span></h3>
                   <p class="text_reg">People</p>
                 </div>
                 <div class="counter_item">
-                <h3 class="text_lg"><span class="count" data-count="40"></span><span>+</span></h3>
+                  <h3 class="text_lg"><span class="count" data-count="40"></span><span>+</span></h3>
                   <p class="text_reg">Years Of Experience</p>
                 </div>
               </div>
             </div>
             <div class="our_manufacturing_img">
-             <img src="img/home/our_manufaturing.jpg" alt="our_manufaturing" />
+              <img src="img/home/our_manufaturing.jpg" alt="our_manufaturing" />
             </div>
           </div>
 
@@ -603,7 +632,9 @@
         <div class="title_info d_flex pb_40 toTop" data-scroll>
           <div class="title">
             <h2 class="text_xxl pb_20">Corporate Social Responsibilty </h2>
-            <p class="text_reg">We want to create a sustainable future where education, environment, and economic opportunities are accessible to everyone. By investing in these three key pillars of society, we can make a meaningful impact on communities around the world.
+            <p class="text_reg">We want to create a sustainable future where education, environment, and economic
+              opportunities are accessible to everyone. By investing in these three key pillars of society, we can make
+              a meaningful impact on communities around the world.
             </p>
           </div>
           <!-- <div class="btn_box hidden-xs">
@@ -704,11 +735,13 @@
       <div class="container">
         <div class="get_started_flex d_flex ptb_40 toTop" data-scroll>
           <div class="get_started_left">
-            <h2 class="text_xxl">Let’s get started</h2>
+            <h2 class="text_xl">Let’s get started</h2>
           </div>
           <div class="get_started_right">
             <div class="btn_box">
-              <a class="btn_project_default black_btn" href="">Create Account</a>
+
+              <a onClick="openPopup('pop1');" class="btn_project_default black_btn" href="javascript:void(0);">Register
+                Here</a>
             </div>
             <div class="inquire_btn">
               <a class="btn_project_secondary" href="">Inquire Now</a>
@@ -727,7 +760,7 @@
           </div>
           <div class="subscribe_right">
             <div class="input_group">
-              <input type="text" class="input_control text_sm" placeholder="Email Address">
+              <input type="email" class="input_control text_sm" placeholder="Email Address">
             </div>
             <div class="btn_box">
               <a class="btn_project_default black_btn" href="">Submit</a>
@@ -737,12 +770,105 @@
       </div>
     </section>
 
+    <div id="pop1" class="popup" style="display:none;">
+      <div class="overlay">
+      </div>
+
+      <div class="modalOuter">
+        <div class="cancel" onclick="closePopup();">
+          <img src="img/home/closeBtn.png" alt="">
+        </div>
+        <div class="modalPop">
+          <div class="container">
+            <div class="moadalFlex">
+              <div class="modalItem">
+                <form id="register_form">
+
+                  <div class="group_flex">
+                    <div class="input_group">
+                      <input type="text" class="input_control text_sm" id="name" name="Name" placeholder="Name"
+                        required>
+                    </div>
+                    <div class="input_group">
+                      <input type="email" class="input_control text_sm" id="email" name="email" placeholder="Email ID"
+                        required>
+                    </div>
+                  </div>
+                  <div class="group_flex">
+                    <div class="input_group">
+                      <input type="text" class="input_control text_sm" id="contact" name="contact" placeholder="Contact"
+                        required>
+                    </div>
+                    <div class="input_group">
+                      <input type="text" class="input_control text_sm" id="message" name="message" placeholder="Message"
+                        required>
+                    </div>
+                  </div>
+                  <div class="btn_box">
+                    <button type="submit" class="btn_project_default black_btn" href="javascript:void(0);">Submit
+                    </button>
+                  </div>
+
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!--  end body content -->
   </main>
   <?php include("includes/footer.html") ?>
   <?php include("includes/include_js.html") ?>
 
   <script>
+  //for letters only
+  $.validator.addMethod("lettersonly", function(value, element) {
+    return this.optional(element) || /^[a-zA-Z][a-zA-Z ]+$/i.test(value);
+  });
+
+  //for email only
+  $.validator.addMethod("emailtest", function(value, element) {
+    return this.optional(element) || /^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$/i.test(value);
+  });
+  $("#register_form").validate({
+    rules: {
+      name: {
+        required: true,
+        lettersonly: true,
+        minlength: 2
+      },
+      email: {
+        emailtest: true,
+        required: true,
+        email: true
+      },
+      contact: {
+        required: true,
+      },
+      message: {
+        required: true,
+      },
+    },
+    messages: {
+      name: {
+        required: "This field is required",
+        lettersonly: "Please enter a text only"
+      },
+      email: {
+        required: "This field is required",
+        emailtest: "Please enter a valid email address"
+      },
+      contact: {
+        required: "This field is required",
+      },
+      message: {
+        required: "This field is required",
+      },
+    },
+  });
+
   $(document).ready(function(evt) {
     ScrollOut({
       once: true,
@@ -815,41 +941,53 @@
     }, 1000);
 
     //counter script
-
     var counted = 0;
-$(window).scroll(function() {
+    $(window).scroll(function() {
 
-  var oTop = $('#counter').offset().top - window.innerHeight;
-  if (counted == 0 && $(window).scrollTop() > oTop) {
-    $('.count').each(function() {
-      var $this = $(this),
-        countTo = $this.attr('data-count');
-      $({
-        countNum: $this.text()
-      }).animate({
-          countNum: countTo
-        },
+      var oTop = $('#counter').offset().top - window.innerHeight;
+      if (counted == 0 && $(window).scrollTop() > oTop) {
+        $('.count').each(function() {
+          var $this = $(this),
+            countTo = $this.attr('data-count');
+          $({
+            countNum: $this.text()
+          }).animate({
+              countNum: countTo
+            },
 
-        {
+            {
 
-          duration: 2000,
-          easing: 'swing',
-          step: function() {
-            $this.text(Math.floor(this.countNum));
-          },
-          complete: function() {
-            $this.text(this.countNum);
-            //alert('finished');
-          }
+              duration: 2000,
+              easing: 'swing',
+              step: function() {
+                $this.text(Math.floor(this.countNum));
+              },
+              complete: function() {
+                $this.text(this.countNum);
+                //alert('finished');
+              }
 
+            });
         });
-    });
-    counted = 1;
-  }
+        counted = 1;
+      }
 
-});
+    });
+
+
 
   });
+  //pop script
+  function openPopup(el) {
+    $(".popup").hide();
+    $("#" + el).fadeIn(200);
+    $("body").addClass("overflow");
+  }
+
+  function closePopup() {
+    $(".popup").fadeOut(300);
+    $("body").removeClass("overflow");
+  }
   </script>
 </body>
 
