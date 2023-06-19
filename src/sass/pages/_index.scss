@@ -1197,12 +1197,110 @@
   .roadMapSec {
     padding: 100px 0;
     .HeadTxt {
+      margin-bottom: 70px;
       .text_xxl {
         text-align: center;
       }
     }
     .dragBxMain {
       height: 500px;
+      position: relative;
+      .cmnBlock {
+        position: absolute;
+        top: 0;
+        width: 50%;
+        height: 100%;
+        &.leftSection {
+          left: 0;
+          .imgBx {
+            opacity: 0;
+            transition: all 0.5s;
+            @extend .rel_y_center;
+            left: 0;
+            .imgBxFx {
+              display: flex;
+              align-items: center;
+              p {
+                @extend .text_reg;
+                margin-right: 30px;
+              }
+              &:nth-child(1),
+              &:nth-child(3) {
+                padding-left: 100px;
+              }
+              &:nth-child(2) {
+                margin: 50px 0;
+              }
+            }
+          }
+          .contentBx {
+            @extend .rel_y_center;
+            left: 0;
+          }
+          &.activeClass {
+            .imgBx {
+              opacity: 1;
+            }
+            .contentBx {
+              opacity: 0;
+            }
+          }
+        }
+        &.rightSection {
+          right: 0;
+          .imgBx {
+            opacity: 0;
+            transition: all 0.5s;
+          }
+          .contentBx {
+            @extend .rel_y_center;
+            right: 0;
+          }
+          .imgBx {
+            @extend .rel_y_center;
+            right: 0;
+            .imgBxFx {
+              display: flex;
+              align-items: center;
+              justify-content: flex-end;
+              p {
+                @extend .text_reg;
+                margin-right: 30px;
+              }
+              &:nth-child(1),
+              &:nth-child(3) {
+                padding-right: 100px;
+              }
+              &:nth-child(2) {
+                margin: 50px 0;
+              }
+            }
+          }
+          &.activeClass {
+            .imgBx {
+              opacity: 1;
+            }
+            .contentBx {
+              opacity: 0;
+            }
+          }
+        }
+        .contentBx {
+          .contentHead {
+            font-size: 28px;
+            font-weight: 400;
+            color: var(--secondary-color);
+            font-family: var(--work_sans);
+            line-height: calc(33 / 28);
+            margin-bottom: 15px;
+          }
+          .contentPara {
+            @extend .text_reg;
+          }
+        }
+        &.cmnBlockActive {
+        }
+      }
       .before-after {
         position: relative;
         // width: 100%;
@@ -1213,7 +1311,34 @@
         // box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
         margin: 0 auto;
         .back-img {
-          opacity: 0.7;
+          opacity: 0.5;
+        }
+        .draggerPoint {
+          height: 48px;
+          width: 48px;
+          display: inline-block;
+
+          background-color: #000;
+          backdrop-filter: blur(2px);
+          background-color: #f9f9f961;
+          border-radius: 100%;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          z-index: 1;
+          border: 4px solid #484848;
+          cursor: pointer;
+          .smAroow {
+            @extend .rel_y_center;
+            &.leftAr {
+              left: 4px;
+            }
+            &.rightAr {
+              right: 0;
+              transform: translate(-50%, -50%) scaleX(-1);
+            }
+          }
         }
       }
 
@@ -1247,24 +1372,24 @@
       }
       .slider::-webkit-slider-thumb {
         -webkit-appearance: none;
-        width: 48px;
+        width: 4px;
         min-height: 500px;
         cursor: pointer;
-        background-color: transparent;
+        background-color: #484848;
         border: 1px solid transparent;
         border-radius: 0;
-        background-image: url("../../img/home/thumb_bg.svg");
+        // background-image: url("../../img/home/thumb_bg.svg");
       }
 
       .slider::-moz-range-thumb {
         -moz-appearance: none;
-        width: 48px;
+        width: 4px;
         min-height: 500px;
         cursor: pointer;
-        background-color: transparent;
+        background-color: #484848;
         border: 1px solid transparent;
         border-radius: 0;
-        background-image: url("../../img/home/thumb_bg.svg");
+        // background-image: url("../../img/home/thumb_bg.svg");
       }
     }
   }

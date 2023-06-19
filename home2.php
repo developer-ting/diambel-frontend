@@ -63,14 +63,71 @@
                     <h2 class="text_xxl">Roadmap 2030</h2>
                 </div>
                 <div class="dragBxMain">
-                    <section class="before-after">
+                    <div class="cmnBlock leftSection activeClass">
+                        <div class="imgBx">
+                            <div class="imgBxFx">
+                                <p>Education</p>
+                                <img src="img/home/education.png" alt="">
+                            </div>
+                            <div class="imgBxFx">
+                                <p>Environment</p>
+                                <img src="img/home/education.png" alt="">
+                            </div>
+                            <div class="imgBxFx">
+                                <p>Economic</p>
+                                <img src="img/home/education.png" alt="">
+                            </div>
+                        </div>
+                        <div class="contentBx">
+                            <h3 class="contentHead">
+                                Business Goals
+                            </h3>
+                            <p class="contentPara">
+                                We want to continue building an<br>ecosystem that breeds excellence, and<br>enables us
+                                to provide industry-leading<br> services.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="before-after">
                         <img class="img back-img" src="img/home/diamond-front.png" alt="before" />
                         <img class="img front-img" src="img/home/diamond-front.png" alt="after" />
+
                         <div class="scrollerBlock">
-                            <span>spa</span>
-                            <input type="range" min="1" max="100" value="50" class="slider" name="slider" id="slider" />
+                            <label for="slider" class="draggerPoint">
+                                <img src="img/home/sm-arrow.svg" class="smAroow leftAr" alt="">
+                                <img src="img/home/sm-arrow.svg" class="smAroow rightAr" alt="">
+                            </label>
+                            <input type="range" min="1" max="100" value="50" class="slider inputRange" name="slider"
+                                id="slider" />
                         </div>
-                    </section>
+                    </div>
+                    <div class="cmnBlock rightSection">
+                        <div class="imgBx">
+                            <div class="imgBxFx">
+                                <p>Education</p>
+                                <img src="img/home/education.png" alt="">
+                            </div>
+                            <div class="imgBxFx">
+                                <p>Environment</p>
+                                <img src="img/home/education.png" alt="">
+                            </div>
+                            <div class="imgBxFx">
+                                <p>Economic</p>
+                                <img src="img/home/education.png" alt="">
+                            </div>
+                        </div>
+                        <div class="contentBx">
+                            <h3 class="contentHead">
+                                Corporate Social<br>
+                                Responsibility Goals
+                            </h3>
+                            <p class="contentPara">
+                                Through our CSR efforts and partnerships<br>with organisations, we want to focus
+                                on<br>three
+                                important pillars of society and give<br>back to the community we are a part of.
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -170,69 +227,6 @@
                 </div>
             </div>
         </section>
-
-        <!-- <section class="values_shape_main pb_100">
-      <div class="container">
-        <div class="values_shape_title toTop" data-scroll>
-          <h2 class="text_xxl">Values that shape us</h2>
-        </div>
-
-        <div class="values_shape_flex d_flex">
-
-          <div class="values_shape_box border_r15 toTop" data-scroll>
-            <div class="value_shape_img">
-              <img src="img/home/reliability.png" alt="reliability" />
-            </div>
-            <div class="value_hover_img">
-              <img src="img/home/vector_hover.png" alt="reliability" />
-            </div>
-            <h5 class="text_md ptb_20">Reliability</h5>
-            <div class="value_shape_desc pt_20">
-              <p class="text_reg">Through partnerships with revered miners and retailers of the industry,
-                we are trusted
-                to only deliver high quality natural diamonds and top-notch end-to-end services tailored
-                to each
-                client’s needs.</p>
-            </div>
-          </div>
-
-          <div class="values_shape_box border_r15 toTop" data-scroll>
-            <div class="value_shape_img">
-              <img src="img/home/transparency.png" alt="transparency" />
-            </div>
-            <div class="value_hover_img">
-              <img src="img/home/vector_hover.png" alt="reliability" />
-            </div>
-            <h5 class="text_md ptb_20">Transparency</h5>
-            <div class="value_shape_desc pt_20">
-              <p class="text_reg">When you partner with us, you partner with an organisation that
-                practises
-                sustainability through ethical alliances, and gives you the option to trace the origin
-                of each and every
-                diamond.</p>
-            </div>
-          </div>
-
-          <div class="values_shape_box border_r15 toTop" data-scroll>
-            <div class="value_shape_img">
-              <img src="img/home/adaptive.png" alt="adaptability" />
-            </div>
-            <div class="value_hover_img">
-              <img src="img/home/vector_hover.png" alt="vector_hover" />
-            </div>
-            <h5 class="text_md ptb_20">Adaptability</h5>
-            <div class="value_shape_desc pt_20">
-              <p class="text_reg">Instilled in us since our inception is the importance of adapting to new
-                technologies,
-                techniques, and regulations to deliver an unparalleled experience to our clients.</p>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section> -->
-
         <section class="nature_main pb_100">
             <div class="container">
 
@@ -515,9 +509,6 @@
                     <div class="title">
                         <h2 class="text_xxl">Upcoming events</h2>
                     </div>
-                    <!-- <div class="btn_box hidden-xs">
-            <a class="btn_project_default black_btn" href="">View All</a>
-          </div> -->
                 </div>
 
                 <div class="upcoming_events_flex d_flex upcoming_events_slider toTop" data-scroll>
@@ -525,7 +516,6 @@
                     <div class="upcoming_events_content">
                         <div class="upcoming_events_box border_r15">
                             <div class="upcoming_btn pb_30">
-                                <!-- <a class="btn_project_default" href="">Abu Dhabi</a> -->
                                 <img src="img/home/logo_HKTDC.png" alt="logo_HKTDC" />
                             </div>
                             <h5 class="text_md ">Diamond Expo 2023</h5>
@@ -550,7 +540,6 @@
                     <div class="upcoming_events_content">
                         <div class="upcoming_events_box border_r15">
                             <div class="upcoming_btn pb_30">
-                                <!-- <a class="btn_project_default" href="">Abu Dhabi</a> -->
                                 <img src="img/home/vo_logo.png" alt="logo_HKTDC" />
                             </div>
                             <h5 class="text_md ">Diamond Expo 2023</h5>
@@ -575,7 +564,6 @@
                     <div class="upcoming_events_content">
                         <div class="upcoming_events_box border_r15">
                             <div class="upcoming_btn pb_30">
-                                <!-- <a class="btn_project_default" href="">Abu Dhabi</a> -->
                                 <img src="img/home/JewelleryGem_logo_RGB.png" alt="logo_HKTDC" />
                             </div>
                             <h5 class="text_md ">Diamond Expo 2023</h5>
@@ -599,7 +587,6 @@
                     <div class="upcoming_events_content">
                         <div class="upcoming_events_box border_r15">
                             <div class="upcoming_btn pb_30">
-                                <!-- <a class="btn_project_default" href="">Abu Dhabi</a> -->
                                 <img src="img/home/logo_HKTDC.png" alt="logo_HKTDC" />
                             </div>
                             <h5 class="text_md ">Diamond Expo 2023</h5>
@@ -624,7 +611,6 @@
                     <div class="upcoming_events_content">
                         <div class="upcoming_events_box border_r15">
                             <div class="upcoming_btn pb_30">
-                                <!-- <a class="btn_project_default" href="">Abu Dhabi</a> -->
                                 <img src="img/home/vo_logo.png" alt="logo_HKTDC" />
                             </div>
                             <h5 class="text_md ">Diamond Expo 2023</h5>
@@ -649,7 +635,6 @@
                     <div class="upcoming_events_content">
                         <div class="upcoming_events_box border_r15">
                             <div class="upcoming_btn pb_30">
-                                <!-- <a class="btn_project_default" href="">Abu Dhabi</a> -->
                                 <img src="img/home/JewelleryGem_logo_RGB.png" alt="logo_HKTDC" />
                             </div>
                             <h5 class="text_md ">Diamond Expo 2023</h5>
@@ -675,9 +660,6 @@
                 <div class="progress progress_green progress3">
                     <div class="progress_bar"></div>
                 </div>
-                <!-- <div class="btn_box visible-xs">
-          <a class="btn_project_default black_btn" href="">View All</a>
-        </div> -->
             </div>
         </section>
 
@@ -694,9 +676,6 @@
                             a meaningful impact on communities around the world.
                         </p>
                     </div>
-                    <!-- <div class="btn_box hidden-xs">
-            <a class="btn_project_default black_btn" href="">View All</a>
-          </div> -->
                 </div>
 
                 <div class="parentBx">
@@ -787,10 +766,6 @@
                 <div class="progress progress_green progress4">
                     <div class="progress_bar"></div>
                 </div>
-
-                <!-- <div class="btn_box visible-xs">
-          <a class="btn_project_default black_btn" href="">View All</a>
-        </div> -->
             </div>
         </section>
 
@@ -891,12 +866,18 @@
     slider.addEventListener("input", function() {
         const frontImage = document.querySelector(".front-img");
         frontImage.style.clipPath = `polygon(0 0, ${this.value}% 0, ${this.value}% 100%, 0% 100%)`;
-        if (this.value == 90) {
-            console.log('this 90');
-        } else if (this.value == 10) {
-            console.log('this 10');
-        }
+        $('.draggerPoint').css("left", this.value + '%');
     });
+    $('.inputRange').on('input change', function() {
+        var thisValue = $(this).val()
+        if (thisValue >= 90) {
+            $('.leftSection').removeClass('activeClass')
+            $('.rightSection').addClass('activeClass')
+        } else if (thisValue <= 10) {
+            $('.rightSection').removeClass('activeClass')
+            $('.leftSection').addClass('activeClass')
+        }
+    })
     </script>
 
     <script>
