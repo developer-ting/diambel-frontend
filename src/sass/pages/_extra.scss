@@ -187,7 +187,7 @@ body {
       transform: translateX(-50%) translateY(10px);
     }
   }
-  @include mv-media(max, 992px) {
+  @include mv-media(max, 1199px) {
     background-size: cover;
   }
 }

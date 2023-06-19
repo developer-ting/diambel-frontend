@@ -330,7 +330,7 @@
 
           <div class="title_info d_flex pb_60 toTop" data-scroll>
             <div class="title">
-              <h2 class="text_xxl pb_20">Solutions beyond diamonds</h2>
+              <h2 class="text_xl pb_20">Solutions beyond diamonds</h2>
               <p class="text_reg">We go over and above the industry norms to provide you with 360-degree services, from
                 customised orders to tech support to inventory management. Every step of the way, you can trust us to
                 deliver on promises made, and beyond.</p>
@@ -398,11 +398,7 @@
                   <div class="content">
                     <div class="content_box">
                       <span class="blank_content"></span>
-                      <p class="text_reg">We partner exclusively with reputed miners for large volume of specific
-                        assortments that creates the right value for natural diamonds in the market. We also offer a
-                        special assortment of rough diamonds to manufacturers which fulfils their requirements. Through
-                        our relationship with jewellery manufacturers and brands, we work on customised programmes to
-                        help them achieve their product vision.</p>
+                      <p class="text_reg">Get live access to our inventory, and the ability to showcase the feed of our inventory on your website. In addition, you can leverage our technological features to facilitate your buying journey. With readily available data, you can make an informed buying decision.</p>
                     </div>
 
                   </div>
@@ -430,11 +426,7 @@
                   <div class="content">
                     <div class="content_box">
                       <span class="blank_content"></span>
-                      <p class="text_reg">We partner exclusively with reputed miners for large volume of specific
-                        assortments that creates the right value for natural diamonds in the market. We also offer a
-                        special assortment of rough diamonds to manufacturers which fulfils their requirements. Through
-                        our relationship with jewellery manufacturers and brands, we work on customised programmes to
-                        help them achieve their product vision.</p>
+                      <p class="text_reg">We offer customer support services that give you real-time access to our experts for any query you might have. We also have dedicated professionals to guide you through your buying journey and beyond.</p>
                     </div>
 
                   </div>
@@ -462,11 +454,7 @@
                   <div class="content">
                     <div class="content_box">
                       <span class="blank_content"></span>
-                      <p class="text_reg">We partner exclusively with reputed miners for large volume of specific
-                        assortments that creates the right value for natural diamonds in the market. We also offer a
-                        special assortment of rough diamonds to manufacturers which fulfils their requirements. Through
-                        our relationship with jewellery manufacturers and brands, we work on customised programmes to
-                        help them achieve their product vision.</p>
+                      <p class="text_reg">With the growing importance of provenance and a transparent supply chain, we offer a wide range of our rough and polished diamonds which can be traced back to its origin, adding value to your product line.</p>
                     </div>
 
                   </div>
@@ -531,12 +519,12 @@
               </div>
               <h5 class="text_md ">Diamond Expo 2023</h5>
               <div class="upcoming_events_desc">
-                <p class="text_reg d_flex">
+                <p class="text_sm d_flex">
                   <span class="icon"><img src="img/home/location_icon.png" alt="location_icon" /></span>
-                  <span class="box_txt">Hong kong National Exhibition Centre</span>
+                  <span class="box_txt">Hong kong National <br> Exhibition Centre</span>
                 </p>
 
-                <p class="text_reg d_flex">
+                <p class="text_sm d_flex">
                   <span class="icon"><img src="img/home/date_icon.png" alt="location_icon" /></span>
                   <span class="box_txt">January 8 - 10</span>
                 </p>
@@ -555,12 +543,12 @@
               </div>
               <h5 class="text_md ">Diamond Expo 2023</h5>
               <div class="upcoming_events_desc">
-                <p class="text_reg d_flex">
+                <p class="text_sm d_flex">
                   <span class="icon"><img src="img/home/location_icon.png" alt="location_icon" /></span>
-                  <span class="box_txt">Hong kong National Exhibition Centre</span>
+                  <span class="box_txt">Abu Dhabi National <br>Exhibition Centre</span>
                 </p>
 
-                <p class="text_reg d_flex">
+                <p class="text_sm d_flex">
                   <span class="icon"><img src="img/home/date_icon.png" alt="location_icon" /></span>
                   <span class="box_txt">January 8 - 10</span>
                 </p>
@@ -579,12 +567,12 @@
               </div>
               <h5 class="text_md ">Diamond Expo 2023</h5>
               <div class="upcoming_events_desc">
-                <p class="text_reg d_flex">
+                <p class="text_sm d_flex">
                   <span class="icon"><img src="img/home/location_icon.png" alt="location_icon" /></span>
-                  <span class="box_txt">Hong kong National Exhibition Centre</span>
+                  <span class="box_txt">Abu Dhabi National <br>Exhibition Centre</span>
                 </p>
 
-                <p class="text_reg d_flex">
+                <p class="text_sm d_flex">
                   <span class="icon"><img src="img/home/date_icon.png" alt="location_icon" /></span>
                   <span class="box_txt">January 8 - 10</span>
                 </p>
@@ -594,6 +582,7 @@
               </div>
             </div>
           </div>
+
           <div class="upcoming_events_content">
             <div class="upcoming_events_box border_r15">
               <div class="upcoming_btn pb_30">
@@ -602,12 +591,12 @@
               </div>
               <h5 class="text_md ">Diamond Expo 2023</h5>
               <div class="upcoming_events_desc">
-                <p class="text_reg d_flex">
+                <p class="text_sm d_flex">
                   <span class="icon"><img src="img/home/location_icon.png" alt="location_icon" /></span>
-                  <span class="box_txt">Hong kong National Exhibition Centre</span>
+                  <span class="box_txt">Hong kong National <br> Exhibition Centre</span>
                 </p>
 
-                <p class="text_reg d_flex">
+                <p class="text_sm d_flex">
                   <span class="icon"><img src="img/home/date_icon.png" alt="location_icon" /></span>
                   <span class="box_txt">January 8 - 10</span>
                 </p>
@@ -626,12 +615,12 @@
               </div>
               <h5 class="text_md ">Diamond Expo 2023</h5>
               <div class="upcoming_events_desc">
-                <p class="text_reg d_flex">
+                <p class="text_sm d_flex">
                   <span class="icon"><img src="img/home/location_icon.png" alt="location_icon" /></span>
-                  <span class="box_txt">Hong kong National Exhibition Centre</span>
+                  <span class="box_txt">Abu Dhabi National <br>Exhibition Centre</span>
                 </p>
 
-                <p class="text_reg d_flex">
+                <p class="text_sm d_flex">
                   <span class="icon"><img src="img/home/date_icon.png" alt="location_icon" /></span>
                   <span class="box_txt">January 8 - 10</span>
                 </p>
@@ -650,12 +639,12 @@
               </div>
               <h5 class="text_md ">Diamond Expo 2023</h5>
               <div class="upcoming_events_desc">
-                <p class="text_reg d_flex">
+                <p class="text_sm d_flex">
                   <span class="icon"><img src="img/home/location_icon.png" alt="location_icon" /></span>
-                  <span class="box_txt">Hong kong National Exhibition Centre</span>
+                  <span class="box_txt">Abu Dhabi National <br>Exhibition Centre</span>
                 </p>
 
-                <p class="text_reg d_flex">
+                <p class="text_sm d_flex">
                   <span class="icon"><img src="img/home/date_icon.png" alt="location_icon" /></span>
                   <span class="box_txt">January 8 - 10</span>
                 </p>

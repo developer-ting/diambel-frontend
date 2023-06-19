@@ -90,15 +90,8 @@
             margin-top: 30px;
             text-align: center;
           }
-          .btn_project_default {
-            border: none;
-            border-bottom: 1px solid #413e3e;
-            border-radius: 0px;
-            padding: 0;
-            &:hover {
-              background-color: transparent;
-              color: var(--color_primary);
-            }
+          .btn_project_secondary {
+            font-size: 18px;
           }
         }
       }
@@ -764,7 +757,7 @@
             h6 {
               font-size: 20px;
             }
-            .text_reg {
+            .text_sm {
               align-items: flex-start;
               margin-top: 15px;
               .icon {
