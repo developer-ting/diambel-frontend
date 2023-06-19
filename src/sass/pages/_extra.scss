@@ -187,7 +187,7 @@ body {
       transform: translateX(-50%) translateY(10px);
     }
   }
-  @include mv-media(max, 992px) {
+  @include mv-media(max, 1199px) {
     background-size: cover;
   }
 }
@@ -262,13 +262,13 @@ body {
       }
       .line_two {
         position: absolute;
-        left: 180px;
+        right: -100px;
         top: 40px;
         z-index: 1;
-        @include mv-media(max, 991px) {
-          left: 140px;
-          top: 20px;
-        }
+        // @include mv-media(max, 991px) {
+        //   left: 140px;
+        //   top: 20px;
+        // }
         @include mv-media(max, 767px) {
           display: none;
         }
@@ -276,10 +276,14 @@ body {
       .thumbnail_txt {
         opacity: 0.3;
         padding-bottom: 25px;
+        @include mv-media(max, 1199px) {
+          padding-bottom: 10px;
+        }
         @include mv-media(max, 767px) {
           padding: 0px 15px;
           width: 87vw;
         }
+
         h2 {
           position: relative;
           font-size: 70px;
@@ -311,6 +315,11 @@ body {
         }
         p {
           // display: none;
+          min-height: 80px;
+          @include mv-media(max, 1199px) {
+            font-size: 16px;
+            min-height: 104px;
+          }
           @include mv-media(max, 991px) {
             font-size: 16px;
             line-height: 24px;
@@ -342,6 +351,9 @@ body {
         left: -12%;
         @include mv-media(max, 1280px) {
           left: -9%;
+        }
+        @include mv-media(max, 1199px) {
+          bottom: 0px;
         }
         @include mv-media(max, 991px) {
           left: -7%;
@@ -405,6 +417,9 @@ body {
             .text_reg {
               color: #fff;
             }
+          }
+          img {
+            border-radius: 20px;
           }
         }
       }
@@ -489,9 +504,12 @@ body {
     @include mv-media(max, 1280px) {
       left: -42%;
     }
+    @include mv-media(max, 1199px) {
+      left: -42%;
+    }
     @include mv-media(max, 992px) {
       display: block;
-      left: -49%;
+      left: -47%;
     }
   }
 }
