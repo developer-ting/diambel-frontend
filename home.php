@@ -770,6 +770,86 @@
       </div>
     </section>
 
+    <section class="roadMapSec">
+      <div class="container">
+          <div class="HeadTxt toTop" data-scroll>
+              <h2 class="text_xxl">Roadmap 2030</h2>
+          </div>
+          <div class="dragBxMain">
+              <div class="cmnBlock leftSection">
+                  <img class="roadmap_icon_one" src="img/home/roadmap_icon_one.png" alt="after" />
+                  <img class="roadmap_icon_two" src="img/home/roadmap_icon_two.png" alt="after" />
+                  <div class="imgBx">
+                      <div class="imgBxFx">
+                          <p>Education</p>
+                          <img src="img/home/education.png" alt="">
+                      </div>
+                      <div class="imgBxFx">
+                          <p>Environment</p>
+                          <img src="img/home/environment.png" alt="">
+                      </div>
+                      <div class="imgBxFx">
+                          <p>Economic</p>
+                          <img src="img/home/economic.png" alt="">
+                      </div>
+                  </div>
+                  <div class="contentBx">
+                      <h3 class="contentHead">
+                          Business Goals
+                      </h3>
+                      <p class="contentPara">
+                          We want to continue building an<br>ecosystem that breeds excellence, and<br>enables us
+                          to provide industry-leading<br> services.
+                      </p>
+                  </div>
+              </div>
+              <div class="before-after">
+                  <img class="img back-img" src="img/home/diamond-front.png" alt="before" />
+                  <img class="img front-img" src="img/home/diamond-front.png" alt="after" />
+                  
+
+                  <div class="scrollerBlock">
+                      <label for="slider" class="draggerPoint">
+                          <img src="img/home/sm-arrow.svg" class="smAroow leftAr" alt="">
+                          <img src="img/home/sm-arrow.svg" class="smAroow rightAr" alt="">
+                      </label>
+                      <input type="range" min="1" max="100" value="50" class="slider inputRange" name="slider"
+                          id="slider" />
+                  </div>
+              </div>
+              <div class="cmnBlock rightSection activeClass">
+                  <img class="roadmap_icon_one" src="img/home/roadmap_icon_one.png" alt="after" />
+                  <img class="roadmap_icon_two" src="img/home/roadmap_icon_two.png" alt="after" />
+                <div class="imgBx">
+                      <div class="imgBxFx">
+                        <img src="img/home/business_icon_one.png" alt="">
+                        <p>Grow Our Global <br>Footprint</p>
+                        </div>
+                      <div class="imgBxFx">
+                        <img src="img/home/business_icon_two.png" alt="">
+                        <p>Embrace <br>Technological <br>Advancements</p>
+                      </div>
+                      <div class="imgBxFx">
+                        <img src="img/home/business_icon_three.png" alt="">
+                        <p>Committed To <br>Natural Diamonds</p>
+                      </div>
+                </div>
+                <div class="contentBx">
+                    <h3 class="contentHead">
+                        Corporate Social<br>
+                        Responsibility Goals
+                    </h3>
+                    <p class="contentPara">
+                        Through our CSR efforts and partnerships<br>with organisations, we want to focus
+                        on<br>three
+                        important pillars of society and give<br>back to the community we are a part of.
+                    </p>
+                </div>
+              </div>
+          </div>
+      </div>
+    </section>
+
     <section class="get_started">
       <div class="container">
         <div class="get_started_flex d_flex ptb_40 toTop" data-scroll>
@@ -1027,6 +1107,24 @@
     $(".popup").fadeOut(300);
     $("body").removeClass("overflow");
   }
+
+  const slider = document.getElementById("slider");
+    slider.addEventListener("input", function() {
+        const frontImage = document.querySelector(".front-img");
+        frontImage.style.clipPath = `polygon(0 0, ${this.value}% 0, ${this.value}% 100%, 0% 100%)`;
+        $('.draggerPoint').css("left", this.value + '%');
+    });
+    $('.inputRange').on('input change', function() {
+        var thisValue = $(this).val()
+        if (thisValue >= 90) {
+            $('.leftSection').removeClass('activeClass')
+            $('.rightSection').addClass('activeClass')
+        } else if (thisValue <= 10) {
+            $('.rightSection').removeClass('activeClass')
+            $('.leftSection').addClass('activeClass')
+        }
+    })
+
   </script>
 </body>
 

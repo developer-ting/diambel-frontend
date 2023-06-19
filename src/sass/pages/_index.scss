@@ -976,6 +976,243 @@
     }
   }
 
+  .roadMapSec {
+    padding: 30px 0 80px;
+    .HeadTxt {
+      margin-bottom: 70px;
+      .text_xxl {
+        text-align: center;
+      }
+    }
+    .dragBxMain {
+      height: 500px;
+      position: relative;
+      .cmnBlock {
+        position: absolute;
+        top: 0;
+        width: 50%;
+        height: 100%;
+        &.leftSection {
+          left: 0;
+          .imgBx {
+            opacity: 0;
+            transition: all 0.5s;
+            @extend .rel_y_center;
+            left: 0;
+            .imgBxFx {
+              display: flex;
+              align-items: center;
+              p {
+                @extend .text_reg;
+                margin-right: 30px;
+              }
+              &:nth-child(1),
+              &:nth-child(3) {
+                padding-left: 100px;
+              }
+              &:nth-child(2) {
+                margin: 50px 0;
+              }
+            }
+          }
+          .roadmap_icon_one{
+            position: absolute;
+            right: 15%;
+            top: 13%;
+            opacity: 0;
+          }
+          .roadmap_icon_two{
+            position: absolute;
+            right: -12%;
+            bottom: 17%;
+            opacity: 0;
+          }
+          .contentBx {
+            @extend .rel_y_center;
+            left: 0;
+          }
+          &.activeClass {
+            .imgBx {
+              opacity: 1;
+            }
+            .contentBx {
+              opacity: 0;
+            }
+            .roadmap_icon_one{
+              opacity: 1;
+            }
+            .roadmap_icon_two{
+              opacity: 1;
+            }
+          }
+        }
+        &.rightSection {
+          right: 0;
+          .imgBx {
+            opacity: 0;
+            transition: all 0.5s;
+          }
+          .contentBx {
+            @extend .rel_y_center;
+            right: 0;
+          }
+          .imgBx {
+            @extend .rel_y_center;
+            right: 0;
+            .imgBxFx {
+              display: flex;
+              align-items: center;
+              justify-content: flex-end;
+              p {
+                @extend .text_reg;
+                margin-left: 30px;
+              }
+              &:nth-child(1),
+              &:nth-child(3) {
+                padding-right: 100px;
+              }
+              &:nth-child(2) {
+                margin: 50px 0;
+              }
+            }
+          }
+          .roadmap_icon_one{
+            position: absolute;
+            left: 15%;
+            top: 13%;
+            opacity: 0;
+          }
+          .roadmap_icon_two{
+            position: absolute;
+            left: -12%;
+            bottom: 17%;
+            opacity: 0;
+          }
+          &.activeClass {
+            .imgBx {
+              opacity: 1;
+            }
+            .contentBx {
+              opacity: 0;
+            }
+            .roadmap_icon_one{
+              opacity: 1;
+            }
+            .roadmap_icon_two{
+              opacity: 1;
+            }
+          }
+        }
+        .contentBx {
+          .contentHead {
+            font-size: 28px;
+            font-weight: 400;
+            color: var(--secondary-color);
+            font-family: var(--work_sans);
+            line-height: calc(33 / 28);
+            margin-bottom: 15px;
+          }
+          .contentPara {
+            @extend .text_reg;
+          }
+        }
+        &.cmnBlockActive {
+        }
+      }
+      .before-after {
+        position: relative;
+        // width: 100%;
+        // max-width: 900px;
+        // min-height: 50vh;
+        width: 390px;
+        height: 500px;
+        // box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        margin: 0 auto;
+        .back-img {
+          opacity: 0.5;
+        }
+        .draggerPoint {
+          height: 48px;
+          width: 48px;
+          display: inline-block;
+
+          background-color: #000;
+          backdrop-filter: blur(2px);
+          background-color: #f9f9f961;
+          border-radius: 100%;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          z-index: 1;
+          border: 4px solid #484848;
+          cursor: pointer;
+          .smAroow {
+            @extend .rel_y_center;
+            &.leftAr {
+              left: 4px;
+            }
+            &.rightAr {
+              right: 0;
+              transform: translate(-50%, -50%) scaleX(-1);
+            }
+          }
+        }
+        
+      }
+
+      .before-after .img {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+        // width: 100%;
+        // height: 100%;
+        object-fit: cover;
+      }
+
+      .before-after .img.front-img {
+        z-index: 1;
+        /* Crop half of the front image */
+        clip-path: polygon(0 0, 50% 0, 50% 100%, 0% 100%);
+      }
+
+      .slider {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: transparent;
+        z-index: 2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .slider::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        width: 4px;
+        min-height: 500px;
+        cursor: pointer;
+        background-color: #484848;
+        border: 1px solid transparent;
+        border-radius: 0;
+        // background-image: url("../../img/home/thumb_bg.svg");
+      }
+
+      .slider::-moz-range-thumb {
+        -moz-appearance: none;
+        width: 4px;
+        min-height: 500px;
+        cursor: pointer;
+        background-color: #484848;
+        border: 1px solid transparent;
+        border-radius: 0;
+        // background-image: url("../../img/home/thumb_bg.svg");
+      }
+    }
+  }
+
   .subscribe_main {
     .subscribe_flex {
       justify-content: space-between;
