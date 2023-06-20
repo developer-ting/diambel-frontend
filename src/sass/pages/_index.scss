@@ -654,6 +654,10 @@
             .counter_item {
               text-align: center;
               padding-right: 30px;
+              .text_lg {
+                width: 120px;
+                margin: 0 auto;
+              }
               &:last-child {
                 padding-left: 30px;
                 border-left: 1px solid var(--color_primary);

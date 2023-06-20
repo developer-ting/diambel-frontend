@@ -54,11 +54,11 @@
       </div>
       <img src="img/intro/DiamondImg.png" class="DiamondImg" alt="">
 
-      <a class="scrlDown" href="javascript:void(0)">SCROLL DOWN <img src="img/intro/scrollDown.png" alt=""></a>
+      <a class="scrlDown" id="scrollbtna" href="#bannertabs">SCROLL DOWN <img src="img/intro/scrollDown.png" alt=""></a>
     </section>
 
 
-    <section class="hallmark_credibilty ptb_30">
+    <section class="hallmark_credibilty ptb_30" id="bannertabs">
       <div class="container">
         <div class="hallmark_credibilty_inside">
           <div class="hallmark_title">
@@ -1113,8 +1113,8 @@
 
             {
 
-              duration: 2000,
-              easing: 'swing',
+              duration: 5000,
+              easing: 'linear',
               step: function() {
                 $this.text(Math.floor(this.countNum));
               },
@@ -1161,6 +1161,16 @@
       $('.leftSection').addClass('activeClass')
     }
   })
+
+  //banner scroll script
+  $(document).ready(function() {
+    $("#scrollbtna").click(function() {
+      $('html,body').animate({ //  fine in moz, still quicker in chrome. 
+          scrollTop: $("#bannertabs").offset().top - 100
+        },
+        'slow');
+    });
+  });
   </script>
 </body>
 
