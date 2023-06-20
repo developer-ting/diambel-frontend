@@ -677,7 +677,7 @@
 
         <div class="title_info d_flex pb_40 toTop" data-scroll>
           <div class="title">
-            <h2 class="text_xxl pb_20">Corporate Social Responsibilty </h2>
+            <h2 class="text_xxl pb_20">Corporate Social Responsibility </h2>
             <p class="text_reg">We want to create a sustainable future where education, environment, and economic
               opportunities are accessible to everyone. By investing in these three key pillars of society, we can make
               a meaningful impact on communities around the world.
@@ -789,15 +789,15 @@
             <div class="imgBx hidden-xs">
               <div class="imgBxFx">
                 <p>Education</p>
-                <img src="img/home/education.png" alt="">
+                <img src="img/home/Education_LOOP.gif" alt="">
               </div>
               <div class="imgBxFx">
                 <p>Environment</p>
-                <img src="img/home/environment.png" alt="">
+                <img src="img/home/Environment_LOOP.gif" alt="">
               </div>
               <div class="imgBxFx">
                 <p>Economic</p>
-                <img src="img/home/economic.png" alt="">
+                <img src="img/home/Economic_LOOP.gif" alt="">
               </div>
             </div>
             <div class="contentBx">
@@ -813,15 +813,15 @@
             </div>
             <div class="imgBx visible-xs toTop" data-scroll>
               <div class="imgBxFx">
-                <img src="img/home/business_icon_one.png" alt="">
+                <img src="img/home/Grow-Our-Global-Footprint_LOOP.gif" alt="">
                 <p>Grow Our Global <br>Footprint</p>
               </div>
               <div class="imgBxFx">
-                <img src="img/home/business_icon_two.png" alt="">
+                <img src="img/home/Embrace-Technological-Advancements_LOOP.gif" alt="">
                 <p>Embrace <br>Technological <br>Advancements</p>
               </div>
               <div class="imgBxFx">
-                <img src="img/home/business_icon_three.png" alt="">
+                <img src="img/home/Committed-To-Natural-Diamonds_LOOP.gif" alt="">
                 <p>Committed To <br>Natural Diamonds</p>
               </div>
             </div>
@@ -845,15 +845,15 @@
             <img class="roadmap_icon_two hidden-xs" src="img/home/roadmap_icon_two.png" alt="after" />
             <div class="imgBx hidden-xs">
               <div class="imgBxFx">
-                <img src="img/home/business_icon_one.png" alt="">
+                <img src="img/home/Grow-Our-Global-Footprint_LOOP.gif" alt="">
                 <p>Grow Our Global <br>Footprint</p>
               </div>
               <div class="imgBxFx">
-                <img src="img/home/business_icon_two.png" alt="">
+                <img src="img/home/Embrace-Technological-Advancements_LOOP.gif" alt="">
                 <p>Embrace <br>Technological <br>Advancements</p>
               </div>
               <div class="imgBxFx">
-                <img src="img/home/business_icon_three.png" alt="">
+                <img src="img/home/Committed-To-Natural-Diamonds_LOOP.gif" alt="">
                 <p>Committed To <br>Natural Diamonds</p>
               </div>
             </div>
@@ -870,15 +870,15 @@
             </div>
             <div class="imgBx visible-xs toTop" data-scroll>
               <div class="imgBxFx">
-                <img src="img/home/education.png" alt="">
+                <img src="img/home/Education_LOOP.gif" alt="">
                 <p>Education</p>
               </div>
               <div class="imgBxFx">
-                <img src="img/home/environment.png" alt="">
+                <img src="img/home/Environment_LOOP.gif" alt="">
                 <p>Environment</p>
               </div>
               <div class="imgBxFx">
-                <img src="img/home/economic.png" alt="">
+                <img src="img/home/Economic_LOOP.gif" alt="">
                 <p>Economic</p>
               </div>
             </div>
