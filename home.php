@@ -54,11 +54,11 @@
       </div>
       <img src="img/intro/DiamondImg.png" class="DiamondImg" alt="">
 
-      <a class="scrlDown" href="javascript:void(0)">SCROLL DOWN <img src="img/intro/scrollDown.png" alt=""></a>
+      <a class="scrlDown" id="scrollbtna" href="#bannertabs">SCROLL DOWN <img src="img/intro/scrollDown.png" alt=""></a>
     </section>
 
 
-    <section class="hallmark_credibilty ptb_30">
+    <section class="hallmark_credibilty ptb_30" id="bannertabs">
       <div class="container">
         <div class="hallmark_credibilty_inside">
           <div class="hallmark_title">
@@ -398,7 +398,10 @@
                   <div class="content">
                     <div class="content_box">
                       <span class="blank_content"></span>
-                      <p class="text_reg">Get live access to our inventory, and the ability to showcase the feed of our inventory on your website. In addition, you can leverage our technological features to facilitate your buying journey. With readily available data, you can make an informed buying decision.</p>
+                      <p class="text_reg">Get live access to our inventory, and the ability to showcase the feed of our
+                        inventory on your website. In addition, you can leverage our technological features to
+                        facilitate your buying journey. With readily available data, you can make an informed buying
+                        decision.</p>
                     </div>
 
                   </div>
@@ -426,7 +429,9 @@
                   <div class="content">
                     <div class="content_box">
                       <span class="blank_content"></span>
-                      <p class="text_reg">We offer customer support services that give you real-time access to our experts for any query you might have. We also have dedicated professionals to guide you through your buying journey and beyond.</p>
+                      <p class="text_reg">We offer customer support services that give you real-time access to our
+                        experts for any query you might have. We also have dedicated professionals to guide you through
+                        your buying journey and beyond.</p>
                     </div>
 
                   </div>
@@ -454,7 +459,9 @@
                   <div class="content">
                     <div class="content_box">
                       <span class="blank_content"></span>
-                      <p class="text_reg">With the growing importance of provenance and a transparent supply chain, we offer a wide range of our rough and polished diamonds which can be traced back to its origin, adding value to your product line.</p>
+                      <p class="text_reg">With the growing importance of provenance and a transparent supply chain, we
+                        offer a wide range of our rough and polished diamonds which can be traced back to its origin,
+                        adding value to your product line.</p>
                     </div>
 
                   </div>
@@ -772,81 +779,111 @@
 
     <section class="roadMapSec">
       <div class="container">
-          <div class="HeadTxt toTop" data-scroll>
-              <h2 class="text_xxl">Roadmap 2030</h2>
-          </div>
-          <div class="dragBxMain">
-              <div class="cmnBlock leftSection">
-                  <img class="roadmap_icon_one" src="img/home/roadmap_icon_one.png" alt="after" />
-                  <img class="roadmap_icon_two" src="img/home/roadmap_icon_two.png" alt="after" />
-                  <div class="imgBx">
-                      <div class="imgBxFx">
-                          <p>Education</p>
-                          <img src="img/home/education.png" alt="">
-                      </div>
-                      <div class="imgBxFx">
-                          <p>Environment</p>
-                          <img src="img/home/environment.png" alt="">
-                      </div>
-                      <div class="imgBxFx">
-                          <p>Economic</p>
-                          <img src="img/home/economic.png" alt="">
-                      </div>
-                  </div>
-                  <div class="contentBx">
-                      <h3 class="contentHead">
-                          Business Goals
-                      </h3>
-                      <p class="contentPara">
-                          We want to continue building an<br>ecosystem that breeds excellence, and<br>enables us
-                          to provide industry-leading<br> services.
-                      </p>
-                  </div>
+        <div class="HeadTxt toTop" data-scroll>
+          <h2 class="text_xxl">Roadmap 2030</h2>
+        </div>
+        <div class="dragBxMain">
+          <div class="cmnBlock leftSection">
+            <img class="roadmap_icon_one hidden-xs" src="img/home/roadmap_icon_one.png" alt="after" />
+            <img class="roadmap_icon_two hidden-xs" src="img/home/roadmap_icon_two.png" alt="after" />
+            <div class="imgBx hidden-xs">
+              <div class="imgBxFx">
+                <p>Education</p>
+                <img src="img/home/education.png" alt="">
               </div>
-              <div class="before-after">
-                  <img class="img back-img" src="img/home/diamond-front.png" alt="before" />
-                  <img class="img front-img" src="img/home/diamond-front.png" alt="after" />
-                  
+              <div class="imgBxFx">
+                <p>Environment</p>
+                <img src="img/home/environment.png" alt="">
+              </div>
+              <div class="imgBxFx">
+                <p>Economic</p>
+                <img src="img/home/economic.png" alt="">
+              </div>
+            </div>
+            <div class="contentBx">
+              <h3 class="contentHead toTop" data-scroll>
+                Business Goals
+              </h3>
+              <p class="contentPara toTop" data-scroll>
+                We want to continue building an<br class="visible-lg">ecosystem that breeds excellence, and<br
+                  class="visible-lg">enables
+                us
+                to provide industry-leading<br class="visible-lg"> services.
+              </p>
+            </div>
+            <div class="imgBx visible-xs toTop" data-scroll>
+              <div class="imgBxFx">
+                <img src="img/home/business_icon_one.png" alt="">
+                <p>Grow Our Global <br>Footprint</p>
+              </div>
+              <div class="imgBxFx">
+                <img src="img/home/business_icon_two.png" alt="">
+                <p>Embrace <br>Technological <br>Advancements</p>
+              </div>
+              <div class="imgBxFx">
+                <img src="img/home/business_icon_three.png" alt="">
+                <p>Committed To <br>Natural Diamonds</p>
+              </div>
+            </div>
+          </div>
+          <div class="before-after">
+            <img class="img back-img" src="img/home/diamond-front.png" alt="before" />
+            <img class="img front-img" src="img/home/diamond-front.png" alt="after" />
+            <img class="roadmap_icon_one visible-xs" src="img/home/roadmap_icon_one.png" alt="after" />
+            <img class="roadmap_icon_two visible-xs" src="img/home/roadmap_icon_two.png" alt="after" />
 
-                  <div class="scrollerBlock">
-                      <label for="slider" class="draggerPoint">
-                          <img src="img/home/sm-arrow.svg" class="smAroow leftAr" alt="">
-                          <img src="img/home/sm-arrow.svg" class="smAroow rightAr" alt="">
-                      </label>
-                      <input type="range" min="1" max="100" value="50" class="slider inputRange" name="slider"
-                          id="slider" />
-                  </div>
-              </div>
-              <div class="cmnBlock rightSection activeClass">
-                  <img class="roadmap_icon_one" src="img/home/roadmap_icon_one.png" alt="after" />
-                  <img class="roadmap_icon_two" src="img/home/roadmap_icon_two.png" alt="after" />
-                <div class="imgBx">
-                      <div class="imgBxFx">
-                        <img src="img/home/business_icon_one.png" alt="">
-                        <p>Grow Our Global <br>Footprint</p>
-                        </div>
-                      <div class="imgBxFx">
-                        <img src="img/home/business_icon_two.png" alt="">
-                        <p>Embrace <br>Technological <br>Advancements</p>
-                      </div>
-                      <div class="imgBxFx">
-                        <img src="img/home/business_icon_three.png" alt="">
-                        <p>Committed To <br>Natural Diamonds</p>
-                      </div>
-                </div>
-                <div class="contentBx">
-                    <h3 class="contentHead">
-                        Corporate Social<br>
-                        Responsibility Goals
-                    </h3>
-                    <p class="contentPara">
-                        Through our CSR efforts and partnerships<br>with organisations, we want to focus
-                        on<br>three
-                        important pillars of society and give<br>back to the community we are a part of.
-                    </p>
-                </div>
-              </div>
+            <div class="scrollerBlock">
+              <label for="slider" class="draggerPoint">
+                <img src="img/home/sm-arrow.svg" class="smAroow leftAr" alt="">
+                <img src="img/home/sm-arrow.svg" class="smAroow rightAr" alt="">
+              </label>
+              <input type="range" min="1" max="100" value="50" class="slider inputRange" name="slider" id="slider" />
+            </div>
           </div>
+          <div class="cmnBlock rightSection activeClass">
+            <img class="roadmap_icon_one hidden-xs" src="img/home/roadmap_icon_one.png" alt="after" />
+            <img class="roadmap_icon_two hidden-xs" src="img/home/roadmap_icon_two.png" alt="after" />
+            <div class="imgBx hidden-xs">
+              <div class="imgBxFx">
+                <img src="img/home/business_icon_one.png" alt="">
+                <p>Grow Our Global <br>Footprint</p>
+              </div>
+              <div class="imgBxFx">
+                <img src="img/home/business_icon_two.png" alt="">
+                <p>Embrace <br>Technological <br>Advancements</p>
+              </div>
+              <div class="imgBxFx">
+                <img src="img/home/business_icon_three.png" alt="">
+                <p>Committed To <br>Natural Diamonds</p>
+              </div>
+            </div>
+            <div class="contentBx">
+              <h3 class="contentHead toTop" data-scroll>
+                Corporate Social<br>
+                Responsibility Goals
+              </h3>
+              <p class="contentPara toTop" data-scroll>
+                Through our CSR efforts and partnerships<br class="visible-lg">with organisations, we want to focus
+                on<br class="visible-lg">three
+                important pillars of society and give<br class="visible-lg">back to the community we are a part of.
+              </p>
+            </div>
+            <div class="imgBx visible-xs toTop" data-scroll>
+              <div class="imgBxFx">
+                <img src="img/home/education.png" alt="">
+                <p>Education</p>
+              </div>
+              <div class="imgBxFx">
+                <img src="img/home/environment.png" alt="">
+                <p>Environment</p>
+              </div>
+              <div class="imgBxFx">
+                <img src="img/home/economic.png" alt="">
+                <p>Economic</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -1076,8 +1113,8 @@
 
             {
 
-              duration: 2000,
-              easing: 'swing',
+              duration: 5000,
+              easing: 'linear',
               step: function() {
                 $this.text(Math.floor(this.countNum));
               },
@@ -1109,22 +1146,31 @@
   }
 
   const slider = document.getElementById("slider");
-    slider.addEventListener("input", function() {
-        const frontImage = document.querySelector(".front-img");
-        frontImage.style.clipPath = `polygon(0 0, ${this.value}% 0, ${this.value}% 100%, 0% 100%)`;
-        $('.draggerPoint').css("left", this.value + '%');
-    });
-    $('.inputRange').on('input change', function() {
-        var thisValue = $(this).val()
-        if (thisValue >= 90) {
-            $('.leftSection').removeClass('activeClass')
-            $('.rightSection').addClass('activeClass')
-        } else if (thisValue <= 10) {
-            $('.rightSection').removeClass('activeClass')
-            $('.leftSection').addClass('activeClass')
-        }
-    })
+  slider.addEventListener("input", function() {
+    const frontImage = document.querySelector(".front-img");
+    frontImage.style.clipPath = `polygon(0 0, ${this.value}% 0, ${this.value}% 100%, 0% 100%)`;
+    $('.draggerPoint').css("left", this.value + '%');
+  });
+  $('.inputRange').on('input change', function() {
+    var thisValue = $(this).val()
+    if (thisValue >= 90) {
+      $('.leftSection').removeClass('activeClass')
+      $('.rightSection').addClass('activeClass')
+    } else if (thisValue <= 10) {
+      $('.rightSection').removeClass('activeClass')
+      $('.leftSection').addClass('activeClass')
+    }
+  })
 
+  //banner scroll script
+  $(document).ready(function() {
+    $("#scrollbtna").click(function() {
+      $('html,body').animate({ //  fine in moz, still quicker in chrome. 
+          scrollTop: $("#bannertabs").offset().top - 100
+        },
+        'slow');
+    });
+  });
   </script>
 </body>
 

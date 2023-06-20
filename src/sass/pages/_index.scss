@@ -654,6 +654,10 @@
             .counter_item {
               text-align: center;
               padding-right: 30px;
+              .text_lg {
+                width: 120px;
+                margin: 0 auto;
+              }
               &:last-child {
                 padding-left: 30px;
                 border-left: 1px solid var(--color_primary);
@@ -978,8 +982,14 @@
 
   .roadMapSec {
     padding: 30px 0 80px;
+    @include mv-media(max, 767px) {
+      padding: 10px 0 40px;
+    }
     .HeadTxt {
       margin-bottom: 70px;
+      @include mv-media(max, 767px) {
+        margin-bottom: 50px;
+      }
       .text_xxl {
         text-align: center;
       }
@@ -987,49 +997,107 @@
     .dragBxMain {
       height: 500px;
       position: relative;
+      @include mv-media(max, 767px) {
+        height: auto;
+      }
       .cmnBlock {
         position: absolute;
         top: 0;
         width: 50%;
         height: 100%;
+        @include mv-media(max, 767px) {
+          position: relative;
+          width: 100%;
+          text-align: center;
+        }
         &.leftSection {
           left: 0;
+
           .imgBx {
             opacity: 0;
             transition: all 0.5s;
             @extend .rel_y_center;
             left: 0;
+            @include mv-media(max, 767px) {
+              position: relative;
+              opacity: 1;
+              top: 0;
+              transform: none;
+              padding: 40px 30px 30px;
+            }
+
             .imgBxFx {
               display: flex;
               align-items: center;
+              img {
+                @include mv-media(max, 991px) {
+                  width: 70px;
+                }
+                @include mv-media(max, 767px) {
+                  width: auto;
+                }
+              }
               p {
                 @extend .text_reg;
                 margin-right: 30px;
+                @include mv-media(max, 991px) {
+                  margin-right: 15px;
+                }
+                @include mv-media(max, 767px) {
+                  margin-right: 0px;
+                  margin-left: 20px;
+                  text-align: left;
+                  font-size: 18px;
+                }
               }
               &:nth-child(1),
               &:nth-child(3) {
                 padding-left: 100px;
+                @include mv-media(max, 991px) {
+                  padding-left: 60px;
+                }
+                @include mv-media(max, 767px) {
+                  padding-left: 0px;
+                }
               }
               &:nth-child(2) {
                 margin: 50px 0;
+                @include mv-media(max, 767px) {
+                  margin: 25px 0px;
+                }
               }
             }
           }
-          .roadmap_icon_one{
+          .roadmap_icon_one {
             position: absolute;
             right: 15%;
             top: 13%;
             opacity: 0;
+            @include mv-media(max, 1199px) {
+              right: 10%;
+              top: 22%;
+            }
           }
-          .roadmap_icon_two{
+          .roadmap_icon_two {
             position: absolute;
             right: -12%;
             bottom: 17%;
             opacity: 0;
+            @include mv-media(max, 1199px) {
+              bottom: 28%;
+            }
           }
           .contentBx {
             @extend .rel_y_center;
             left: 0;
+            @include mv-media(max, 1199px) {
+              width: 80%;
+            }
+            @include mv-media(max, 767px) {
+              position: relative;
+              width: 100%;
+              transform: none;
+            }
           }
           &.activeClass {
             .imgBx {
@@ -1038,10 +1106,10 @@
             .contentBx {
               opacity: 0;
             }
-            .roadmap_icon_one{
+            .roadmap_icon_one {
               opacity: 1;
             }
-            .roadmap_icon_two{
+            .roadmap_icon_two {
               opacity: 1;
             }
           }
@@ -1055,38 +1123,90 @@
           .contentBx {
             @extend .rel_y_center;
             right: 0;
+            @include mv-media(max, 1199px) {
+              width: 67%;
+            }
+            @include mv-media(max, 767px) {
+              width: 100%;
+              opacity: 1 !important;
+              position: relative;
+              top: 0;
+              transform: none;
+              padding-top: 60px;
+            }
           }
           .imgBx {
             @extend .rel_y_center;
             right: 0;
+            @include mv-media(max, 767px) {
+              position: relative;
+              opacity: 1;
+              top: 0;
+              transform: none;
+              padding: 40px 30px 0px;
+            }
             .imgBxFx {
               display: flex;
               align-items: center;
               justify-content: flex-end;
+              @include mv-media(max, 767px) {
+                justify-content: flex-start;
+              }
+              img {
+                @include mv-media(max, 991px) {
+                  width: 70px;
+                }
+                @include mv-media(max, 767px) {
+                  width: auto;
+                }
+              }
               p {
                 @extend .text_reg;
                 margin-left: 30px;
+                @include mv-media(max, 991px) {
+                  margin-left: 15px;
+                }
+                @include mv-media(max, 767px) {
+                  font-size: 18px;
+                  margin-left: 20px;
+                }
               }
               &:nth-child(1),
               &:nth-child(3) {
                 padding-right: 100px;
+                @include mv-media(max, 991px) {
+                  padding-right: 30px;
+                }
+                @include mv-media(max, 767px) {
+                  padding-right: 0px;
+                }
               }
               &:nth-child(2) {
                 margin: 50px 0;
+                @include mv-media(max, 767px) {
+                  margin: 25px 0 25px;
+                }
               }
             }
           }
-          .roadmap_icon_one{
+          .roadmap_icon_one {
             position: absolute;
             left: 15%;
             top: 13%;
             opacity: 0;
+            @include mv-media(max, 1199px) {
+              left: 10%;
+              top: 23%;
+            }
           }
-          .roadmap_icon_two{
+          .roadmap_icon_two {
             position: absolute;
             left: -12%;
             bottom: 17%;
             opacity: 0;
+            @include mv-media(max, 1199px) {
+              bottom: 24%;
+            }
           }
           &.activeClass {
             .imgBx {
@@ -1095,10 +1215,10 @@
             .contentBx {
               opacity: 0;
             }
-            .roadmap_icon_one{
+            .roadmap_icon_one {
               opacity: 1;
             }
-            .roadmap_icon_two{
+            .roadmap_icon_two {
               opacity: 1;
             }
           }
@@ -1111,9 +1231,22 @@
             font-family: var(--work_sans);
             line-height: calc(33 / 28);
             margin-bottom: 15px;
+            @include mv-media(max, 991px) {
+              font-size: 22px;
+            }
+            @include mv-media(max, 767px) {
+              font-size: 24px;
+              margin-bottom: 20px;
+            }
           }
           .contentPara {
             @extend .text_reg;
+            @include mv-media(max, 991px) {
+              font-size: 16px;
+            }
+            @include mv-media(max, 767px) {
+              font-size: 18px;
+            }
           }
         }
         &.cmnBlockActive {
@@ -1128,8 +1261,27 @@
         height: 500px;
         // box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
         margin: 0 auto;
+        @include mv-media(max, 1199px) {
+          width: 280px;
+        }
+        @include mv-media(max, 991px) {
+          width: 220px;
+        }
+        @include mv-media(max, 767px) {
+          width: 100%;
+          height: auto;
+          margin-top: 30px;
+        }
         .back-img {
           opacity: 0.5;
+          @include mv-media(max, 767px) {
+            display: none;
+          }
+        }
+        .scrollerBlock {
+          @include mv-media(max, 767px) {
+            display: none;
+          }
         }
         .draggerPoint {
           height: 48px;
@@ -1158,7 +1310,20 @@
             }
           }
         }
-        
+        .roadmap_icon_one {
+          @include mv-media(max, 767px) {
+            position: absolute;
+            right: 15px;
+            top: -40px;
+          }
+        }
+        .roadmap_icon_two {
+          @include mv-media(max, 767px) {
+            position: absolute;
+            left: 12%;
+            bottom: 0%;
+          }
+        }
       }
 
       .before-after .img {
@@ -1169,12 +1334,20 @@
         // width: 100%;
         // height: 100%;
         object-fit: cover;
+        @include mv-media(max, 767px) {
+          position: relative;
+          transform: none;
+          object-fit: cover;
+        }
       }
 
       .before-after .img.front-img {
         z-index: 1;
         /* Crop half of the front image */
         clip-path: polygon(0 0, 50% 0, 50% 100%, 0% 100%);
+        @include mv-media(max, 767px) {
+          clip-path: none;
+        }
       }
 
       .slider {
