@@ -35,6 +35,10 @@
   line-height: 45px;
   color: var(--color_primary);
   font-family: var(--marcellus_r);
+  @include mv-media(max, 1300px) {
+    font-size: 32px;
+    line-height: 40px;
+  }
   @include sm-down {
     font-size: 30px;
     line-height: 40px;
@@ -46,7 +50,8 @@
   color: var(--color_primary);
   font-family: var(--marcellus_r);
   @include sm-down {
-    font-size: 38px;
+    font-size: 36px;
+    line-height: 46px;
   }
 }
 .text_xxl {
@@ -54,13 +59,16 @@
   line-height: 63px;
   color: var(--color_primary);
   font-family: var(--marcellus_r);
+  @include mv-media(max, 1300px) {
+    font-size: 45px;
+  }
   @include md-down {
     font-size: 40px;
     line-height: 50px;
   }
   @include sm-down {
     font-size: 36px;
-    line-height: 40px;
+    line-height: 46px;
   }
 }
 

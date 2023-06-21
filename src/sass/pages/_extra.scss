@@ -47,12 +47,18 @@ body {
   .bannerText {
     @extend .rel_y_center;
     left: var(--container_left_space);
+    @include mv-media(max, 1300px) {
+      top: 54%;
+    }
     .bannerHead {
       font-size: 63px;
       color: #fff;
       font-family: var(--marcellus_r);
       line-height: 1.2;
       margin-bottom: 20px;
+      @include mv-media(max, 1300px) {
+        font-size: 58px;
+      }
       @include mv-media(max, 992px) {
         font-size: 36px;
       }
@@ -80,12 +86,15 @@ body {
       transform: translateX(calc(var(--container_width) * -1));
       transition: all 1s;
       transition-delay: 4.3s;
+      @include mv-media(max, 1300px) {
+        font-size: 18px;
+      }
       &.bannerParaAnim {
         transform: translateX(0);
       }
     }
     @include mv-media(max, 992px) {
-      top: calc(var(--headerHeight) + 15px);
+      top: calc(var(--headerHeight) + 40px);
       transform: translateY(0);
       left: 15px;
     }
@@ -246,7 +255,7 @@ body {
       position: relative;
       @include mv-media(max, 767px) {
         width: 100%;
-        margin-top: 50px;
+        margin-top: 40px;
         border-top: 2px solid var(--secondary-color);
         // padding-top: 20px;
         // margin-top: 15px;
@@ -289,6 +298,10 @@ body {
           font-size: 70px;
           line-height: 88px;
           color: var(--secondary-color);
+          @include mv-media(max, 1300px) {
+            font-size: 65px;
+            line-height: 80px;
+          }
           @include mv-media(max, 1199px) {
             font-size: 60px;
             line-height: 80px;
@@ -351,6 +364,7 @@ body {
         left: -12%;
         @include mv-media(max, 1280px) {
           left: -9%;
+          bottom: -23px;
         }
         @include mv-media(max, 1199px) {
           bottom: 0px;
@@ -501,8 +515,10 @@ body {
     width: calc(var(--illustrious_flex) - 100px);
     // height: var(--illustrious_flex);
     transform: rotate(90deg);
+    
     @include mv-media(max, 1280px) {
       left: -42%;
+      top: 44%;
     }
     @include mv-media(max, 1199px) {
       left: -42%;

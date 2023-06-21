@@ -96,35 +96,17 @@
               <img class="line_two" src="img/home/line_two_new.png" alt="line_two" />
               <!-- <img class="dotsSlide visible-xs" src="img/dotsSlide.png" alt="line_two" /> -->
               <div class="slider slider-nav">
+
                 <div class="thumbnail_txt">
-                  <h2 class="text_xxl">Present Day</h2>
-                  <p class="text_reg">Today, we offer unmatched 360° solutions while exclusively working with reputed
-                    miners and retail partners.</p>
+                  <h2 class="text_xxl">1971</h2>
+                  <p class="text_reg">We start out in a small office in Mumbai, India, as a rough diamonds trading
+                    company.</p>
                 </div>
+
                 <div class="thumbnail_txt">
-                  <h2 class="text_xxl">2020</h2>
-                  <p class="text_reg">We are recognised as an integral player in the lifeline of the Argyle mine as
-                    their journey comes to an end.</p>
-                </div>
-                <div class="thumbnail_txt">
-                  <h2 class="text_xxl">2014</h2>
-                  <p class="text_reg">De Beers Group recognises our strength within the diamond industry, giving us the
-                    ability to become a Sightholder.</p>
-                </div>
-                <div class="thumbnail_txt">
-                  <h2 class="text_xxl">2010</h2>
-                  <p class="text_reg">We go further downstream in the pipeline to get one step closer to retail by
-                    diversifying our offerings to jewellery distribution in London under ‘Mireya UK Ltd.’</p>
-                </div>
-                <div class="thumbnail_txt">
-                  <h2 class="text_xxl">2004</h2>
-                  <p class="text_reg">Diambel ME is launched in Dubai to set a strong foundation for the polished market
-                    and add further value to our rough sourcing and trading.</p>
-                </div>
-                <div class="thumbnail_txt">
-                  <h2 class="text_xxl">2000</h2>
-                  <p class="text_reg">Rio Tinto Diamonds starts the Select Diamantaire Programme where Diambel NV is
-                    acknowledged as one of their first customers.</p>
+                  <h2 class="text_xxl">1985</h2>
+                  <p class="text_reg">Diambel NV is born in Antwerp, Belgium with a view to grow our rough distribution
+                    and strengthen ties with reputed miners. </p>
                 </div>
 
                 <div class="thumbnail_txt">
@@ -132,15 +114,41 @@
                   <p class="text_reg">We establish Harshid Exports, with a long-term aim to grow our manufacturing and
                     distribution of polished diamonds. </p>
                 </div>
+
                 <div class="thumbnail_txt">
-                  <h2 class="text_xxl">1985</h2>
-                  <p class="text_reg">Diambel NV is born in Antwerp, Belgium with a view to grow our rough distribution
-                    and strengthen ties with reputed miners. </p>
+                  <h2 class="text_xxl">2000</h2>
+                  <p class="text_reg">Rio Tinto Diamonds starts the Select Diamantaire Programme where Diambel NV is
+                    acknowledged as one of their first customers.</p>
                 </div>
+
                 <div class="thumbnail_txt">
-                  <h2 class="text_xxl">1971</h2>
-                  <p class="text_reg">We start out in a small office in Mumbai, India, as a rough diamonds trading
-                    company.</p>
+                  <h2 class="text_xxl">2004</h2>
+                  <p class="text_reg">Diambel ME is launched in Dubai to set a strong foundation for the polished market
+                    and add further value to our rough sourcing and trading.</p>
+                </div>
+
+                <div class="thumbnail_txt">
+                  <h2 class="text_xxl">2010</h2>
+                  <p class="text_reg">We go further downstream in the pipeline to get one step closer to retail by
+                    diversifying our offerings to jewellery distribution in London under ‘Mireya UK Ltd.’</p>
+                </div>
+
+                <div class="thumbnail_txt">
+                  <h2 class="text_xxl">2014</h2>
+                  <p class="text_reg">De Beers Group recognises our strength within the diamond industry, giving us the
+                    ability to become a Sightholder.</p>
+                </div>
+
+                <div class="thumbnail_txt">
+                  <h2 class="text_xxl">2020</h2>
+                  <p class="text_reg">We are recognised as an integral player in the lifeline of the Argyle mine as
+                    their journey comes to an end.</p>
+                </div>
+
+                <div class="thumbnail_txt">
+                  <h2 class="text_xxl">Present Day</h2>
+                  <p class="text_reg">Today, we offer unmatched 360° solutions while exclusively working with reputed
+                    miners and retail partners.</p>
                 </div>
 
               </div>
@@ -156,39 +164,48 @@
                 <img class="slider_layer_five" src="img/home/review_layer_two.png" alt="slider_one" /> -->
               </div>
 
-              <img class="line_layer" src="img/home/line_layer.png" alt="line_layer" />
+              <img class="line_layer hidden-xs" src="img/home/line_layer.png" alt="line_layer" />
               <img class="slider_layer_two" src="img/home/review_layer_two.png" alt="slider_one" />
               <div class="slider slider-for">
-                <div class="slider_image">
-                  <img src="img/home/slider_one.jpg" alt="" />
-                </div>
-                <div class="slider_image">
-                  <img src="img/home/year_2020.jpg" alt="" />
-                </div>
+
                 <div class="slider_image">
                   <img src="img/home/year_2014.jpg" alt="" />
                 </div>
+
                 <div class="slider_image">
-                  <img src="img/home/year_2010.jpg" alt="" />
-                  <!-- <img class="line_layer" src="img/home/line_layer.png" alt="line_layer" /> -->
-                  <!-- <img class="slider_layer_two" src="img/home/review_layer_two.png" alt="" /> -->
-                </div>
-                <div class="slider_image">
-                  <img src="img/home/year_2004.jpg" alt="" />
-                </div>
-                <div class="slider_image">
-                  <img src="img/home/year_2000.jpg" alt="" />
+                  <img src="img/home/year_2020.jpg" alt="" />
                 </div>
 
                 <div class="slider_image">
                   <img src="img/home/year_1990.jpg" alt="" />
                 </div>
+
                 <div class="slider_image">
-                  <img src="img/home/year_2020.jpg" alt="" />
+                  <img src="img/home/year_2000.jpg" alt="" />
                 </div>
+
+                <div class="slider_image">
+                  <img src="img/home/year_2004.jpg" alt="" />
+                </div>
+
+                <div class="slider_image">
+                  <img src="img/home/year_2010.jpg" alt="" />
+                  <!-- <img class="line_layer" src="img/home/line_layer.png" alt="line_layer" /> -->
+                  <!-- <img class="slider_layer_two" src="img/home/review_layer_two.png" alt="" /> -->
+                </div>
+
                 <div class="slider_image">
                   <img src="img/home/year_2014.jpg" alt="" />
                 </div>
+
+                <div class="slider_image">
+                  <img src="img/home/year_2020.jpg" alt="" />
+                </div>
+
+                <div class="slider_image">
+                  <img src="img/home/slider_one.jpg" alt="" />
+                </div>
+                
               </div>
 
             </div>
@@ -863,9 +880,9 @@
                 Responsibility Goals
               </h3>
               <p class="contentPara toTop" data-scroll>
-                Through our CSR efforts and partnerships<br class="visible-lg">with organisations, we want to focus
-                on<br class="visible-lg">three
-                important pillars of society and give<br class="visible-lg">back to the community we are a part of.
+                Through our CSR efforts and partnerships with organisations, we want to focus
+                on three
+                important pillars of society and give back to the community we are a part of.
               </p>
             </div>
             <div class="imgBx visible-xs toTop" data-scroll>
@@ -1153,10 +1170,10 @@
   });
   $('.inputRange').on('input change', function() {
     var thisValue = $(this).val()
-    if (thisValue >= 90) {
+    if (thisValue >= 60) {
       $('.leftSection').removeClass('activeClass')
       $('.rightSection').addClass('activeClass')
-    } else if (thisValue <= 10) {
+    } else if (thisValue <= 40) {
       $('.rightSection').removeClass('activeClass')
       $('.leftSection').addClass('activeClass')
     }
