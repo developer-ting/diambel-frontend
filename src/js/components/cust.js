@@ -56,7 +56,7 @@ $(".slider-for").slick({
   slidesToScroll: 1,
   arrows: false,
   fade: true,
-  infinite: true,
+  infinite: false,
   pauseOnHover: false,
   asNavFor: ".slider-nav",
   autoplay: false,
@@ -67,7 +67,7 @@ if (sliderNav.length) {
   sliderNav.slick({
     slidesToShow: 2,
     slidesToScroll: 1,
-    autoplay: true,
+    autoplay: false,
     vertical: true,
     asNavFor: ".slider-for",
     arrows: true,
@@ -105,7 +105,7 @@ if (sliderNav.length) {
       },
     ],
   });
-  sliderNav.slick("slickPlay");
+  //sliderNav.slick("slickPlay");
 }
 function progressbar(sliderName, progressClass) {
   var $slider = $(sliderName);
