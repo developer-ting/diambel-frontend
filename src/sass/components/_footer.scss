@@ -145,6 +145,9 @@ footer {
       @include mv-media(max, 1199px) {
         flex-wrap: wrap;
       }
+      @include mv-media(max, 767px) {
+        padding-top: 0px;
+      }
     }
   }
 
@@ -180,6 +183,9 @@ footer {
     }
     .footer_logo {
       padding-top: 20px;
+      @include mv-media(max, 767px) {
+        padding-top: 0px;
+      }
       img {
         margin: 0 auto;
       }

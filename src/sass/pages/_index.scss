@@ -10,7 +10,7 @@
   .hallmark_credibilty {
     background-color: var(--color-bg);
     @include mv-media(max, 767px) {
-      padding-bottom: 60px;
+      padding-bottom: 80px;
     }
     .hallmark_credibilty_inside {
       display: flex;
@@ -24,6 +24,16 @@
           width: 100%;
           text-align: center;
           margin-bottom: 30px;
+        }
+        @include mv-media(max, 767px) {
+          padding: 0px 20px;
+        }
+        .text_lg{
+          @include mv-media(max, 767px) {
+            font-size: 24px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid rgba(192, 162, 128, 0.6);
+          }
         }
       }
       .hallmark_credibilty_right {
@@ -90,15 +100,9 @@
             margin-top: 30px;
             text-align: center;
           }
-          .btn_project_default {
-            border: none;
-            border-bottom: 1px solid #413e3e;
-            border-radius: 0px;
-            padding: 0;
-            &:hover {
-              background-color: transparent;
-              color: var(--color_primary);
-            }
+          .btn_project_secondary {
+            font-size: 18px;
+            color: var(--color_text);
           }
         }
       }
@@ -253,7 +257,8 @@
         }
         @include mv-media(max, 767px) {
           width: 30px;
-          top: 30%;
+          top: 100%;
+          left: 30px;
         }
       }
       .vactor_two {
@@ -264,16 +269,15 @@
           right: -15px;
         }
         @include mv-media(max, 767px) {
-          right: -10px;
-          top: 95%;
-          transform: rotate(180deg);
+          right: 10px;
+          top: 10px;
         }
         img {
           @include mv-media(max, 1199px) {
             width: 100px;
           }
           @include mv-media(max, 767px) {
-            width: 60px;
+            width: 45px;
           }
         }
       }
@@ -295,17 +299,17 @@
         top: 200px;
         @include mv-media(max, 767px) {
           left: -10px;
-          top: 40px;
-          width: 30px;
+          // top: 40px;
+          width: 26px;
         }
       }
       .working_layer_two {
         right: 15%;
         top: 40%;
         @include mv-media(max, 767px) {
-          right: 10%;
-          top: 22%;
-          width: 30px;
+          right: -3%;
+          top: 8%;
+          width: 24px;
         }
       }
       .working_layer_three {
@@ -314,13 +318,14 @@
         @include mv-media(max, 767px) {
           width: 60px;
           right: -30px;
-          bottom: 280px;
+          bottom: 340px;
         }
       }
       .working_layer_four {
         left: -20px;
         bottom: 150px;
         @include mv-media(max, 767px) {
+          display: none;
           left: -20px;
           bottom: 30px;
           width: 50px;
@@ -335,6 +340,11 @@
         }
         .title {
           width: 100%;
+          @include mv-media(max, 767px) {
+            width: 90%;
+            margin: 0 auto;
+          }
+          
         }
       }
 
@@ -505,15 +515,15 @@
 
           .faq_section {
             .faq_box {
-              padding: 20px 65px;
+              padding: 15px 65px;
               background-color: var(--white-color);
               border-radius: 15px;
               margin-bottom: 20px;
               @include mv-media(max, 1199px) {
-                padding: 20px 40px;
+                padding: 15px 40px;
               }
               @include mv-media(max, 767px) {
-                padding: 20px 15px;
+                padding: 15px 15px;
               }
               .faq_title {
                 text-decoration: none;
@@ -623,7 +633,10 @@
                     }
                   }
                   p {
-                    width: 80%;
+                    width: 74%;
+                    @include mv-media(max, 991px) {
+                      width: 80%;
+                    }
                     @include mv-media(max, 767px) {
                       width: 100%;
                     }
@@ -661,6 +674,10 @@
             .counter_item {
               text-align: center;
               padding-right: 30px;
+              .text_lg {
+                width: 120px;
+                margin: 0 auto;
+              }
               &:last-child {
                 padding-left: 30px;
                 border-left: 1px solid var(--color_primary);
@@ -764,7 +781,7 @@
             h6 {
               font-size: 20px;
             }
-            .text_reg {
+            .text_sm {
               align-items: flex-start;
               margin-top: 15px;
               .icon {
@@ -944,12 +961,11 @@
         @include mv-media(max, 767px) {
           width: 100%;
           margin-top: 30px;
-          justify-content: space-between;
+          justify-content: flex-start;
           flex-wrap: wrap;
         }
         .btn_box {
           @include mv-media(max, 767px) {
-            width: 56%;
             text-align: left;
             padding-bottom: 0px;
           }
@@ -962,9 +978,8 @@
         .inquire_btn {
           margin-left: 40px;
           @include mv-media(max, 767px) {
-            margin-left: 0px;
-            width: 42%;
-            text-align: right;
+            margin-left: 30px;
+            text-align: left;
           }
           .btn_project_default {
             font-size: 20px;
@@ -979,6 +994,415 @@
             }
           }
         }
+      }
+    }
+  }
+
+  .roadMapSec {
+    // padding: 30px 0 80px;
+    @include mv-media(max, 767px) {
+      padding: 80px 0 40px;
+    }
+    .HeadTxt {
+      margin-bottom: 70px;
+      @include mv-media(max, 767px) {
+        margin-bottom: 50px;
+      }
+      .text_xxl {
+        text-align: center;
+      }
+    }
+    .dragBxMain {
+      height: 500px;
+      position: relative;
+      @include mv-media(max, 767px) {
+        height: auto;
+      }
+      .cmnBlock {
+        position: absolute;
+        top: 0;
+        width: 50%;
+        height: 100%;
+        @include mv-media(max, 767px) {
+          position: relative;
+          width: 100%;
+          text-align: center;
+        }
+        &.leftSection {
+          left: 0;
+
+          .imgBx {
+            opacity: 0;
+            transition: all 0.5s;
+            @extend .rel_y_center;
+            left: 0;
+            @include mv-media(max, 767px) {
+              position: relative;
+              opacity: 1;
+              top: 0;
+              transform: none;
+              padding: 40px 30px 30px;
+            }
+
+            .imgBxFx {
+              display: flex;
+              align-items: center;
+              img {
+                @include mv-media(max, 991px) {
+                  width: 70px;
+                }
+                @include mv-media(max, 767px) {
+                  width: auto;
+                }
+              }
+              p {
+                @extend .text_reg;
+                margin-right: 30px;
+                @include mv-media(max, 991px) {
+                  margin-right: 15px;
+                }
+                @include mv-media(max, 767px) {
+                  margin-right: 0px;
+                  margin-left: 20px;
+                  text-align: left;
+                  font-size: 18px;
+                }
+              }
+              &:nth-child(1),
+              &:nth-child(3) {
+                padding-left: 100px;
+                @include mv-media(max, 991px) {
+                  padding-left: 60px;
+                }
+                @include mv-media(max, 767px) {
+                  padding-left: 0px;
+                }
+              }
+              &:nth-child(2) {
+                margin: 50px 0;
+                @include mv-media(max, 767px) {
+                  margin: 25px 0px;
+                }
+              }
+            }
+          }
+          .roadmap_icon_one {
+            position: absolute;
+            right: 15%;
+            top: 13%;
+            opacity: 0;
+            @include mv-media(max, 1199px) {
+              right: 10%;
+              top: 22%;
+            }
+          }
+          .roadmap_icon_two {
+            position: absolute;
+            right: -12%;
+            bottom: 17%;
+            opacity: 0;
+            @include mv-media(max, 1199px) {
+              bottom: 28%;
+            }
+          }
+          .contentBx {
+            @extend .rel_y_center;
+            left: 0;
+            @include mv-media(max, 1199px) {
+              width: 80%;
+            }
+            @include mv-media(max, 767px) {
+              position: relative;
+              width: 100%;
+              transform: none;
+            }
+          }
+          &.activeClass {
+            .imgBx {
+              opacity: 1;
+            }
+            .contentBx {
+              opacity: 0;
+            }
+            .roadmap_icon_one {
+              opacity: 1;
+            }
+            .roadmap_icon_two {
+              opacity: 1;
+            }
+          }
+        }
+        &.rightSection {
+          right: 0;
+          .imgBx {
+            opacity: 0;
+            transition: all 0.5s;
+          }
+          .contentBx {
+            @extend .rel_y_center;
+            right: 0;
+            width: 62%;
+            top: 47%;
+            @include mv-media(max, 1199px) {
+              width: 67%;
+              top: 50%;
+            }
+            @include mv-media(max, 767px) {
+              width: 100%;
+              opacity: 1 !important;
+              position: relative;
+              top: 0;
+              transform: none;
+              padding-top: 60px;
+            }
+          }
+          .imgBx {
+            @extend .rel_y_center;
+            right: 0;
+            @include mv-media(max, 767px) {
+              position: relative;
+              opacity: 1;
+              top: 0;
+              transform: none;
+              padding: 40px 30px 0px;
+            }
+            .imgBxFx {
+              display: flex;
+              align-items: center;
+              justify-content: flex-end;
+              @include mv-media(max, 767px) {
+                justify-content: flex-start;
+              }
+              img {
+                @include mv-media(max, 991px) {
+                  width: 70px;
+                }
+                @include mv-media(max, 767px) {
+                  width: auto;
+                }
+              }
+              p {
+                @extend .text_reg;
+                margin-left: 30px;
+                @include mv-media(max, 991px) {
+                  margin-left: 15px;
+                }
+                @include mv-media(max, 767px) {
+                  font-size: 18px;
+                  margin-left: 20px;
+                }
+              }
+              &:nth-child(1),
+              &:nth-child(3) {
+                padding-right: 100px;
+                @include mv-media(max, 991px) {
+                  padding-right: 30px;
+                }
+                @include mv-media(max, 767px) {
+                  padding-right: 0px;
+                }
+              }
+              &:nth-child(2) {
+                margin: 50px 0;
+                @include mv-media(max, 767px) {
+                  margin: 25px 0 25px;
+                }
+              }
+            }
+          }
+          .roadmap_icon_one {
+            position: absolute;
+            left: 15%;
+            top: 13%;
+            opacity: 0;
+            @include mv-media(max, 1199px) {
+              left: 10%;
+              top: 23%;
+            }
+          }
+          .roadmap_icon_two {
+            position: absolute;
+            left: -12%;
+            bottom: 17%;
+            opacity: 0;
+            @include mv-media(max, 1199px) {
+              bottom: 24%;
+            }
+          }
+          &.activeClass {
+            .imgBx {
+              opacity: 1;
+            }
+            .contentBx {
+              opacity: 0;
+            }
+            .roadmap_icon_one {
+              opacity: 1;
+            }
+            .roadmap_icon_two {
+              opacity: 1;
+            }
+          }
+        }
+        .contentBx {
+          .contentHead {
+            font-size: 28px;
+            font-weight: 400;
+            color: var(--secondary-color);
+            font-family: var(--work_sans);
+            line-height: calc(33 / 28);
+            margin-bottom: 15px;
+            @include mv-media(max, 991px) {
+              font-size: 22px;
+            }
+            @include mv-media(max, 767px) {
+              font-size: 24px;
+              margin-bottom: 20px;
+            }
+          }
+          .contentPara {
+            @extend .text_reg;
+            @include mv-media(max, 991px) {
+              font-size: 16px;
+            }
+            @include mv-media(max, 767px) {
+              font-size: 18px;
+            }
+          }
+        }
+        &.cmnBlockActive {
+        }
+      }
+      .before-after {
+        position: relative;
+        // width: 100%;
+        // max-width: 900px;
+        // min-height: 50vh;
+        width: 390px;
+        height: 500px;
+        // box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        margin: 0 auto;
+        @include mv-media(max, 1199px) {
+          width: 280px;
+        }
+        @include mv-media(max, 991px) {
+          width: 220px;
+        }
+        @include mv-media(max, 767px) {
+          width: 280px;
+          height: auto;
+          margin-top: 30px;
+        }
+        .back-img {
+          opacity: 0.5;
+          @include mv-media(max, 767px) {
+            display: none;
+          }
+        }
+        .scrollerBlock {
+          @include mv-media(max, 767px) {
+            display: none;
+          }
+        }
+        .draggerPoint {
+          height: 48px;
+          width: 48px;
+          display: inline-block;
+
+          background-color: #000;
+          backdrop-filter: blur(2px);
+          background-color: #f9f9f961;
+          border-radius: 100%;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          z-index: 1;
+          border: 4px solid #484848;
+          cursor: pointer;
+          .smAroow {
+            @extend .rel_y_center;
+            &.leftAr {
+              left: 4px;
+            }
+            &.rightAr {
+              right: 0;
+              transform: translate(-50%, -50%) scaleX(-1);
+            }
+          }
+        }
+        .roadmap_icon_one {
+          @include mv-media(max, 767px) {
+            position: absolute;
+            right: 15px;
+            top: -40px;
+          }
+        }
+        .roadmap_icon_two {
+          @include mv-media(max, 767px) {
+            position: absolute;
+            left: 12%;
+            bottom: 0%;
+          }
+        }
+      }
+
+      .before-after .img {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+        // width: 100%;
+        // height: 100%;
+        object-fit: cover;
+        @include mv-media(max, 767px) {
+          position: relative;
+          transform: none;
+          object-fit: cover;
+        }
+      }
+
+      .before-after .img.front-img {
+        z-index: 1;
+        /* Crop half of the front image */
+        clip-path: polygon(0 0, 50% 0, 50% 100%, 0% 100%);
+        @include mv-media(max, 767px) {
+          clip-path: none;
+        }
+      }
+
+      .slider {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: transparent;
+        z-index: 2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .slider::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        width: 4px;
+        min-height: 500px;
+        cursor: pointer;
+        background-color: #484848;
+        border: 1px solid transparent;
+        border-radius: 0;
+        // background-image: url("../../img/home/thumb_bg.svg");
+      }
+
+      .slider::-moz-range-thumb {
+        -moz-appearance: none;
+        width: 4px;
+        min-height: 500px;
+        cursor: pointer;
+        background-color: #484848;
+        border: 1px solid transparent;
+        border-radius: 0;
+        // background-image: url("../../img/home/thumb_bg.svg");
       }
     }
   }

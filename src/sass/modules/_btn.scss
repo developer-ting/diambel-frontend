@@ -1,7 +1,7 @@
 .btn_project_default {
-  font-size: 16px;
+  font-size: 18px;
   background-image: none;
-  padding: 7px 22px;
+  padding: 10px 22px;
   box-shadow: none;
   text-shadow: none;
   color: var(--color_primary);
@@ -80,7 +80,7 @@
     left: 0;
     bottom: -5px;
     position: absolute;
-    background-color: var(--color_primary);
+    background-color: var(--color_text);
   }
   &:hover {
     &::before {
