@@ -18,6 +18,7 @@
   color: var(--color_text);
   @include sm-down {
     font-size: 16px;
+    line-height: 22px;
   }
 }
 
@@ -49,9 +50,13 @@
   line-height: 57px;
   color: var(--color_primary);
   font-family: var(--marcellus_r);
+  @include md-down {
+    font-size: 40px;
+    line-height: 50px;
+  }
   @include sm-down {
     font-size: 36px;
-    line-height: 46px;
+    line-height: 42px;
   }
 }
 .text_xxl {
@@ -68,7 +73,7 @@
   }
   @include sm-down {
     font-size: 36px;
-    line-height: 46px;
+    line-height: 42px;
   }
 }
 

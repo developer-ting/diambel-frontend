@@ -297,7 +297,8 @@
             <img src="img/home/nature_vector_one.png" alt="nature_vector_one" />
           </div>
           <div class="vactor_two postion_vector">
-            <img src="img/home/nature_vector_two.png" alt="nature_vector_one" />
+            <img class="hidden-xs" src="img/home/nature_vector_two.png" alt="nature_vector_one" />
+            <img class="visible-xs" src="img/home/solutions_layer_one.png" alt="nature_vector_one" />
           </div>
         </div>
 

@@ -101,6 +101,7 @@ if (sliderNav.length) {
           // centerMode: true,
           vertical: false,
           autoplay: false,
+          verticalSwiping: false,
         },
       },
     ],
