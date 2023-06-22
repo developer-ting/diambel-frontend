@@ -62,6 +62,10 @@
           .hallmark_item {
             padding-left: 50px;
             margin: 10px 0;
+            min-height: 90px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
             img {
               margin: 0 auto;
             }
@@ -670,13 +674,24 @@
           .our_counter {
             display: flex;
             align-items: center;
-
+            @include mv-media(max, 767px) {
+              padding-top: 25px;
+            }
             .counter_item {
               text-align: center;
               padding-right: 30px;
+              @include mv-media(max, 767px) {
+                width: 50%;
+              }
               .text_lg {
                 width: 120px;
                 margin: 0 auto;
+              }
+              p{
+                
+                @include mv-media(max, 767px) {
+                  line-height: 18px;
+                }
               }
               &:last-child {
                 padding-left: 30px;
@@ -689,7 +704,7 @@
           width: 47%;
           @include mv-media(max, 767px) {
             width: 100%;
-            margin-top: 20px;
+            margin-top: 30px;
           }
           img {
             border-radius: 15px;
@@ -700,6 +715,9 @@
   }
 
   .upcoming_events {
+    @include mv-media(max, 991px) {
+      padding-bottom: 10px;
+    }
     .title_info {
       @include mv-media(max, 767px) {
         padding-bottom: 10px;
@@ -829,6 +847,9 @@
     }
   }
   .corporate_social {
+    @include mv-media(max, 991px) {
+      padding-bottom: 10px;
+    }
     .title_info {
       @include mv-media(max, 767px) {
         padding-bottom: 30px;
@@ -972,6 +993,7 @@
           .btn_project_default {
             @include mv-media(max, 767px) {
               padding: 8px 20px;
+              
             }
           }
         }
@@ -1480,6 +1502,8 @@
           .btn_project_default {
             @include mv-media(max, 767px) {
               padding: 8px 20px;
+              width: 100%;
+              text-align: center;
             }
           }
         }
@@ -1513,6 +1537,9 @@
   }
 
   .popup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: fixed;
     top: 0px;
     left: 0px;
@@ -1532,16 +1559,19 @@
     }
     .modalOuter {
       position: relative;
-      margin-top: 10vh;
+      width: 45%;
+      margin: 0 auto;
+      // margin-top: 10vh;
       @include mv-media(max, 992px) {
-        margin-top: 50px;
-        height: 100vh;
-        overflow: auto;
+        width: 70%;
+      }
+      @include mv-media(max, 767px) {
+        width: 94%;
       }
       .modalPop {
         .moadalFlex {
           background-color: #f7f7f7;
-          padding: 80px 60px 80px;
+          padding: 80px 0px 80px;
           border-radius: 5px;
           box-shadow: 0px 4px 10px #dedede;
           border-radius: 32px;
@@ -1559,17 +1589,18 @@
               width: 100%;
             }
             .group_flex {
-              display: flex;
-              align-items: flex-start;
-              justify-content: space-between;
+              // display: flex;
+              // align-items: flex-start;
+              // justify-content: space-between;
               @include mv-media(max, 767px) {
                 flex-wrap: wrap;
               }
               .input_group {
-                width: 48%;
-                padding-bottom: 50px;
+                width: 100%;
+                padding-bottom: 40px;
                 @include mv-media(max, 767px) {
                   width: 100%;
+                  padding-bottom: 40px;
                 }
                 .input_control {
                   width: 100%;
@@ -1605,11 +1636,11 @@
   .cancel {
     position: absolute;
     top: 15px;
-    right: calc(var(--container_left_space) + 35px);
+    right: 20px;
     z-index: 1;
     cursor: pointer;
     @include mv-media(768px, 992px) {
-      right: calc(var(--container_left_space) + 40px);
+      right: 20px;
     }
   }
 

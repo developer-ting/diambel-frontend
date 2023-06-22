@@ -70,10 +70,16 @@
                 <img src="img/home/sightholder_logo.png" alt="sightholder" />
               </div>
               <div class="hallmark_item">
-                <img src="img/home/sightholder_logo.png" alt="sightholder" />
+                <img src="img/home/selectDia_RGB_logo.png" alt="sightholder" />
               </div>
               <div class="hallmark_item">
-                <img src="img/home/sightholder_logo.png" alt="sightholder" />
+                <img src="img/home/rjc_logo.png" alt="sightholder" />
+              </div>
+              <div class="hallmark_item">
+                <img src="img/home/mireya.png" alt="sightholder" />
+              </div>
+              <div class="hallmark_item">
+                <img src="img/home/harshid85.png" alt="sightholder" />
               </div>
             </div>
             <div class="hallmark_btn">
@@ -914,11 +920,11 @@
           <div class="get_started_right">
             <div class="btn_box">
 
-              <a onClick="openPopup('pop1');" class="btn_project_default black_btn" href="javascript:void(0);">Register
+              <a class="btn_project_default black_btn" href="javascript:void(0);">Register
                 Here</a>
             </div>
             <div class="inquire_btn">
-              <a class="btn_project_secondary" href="">Inquire Now</a>
+              <a onClick="openPopup('pop1');" class="btn_project_secondary" href="javascript:void(0);">Inquire Now</a>
             </div>
           </div>
         </div>
@@ -953,7 +959,7 @@
           <img src="img/home/closeBtn.png" alt="">
         </div>
         <div class="modalPop">
-          <div class="container">
+          <div class="">
             <div class="moadalFlex">
               <div class="modalItem">
                 <form id="register_form">

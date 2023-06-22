@@ -209,6 +209,12 @@ body {
   @include mv-media(max, 1199px) {
     background-size: cover;
   }
+  // @include mv-media(max, 767px) {
+  //   background-image: url("../../img/intro/mobile_banner.jpg");
+  // }
+  .delayNone {
+    transition-delay: 0s;
+  }
 }
 .intro-video {
   position: fixed;
@@ -236,6 +242,9 @@ body {
       background-color: #010001;
       border: 1px solid #fff;
     }
+  }
+  .delayNone {
+    transition-delay: 0s;
   }
 }
 

@@ -49,6 +49,17 @@ $(window).on("load", function () {
   if (winW < 992) {
     loadBannerAnim();
   }
+  var isVisited = sessionStorage.getItem("visited");
+  if (isVisited) {
+    loadBannerAnim();
+    $(".bannerHead span").addClass("delayNone").addClass("spanAnim");
+    $(".bannerPara").addClass("delayNone").addClass("bannerParaAnim");
+    $(".DiamondImg").addClass("delayNone").addClass("DiamondImgAnim");
+    $(".bgDiamondImg").addClass("delayNone").addClass("bgDiamondImgAnim");
+    console.log(isVisited);
+  } else {
+    sessionStorage.setItem("visited", "true");
+  }
 });
 
 $(".slider-for").slick({
@@ -188,3 +199,12 @@ if (window.innerWidth < 767) {
     }
   });
 }
+$(document).ready(function () {
+  var isVisited = sessionStorage.getItem("visited");
+  if (isVisited) {
+    $("#skip").remove();
+    $(".intro-video").remove();
+  } else {
+    sessionStorage.setItem("visited", "true");
+  }
+});
