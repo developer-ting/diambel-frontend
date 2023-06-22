@@ -47,14 +47,23 @@ body {
   .bannerText {
     @extend .rel_y_center;
     left: var(--container_left_space);
+    @include mv-media(max, 1300px) {
+      top: 54%;
+    }
     .bannerHead {
       font-size: 63px;
       color: #fff;
       font-family: var(--marcellus_r);
       line-height: 1.2;
       margin-bottom: 20px;
+      @include mv-media(max, 1300px) {
+        font-size: 58px;
+      }
       @include mv-media(max, 992px) {
         font-size: 36px;
+      }
+      @include mv-media(max, 767px) {
+        font-size: 32px;
       }
       .italictxt {
         color: var(--secondary-color);
@@ -80,14 +89,24 @@ body {
       transform: translateX(calc(var(--container_width) * -1));
       transition: all 1s;
       transition-delay: 4.3s;
+      @include mv-media(max, 1300px) {
+        font-size: 18px;
+      }
+      @include mv-media(max, 767px) {
+        font-size: 16px;
+        line-height: 22px;
+      }
       &.bannerParaAnim {
         transform: translateX(0);
       }
     }
     @include mv-media(max, 992px) {
-      top: calc(var(--headerHeight) + 15px);
+      top: calc(var(--headerHeight) + 40px);
       transform: translateY(0);
       left: 15px;
+    }
+    @include mv-media(max, 767px) {
+      top: calc(var(--headerHeight) + 60px);
     }
   }
   &.banner-sec-anim {
@@ -140,7 +159,7 @@ body {
       transition: all 1.5s;
       transition-delay: 3s;
       &.str1 {
-        top: 0;
+        top: -10px;
         left: 0;
       }
       &.str2 {
@@ -190,6 +209,12 @@ body {
   @include mv-media(max, 1199px) {
     background-size: cover;
   }
+  // @include mv-media(max, 767px) {
+  //   background-image: url("../../img/intro/mobile_banner.jpg");
+  // }
+  .delayNone {
+    transition-delay: 0s;
+  }
 }
 .intro-video {
   position: fixed;
@@ -217,6 +242,9 @@ body {
       background-color: #010001;
       border: 1px solid #fff;
     }
+  }
+  .delayNone {
+    transition-delay: 0s;
   }
 }
 
@@ -246,7 +274,7 @@ body {
       position: relative;
       @include mv-media(max, 767px) {
         width: 100%;
-        margin-top: 50px;
+        margin-top: 40px;
         border-top: 2px solid var(--secondary-color);
         // padding-top: 20px;
         // margin-top: 15px;
@@ -289,14 +317,21 @@ body {
           font-size: 70px;
           line-height: 88px;
           color: var(--secondary-color);
+          @include mv-media(max, 1300px) {
+            font-size: 65px;
+            line-height: 80px;
+          }
           @include mv-media(max, 1199px) {
             font-size: 60px;
             line-height: 80px;
           }
           @include mv-media(max, 991px) {
-            font-size: 40px;
-            line-height: 50px;
+            font-size: 55px;
+            line-height: 70px;
+          }
+          @include mv-media(max, 767px) {
             padding-top: 20px;
+            padding-bottom: 10px;
           }
 
           &::after {
@@ -316,6 +351,7 @@ body {
         p {
           // display: none;
           min-height: 80px;
+          font-weight: 300;
           @include mv-media(max, 1199px) {
             font-size: 16px;
             min-height: 104px;
@@ -323,6 +359,7 @@ body {
           @include mv-media(max, 991px) {
             font-size: 16px;
             line-height: 24px;
+            
           }
         }
       }
@@ -351,6 +388,7 @@ body {
         left: -12%;
         @include mv-media(max, 1280px) {
           left: -9%;
+          bottom: -23px;
         }
         @include mv-media(max, 1199px) {
           bottom: 0px;
@@ -443,6 +481,15 @@ body {
         @include mv-media(max, 991px) {
           display: none;
         }
+
+        @include mv-media(max, 767px) {
+          display: block;
+          left: 8px;
+          bottom: 30px;
+          z-index: 1;
+          opacity: 1;
+          width: 26px;
+        }
       }
       .slider_layer_three {
         position: absolute;
@@ -453,6 +500,13 @@ body {
         width: 66px;
         @include mv-media(max, 991px) {
           display: none;
+        }
+        @include mv-media(max, 767px) {
+          display: block;
+          width: 40px;
+          right: 0px;
+          opacity: 1;
+          top: 40px;
         }
       }
       .slider_layer_four {
@@ -482,6 +536,9 @@ body {
         right: -15px;
         bottom: 35px;
         z-index: 1;
+        @include mv-media(max, 991px) {
+          display: none;
+        }
         @include mv-media(max, 767px) {
           right: 8px;
           bottom: -15px;
@@ -501,15 +558,18 @@ body {
     width: calc(var(--illustrious_flex) - 100px);
     // height: var(--illustrious_flex);
     transform: rotate(90deg);
+    
     @include mv-media(max, 1280px) {
       left: -42%;
+      top: 44%;
     }
     @include mv-media(max, 1199px) {
       left: -42%;
     }
-    @include mv-media(max, 992px) {
+    @include mv-media(max, 991px) {
       display: block;
       left: -47%;
+      
     }
   }
 }

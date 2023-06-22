@@ -70,10 +70,16 @@
                 <img src="img/home/sightholder_logo.png" alt="sightholder" />
               </div>
               <div class="hallmark_item">
-                <img src="img/home/sightholder_logo.png" alt="sightholder" />
+                <img src="img/home/selectDia_RGB_logo.png" alt="sightholder" />
               </div>
               <div class="hallmark_item">
-                <img src="img/home/sightholder_logo.png" alt="sightholder" />
+                <img src="img/home/rjc_logo.png" alt="sightholder" />
+              </div>
+              <div class="hallmark_item">
+                <img src="img/home/mireya.png" alt="sightholder" />
+              </div>
+              <div class="hallmark_item">
+                <img src="img/home/harshid85.png" alt="sightholder" />
               </div>
             </div>
             <div class="hallmark_btn">
@@ -84,7 +90,7 @@
       </div>
     </section>
 
-    <section class="journey_main ptb_100">
+    <section class="journey_main ptb_100" id="aboutus">
       <div class="container">
         <div class="journey_title toTop" data-scroll>
           <h2 class="text_xxl">Our Journey At a Glance</h2>
@@ -96,35 +102,17 @@
               <img class="line_two" src="img/home/line_two_new.png" alt="line_two" />
               <!-- <img class="dotsSlide visible-xs" src="img/dotsSlide.png" alt="line_two" /> -->
               <div class="slider slider-nav">
+
                 <div class="thumbnail_txt">
-                  <h2 class="text_xxl">Present Day</h2>
-                  <p class="text_reg">Today, we offer unmatched 360° solutions while exclusively working with reputed
-                    miners and retail partners.</p>
+                  <h2 class="text_xxl">1971</h2>
+                  <p class="text_reg">We start out in a small office in Mumbai, India, as a rough diamonds trading
+                    company.</p>
                 </div>
+
                 <div class="thumbnail_txt">
-                  <h2 class="text_xxl">2020</h2>
-                  <p class="text_reg">We are recognised as an integral player in the lifeline of the Argyle mine as
-                    their journey comes to an end.</p>
-                </div>
-                <div class="thumbnail_txt">
-                  <h2 class="text_xxl">2014</h2>
-                  <p class="text_reg">De Beers Group recognises our strength within the diamond industry, giving us the
-                    ability to become a Sightholder.</p>
-                </div>
-                <div class="thumbnail_txt">
-                  <h2 class="text_xxl">2010</h2>
-                  <p class="text_reg">We go further downstream in the pipeline to get one step closer to retail by
-                    diversifying our offerings to jewellery distribution in London under ‘Mireya UK Ltd.’</p>
-                </div>
-                <div class="thumbnail_txt">
-                  <h2 class="text_xxl">2004</h2>
-                  <p class="text_reg">Diambel ME is launched in Dubai to set a strong foundation for the polished market
-                    and add further value to our rough sourcing and trading.</p>
-                </div>
-                <div class="thumbnail_txt">
-                  <h2 class="text_xxl">2000</h2>
-                  <p class="text_reg">Rio Tinto Diamonds starts the Select Diamantaire Programme where Diambel NV is
-                    acknowledged as one of their first customers.</p>
+                  <h2 class="text_xxl">1985</h2>
+                  <p class="text_reg">Diambel NV is born in Antwerp, Belgium with a view to grow our rough distribution
+                    and strengthen ties with reputed miners. </p>
                 </div>
 
                 <div class="thumbnail_txt">
@@ -132,15 +120,41 @@
                   <p class="text_reg">We establish Harshid Exports, with a long-term aim to grow our manufacturing and
                     distribution of polished diamonds. </p>
                 </div>
+
                 <div class="thumbnail_txt">
-                  <h2 class="text_xxl">1985</h2>
-                  <p class="text_reg">Diambel NV is born in Antwerp, Belgium with a view to grow our rough distribution
-                    and strengthen ties with reputed miners. </p>
+                  <h2 class="text_xxl">2000</h2>
+                  <p class="text_reg">Rio Tinto Diamonds starts the Select Diamantaire Programme where Diambel NV is
+                    acknowledged as one of their first customers.</p>
                 </div>
+
                 <div class="thumbnail_txt">
-                  <h2 class="text_xxl">1971</h2>
-                  <p class="text_reg">We start out in a small office in Mumbai, India, as a rough diamonds trading
-                    company.</p>
+                  <h2 class="text_xxl">2004</h2>
+                  <p class="text_reg">Diambel ME is launched in Dubai to set a strong foundation for the polished market
+                    and add further value to our rough sourcing and trading.</p>
+                </div>
+
+                <div class="thumbnail_txt">
+                  <h2 class="text_xxl">2010</h2>
+                  <p class="text_reg">We go further downstream in the pipeline to get one step closer to retail by
+                    diversifying our offerings to jewellery distribution in London under ‘Mireya UK Ltd.’</p>
+                </div>
+
+                <div class="thumbnail_txt">
+                  <h2 class="text_xxl">2014</h2>
+                  <p class="text_reg">De Beers Group recognises our strength within the diamond industry, giving us the
+                    ability to become a Sightholder.</p>
+                </div>
+
+                <div class="thumbnail_txt">
+                  <h2 class="text_xxl">2020</h2>
+                  <p class="text_reg">We are recognised as an integral player in the lifeline of the Argyle mine as
+                    their journey comes to an end.</p>
+                </div>
+
+                <div class="thumbnail_txt">
+                  <h2 class="text_xxl">Present Day</h2>
+                  <p class="text_reg">Today, we offer unmatched 360° solutions while exclusively working with reputed
+                    miners and retail partners.</p>
                 </div>
 
               </div>
@@ -156,39 +170,48 @@
                 <img class="slider_layer_five" src="img/home/review_layer_two.png" alt="slider_one" /> -->
               </div>
 
-              <img class="line_layer" src="img/home/line_layer.png" alt="line_layer" />
+              <img class="line_layer hidden-xs" src="img/home/line_layer.png" alt="line_layer" />
               <img class="slider_layer_two" src="img/home/review_layer_two.png" alt="slider_one" />
               <div class="slider slider-for">
-                <div class="slider_image">
-                  <img src="img/home/slider_one.jpg" alt="" />
-                </div>
-                <div class="slider_image">
-                  <img src="img/home/year_2020.jpg" alt="" />
-                </div>
+
                 <div class="slider_image">
                   <img src="img/home/year_2014.jpg" alt="" />
                 </div>
+
                 <div class="slider_image">
-                  <img src="img/home/year_2010.jpg" alt="" />
-                  <!-- <img class="line_layer" src="img/home/line_layer.png" alt="line_layer" /> -->
-                  <!-- <img class="slider_layer_two" src="img/home/review_layer_two.png" alt="" /> -->
-                </div>
-                <div class="slider_image">
-                  <img src="img/home/year_2004.jpg" alt="" />
-                </div>
-                <div class="slider_image">
-                  <img src="img/home/year_2000.jpg" alt="" />
+                  <img src="img/home/year_2020.jpg" alt="" />
                 </div>
 
                 <div class="slider_image">
                   <img src="img/home/year_1990.jpg" alt="" />
                 </div>
+
                 <div class="slider_image">
-                  <img src="img/home/year_2020.jpg" alt="" />
+                  <img src="img/home/year_2000.jpg" alt="" />
                 </div>
+
+                <div class="slider_image">
+                  <img src="img/home/year_2004.jpg" alt="" />
+                </div>
+
+                <div class="slider_image">
+                  <img src="img/home/year_2010.jpg" alt="" />
+                  <!-- <img class="line_layer" src="img/home/line_layer.png" alt="line_layer" /> -->
+                  <!-- <img class="slider_layer_two" src="img/home/review_layer_two.png" alt="" /> -->
+                </div>
+
                 <div class="slider_image">
                   <img src="img/home/year_2014.jpg" alt="" />
                 </div>
+
+                <div class="slider_image">
+                  <img src="img/home/year_2020.jpg" alt="" />
+                </div>
+
+                <div class="slider_image">
+                  <img src="img/home/slider_one.jpg" alt="" />
+                </div>
+                
               </div>
 
             </div>
@@ -280,7 +303,8 @@
             <img src="img/home/nature_vector_one.png" alt="nature_vector_one" />
           </div>
           <div class="vactor_two postion_vector">
-            <img src="img/home/nature_vector_two.png" alt="nature_vector_one" />
+            <img class="hidden-xs" src="img/home/nature_vector_two.png" alt="nature_vector_one" />
+            <img class="visible-xs" src="img/home/solutions_layer_one.png" alt="nature_vector_one" />
           </div>
         </div>
 
@@ -324,7 +348,7 @@
       </div>
     </section>
 
-    <section class="bg_main ptb_100">
+    <section class="bg_main ptb_100" id="solutions">
       <div class="solutions_diamonds">
         <div class="container">
 
@@ -504,7 +528,7 @@
 
     </section>
 
-    <section class="upcoming_events ptb_100">
+    <section class="upcoming_events pt_100" id="events">
       <div class="container">
 
         <div class="title_info d_flex pb_20 toTop" data-scroll>
@@ -672,7 +696,7 @@
       </div>
     </section>
 
-    <section class="corporate_social pb_100">
+    <section class="corporate_social pt_100" id="csr">
       <div class="container">
 
         <div class="title_info d_flex pb_40 toTop" data-scroll>
@@ -777,7 +801,7 @@
       </div>
     </section>
 
-    <section class="roadMapSec">
+    <section class="roadMapSec ptb_100" id="roadmap">
       <div class="container">
         <div class="HeadTxt toTop" data-scroll>
           <h2 class="text_xxl">Roadmap 2030</h2>
@@ -863,9 +887,9 @@
                 Responsibility Goals
               </h3>
               <p class="contentPara toTop" data-scroll>
-                Through our CSR efforts and partnerships<br class="visible-lg">with organisations, we want to focus
-                on<br class="visible-lg">three
-                important pillars of society and give<br class="visible-lg">back to the community we are a part of.
+                Through our CSR efforts and partnerships with organisations, we want to focus
+                on three
+                important pillars of society and give back to the community we are a part of.
               </p>
             </div>
             <div class="imgBx visible-xs toTop" data-scroll>
@@ -896,11 +920,11 @@
           <div class="get_started_right">
             <div class="btn_box">
 
-              <a onClick="openPopup('pop1');" class="btn_project_default black_btn" href="javascript:void(0);">Register
+              <a class="btn_project_default black_btn" href="javascript:void(0);">Register
                 Here</a>
             </div>
             <div class="inquire_btn">
-              <a class="btn_project_secondary" href="">Inquire Now</a>
+              <a onClick="openPopup('pop1');" class="btn_project_secondary" href="javascript:void(0);">Inquire Now</a>
             </div>
           </div>
         </div>
@@ -935,7 +959,7 @@
           <img src="img/home/closeBtn.png" alt="">
         </div>
         <div class="modalPop">
-          <div class="container">
+          <div class="">
             <div class="moadalFlex">
               <div class="modalItem">
                 <form id="register_form">
@@ -1153,23 +1177,33 @@
   });
   $('.inputRange').on('input change', function() {
     var thisValue = $(this).val()
-    if (thisValue >= 90) {
+    if (thisValue >= 60) {
       $('.leftSection').removeClass('activeClass')
       $('.rightSection').addClass('activeClass')
-    } else if (thisValue <= 10) {
+    } else if (thisValue <= 40) {
       $('.rightSection').removeClass('activeClass')
       $('.leftSection').addClass('activeClass')
     }
   })
 
-  //banner scroll script
+  
   $(document).ready(function() {
+    //banner scroll script
     $("#scrollbtna").click(function() {
       $('html,body').animate({ //  fine in moz, still quicker in chrome. 
           scrollTop: $("#bannertabs").offset().top - 100
         },
         'slow');
     });
+
+    //header menu scroll script
+    $('.scrollTo').click(function(){
+      $('html, body').animate({
+          scrollTop: $( $(this).attr('href') ).offset().top
+      }, 1000);
+      return false;
+    });
+
   });
   </script>
 </body>

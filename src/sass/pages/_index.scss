@@ -10,7 +10,7 @@
   .hallmark_credibilty {
     background-color: var(--color-bg);
     @include mv-media(max, 767px) {
-      padding-bottom: 60px;
+      padding-bottom: 80px;
     }
     .hallmark_credibilty_inside {
       display: flex;
@@ -24,6 +24,16 @@
           width: 100%;
           text-align: center;
           margin-bottom: 30px;
+        }
+        @include mv-media(max, 767px) {
+          padding: 0px 20px;
+        }
+        .text_lg{
+          @include mv-media(max, 767px) {
+            font-size: 24px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid rgba(192, 162, 128, 0.6);
+          }
         }
       }
       .hallmark_credibilty_right {
@@ -52,6 +62,10 @@
           .hallmark_item {
             padding-left: 50px;
             margin: 10px 0;
+            min-height: 90px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
             img {
               margin: 0 auto;
             }
@@ -92,6 +106,7 @@
           }
           .btn_project_secondary {
             font-size: 18px;
+            color: var(--color_text);
           }
         }
       }
@@ -246,7 +261,8 @@
         }
         @include mv-media(max, 767px) {
           width: 30px;
-          top: 30%;
+          top: 100%;
+          left: 30px;
         }
       }
       .vactor_two {
@@ -257,16 +273,15 @@
           right: -15px;
         }
         @include mv-media(max, 767px) {
-          right: -10px;
-          top: 95%;
-          transform: rotate(180deg);
+          right: 10px;
+          top: 10px;
         }
         img {
           @include mv-media(max, 1199px) {
             width: 100px;
           }
           @include mv-media(max, 767px) {
-            width: 60px;
+            width: 45px;
           }
         }
       }
@@ -288,17 +303,17 @@
         top: 200px;
         @include mv-media(max, 767px) {
           left: -10px;
-          top: 40px;
-          width: 30px;
+          // top: 40px;
+          width: 26px;
         }
       }
       .working_layer_two {
         right: 15%;
         top: 40%;
         @include mv-media(max, 767px) {
-          right: 10%;
-          top: 22%;
-          width: 30px;
+          right: -3%;
+          top: 8%;
+          width: 24px;
         }
       }
       .working_layer_three {
@@ -307,13 +322,14 @@
         @include mv-media(max, 767px) {
           width: 60px;
           right: -30px;
-          bottom: 280px;
+          bottom: 340px;
         }
       }
       .working_layer_four {
         left: -20px;
         bottom: 150px;
         @include mv-media(max, 767px) {
+          display: none;
           left: -20px;
           bottom: 30px;
           width: 50px;
@@ -328,6 +344,11 @@
         }
         .title {
           width: 100%;
+          @include mv-media(max, 767px) {
+            width: 90%;
+            margin: 0 auto;
+          }
+          
         }
       }
 
@@ -498,15 +519,15 @@
 
           .faq_section {
             .faq_box {
-              padding: 20px 65px;
+              padding: 15px 65px;
               background-color: var(--white-color);
               border-radius: 15px;
               margin-bottom: 20px;
               @include mv-media(max, 1199px) {
-                padding: 20px 40px;
+                padding: 15px 40px;
               }
               @include mv-media(max, 767px) {
-                padding: 20px 15px;
+                padding: 15px 15px;
               }
               .faq_title {
                 text-decoration: none;
@@ -616,7 +637,10 @@
                     }
                   }
                   p {
-                    width: 80%;
+                    width: 74%;
+                    @include mv-media(max, 991px) {
+                      width: 80%;
+                    }
                     @include mv-media(max, 767px) {
                       width: 100%;
                     }
@@ -650,13 +674,24 @@
           .our_counter {
             display: flex;
             align-items: center;
-
+            @include mv-media(max, 767px) {
+              padding-top: 25px;
+            }
             .counter_item {
               text-align: center;
               padding-right: 30px;
+              @include mv-media(max, 767px) {
+                width: 50%;
+              }
               .text_lg {
                 width: 120px;
                 margin: 0 auto;
+              }
+              p{
+                
+                @include mv-media(max, 767px) {
+                  line-height: 18px;
+                }
               }
               &:last-child {
                 padding-left: 30px;
@@ -669,7 +704,7 @@
           width: 47%;
           @include mv-media(max, 767px) {
             width: 100%;
-            margin-top: 20px;
+            margin-top: 30px;
           }
           img {
             border-radius: 15px;
@@ -680,6 +715,9 @@
   }
 
   .upcoming_events {
+    @include mv-media(max, 991px) {
+      padding-bottom: 10px;
+    }
     .title_info {
       @include mv-media(max, 767px) {
         padding-bottom: 10px;
@@ -809,6 +847,9 @@
     }
   }
   .corporate_social {
+    @include mv-media(max, 991px) {
+      padding-bottom: 10px;
+    }
     .title_info {
       @include mv-media(max, 767px) {
         padding-bottom: 30px;
@@ -941,27 +982,26 @@
         @include mv-media(max, 767px) {
           width: 100%;
           margin-top: 30px;
-          justify-content: space-between;
+          justify-content: flex-start;
           flex-wrap: wrap;
         }
         .btn_box {
           @include mv-media(max, 767px) {
-            width: 56%;
             text-align: left;
             padding-bottom: 0px;
           }
           .btn_project_default {
             @include mv-media(max, 767px) {
               padding: 8px 20px;
+              
             }
           }
         }
         .inquire_btn {
           margin-left: 40px;
           @include mv-media(max, 767px) {
-            margin-left: 0px;
-            width: 42%;
-            text-align: right;
+            margin-left: 30px;
+            text-align: left;
           }
           .btn_project_default {
             font-size: 20px;
@@ -981,9 +1021,9 @@
   }
 
   .roadMapSec {
-    padding: 30px 0 80px;
+    // padding: 30px 0 80px;
     @include mv-media(max, 767px) {
-      padding: 10px 0 40px;
+      padding: 80px 0 40px;
     }
     .HeadTxt {
       margin-bottom: 70px;
@@ -1123,8 +1163,11 @@
           .contentBx {
             @extend .rel_y_center;
             right: 0;
+            width: 62%;
+            top: 47%;
             @include mv-media(max, 1199px) {
               width: 67%;
+              top: 50%;
             }
             @include mv-media(max, 767px) {
               width: 100%;
@@ -1268,7 +1311,7 @@
           width: 220px;
         }
         @include mv-media(max, 767px) {
-          width: 100%;
+          width: 280px;
           height: auto;
           margin-top: 30px;
         }
@@ -1459,6 +1502,8 @@
           .btn_project_default {
             @include mv-media(max, 767px) {
               padding: 8px 20px;
+              width: 100%;
+              text-align: center;
             }
           }
         }
@@ -1492,6 +1537,9 @@
   }
 
   .popup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: fixed;
     top: 0px;
     left: 0px;
@@ -1511,16 +1559,19 @@
     }
     .modalOuter {
       position: relative;
-      margin-top: 10vh;
+      width: 45%;
+      margin: 0 auto;
+      // margin-top: 10vh;
       @include mv-media(max, 992px) {
-        margin-top: 50px;
-        height: 100vh;
-        overflow: auto;
+        width: 70%;
+      }
+      @include mv-media(max, 767px) {
+        width: 94%;
       }
       .modalPop {
         .moadalFlex {
           background-color: #f7f7f7;
-          padding: 80px 60px 80px;
+          padding: 80px 0px 80px;
           border-radius: 5px;
           box-shadow: 0px 4px 10px #dedede;
           border-radius: 32px;
@@ -1538,17 +1589,18 @@
               width: 100%;
             }
             .group_flex {
-              display: flex;
-              align-items: flex-start;
-              justify-content: space-between;
+              // display: flex;
+              // align-items: flex-start;
+              // justify-content: space-between;
               @include mv-media(max, 767px) {
                 flex-wrap: wrap;
               }
               .input_group {
-                width: 48%;
-                padding-bottom: 50px;
+                width: 100%;
+                padding-bottom: 40px;
                 @include mv-media(max, 767px) {
                   width: 100%;
+                  padding-bottom: 40px;
                 }
                 .input_control {
                   width: 100%;
@@ -1584,11 +1636,11 @@
   .cancel {
     position: absolute;
     top: 15px;
-    right: calc(var(--container_left_space) + 35px);
+    right: 20px;
     z-index: 1;
     cursor: pointer;
     @include mv-media(768px, 992px) {
-      right: calc(var(--container_left_space) + 40px);
+      right: 20px;
     }
   }
 

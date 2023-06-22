@@ -49,6 +49,17 @@ $(window).on("load", function () {
   if (winW < 992) {
     loadBannerAnim();
   }
+  var isVisited = sessionStorage.getItem("visited");
+  if (isVisited) {
+    loadBannerAnim();
+    $(".bannerHead span").addClass("delayNone").addClass("spanAnim");
+    $(".bannerPara").addClass("delayNone").addClass("bannerParaAnim");
+    $(".DiamondImg").addClass("delayNone").addClass("DiamondImgAnim");
+    $(".bgDiamondImg").addClass("delayNone").addClass("bgDiamondImgAnim");
+    console.log(isVisited);
+  } else {
+    sessionStorage.setItem("visited", "true");
+  }
 });
 
 $(".slider-for").slick({
@@ -56,7 +67,7 @@ $(".slider-for").slick({
   slidesToScroll: 1,
   arrows: false,
   fade: true,
-  infinite: true,
+  infinite: false,
   pauseOnHover: false,
   asNavFor: ".slider-nav",
   autoplay: false,
@@ -67,7 +78,7 @@ if (sliderNav.length) {
   sliderNav.slick({
     slidesToShow: 2,
     slidesToScroll: 1,
-    autoplay: true,
+    autoplay: false,
     vertical: true,
     asNavFor: ".slider-for",
     arrows: true,
@@ -101,11 +112,12 @@ if (sliderNav.length) {
           // centerMode: true,
           vertical: false,
           autoplay: false,
+          verticalSwiping: false,
         },
       },
     ],
   });
-  sliderNav.slick("slickPlay");
+  //sliderNav.slick("slickPlay");
 }
 function progressbar(sliderName, progressClass) {
   var $slider = $(sliderName);
@@ -187,3 +199,12 @@ if (window.innerWidth < 767) {
     }
   });
 }
+$(document).ready(function () {
+  var isVisited = sessionStorage.getItem("visited");
+  if (isVisited) {
+    $("#skip").remove();
+    $(".intro-video").remove();
+  } else {
+    sessionStorage.setItem("visited", "true");
+  }
+});
