@@ -84,7 +84,7 @@
       </div>
     </section>
 
-    <section class="journey_main ptb_100">
+    <section class="journey_main ptb_100" id="aboutus">
       <div class="container">
         <div class="journey_title toTop" data-scroll>
           <h2 class="text_xxl">Our Journey At a Glance</h2>
@@ -342,7 +342,7 @@
       </div>
     </section>
 
-    <section class="bg_main ptb_100">
+    <section class="bg_main ptb_100" id="solutions">
       <div class="solutions_diamonds">
         <div class="container">
 
@@ -522,7 +522,7 @@
 
     </section>
 
-    <section class="upcoming_events ptb_100">
+    <section class="upcoming_events pt_100" id="events">
       <div class="container">
 
         <div class="title_info d_flex pb_20 toTop" data-scroll>
@@ -690,7 +690,7 @@
       </div>
     </section>
 
-    <section class="corporate_social pb_100">
+    <section class="corporate_social pt_100" id="csr">
       <div class="container">
 
         <div class="title_info d_flex pb_40 toTop" data-scroll>
@@ -795,7 +795,7 @@
       </div>
     </section>
 
-    <section class="roadMapSec">
+    <section class="roadMapSec ptb_100" id="roadmap">
       <div class="container">
         <div class="HeadTxt toTop" data-scroll>
           <h2 class="text_xxl">Roadmap 2030</h2>
@@ -1180,14 +1180,24 @@
     }
   })
 
-  //banner scroll script
+  
   $(document).ready(function() {
+    //banner scroll script
     $("#scrollbtna").click(function() {
       $('html,body').animate({ //  fine in moz, still quicker in chrome. 
           scrollTop: $("#bannertabs").offset().top - 100
         },
         'slow');
     });
+
+    //header menu scroll script
+    $('.scrollTo').click(function(){
+      $('html, body').animate({
+          scrollTop: $( $(this).attr('href') ).offset().top
+      }, 1000);
+      return false;
+    });
+
   });
   </script>
 </body>
