@@ -211,7 +211,7 @@
                 <div class="slider_image">
                   <img src="img/home/slider_one.jpg" alt="" />
                 </div>
-                
+
               </div>
 
             </div>
@@ -221,6 +221,7 @@
         </div>
       </div>
     </section>
+
 
     <!-- <section class="values_shape_main pb_100">
       <div class="container">
@@ -1002,6 +1003,10 @@
   <?php include("includes/footer.html") ?>
   <?php include("includes/include_js.html") ?>
 
+  <!-- <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/jquery.slick/1.4.1/slick.min.js"></script> -->
+
   <script>
   //for letters only
   $.validator.addMethod("lettersonly", function(value, element) {
@@ -1186,7 +1191,7 @@
     }
   })
 
-  
+
   $(document).ready(function() {
     //banner scroll script
     $("#scrollbtna").click(function() {
@@ -1197,9 +1202,9 @@
     });
 
     //header menu scroll script
-    $('.scrollTo').click(function(){
+    $('.scrollTo').click(function() {
       $('html, body').animate({
-          scrollTop: $( $(this).attr('href') ).offset().top
+        scrollTop: $($(this).attr('href')).offset().top
       }, 1000);
       return false;
     });
