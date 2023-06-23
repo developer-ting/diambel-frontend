@@ -28,7 +28,7 @@
         @include mv-media(max, 767px) {
           padding: 0px 20px;
         }
-        .text_lg{
+        .text_lg {
           @include mv-media(max, 767px) {
             font-size: 24px;
             padding-bottom: 10px;
@@ -348,7 +348,6 @@
             width: 90%;
             margin: 0 auto;
           }
-          
         }
       }
 
@@ -687,8 +686,7 @@
                 width: 120px;
                 margin: 0 auto;
               }
-              p{
-                
+              p {
                 @include mv-media(max, 767px) {
                   line-height: 18px;
                 }
@@ -715,9 +713,8 @@
   }
 
   .upcoming_events {
-    @include mv-media(max, 991px) {
-      padding-bottom: 10px;
-    }
+    padding-bottom: 10px;
+
     .title_info {
       @include mv-media(max, 767px) {
         padding-bottom: 10px;
@@ -847,9 +844,8 @@
     }
   }
   .corporate_social {
-    @include mv-media(max, 991px) {
-      padding-bottom: 10px;
-    }
+    padding-bottom: 10px;
+
     .title_info {
       @include mv-media(max, 767px) {
         padding-bottom: 30px;
@@ -993,7 +989,6 @@
           .btn_project_default {
             @include mv-media(max, 767px) {
               padding: 8px 20px;
-              
             }
           }
         }
