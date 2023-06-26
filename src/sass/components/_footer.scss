@@ -85,6 +85,10 @@ footer {
       h5 {
         font-size: 20px;
         margin-bottom: 15px;
+        @include mv-media(max, 1300px) {
+          font-size: 18px;
+          font-weight: 600;
+        }
         @include mv-media(max, 767px) {
           margin-bottom: 0px;
           margin-top: 20px;
@@ -202,7 +206,7 @@ footer {
     }
 
     h5 {
-      color: #000;
+      color: #3C0E22;
       margin: 0;
       font-weight: 500;
       font-family: "Cabin", sans-serif;

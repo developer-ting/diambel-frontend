@@ -937,7 +937,7 @@
         <div class="subscribe_flex d_flex toTop" data-scroll>
           <div class="subscribe_left">
             <img class="mail_icon" src="img/home/mail.png" alt="mail">
-            <h2 class="text_lg">Subscribe to our newsletter</h2>
+            <h2 class="text_lg">Subscribe for our newsletter</h2>
           </div>
           <div class="subscribe_right">
             <div class="input_group">
