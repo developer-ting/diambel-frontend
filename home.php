@@ -67,7 +67,7 @@
           <div class="hallmark_credibilty_right">
             <div class="hallmark_slider">
               <div class="hallmark_item">
-                <img src="img/home/sightholder_new.png" alt="sightholder" />
+                <img src="img/home/sightholder_logo.png" alt="sightholder" />
               </div>
               <div class="hallmark_item">
                 <img src="img/home/rio_tinto.png" alt="rio_tinto" />
