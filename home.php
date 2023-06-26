@@ -67,19 +67,19 @@
           <div class="hallmark_credibilty_right">
             <div class="hallmark_slider">
               <div class="hallmark_item">
-                <img src="img/home/sightholder_logo.png" alt="sightholder" />
+                <img src="img/home/sightholder_new.png" alt="sightholder" />
               </div>
               <div class="hallmark_item">
-                <img src="img/home/selectDia_RGB_logo.png" alt="sightholder" />
+                <img src="img/home/rio_tinto.png" alt="rio_tinto" />
               </div>
               <div class="hallmark_item">
-                <img src="img/home/rjc_logo.png" alt="sightholder" />
+                <img src="img/home/responsible_council.png" alt="responsible_council" />
               </div>
               <div class="hallmark_item">
-                <img src="img/home/mireya.png" alt="sightholder" />
+                <img src="img/home/mireya.png" alt="mireya" />
               </div>
               <div class="hallmark_item">
-                <img src="img/home/harshid85.png" alt="sightholder" />
+                <img src="img/home/harshid.png" alt="harshid" />
               </div>
             </div>
             <div class="hallmark_btn">
