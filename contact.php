@@ -25,9 +25,9 @@
   </main>
   <!--  end body content -->
 
+  <?php include("includes/footer.html") ?>
+  <?php include("includes/include_js.html") ?>
 
-  <?php include("includes/include_js.html") ?>
-  <?php include("includes/include_js.html") ?>
 
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js">
   </script>
