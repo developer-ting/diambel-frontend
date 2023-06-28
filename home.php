@@ -67,7 +67,7 @@
           <div class="hallmark_credibilty_right">
             <div class="hallmark_slider">
               <div class="hallmark_item">
-                <img src="img/home/sightholder_new.png" alt="sightholder" />
+                <img src="img/home/sightholder_logo.png" alt="sightholder" />
               </div>
               <div class="hallmark_item">
                 <img src="img/home/rio_tinto.png" alt="rio_tinto" />
@@ -184,10 +184,12 @@
 
                 <div class="slider_image">
                   <img src="img/home/year_1990.jpg" alt="" />
+                  <img class="logo_overlay" src="img/home/timeline_harshid.png" alt="" />
                 </div>
 
                 <div class="slider_image">
                   <img src="img/home/year_2000.jpg" alt="" />
+                  <img class="logo_overlay" src="img/home/timeline_rio.png" alt="" />
                 </div>
 
                 <div class="slider_image">
@@ -196,6 +198,7 @@
 
                 <div class="slider_image">
                   <img src="img/home/year_2010.jpg" alt="" />
+                  <img class="logo_overlay" src="img/home/timeline_mireya.png" alt="" />
                   <!-- <img class="line_layer" src="img/home/line_layer.png" alt="line_layer" /> -->
                   <!-- <img class="slider_layer_two" src="img/home/review_layer_two.png" alt="" /> -->
                 </div>
@@ -813,15 +816,15 @@
             <img class="roadmap_icon_two hidden-xs" src="img/home/roadmap_icon_two.png" alt="after" />
             <div class="imgBx hidden-xs">
               <div class="imgBxFx">
-                <p>Education</p>
+                <p>Education and <br>Health</p>
                 <img src="img/home/Education_LOOP.gif" alt="">
               </div>
               <div class="imgBxFx">
-                <p>Environment</p>
+                <p>Environment and <br>Sustainability</p>
                 <img src="img/home/Environment_LOOP.gif" alt="">
               </div>
               <div class="imgBxFx">
-                <p>Economic</p>
+                <p>Economic <br>Development</p>
                 <img src="img/home/Economic_LOOP.gif" alt="">
               </div>
             </div>
@@ -896,15 +899,15 @@
             <div class="imgBx visible-xs toTop" data-scroll>
               <div class="imgBxFx">
                 <img src="img/home/Education_LOOP.gif" alt="">
-                <p>Education</p>
+                <p>Education and Health</p>
               </div>
               <div class="imgBxFx">
                 <img src="img/home/Environment_LOOP.gif" alt="">
-                <p>Environment</p>
+                <p>Environment and <br>Sustainability</p>
               </div>
               <div class="imgBxFx">
                 <img src="img/home/Economic_LOOP.gif" alt="">
-                <p>Economic</p>
+                <p>Economic Development</p>
               </div>
             </div>
           </div>
@@ -937,7 +940,7 @@
         <div class="subscribe_flex d_flex toTop" data-scroll>
           <div class="subscribe_left">
             <img class="mail_icon" src="img/home/mail.png" alt="mail">
-            <h2 class="text_lg">Subscribe to our newsletter</h2>
+            <h2 class="text_lg">Subscribe for our newsletter</h2>
           </div>
           <div class="subscribe_right">
             <div class="input_group">
