@@ -440,9 +440,16 @@ body {
       .slider {
         position: relative;
         .slider_image {
+          position: relative;
           // padding: 0px 20px 20px 30px;
           @include mv-media(max, 767px) {
             padding: 0px;
+          }
+          .logo_overlay{
+            position: absolute;
+            left: 20px;
+            bottom: 20px;
+            border-radius: 0px;
           }
           .contentOverlay {
             @extend .rel_xy_center;

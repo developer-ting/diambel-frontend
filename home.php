@@ -184,10 +184,12 @@
 
                 <div class="slider_image">
                   <img src="img/home/year_1990.jpg" alt="" />
+                  <img class="logo_overlay" src="img/home/timeline_harshid.png" alt="" />
                 </div>
 
                 <div class="slider_image">
                   <img src="img/home/year_2000.jpg" alt="" />
+                  <img class="logo_overlay" src="img/home/timeline_rio.png" alt="" />
                 </div>
 
                 <div class="slider_image">
@@ -196,6 +198,7 @@
 
                 <div class="slider_image">
                   <img src="img/home/year_2010.jpg" alt="" />
+                  <img class="logo_overlay" src="img/home/timeline_mireya.png" alt="" />
                   <!-- <img class="line_layer" src="img/home/line_layer.png" alt="line_layer" /> -->
                   <!-- <img class="slider_layer_two" src="img/home/review_layer_two.png" alt="" /> -->
                 </div>
