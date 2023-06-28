@@ -816,15 +816,15 @@
             <img class="roadmap_icon_two hidden-xs" src="img/home/roadmap_icon_two.png" alt="after" />
             <div class="imgBx hidden-xs">
               <div class="imgBxFx">
-                <p>Education</p>
+                <p>Education and <br>Health</p>
                 <img src="img/home/Education_LOOP.gif" alt="">
               </div>
               <div class="imgBxFx">
-                <p>Environment</p>
+                <p>Environment and <br>Sustainability</p>
                 <img src="img/home/Environment_LOOP.gif" alt="">
               </div>
               <div class="imgBxFx">
-                <p>Economic</p>
+                <p>Economic <br>Development</p>
                 <img src="img/home/Economic_LOOP.gif" alt="">
               </div>
             </div>
@@ -899,15 +899,15 @@
             <div class="imgBx visible-xs toTop" data-scroll>
               <div class="imgBxFx">
                 <img src="img/home/Education_LOOP.gif" alt="">
-                <p>Education</p>
+                <p>Education and Health</p>
               </div>
               <div class="imgBxFx">
                 <img src="img/home/Environment_LOOP.gif" alt="">
-                <p>Environment</p>
+                <p>Environment and <br>Sustainability</p>
               </div>
               <div class="imgBxFx">
                 <img src="img/home/Economic_LOOP.gif" alt="">
-                <p>Economic</p>
+                <p>Economic Development</p>
               </div>
             </div>
           </div>
