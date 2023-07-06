@@ -36,9 +36,14 @@ footer {
       }
       .logos_img {
         padding: 0px 20px;
+        width: 18%;
+        @include mv-media(max, 991px) {
+          width: 25%;
+        }
         @include mv-media(max, 767px) {
           margin-top: 20px;
           padding: 0px 5px;
+          width: 33%;
         }
         img {
         }
@@ -172,6 +177,8 @@ footer {
     }
 
     .copyright_text {
+      width: 100%;
+      text-align: center;
       @include mv-media(max, 767px) {
         padding: 20px 0px;
       }

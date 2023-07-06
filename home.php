@@ -62,7 +62,7 @@
       <div class="container">
         <div class="hallmark_credibilty_inside">
           <div class="hallmark_title">
-            <h2 class="text_lg">The Seal Of Integrity</h2>
+            <h2 class="text_lg">The Seal of Integrity</h2>
           </div>
           <div class="hallmark_credibilty_right">
             <div class="hallmark_slider">
@@ -75,12 +75,12 @@
               <div class="hallmark_item">
                 <img src="img/home/responsible_council.png" alt="responsible_council" />
               </div>
-              <div class="hallmark_item">
+              <!-- <div class="hallmark_item">
                 <img src="img/home/mireya.png" alt="mireya" />
               </div>
               <div class="hallmark_item">
                 <img src="img/home/harshid.png" alt="harshid" />
-              </div>
+              </div> -->
             </div>
             <div class="hallmark_btn">
               <a class="btn_project_secondary" href="">View Certification</a>
@@ -93,7 +93,7 @@
     <section class="journey_main ptb_100" id="aboutus">
       <div class="container">
         <div class="journey_title toTop" data-scroll>
-          <h2 class="text_xxl">Our Journey At a Glance</h2>
+          <h2 class="text_xxl">Our Journey at a Glance</h2>
         </div>
         <div class="illustrious_flex_outer">
 
@@ -183,13 +183,13 @@
                 </div>
 
                 <div class="slider_image">
-                  <img src="img/home/year_1990.jpg" alt="" />
-                  <img class="logo_overlay" src="img/home/timeline_harshid.png" alt="" />
+                  <img src="img/home/year_1990.png" alt="" />
+                  <!-- <img class="logo_overlay" src="img/home/timeline_harshid.png" alt="" /> -->
                 </div>
 
                 <div class="slider_image">
-                  <img src="img/home/year_2000.jpg" alt="" />
-                  <img class="logo_overlay" src="img/home/timeline_rio.png" alt="" />
+                  <img src="img/home/year_2000.png" alt="" />
+                  <!-- <img class="logo_overlay" src="img/home/timeline_rio.png" alt="" /> -->
                 </div>
 
                 <div class="slider_image">
@@ -197,8 +197,8 @@
                 </div>
 
                 <div class="slider_image">
-                  <img src="img/home/year_2010.jpg" alt="" />
-                  <img class="logo_overlay" src="img/home/timeline_mireya.png" alt="" />
+                  <img src="img/home/year_2010.png" alt="" />
+                  <!-- <img class="logo_overlay" src="img/home/timeline_mireya.png" alt="" /> -->
                   <!-- <img class="line_layer" src="img/home/line_layer.png" alt="line_layer" /> -->
                   <!-- <img class="slider_layer_two" src="img/home/review_layer_two.png" alt="" /> -->
                 </div>
@@ -293,7 +293,7 @@
 
         <div class="title_info d_flex pb_40 toTop" data-scroll>
           <div class="title">
-            <h2 class="text_xxl pb_20">Committed to nature</h2>
+            <h2 class="text_xxl pb_20">Committed to Nature</h2>
             <p class="text_reg">To honour the unmatched value of natural diamonds at every step of the process, we have
               alliances with top miners in the world. We only work with sustainably sourced natural diamonds that meet
               our ethical and quality standards.</p>
@@ -328,7 +328,7 @@
         <div class="container">
           <div class="title_info pb_60 toTop" data-scroll>
             <div class="title">
-              <h2 class="text_xl pb_20">Working across the pipeline</h2>
+              <h2 class="text_xl pb_20">Working Across the Pipeline</h2>
               <p class="text_reg">Diambel has created a vertically integrated pipeline in the natural diamond industry,
                 offering end-to-end solutions in rough and polished diamonds as well as jewellery.</p>
             </div>
@@ -358,7 +358,7 @@
 
           <div class="title_info d_flex pb_60 toTop" data-scroll>
             <div class="title">
-              <h2 class="text_xl pb_20">Solutions beyond diamonds</h2>
+              <h2 class="text_xl pb_20">Solutions Beyond Diamonds</h2>
               <p class="text_reg">We go over and above the industry norms to provide you with 360-degree services, from
                 customised orders to tech support to inventory management. Every step of the way, you can trust us to
                 deliver on promises made, and beyond.</p>
@@ -928,7 +928,7 @@
                 Here</a>
             </div>
             <div class="inquire_btn">
-              <a onClick="openPopup('pop1');" class="btn_project_secondary" href="javascript:void(0);">Inquire Now</a>
+              <a onClick="openPopup('pop1');" class="btn_project_secondary" href="javascript:void(0);">Enquire Now</a>
             </div>
           </div>
         </div>
@@ -937,20 +937,44 @@
 
     <section class="subscribe_main pb_60">
       <div class="container">
-        <div class="subscribe_flex d_flex toTop" data-scroll>
-          <div class="subscribe_left">
-            <img class="mail_icon" src="img/home/mail.png" alt="mail">
-            <h2 class="text_lg">Subscribe for our newsletter</h2>
-          </div>
-          <div class="subscribe_right">
-            <div class="input_group">
-              <input type="email" class="input_control text_sm" placeholder="Email Address">
+        <div class="subscribe_box">
+          <h2 class="text_xl pb_20">Subscribe for our newsletter</h2>
+          <div class="subscribe_flex d_flex toTop" data-scroll>
+            <div class="subscribe_left">
+              <p class="text_reg pb_20">
+              I am a  
+              
+              <select name="select" id="select_option" class="newsletter_select">
+                <option>Diamond Manufacturer</option>
+                <option>Diamond Wholesaler</option>
+                <option>Jewellery Manufacturer</option>
+                <option>Retailer</option>
+              </select>
+
+              and I’d like to stay updated to all things diambel.
+              </p>
+
+              <p class="text_reg">
+              I am interested in
+              
+              <select name="select" id="select_option" class="newsletter_select">
+                <option>Rough Diamonds</option>
+                <option>Polished Diamonds</option>
+                <option>Jewellery</option>
+              </select>
+              </p>
             </div>
-            <div class="btn_box">
-              <a class="btn_project_default black_btn" href="">Submit</a>
+            <div class="subscribe_right">
+              <div class="input_group">
+                <input type="email" class="input_control text_sm" placeholder="Email Address">
+              </div>
+              <div class="btn_box">
+                <a class="btn_project_default black_btn" href="">Submit</a>
+              </div>
             </div>
           </div>
         </div>
+        
       </div>
     </section>
 
@@ -980,7 +1004,7 @@
                   </div>
                   <div class="group_flex">
                     <div class="input_group">
-                      <input type="text" class="input_control text_sm" id="contact" name="contact" placeholder="Contact"
+                      <input type="text" class="input_control text_sm" id="cname" name="cname" placeholder="Company Name"
                         required>
                     </div>
                     <div class="input_group">
@@ -1032,7 +1056,7 @@
         required: true,
         email: true
       },
-      contact: {
+      cname: {
         required: true,
       },
       message: {
@@ -1048,7 +1072,7 @@
         required: "This field is required",
         emailtest: "Please enter a valid email address"
       },
-      contact: {
+      cname: {
         required: "This field is required",
       },
       message: {
