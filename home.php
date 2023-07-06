@@ -537,7 +537,7 @@
 
         <div class="title_info d_flex pb_20 toTop" data-scroll>
           <div class="title">
-            <h2 class="text_xxl">Upcoming events</h2>
+            <h2 class="text_xxl">Upcoming Events</h2>
           </div>
           <!-- <div class="btn_box hidden-xs">
             <a class="btn_project_default black_btn" href="">View All</a>
@@ -945,6 +945,7 @@
               I am a  
               
               <select name="select" id="select_option" class="newsletter_select">
+                <!-- <option>select</option> -->
                 <option>Diamond Manufacturer</option>
                 <option>Diamond Wholesaler</option>
                 <option>Jewellery Manufacturer</option>

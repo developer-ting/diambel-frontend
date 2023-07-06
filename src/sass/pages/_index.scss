@@ -1481,9 +1481,11 @@
           color: var(--secondary-color);
           font-size: 18px;
           font-weight: 300;
+          position: relative;
           &:focus {
             outline: none;
           }
+          
           &::placeholder {
             font-size: 18px;
             line-height: 26px;
@@ -1492,6 +1494,26 @@
             opacity: 0.5;
             font-weight: 300;
           }
+          // option{
+          //   &:hover {
+          //     background-color: #3C0E22;
+          //   }
+          //   &:checked {
+          //     background-color: #3C0E22;
+          //   }
+          //   &:focus {
+          //     background-color: #3C0E22 ;
+          //   }
+          //   &:focus-within {
+          //     background-color: #3C0E22 ;
+          //   }
+          //   &:focus-visible {
+          //     background-color: #3C0E22 ;
+          //   }
+          //   &:active {
+          //     background-color: #3C0E22 ;
+          //   }
+          // }
         }
       }
       .subscribe_right {
