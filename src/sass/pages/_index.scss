@@ -1336,7 +1336,7 @@
           left: 50%;
           transform: translate(-50%, -50%);
           z-index: 1;
-          border: 4px solid #484848;
+          border: 4px solid var(--secondary-color);
           cursor: pointer;
           .smAroow {
             @extend .rel_y_center;
@@ -1406,7 +1406,7 @@
         width: 4px;
         min-height: 500px;
         cursor: pointer;
-        background-color: #484848;
+        background-color: var(--secondary-color);
         border: 1px solid transparent;
         border-radius: 0;
         // background-image: url("../../img/home/thumb_bg.svg");
@@ -1426,26 +1426,30 @@
   }
 
   .subscribe_main {
-    .subscribe_flex {
-      justify-content: space-between;
-      align-items: center;
+    .subscribe_box{
       background: #ded0c0;
       background: linear-gradient(136deg, #e8ddd2 3%, #faf9f9 23%, #e8ddd2 70%);
+      
       border-radius: 8px;
-      padding: 40px 70px;
+      padding: 40px 40px;
       @include mv-media(max, 1199px) {
         padding: 30px 30px;
-      }
-      @include mv-media(max, 991px) {
-        flex-wrap: wrap;
       }
       @include mv-media(max, 767px) {
         padding: 20px 20px;
       }
+    }
+    .subscribe_flex {
+      justify-content: space-between;
+      align-items: center;
+      @include mv-media(max, 991px) {
+        flex-wrap: wrap;
+      }
+      
       .subscribe_left {
-        width: 40%;
-        display: flex;
-        align-items: center;
+        width: 60%;
+        // display: flex;
+        // align-items: center;
         @include mv-media(max, 1199px) {
           width: 50%;
         }
@@ -1469,13 +1473,57 @@
             font-size: 20px;
           }
         }
+        .newsletter_select {
+          background-color: transparent;
+          border: none;
+          border-bottom: 1px solid var(--secondary-color);
+          font-family: var(--work_sans);
+          color: var(--secondary-color);
+          font-size: 18px;
+          font-weight: 300;
+          position: relative;
+          &:focus {
+            outline: none;
+          }
+          
+          &::placeholder {
+            font-size: 18px;
+            line-height: 26px;
+            color: var(--secondary-color);
+            font-family: var(--work_sans);
+            opacity: 0.5;
+            font-weight: 300;
+          }
+          // option{
+          //   &:hover {
+          //     background-color: #3C0E22;
+          //   }
+          //   &:checked {
+          //     background-color: #3C0E22;
+          //   }
+          //   &:focus {
+          //     background-color: #3C0E22 ;
+          //   }
+          //   &:focus-within {
+          //     background-color: #3C0E22 ;
+          //   }
+          //   &:focus-visible {
+          //     background-color: #3C0E22 ;
+          //   }
+          //   &:active {
+          //     background-color: #3C0E22 ;
+          //   }
+          // }
+        }
       }
       .subscribe_right {
-        width: 57%;
+        width: 38%;
         text-align: left;
         display: flex;
         align-items: center;
         justify-content: space-between;
+        background-color: rgba(60, 14, 34, 0.1);
+        border-radius: 30px;
         @include mv-media(max, 1199px) {
           width: 50%;
         }
@@ -1486,6 +1534,8 @@
         @include mv-media(max, 767px) {
           justify-content: space-between;
           flex-wrap: wrap;
+          background-color: transparent;
+          border-radius: 0px;
         }
         .btn_box {
           width: 25%;
@@ -1493,7 +1543,7 @@
           @include mv-media(max, 767px) {
             width: 100%;
             text-align: left;
-            padding-top: 20px;
+            padding-top: 15px;
           }
           .btn_project_default {
             @include mv-media(max, 767px) {
@@ -1514,8 +1564,15 @@
             width: 100%;
             background-color: transparent;
             border: none;
-            border-bottom: 1px solid #3c0e22;
+            border-bottom: none;
             font-family: var(--work_sans);
+            padding: 0px 10px 0px 30px;
+            @include mv-media(max, 767px) {
+              background-color: rgba(60, 14, 34, 0.1);
+              border-radius: 30px;
+              padding: 6px 20px;
+            }
+            
             &:focus {
               outline: none;
             }
