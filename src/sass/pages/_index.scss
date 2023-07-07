@@ -1426,10 +1426,10 @@
   }
 
   .subscribe_main {
-    .subscribe_box{
+    .subscribe_box {
       background: #ded0c0;
       background: linear-gradient(136deg, #e8ddd2 3%, #faf9f9 23%, #e8ddd2 70%);
-      
+
       border-radius: 8px;
       padding: 40px 40px;
       @include mv-media(max, 1199px) {
@@ -1445,7 +1445,7 @@
       @include mv-media(max, 991px) {
         flex-wrap: wrap;
       }
-      
+
       .subscribe_left {
         width: 60%;
         // display: flex;
@@ -1485,7 +1485,7 @@
           &:focus {
             outline: none;
           }
-          
+
           &::placeholder {
             font-size: 18px;
             line-height: 26px;
@@ -1494,26 +1494,26 @@
             opacity: 0.5;
             font-weight: 300;
           }
-          // option{
-          //   &:hover {
-          //     background-color: #3C0E22;
-          //   }
-          //   &:checked {
-          //     background-color: #3C0E22;
-          //   }
-          //   &:focus {
-          //     background-color: #3C0E22 ;
-          //   }
-          //   &:focus-within {
-          //     background-color: #3C0E22 ;
-          //   }
-          //   &:focus-visible {
-          //     background-color: #3C0E22 ;
-          //   }
-          //   &:active {
-          //     background-color: #3C0E22 ;
-          //   }
-          // }
+          option {
+            &:hover {
+              background-color: #3c0e22;
+            }
+            // &:checked {
+            //   background-color: #3c0e22;
+            // }
+            &:focus {
+              background-color: #3c0e22;
+            }
+            &:focus-within {
+              background-color: #3c0e22;
+            }
+            &:focus-visible {
+              background-color: #3c0e22;
+            }
+            &:active {
+              background-color: #3c0e22;
+            }
+          }
         }
       }
       .subscribe_right {
@@ -1572,7 +1572,7 @@
               border-radius: 30px;
               padding: 6px 20px;
             }
-            
+
             &:focus {
               outline: none;
             }

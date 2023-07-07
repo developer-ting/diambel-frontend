@@ -942,27 +942,27 @@
           <div class="subscribe_flex d_flex toTop" data-scroll>
             <div class="subscribe_left">
               <p class="text_reg pb_20">
-              I am a  
-              
-              <select name="select" id="select_option" class="newsletter_select">
-                <!-- <option>select</option> -->
-                <option>Diamond Manufacturer</option>
-                <option>Diamond Wholesaler</option>
-                <option>Jewellery Manufacturer</option>
-                <option>Retailer</option>
-              </select>
+                I am a
 
-              and I’d like to stay updated to all things diambel.
+                <select name="select" id="select_option" class="newsletter_select">
+                  <!-- <option>select</option> -->
+                  <option>Diamond Manufacturer</option>
+                  <option>Diamond Wholesaler</option>
+                  <option>Jewellery Manufacturer</option>
+                  <option>Retailer</option>
+                </select>
+
+                and I’d like to stay updated to all things diambel.
               </p>
 
               <p class="text_reg">
-              I am interested in
-              
-              <select name="select" id="select_option" class="newsletter_select">
-                <option>Rough Diamonds</option>
-                <option>Polished Diamonds</option>
-                <option>Jewellery</option>
-              </select>
+                I am interested in
+
+                <select name="select" id="select_option" class="newsletter_select">
+                  <option>Rough Diamonds</option>
+                  <option>Polished Diamonds</option>
+                  <option>Jewellery</option>
+                </select>
               </p>
             </div>
             <div class="subscribe_right">
@@ -975,7 +975,7 @@
             </div>
           </div>
         </div>
-        
+
       </div>
     </section>
 
@@ -1005,8 +1005,8 @@
                   </div>
                   <div class="group_flex">
                     <div class="input_group">
-                      <input type="text" class="input_control text_sm" id="cname" name="cname" placeholder="Company Name"
-                        required>
+                      <input type="text" class="input_control text_sm" id="cname" name="cname"
+                        placeholder="Company Name" required>
                     </div>
                     <div class="input_group">
                       <input type="text" class="input_control text_sm" id="message" name="message" placeholder="Message"
