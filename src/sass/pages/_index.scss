@@ -1431,10 +1431,8 @@
       background: linear-gradient(136deg, #e8ddd2 3%, #faf9f9 23%, #e8ddd2 70%);
 
       border-radius: 8px;
-      padding: 40px 40px;
-      @include mv-media(max, 1199px) {
-        padding: 30px 30px;
-      }
+      padding: 50px 40px;
+
       @include mv-media(max, 767px) {
         padding: 20px 20px;
       }
@@ -1482,6 +1480,13 @@
           font-size: 18px;
           font-weight: 300;
           position: relative;
+          display: inline-block;
+          border-radius: 0px;
+          float: inherit;
+          padding-left: 0;
+          width: 225px;
+          height: 34px;
+          line-height: 34px;
           &:focus {
             outline: none;
           }
@@ -1494,26 +1499,31 @@
             opacity: 0.5;
             font-weight: 300;
           }
-          option {
+        }
+
+        .nice-select {
+          &::after {
+            border-bottom: 2px solid var(--secondary-color);
+            border-right: 2px solid var(--secondary-color);
+          }
+          .option {
+            font-weight: 300;
+            line-height: 33px;
+            list-style: none;
+            min-height: 33px;
             &:hover {
-              background-color: #3c0e22;
+              background-color: var(--color_primary);
+              color: var(--white-color);
             }
-            // &:checked {
-            //   background-color: #3c0e22;
-            // }
-            &:focus {
-              background-color: #3c0e22;
-            }
-            &:focus-within {
-              background-color: #3c0e22;
-            }
-            &:focus-visible {
-              background-color: #3c0e22;
-            }
-            &:active {
-              background-color: #3c0e22;
+            .selected {
+              font-weight: 300;
             }
           }
+        }
+        .nice-select .option.focus,
+        .nice-select .option.selected.focus,
+        .nice-select .option:hover {
+          background-color: var(--color_primary);
         }
       }
       .subscribe_right {

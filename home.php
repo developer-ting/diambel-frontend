@@ -964,6 +964,15 @@
                   <option>Jewellery</option>
                 </select>
               </p>
+              <!-- <div class="box">
+                <select>
+                  <option data-display="Select">Nothing</option>
+                  <option value="1">Some option</option>
+                  <option value="2">Another option</option>
+                  <option value="3" disabled>A disabled option</option>
+                  <option value="4">Potato</option>
+                </select>
+              </div> -->
             </div>
             <div class="subscribe_right">
               <div class="input_group">
@@ -1030,6 +1039,10 @@
   </main>
   <?php include("includes/footer.html") ?>
   <?php include("includes/include_js.html") ?>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/css/nice-select.min.css"
+    rel="stylesheet" />
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/js/jquery.nice-select.min.js"></script>
 
   <!-- <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
@@ -1236,6 +1249,9 @@
       }, 1000);
       return false;
     });
+
+    $('.subscribe_left select:not(.ignore)').niceSelect();
+    FastClick.attach(document.body);
 
   });
   </script>
