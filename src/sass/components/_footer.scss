@@ -170,17 +170,17 @@ footer {
   .footer_inner {
     @extend .f_r_a_center;
     justify-content: space-between;
-    padding: 30px 0px;
+    padding: 20px 0px;
     border-top: 1px solid rgba(192, 162, 128, 0.5);
     @include mv-media(max, 767px) {
-      padding: 30px 15px;
+      padding: 20px 15px;
     }
 
     .copyright_text {
       width: 100%;
       text-align: center;
       @include mv-media(max, 767px) {
-        padding: 20px 0px;
+        padding: 20px 0px 0px;
       }
     }
 
@@ -213,7 +213,7 @@ footer {
     }
 
     h5 {
-      color: #3C0E22;
+      color: #3c0e22;
       margin: 0;
       font-weight: 500;
       font-family: "Cabin", sans-serif;
