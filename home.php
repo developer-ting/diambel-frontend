@@ -62,7 +62,7 @@
       <div class="container">
         <div class="hallmark_credibilty_inside">
           <div class="hallmark_title">
-            <h2 class="text_lg">The Seal Of Integrity</h2>
+            <h2 class="text_lg">The Seal of Integrity</h2>
           </div>
           <div class="hallmark_credibilty_right">
             <div class="hallmark_slider">
@@ -70,11 +70,17 @@
                 <img src="img/home/sightholder_logo.png" alt="sightholder" />
               </div>
               <div class="hallmark_item">
-                <img src="img/home/sightholder_logo.png" alt="sightholder" />
+                <img src="img/home/rio_tinto.png" alt="rio_tinto" />
               </div>
               <div class="hallmark_item">
-                <img src="img/home/sightholder_logo.png" alt="sightholder" />
+                <img src="img/home/responsible_council.png" alt="responsible_council" />
               </div>
+              <!-- <div class="hallmark_item">
+                <img src="img/home/mireya.png" alt="mireya" />
+              </div>
+              <div class="hallmark_item">
+                <img src="img/home/harshid.png" alt="harshid" />
+              </div> -->
             </div>
             <div class="hallmark_btn">
               <a class="btn_project_secondary" href="">View Certification</a>
@@ -87,7 +93,7 @@
     <section class="journey_main ptb_100" id="aboutus">
       <div class="container">
         <div class="journey_title toTop" data-scroll>
-          <h2 class="text_xxl">Our Journey At a Glance</h2>
+          <h2 class="text_xxl">Our Journey at a Glance</h2>
         </div>
         <div class="illustrious_flex_outer">
 
@@ -177,11 +183,13 @@
                 </div>
 
                 <div class="slider_image">
-                  <img src="img/home/year_1990.jpg" alt="" />
+                  <img src="img/home/year_1990.png" alt="" />
+                  <!-- <img class="logo_overlay" src="img/home/timeline_harshid.png" alt="" /> -->
                 </div>
 
                 <div class="slider_image">
-                  <img src="img/home/year_2000.jpg" alt="" />
+                  <img src="img/home/year_2000.png" alt="" />
+                  <!-- <img class="logo_overlay" src="img/home/timeline_rio.png" alt="" /> -->
                 </div>
 
                 <div class="slider_image">
@@ -189,7 +197,8 @@
                 </div>
 
                 <div class="slider_image">
-                  <img src="img/home/year_2010.jpg" alt="" />
+                  <img src="img/home/year_2010.png" alt="" />
+                  <!-- <img class="logo_overlay" src="img/home/timeline_mireya.png" alt="" /> -->
                   <!-- <img class="line_layer" src="img/home/line_layer.png" alt="line_layer" /> -->
                   <!-- <img class="slider_layer_two" src="img/home/review_layer_two.png" alt="" /> -->
                 </div>
@@ -205,7 +214,7 @@
                 <div class="slider_image">
                   <img src="img/home/slider_one.jpg" alt="" />
                 </div>
-                
+
               </div>
 
             </div>
@@ -215,6 +224,7 @@
         </div>
       </div>
     </section>
+
 
     <!-- <section class="values_shape_main pb_100">
       <div class="container">
@@ -283,7 +293,7 @@
 
         <div class="title_info d_flex pb_40 toTop" data-scroll>
           <div class="title">
-            <h2 class="text_xxl pb_20">Committed to nature</h2>
+            <h2 class="text_xxl pb_20">Committed to Nature</h2>
             <p class="text_reg">To honour the unmatched value of natural diamonds at every step of the process, we have
               alliances with top miners in the world. We only work with sustainably sourced natural diamonds that meet
               our ethical and quality standards.</p>
@@ -318,7 +328,7 @@
         <div class="container">
           <div class="title_info pb_60 toTop" data-scroll>
             <div class="title">
-              <h2 class="text_xl pb_20">Working across the pipeline</h2>
+              <h2 class="text_xl pb_20">Working Across the Pipeline</h2>
               <p class="text_reg">Diambel has created a vertically integrated pipeline in the natural diamond industry,
                 offering end-to-end solutions in rough and polished diamonds as well as jewellery.</p>
             </div>
@@ -348,7 +358,7 @@
 
           <div class="title_info d_flex pb_60 toTop" data-scroll>
             <div class="title">
-              <h2 class="text_xl pb_20">Solutions beyond diamonds</h2>
+              <h2 class="text_xl pb_20">Solutions Beyond Diamonds</h2>
               <p class="text_reg">We go over and above the industry norms to provide you with 360-degree services, from
                 customised orders to tech support to inventory management. Every step of the way, you can trust us to
                 deliver on promises made, and beyond.</p>
@@ -527,7 +537,7 @@
 
         <div class="title_info d_flex pb_20 toTop" data-scroll>
           <div class="title">
-            <h2 class="text_xxl">Upcoming events</h2>
+            <h2 class="text_xxl">Upcoming Events</h2>
           </div>
           <!-- <div class="btn_box hidden-xs">
             <a class="btn_project_default black_btn" href="">View All</a>
@@ -806,15 +816,15 @@
             <img class="roadmap_icon_two hidden-xs" src="img/home/roadmap_icon_two.png" alt="after" />
             <div class="imgBx hidden-xs">
               <div class="imgBxFx">
-                <p>Education</p>
+                <p>Education and <br>Health</p>
                 <img src="img/home/Education_LOOP.gif" alt="">
               </div>
               <div class="imgBxFx">
-                <p>Environment</p>
+                <p>Environment and <br>Sustainability</p>
                 <img src="img/home/Environment_LOOP.gif" alt="">
               </div>
               <div class="imgBxFx">
-                <p>Economic</p>
+                <p>Economic <br>Development</p>
                 <img src="img/home/Economic_LOOP.gif" alt="">
               </div>
             </div>
@@ -889,15 +899,15 @@
             <div class="imgBx visible-xs toTop" data-scroll>
               <div class="imgBxFx">
                 <img src="img/home/Education_LOOP.gif" alt="">
-                <p>Education</p>
+                <p>Education and Health</p>
               </div>
               <div class="imgBxFx">
                 <img src="img/home/Environment_LOOP.gif" alt="">
-                <p>Environment</p>
+                <p>Environment and <br>Sustainability</p>
               </div>
               <div class="imgBxFx">
                 <img src="img/home/Economic_LOOP.gif" alt="">
-                <p>Economic</p>
+                <p>Economic Development</p>
               </div>
             </div>
           </div>
@@ -914,11 +924,11 @@
           <div class="get_started_right">
             <div class="btn_box">
 
-              <a onClick="openPopup('pop1');" class="btn_project_default black_btn" href="javascript:void(0);">Register
+              <a class="btn_project_default black_btn" href="javascript:void(0);">Register
                 Here</a>
             </div>
             <div class="inquire_btn">
-              <a class="btn_project_secondary" href="">Inquire Now</a>
+              <a onClick="openPopup('pop1');" class="btn_project_secondary" href="javascript:void(0);">Enquire Now</a>
             </div>
           </div>
         </div>
@@ -927,20 +937,54 @@
 
     <section class="subscribe_main pb_60">
       <div class="container">
-        <div class="subscribe_flex d_flex toTop" data-scroll>
-          <div class="subscribe_left">
-            <img class="mail_icon" src="img/home/mail.png" alt="mail">
-            <h2 class="text_lg">Subscribe to our newsletter</h2>
-          </div>
-          <div class="subscribe_right">
-            <div class="input_group">
-              <input type="email" class="input_control text_sm" placeholder="Email Address">
+        <div class="subscribe_box">
+          <h2 class="text_xl pb_20">Subscribe for our newsletter</h2>
+          <div class="subscribe_flex d_flex toTop" data-scroll>
+            <div class="subscribe_left">
+              <p class="text_reg pb_20">
+                I am a
+
+                <select name="select" id="select_option" class="newsletter_select">
+                  <!-- <option>select</option> -->
+                  <option>Diamond Manufacturer</option>
+                  <option>Diamond Wholesaler</option>
+                  <option>Jewellery Manufacturer</option>
+                  <option>Retailer</option>
+                </select>
+
+                and I’d like to stay updated to all things diambel.
+              </p>
+
+              <p class="text_reg">
+                I am interested in
+
+                <select name="select" id="select_option" class="newsletter_select">
+                  <option>Rough Diamonds</option>
+                  <option>Polished Diamonds</option>
+                  <option>Jewellery</option>
+                </select>
+              </p>
+              <!-- <div class="box">
+                <select>
+                  <option data-display="Select">Nothing</option>
+                  <option value="1">Some option</option>
+                  <option value="2">Another option</option>
+                  <option value="3" disabled>A disabled option</option>
+                  <option value="4">Potato</option>
+                </select>
+              </div> -->
             </div>
-            <div class="btn_box">
-              <a class="btn_project_default black_btn" href="">Submit</a>
+            <div class="subscribe_right">
+              <div class="input_group">
+                <input type="email" class="input_control text_sm" placeholder="Email Address">
+              </div>
+              <div class="btn_box">
+                <a class="btn_project_default black_btn" href="">Submit</a>
+              </div>
             </div>
           </div>
         </div>
+
       </div>
     </section>
 
@@ -953,7 +997,7 @@
           <img src="img/home/closeBtn.png" alt="">
         </div>
         <div class="modalPop">
-          <div class="container">
+          <div class="">
             <div class="moadalFlex">
               <div class="modalItem">
                 <form id="register_form">
@@ -970,8 +1014,8 @@
                   </div>
                   <div class="group_flex">
                     <div class="input_group">
-                      <input type="text" class="input_control text_sm" id="contact" name="contact" placeholder="Contact"
-                        required>
+                      <input type="text" class="input_control text_sm" id="cname" name="cname"
+                        placeholder="Company Name" required>
                     </div>
                     <div class="input_group">
                       <input type="text" class="input_control text_sm" id="message" name="message" placeholder="Message"
@@ -995,6 +1039,14 @@
   </main>
   <?php include("includes/footer.html") ?>
   <?php include("includes/include_js.html") ?>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/css/nice-select.min.css"
+    rel="stylesheet" />
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/js/jquery.nice-select.min.js"></script>
+
+  <!-- <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/jquery.slick/1.4.1/slick.min.js"></script> -->
 
   <script>
   //for letters only
@@ -1018,7 +1070,7 @@
         required: true,
         email: true
       },
-      contact: {
+      cname: {
         required: true,
       },
       message: {
@@ -1034,7 +1086,7 @@
         required: "This field is required",
         emailtest: "Please enter a valid email address"
       },
-      contact: {
+      cname: {
         required: "This field is required",
       },
       message: {
@@ -1180,7 +1232,7 @@
     }
   })
 
-  
+
   $(document).ready(function() {
     //banner scroll script
     $("#scrollbtna").click(function() {
@@ -1191,12 +1243,15 @@
     });
 
     //header menu scroll script
-    $('.scrollTo').click(function(){
+    $('.scrollTo').click(function() {
       $('html, body').animate({
-          scrollTop: $( $(this).attr('href') ).offset().top
+        scrollTop: $($(this).attr('href')).offset().top
       }, 1000);
       return false;
     });
+
+    $('.subscribe_left select:not(.ignore)').niceSelect();
+    FastClick.attach(document.body);
 
   });
   </script>

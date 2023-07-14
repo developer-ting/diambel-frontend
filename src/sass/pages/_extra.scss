@@ -209,6 +209,12 @@ body {
   @include mv-media(max, 1199px) {
     background-size: cover;
   }
+  // @include mv-media(max, 767px) {
+  //   background-image: url("../../img/intro/mobile_banner.jpg");
+  // }
+  .delayNone {
+    transition-delay: 0s;
+  }
 }
 .intro-video {
   position: fixed;
@@ -236,6 +242,9 @@ body {
       background-color: #010001;
       border: 1px solid #fff;
     }
+  }
+  .delayNone {
+    transition-delay: 0s;
   }
 }
 
@@ -431,9 +440,16 @@ body {
       .slider {
         position: relative;
         .slider_image {
+          position: relative;
           // padding: 0px 20px 20px 30px;
           @include mv-media(max, 767px) {
             padding: 0px;
+          }
+          .logo_overlay{
+            position: absolute;
+            left: 20px;
+            bottom: 20px;
+            border-radius: 0px;
           }
           .contentOverlay {
             @extend .rel_xy_center;

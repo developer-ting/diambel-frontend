@@ -49,7 +49,20 @@ $(window).on("load", function () {
   if (winW < 992) {
     loadBannerAnim();
   }
+  var isVisited = sessionStorage.getItem("visited");
+  if (isVisited) {
+    loadBannerAnim();
+    $(".bannerHead span").addClass("delayNone").addClass("spanAnim");
+    $(".bannerPara").addClass("delayNone").addClass("bannerParaAnim");
+    $(".DiamondImg").addClass("delayNone").addClass("DiamondImgAnim");
+    $(".bgDiamondImg").addClass("delayNone").addClass("bgDiamondImgAnim");
+    console.log(isVisited);
+  } else {
+    sessionStorage.setItem("visited", "true");
+  }
 });
+
+var sliderNav = $(".slider-nav");
 
 $(".slider-for").slick({
   slidesToShow: 1,
@@ -61,7 +74,39 @@ $(".slider-for").slick({
   asNavFor: ".slider-nav",
   autoplay: false,
 });
-var sliderNav = $(".slider-nav");
+
+// Function to start the slider autoplay
+function startSliderAutoplay() {
+  sliderNav.slick("slickPlay");
+}
+
+// Function to stop the slider autoplay
+function stopSliderAutoplay() {
+  sliderNav.slick("slickPause");
+}
+
+// Intersection Observer callback function
+function handleIntersection(entries, observer) {
+  entries.forEach(function (entry) {
+    if (entry.isIntersecting) {
+      startSliderAutoplay();
+    } else {
+      stopSliderAutoplay();
+    }
+  });
+}
+
+// Create the Intersection Observer
+const options = {
+  rootMargin: "0px",
+  threshold: 0.5, // Adjust as needed (0.5 means when 50% of the slider is visible)
+};
+
+const observer = new IntersectionObserver(handleIntersection, options);
+
+// Target the slider element and start observing
+const sliderElement = document.querySelector(".slider-nav");
+observer.observe(sliderElement);
 
 if (sliderNav.length) {
   sliderNav.slick({
@@ -188,3 +233,12 @@ if (window.innerWidth < 767) {
     }
   });
 }
+$(document).ready(function () {
+  var isVisited = sessionStorage.getItem("visited");
+  if (isVisited) {
+    $("#skip").remove();
+    $(".intro-video").remove();
+  } else {
+    sessionStorage.setItem("visited", "true");
+  }
+});
