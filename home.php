@@ -568,7 +568,7 @@
             <div class="container">
                 <div class="get_started_flex d_flex ptb_40 toTop" data-scroll>
                     <div class="get_started_left">
-                        <h2 class="text_xl">Let’s get started</h2>
+                        <h2 class="text_xxl">Let’s get started</h2>
                     </div>
                     <div class="get_started_right">
                         <div class="btn_box">
@@ -926,7 +926,6 @@
                         <img class="img front-img" src="img/home/diamond-front.png" alt="after" />
                         <img class="roadmap_icon_one visible-xs" src="img/home/roadmap_icon_one.png" alt="after" />
                         <img class="roadmap_icon_two visible-xs" src="img/home/roadmap_icon_two.png" alt="after" />
-
                         <div class="scrollerBlock">
                             <label for="slider" class="draggerPoint">
                                 <img src="img/home/sm-arrow.svg" class="smAroow leftAr" alt="">
