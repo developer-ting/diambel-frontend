@@ -988,7 +988,7 @@
             <div class="container">
                 <div class="subscribe_box">
                     <div class="subscribe_box_flex">
-                        <h2 class="text_xxl">Subscribe for our newsletter</h2>
+                        <h2 class="text_xl">Subscribe for our newsletter</h2>
                         <div class="btn_box">
                             <a class="btn_project_default black_btn" onClick="openPopup('pop2');">Click Here</a>
                         </div>
@@ -1015,28 +1015,28 @@
                                     <div class="group_flex">
                                         <div class="input_group">
                                             <input type="text" class="input_control text_sm" id="name" name="Name"
-                                                placeholder="Name" required>
+                                                placeholder="Name*" required>
                                         </div>
                                         <div class="input_group">
                                             <input type="email" class="input_control text_sm" id="email" name="email"
-                                                placeholder="Email ID" required>
+                                                placeholder="Email ID*" required>
                                         </div>
                                     </div>
                                     <div class="group_flex">
                                         <div class="input_group">
                                             <input type="text" class="input_control text_sm" id="cname" name="cname"
-                                                placeholder="Company Name" required>
+                                                placeholder="Company Name*" required>
                                         </div>
                                         <div class="input_group">
                                             <input type="text" class="input_control text_sm" id="contact" name="contact"
-                                                placeholder="Contact Number" required>
+                                                placeholder="Contact Number*" required>
                                         </div>
                                     </div>
                                     <div class="group_flex">
                                         <div class="input_group">
                                             <select name="businessType" id="select_option1"
                                                 class="newsletter_select text_sm" required>
-                                                <option value="" data-display="Business Type">
+                                                <option value="" data-display="Business Type*">
                                                     Diamond Manufacturer</option>
                                                 <option value="Jewellery Manufacturer">Jewellery Manufacturer</option>
                                                 <option value="Wholesaler">Wholesaler</option>
@@ -1047,16 +1047,15 @@
                                         <div class="input_group">
                                             <select name="interestedIn" id="select_option2"
                                                 class="newsletter_select text_sm">
-                                                <option value="" data-display="Interested In">Rough</option>
-                                                <option value="Diamonds">Diamonds</option>
+                                                <option value="" data-display="Interested In*">Rough Diamonds</option>
                                                 <option value="Polished Diamonds">Polished Diamonds</option>
                                             </select>
                                         </div>
                                     </div>
                                     <div class="group_flex">
                                         <div class="input_group">
-                                            <input type="text" class="input_control text_sm" id="message" name="message"
-                                                placeholder="Message" required>
+                                            <input type="text" class="input_control text_sm" id="message*"
+                                                name="message" placeholder="Message*" required>
                                         </div>
                                     </div>
                                     <div class="btn_box">
@@ -1087,28 +1086,28 @@
                                     <div class="group_flex">
                                         <div class="input_group">
                                             <input type="text" class="input_control text_sm" id="rname" name="rname"
-                                                placeholder="Name" required>
+                                                placeholder="Name*" required>
                                         </div>
                                         <div class="input_group">
                                             <input type="email" class="input_control text_sm" id="remail" name="remail"
-                                                placeholder="Email ID" required>
+                                                placeholder="Email ID*" required>
                                         </div>
                                     </div>
                                     <div class="group_flex">
                                         <div class="input_group">
                                             <input type="text" class="input_control text_sm" id="rcname" name="rcname"
-                                                placeholder="Company Name" required>
+                                                placeholder="Company Name*" required>
                                         </div>
                                         <div class="input_group">
                                             <input type="text" class="input_control text_sm" id="cnumber" name="cnumber"
-                                                placeholder="Contact Number" required>
+                                                placeholder="Contact Number*" required>
                                         </div>
                                     </div>
                                     <div class="group_flex">
                                         <div class="input_group">
                                             <select name="businessType1" id="select_option3"
                                                 class="newsletter_select text_sm" required>
-                                                <option value="" data-display="Business Type">
+                                                <option value="" data-display="Business Type*">
                                                     Diamond Manufacturer</option>
                                                 <option value="Jewellery Manufacturer">Jewellery Manufacturer</option>
                                                 <option value="Wholesaler">Wholesaler</option>
@@ -1119,8 +1118,7 @@
                                         <div class="input_group">
                                             <select name="interestedIn1" id="select_option4"
                                                 class="newsletter_select text_sm" required>
-                                                <option value="" data-display="Interested In">Rough</option>
-                                                <option value="Diamonds">Diamonds</option>
+                                                <option value="" data-display="Interested In*">Rough Diamonds</option>
                                                 <option value="Polished Diamonds">Polished Diamonds</option>
                                             </select>
                                         </div>

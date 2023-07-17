@@ -1430,10 +1430,15 @@
     .subscribe_box {
       background: #ded0c0;
       background: linear-gradient(136deg, #e8ddd2 3%, #faf9f9 23%, #e8ddd2 70%);
-
       border-radius: 8px;
-      padding: 50px 40px;
+      padding: 40px 40px;
+      width: 85%;
+      margin: 0 auto;
 
+      @include mv-media(max, 992px) {
+        padding: 25px 15px;
+        width: 100%;
+      }
       @include mv-media(max, 767px) {
         padding: 20px 20px;
       }
@@ -1733,6 +1738,9 @@
                   height: auto;
                   width: 100%;
                   line-height: 1;
+                  @include mv-media(max, 767px) {
+                    padding: 0 2px;
+                  }
                   .current {
                     @extend .text_sm;
                     padding-bottom: 2px;
@@ -1754,9 +1762,15 @@
                     line-height: 33px;
                     list-style: none;
                     min-height: 33px;
+                    // color: #fff;
+                    color: var(--color_primary);
                     &:hover {
+                      // background-color: var(--color_primary);
                       background-color: var(--color_primary);
                       color: var(--white-color);
+                    }
+                    &.focus {
+                      background-color: unset;
                     }
                     .selected {
                       font-weight: 300;
