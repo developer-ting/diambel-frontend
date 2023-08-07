@@ -538,7 +538,7 @@
                         </div>
                         <div class="our_manufacturing_img">
                             <img class="video_logo" src="img/home/video_logo.jpg" alt="video_logo" />
-                            <video autoplay controls muted playsinline class="manufacturing_video">
+                            <video autoplay loop muted playsinline class="manufacturing_video">
                                 <source src="img/home/Diambel_Manufacturing_Video.mp4" type="video/mp4">
                             </video>
                         </div>

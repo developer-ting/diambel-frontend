@@ -69,10 +69,8 @@ $(".slider-for").slick({
   slidesToScroll: 1,
   arrows: false,
   fade: true,
-  infinite: false,
   pauseOnHover: false,
   asNavFor: ".slider-nav",
-  autoplay: false,
 });
 
 // Function to start the slider autoplay
