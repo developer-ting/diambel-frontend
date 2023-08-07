@@ -105,68 +105,51 @@
                             <div class="slider slider-nav">
 
                                 <div class="thumbnail_txt">
+                                    <h2 class="text_xxl">Present Day</h2>
+                                    <p class="text_reg">Today, we offer unmatched 360° solutions while exclusively working with reputed miners and retail partners.</p>
+                                </div>
+
+                                <div class="thumbnail_txt">
                                     <h2 class="text_xxl">1971</h2>
-                                    <p class="text_reg">We start out in a small office in Mumbai, India, as a rough
-                                        diamonds trading
-                                        company.</p>
+                                    <p class="text_reg">We start out in a small office in Mumbai, India, as a rough diamonds trading company.</p>
                                 </div>
 
                                 <div class="thumbnail_txt">
                                     <h2 class="text_xxl">1985</h2>
-                                    <p class="text_reg">Diambel NV is born in Antwerp, Belgium with a view to grow our
-                                        rough distribution
-                                        and strengthen ties with reputed miners. </p>
+                                    <p class="text_reg">Diambel NV is born in Antwerp, Belgium with a view to grow our rough distribution and strengthen ties with reputed miners.</p>
                                 </div>
 
                                 <div class="thumbnail_txt">
                                     <h2 class="text_xxl">1990</h2>
-                                    <p class="text_reg">We establish Harshid Exports, with a long-term aim to grow our
-                                        manufacturing and
-                                        distribution of polished diamonds. </p>
+                                    <p class="text_reg">We establish Harshid Exports, with a long-term aim to grow our manufacturing and distribution of polished diamonds. </p>
                                 </div>
 
                                 <div class="thumbnail_txt">
                                     <h2 class="text_xxl">2000</h2>
-                                    <p class="text_reg">Rio Tinto Diamonds starts the Select Diamantaire Programme where
-                                        Diambel NV is
-                                        acknowledged as one of their first customers.</p>
+                                    <p class="text_reg">Rio Tinto Diamonds starts the Select Diamantaire Programme where Diambel NV is acknowledged as one of their first customers.</p>
                                 </div>
 
                                 <div class="thumbnail_txt">
                                     <h2 class="text_xxl">2004</h2>
-                                    <p class="text_reg">Diambel ME is launched in Dubai to set a strong foundation for
-                                        the polished market
-                                        and add further value to our rough sourcing and trading.</p>
+                                    <p class="text_reg">Diambel ME is launched in Dubai to set a strong foundation for the polished market and add further value to our rough sourcing and trading.</p>
                                 </div>
 
                                 <div class="thumbnail_txt">
                                     <h2 class="text_xxl">2010</h2>
-                                    <p class="text_reg">We go further downstream in the pipeline to get one step closer
-                                        to retail by
-                                        diversifying our offerings to jewellery distribution in London under ‘Mireya UK
-                                        Ltd.’</p>
+                                    <p class="text_reg">We go further downstream in the pipeline to get one step closer to retail by diversifying our offerings to jewellery distribution in London under ‘Mireya UK Ltd.’</p>
                                 </div>
 
                                 <div class="thumbnail_txt">
                                     <h2 class="text_xxl">2014</h2>
-                                    <p class="text_reg">De Beers Group recognises our strength within the diamond
-                                        industry, giving us the
-                                        ability to become a Sightholder.</p>
+                                    <p class="text_reg">De Beers Group recognises our strength within the diamond industry, giving us the ability to become a Sightholder.</p>
                                 </div>
 
                                 <div class="thumbnail_txt">
                                     <h2 class="text_xxl">2020</h2>
-                                    <p class="text_reg">We are recognised as an integral player in the lifeline of the
-                                        Argyle mine as
-                                        their journey comes to an end.</p>
+                                    <p class="text_reg">We are recognised as an integral player in the lifeline of the Argyle mine as their journey comes to an end.</p>
                                 </div>
 
-                                <div class="thumbnail_txt">
-                                    <h2 class="text_xxl">Present Day</h2>
-                                    <p class="text_reg">Today, we offer unmatched 360° solutions while exclusively
-                                        working with reputed
-                                        miners and retail partners.</p>
-                                </div>
+                                
 
                             </div>
                             <div class="progress progress_green progress5">
@@ -186,20 +169,24 @@
                             <div class="slider slider-for">
 
                                 <div class="slider_image">
-                                    <img src="img/home/year_2014.jpg" alt="" />
+                                    <img src="img/home/present_day.jpg" alt="" />
                                 </div>
 
                                 <div class="slider_image">
-                                    <img src="img/home/year_2020.jpg" alt="" />
+                                    <img src="img/home/year_1971.jpg" alt="" />
                                 </div>
 
                                 <div class="slider_image">
-                                    <img src="img/home/year_1990.png" alt="" />
+                                    <img src="img/home/year_1985.jpg" alt="" />
+                                </div>
+
+                                <div class="slider_image">
+                                    <img src="img/home/year_1990.jpg" alt="" />
                                     <!-- <img class="logo_overlay" src="img/home/timeline_harshid.png" alt="" /> -->
                                 </div>
 
                                 <div class="slider_image">
-                                    <img src="img/home/year_2000.png" alt="" />
+                                    <img src="img/home/year_2000.jpg" alt="" />
                                     <!-- <img class="logo_overlay" src="img/home/timeline_rio.png" alt="" /> -->
                                 </div>
 
@@ -208,7 +195,7 @@
                                 </div>
 
                                 <div class="slider_image">
-                                    <img src="img/home/year_2010.png" alt="" />
+                                    <img src="img/home/year_2010.jpg" alt="" />
                                     <!-- <img class="logo_overlay" src="img/home/timeline_mireya.png" alt="" /> -->
                                     <!-- <img class="line_layer" src="img/home/line_layer.png" alt="line_layer" /> -->
                                     <!-- <img class="slider_layer_two" src="img/home/review_layer_two.png" alt="" /> -->
@@ -220,10 +207,6 @@
 
                                 <div class="slider_image">
                                     <img src="img/home/year_2020.jpg" alt="" />
-                                </div>
-
-                                <div class="slider_image">
-                                    <img src="img/home/slider_one.jpg" alt="" />
                                 </div>
 
                             </div>
@@ -430,6 +413,38 @@
                                         <div class="header_icon_box">
                                             <div class="icon_box">
                                                 <div class="value_shape_img">
+                                                    <img src="img/home/Mine-To-Market.gif" alt="reliability" />
+                                                </div>
+                                                <div class="value_hover_img">
+                                                    <img src="img/home/faq_curve_bg.png" alt="faq_curve_bg" />
+                                                </div>
+                                            </div>
+                                            <div class="header_txt">
+                                                <h5 class="text_md">Mine To Market </h5>
+                                            </div>
+                                        </div>
+                                        <span>
+                                            <i class="fa-solid fa-plus"></i>
+                                        </span>
+                                    </a>
+                                    <div class="content">
+                                        <div class="content_box">
+                                            <span class="blank_content"></span>
+                                            <p class="text_reg">With the growing importance of provenance and a
+                                                transparent supply chain, we
+                                                offer a wide range of our rough and polished diamonds which can be
+                                                traced back to its origin,
+                                                adding value to your product line.</p>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="faq_box toTop" data-scroll>
+                                    <a href="javascript:void(0)" class="faq_title" step-name="FQ1">
+                                        <div class="header_icon_box">
+                                            <div class="icon_box">
+                                                <div class="value_shape_img">
                                                     <img src="img/home/Tech-Support.gif" alt="reliability" />
                                                 </div>
                                                 <div class="value_hover_img">
@@ -491,40 +506,6 @@
                                     </div>
                                 </div>
 
-                                <div class="faq_box toTop" data-scroll>
-                                    <a href="javascript:void(0)" class="faq_title" step-name="FQ1">
-                                        <div class="header_icon_box">
-                                            <div class="icon_box">
-                                                <div class="value_shape_img">
-                                                    <img src="img/home/Mine-To-Market.gif" alt="reliability" />
-                                                </div>
-                                                <div class="value_hover_img">
-                                                    <img src="img/home/faq_curve_bg.png" alt="faq_curve_bg" />
-                                                </div>
-                                            </div>
-                                            <div class="header_txt">
-                                                <h5 class="text_md">Mine To Market </h5>
-                                            </div>
-                                        </div>
-                                        <span>
-                                            <i class="fa-solid fa-plus"></i>
-                                        </span>
-                                    </a>
-                                    <div class="content">
-                                        <div class="content_box">
-                                            <span class="blank_content"></span>
-                                            <p class="text_reg">With the growing importance of provenance and a
-                                                transparent supply chain, we
-                                                offer a wide range of our rough and polished diamonds which can be
-                                                traced back to its origin,
-                                                adding value to your product line.</p>
-                                        </div>
-
-                                    </div>
-                                </div>
-
-
-
                             </div>
                         </div>
                     </div>
@@ -556,7 +537,10 @@
                             </div>
                         </div>
                         <div class="our_manufacturing_img">
-                            <img src="img/home/our_manufaturing.jpg" alt="our_manufaturing" />
+                            <img class="video_logo" src="img/home/video_logo.jpg" alt="video_logo" />
+                            <video autoplay controls muted playsinline class="manufacturing_video">
+                                <source src="img/home/Diambel_Manufacturing_Video.mp4" type="video/mp4">
+                            </video>
                         </div>
                     </div>
 
@@ -916,8 +900,8 @@
                                 <p>Embrace <br>Technological <br>Advancements</p>
                             </div>
                             <div class="imgBxFx">
-                                <img src="img/home/Committed-To-Natural-Diamonds_LOOP.gif" alt="">
-                                <p>Committed To <br>Natural Diamonds</p>
+                                <img src="img/home/Strengthen_Our.gif" alt="">
+                                <p>Strengthen Our <br>Diamond Pipeline</p>
                             </div>
                         </div>
                     </div>
@@ -948,8 +932,8 @@
                                 <p>Embrace <br>Technological <br>Advancements</p>
                             </div>
                             <div class="imgBxFx">
-                                <img src="img/home/Committed-To-Natural-Diamonds_LOOP.gif" alt="">
-                                <p>Committed To <br>Natural Diamonds</p>
+                                <img src="img/home/Strengthen_Our.gif" alt="">
+                                <p>Strengthen Our <br>Diamond Pipeline</p>
                             </div>
                         </div>
                         <div class="contentBx">
@@ -1053,9 +1037,15 @@
                                         </div>
                                     </div>
                                     <div class="group_flex">
-                                        <div class="input_group">
+                                        <div class="input_group pb_20">
                                             <input type="text" class="input_control text_sm" id="message*"
                                                 name="message" placeholder="Message*" required>
+                                        </div>
+                                    </div>
+                                    <div class="group_flex">
+                                        <div class="input_group custom_check">
+                                            <input type="checkbox" id="subscribe">
+                                            <label for="subscribe">Subscribe to our newsletter</label>
                                         </div>
                                     </div>
                                     <div class="btn_box">
