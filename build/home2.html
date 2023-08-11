@@ -51,7 +51,7 @@
 <link rel="stylesheet" href="dist/css/app.min.css" />
 </head>
 
-<body class="overflowAU">
+<body class="">
     <!--[if lt IE 8]>
 	<p class="browserupgrade">
 		You are using an <strong>outdated</strong> browser.
@@ -130,15 +130,15 @@
     <main style="padding-top:0" id="index_page" class="smooth_scroll_pages">
 
         <!--  insert body content  -->
-        <section class="intro-video">
-            <video autoplay muted playsinline class="hidden-xs">
-                <source src="img/intro/1920x1080.mp4" type="video/mp4">
-            </video>
-            <video autoplay muted playsinline class="visible-xs">
-                <source src="img/intro/480x900.mp4" type="video/mp4">
-            </video>
-            <a id="skip" class="btn_project_default" href="javascript:void(0)">Skip Intro</a>
-        </section>
+        <!-- <section class="intro-video">
+      <video autoplay muted playsinline class="hidden-xs">
+        <source src="img/intro/1920x1080.mp4" type="video/mp4">
+      </video>
+      <video autoplay muted playsinline class="visible-xs">
+        <source src="img/intro/480x900.mp4" type="video/mp4">
+      </video>
+      <a id="skip" class="btn_project_default" href="javascript:void(0)">Skip Intro</a>
+    </section> -->
         <section class="banner-sec">
             <!-- <picture>
                 <source media="(max-width:465px)" srcset="img/intro/banner.jpg"> 
@@ -162,16 +162,90 @@
             </div>
             <img src="img/intro/DiamondImg.png" class="DiamondImg" alt="">
 
-            <a class="scrlDown" id="scrollbtna" href="#bannertabs">SCROLL DOWN <img src="img/intro/scrollDown.png"
-                    alt=""></a>
+            <a class="scrlDown" href="javascript:void(0)">SCROLL DOWN <img src="img/intro/scrollDown.png" alt=""></a>
+        </section>
+
+        <section class="roadMapSec">
+            <div class="container">
+                <div class="HeadTxt toTop" data-scroll>
+                    <h2 class="text_xxl">Roadmap 2030</h2>
+                </div>
+                <div class="dragBxMain">
+                    <div class="cmnBlock leftSection activeClass">
+                        <div class="imgBx">
+                            <div class="imgBxFx">
+                                <p>Education</p>
+                                <img src="img/home/education.png" alt="">
+                            </div>
+                            <div class="imgBxFx">
+                                <p>Environment</p>
+                                <img src="img/home/education.png" alt="">
+                            </div>
+                            <div class="imgBxFx">
+                                <p>Economic</p>
+                                <img src="img/home/education.png" alt="">
+                            </div>
+                        </div>
+                        <div class="contentBx">
+                            <h3 class="contentHead">
+                                Business Goals
+                            </h3>
+                            <p class="contentPara">
+                                We want to continue building an<br>ecosystem that breeds excellence, and<br>enables us
+                                to provide industry-leading<br> services.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="before-after">
+                        <img class="img back-img" src="img/home/diamond-front.png" alt="before" />
+                        <img class="img front-img" src="img/home/diamond-front.png" alt="after" />
+
+                        <div class="scrollerBlock">
+                            <label for="slider" class="draggerPoint">
+                                <img src="img/home/sm-arrow.svg" class="smAroow leftAr" alt="">
+                                <img src="img/home/sm-arrow.svg" class="smAroow rightAr" alt="">
+                            </label>
+                            <input type="range" min="1" max="100" value="50" class="slider inputRange" name="slider"
+                                id="slider" />
+                        </div>
+                    </div>
+                    <div class="cmnBlock rightSection">
+                        <div class="imgBx">
+                            <div class="imgBxFx">
+                                <p>Education</p>
+                                <img src="img/home/education.png" alt="">
+                            </div>
+                            <div class="imgBxFx">
+                                <p>Environment</p>
+                                <img src="img/home/education.png" alt="">
+                            </div>
+                            <div class="imgBxFx">
+                                <p>Economic</p>
+                                <img src="img/home/education.png" alt="">
+                            </div>
+                        </div>
+                        <div class="contentBx">
+                            <h3 class="contentHead">
+                                Corporate Social<br>
+                                Responsibility Goals
+                            </h3>
+                            <p class="contentPara">
+                                Through our CSR efforts and partnerships<br>with organisations, we want to focus
+                                on<br>three
+                                important pillars of society and give<br>back to the community we are a part of.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
 
 
-        <section class="hallmark_credibilty ptb_30" id="bannertabs">
+        <section class="hallmark_credibilty ptb_30">
             <div class="container">
                 <div class="hallmark_credibilty_inside">
                     <div class="hallmark_title">
-                        <h2 class="text_lg">The Seal of Integrity</h2>
+                        <h2 class="text_lg">The Seal Of Integrity</h2>
                     </div>
                     <div class="hallmark_credibilty_right">
                         <div class="hallmark_slider">
@@ -179,17 +253,11 @@
                                 <img src="img/home/sightholder_logo.png" alt="sightholder" />
                             </div>
                             <div class="hallmark_item">
-                                <img src="img/home/rio_tinto.png" alt="rio_tinto" />
+                                <img src="img/home/sightholder_logo.png" alt="sightholder" />
                             </div>
                             <div class="hallmark_item">
-                                <img src="img/home/responsible_council.png" alt="responsible_council" />
+                                <img src="img/home/sightholder_logo.png" alt="sightholder" />
                             </div>
-                            <!-- <div class="hallmark_item">
-                <img src="img/home/mireya.png" alt="mireya" />
-              </div>
-              <div class="hallmark_item">
-                <img src="img/home/harshid.png" alt="harshid" />
-              </div> -->
                         </div>
                         <div class="hallmark_btn">
                             <a class="btn_project_secondary" href="">View Certification</a>
@@ -199,10 +267,10 @@
             </div>
         </section>
 
-        <section class="journey_main ptb_100" id="aboutus">
+        <section class="journey_main ptb_100">
             <div class="container">
                 <div class="journey_title toTop" data-scroll>
-                    <h2 class="text_xxl">Our Journey at a Glance</h2>
+                    <h2 class="text_xxl">Our Journey At a Glance</h2>
                 </div>
                 <div class="illustrious_flex_outer">
 
@@ -211,54 +279,25 @@
                             <img class="line_two" src="img/home/line_two_new.png" alt="line_two" />
                             <!-- <img class="dotsSlide visible-xs" src="img/dotsSlide.png" alt="line_two" /> -->
                             <div class="slider slider-nav">
-
                                 <div class="thumbnail_txt">
                                     <h2 class="text_xxl">Present Day</h2>
-                                    <p class="text_reg">Today, we offer unmatched 360° solutions while exclusively working with reputed miners and retail partners.</p>
+                                    <p class="text_reg">Today, we offer unmatched 360° solutions while exclusively
+                                        working with reputed
+                                        miners and retail partners.</p>
                                 </div>
-
-                                <div class="thumbnail_txt">
-                                    <h2 class="text_xxl">1971</h2>
-                                    <p class="text_reg">We start out in a small office in Mumbai, India, as a rough diamonds trading company.</p>
-                                </div>
-
-                                <div class="thumbnail_txt">
-                                    <h2 class="text_xxl">1985</h2>
-                                    <p class="text_reg">Diambel NV is born in Antwerp, Belgium with a view to grow our rough distribution and strengthen ties with reputed miners.</p>
-                                </div>
-
-                                <div class="thumbnail_txt">
-                                    <h2 class="text_xxl">1990</h2>
-                                    <p class="text_reg">We establish Harshid Exports, with a long-term aim to grow our manufacturing and distribution of polished diamonds. </p>
-                                </div>
-
-                                <div class="thumbnail_txt">
-                                    <h2 class="text_xxl">2000</h2>
-                                    <p class="text_reg">Rio Tinto Diamonds starts the Select Diamantaire Programme where Diambel NV is acknowledged as one of their first customers.</p>
-                                </div>
-
-                                <div class="thumbnail_txt">
-                                    <h2 class="text_xxl">2004</h2>
-                                    <p class="text_reg">Diambel ME is launched in Dubai to set a strong foundation for the polished market and add further value to our rough sourcing and trading.</p>
-                                </div>
-
                                 <div class="thumbnail_txt">
                                     <h2 class="text_xxl">2010</h2>
-                                    <p class="text_reg">We go further downstream in the pipeline to get one step closer to retail by diversifying our offerings to jewellery distribution in London under ‘Mireya UK Ltd.’</p>
+                                    <p class="text_reg">We go further downstream in the pipeline to get one step closer
+                                        to retail by
+                                        diversifying our offerings to jewellery distribution in London under ‘Mireya UK
+                                        Ltd.’</p>
                                 </div>
-
                                 <div class="thumbnail_txt">
-                                    <h2 class="text_xxl">2014</h2>
-                                    <p class="text_reg">De Beers Group recognises our strength within the diamond industry, giving us the ability to become a Sightholder.</p>
+                                    <h2 class="text_xxl">1990</h2>
+                                    <p class="text_reg">We establish Harshid Exports, with a long-term aim to grow our
+                                        manufacturing and
+                                        distribution of polished diamonds. </p>
                                 </div>
-
-                                <div class="thumbnail_txt">
-                                    <h2 class="text_xxl">2020</h2>
-                                    <p class="text_reg">We are recognised as an integral player in the lifeline of the Argyle mine as their journey comes to an end.</p>
-                                </div>
-
-                                
-
                             </div>
                             <div class="progress progress_green progress5">
                                 <div class="progress_bar"></div>
@@ -272,51 +311,21 @@
                 <img class="slider_layer_five" src="img/home/review_layer_two.png" alt="slider_one" /> -->
                             </div>
 
-                            <img class="line_layer hidden-xs" src="img/home/line_layer.png" alt="line_layer" />
+                            <img class="line_layer" src="img/home/line_layer.png" alt="line_layer" />
                             <img class="slider_layer_two" src="img/home/review_layer_two.png" alt="slider_one" />
                             <div class="slider slider-for">
-
                                 <div class="slider_image">
-                                    <img src="img/home/present_day.jpg" alt="" />
+                                    <img src="img/home/slider_one.jpg" alt="slider_one" />
                                 </div>
-
                                 <div class="slider_image">
-                                    <img src="img/home/year_1971.jpg" alt="" />
-                                </div>
-
-                                <div class="slider_image">
-                                    <img src="img/home/year_1985.jpg" alt="" />
-                                </div>
-
-                                <div class="slider_image">
-                                    <img src="img/home/year_1990.jpg" alt="" />
-                                    <!-- <img class="logo_overlay" src="img/home/timeline_harshid.png" alt="" /> -->
-                                </div>
-
-                                <div class="slider_image">
-                                    <img src="img/home/year_2000.jpg" alt="" />
-                                    <!-- <img class="logo_overlay" src="img/home/timeline_rio.png" alt="" /> -->
-                                </div>
-
-                                <div class="slider_image">
-                                    <img src="img/home/year_2004.jpg" alt="" />
-                                </div>
-
-                                <div class="slider_image">
-                                    <img src="img/home/year_2010.jpg" alt="" />
-                                    <!-- <img class="logo_overlay" src="img/home/timeline_mireya.png" alt="" /> -->
+                                    <img src="img/home/year_2010.jpg" alt="slider_one" />
                                     <!-- <img class="line_layer" src="img/home/line_layer.png" alt="line_layer" /> -->
-                                    <!-- <img class="slider_layer_two" src="img/home/review_layer_two.png" alt="" /> -->
+                                    <!-- <img class="slider_layer_two" src="img/home/review_layer_two.png" alt="slider_one" /> -->
                                 </div>
-
                                 <div class="slider_image">
-                                    <img src="img/home/year_2014.jpg" alt="" />
+                                    <img src="img/home/year_1990.jpg" alt="slider_one" />
+                                    <!-- <img class="slider_layer_two" src="img/home/review_layer_two.png" alt="slider_one" /> -->
                                 </div>
-
-                                <div class="slider_image">
-                                    <img src="img/home/year_2020.jpg" alt="" />
-                                </div>
-
                             </div>
 
                         </div>
@@ -326,76 +335,12 @@
                 </div>
             </div>
         </section>
-
-
-        <!-- <section class="values_shape_main pb_100">
-      <div class="container">
-        <div class="values_shape_title toTop" data-scroll>
-          <h2 class="text_xxl">Values that shape us</h2>
-        </div>
-
-        <div class="values_shape_flex d_flex">
-
-          <div class="values_shape_box border_r15 toTop" data-scroll>
-            <div class="value_shape_img">
-              <img src="img/home/reliability.png" alt="reliability" />
-            </div>
-            <div class="value_hover_img">
-              <img src="img/home/vector_hover.png" alt="reliability" />
-            </div>
-            <h5 class="text_md ptb_20">Reliability</h5>
-            <div class="value_shape_desc pt_20">
-              <p class="text_reg">Through partnerships with revered miners and retailers of the industry,
-                we are trusted
-                to only deliver high quality natural diamonds and top-notch end-to-end services tailored
-                to each
-                client’s needs.</p>
-            </div>
-          </div>
-
-          <div class="values_shape_box border_r15 toTop" data-scroll>
-            <div class="value_shape_img">
-              <img src="img/home/transparency.png" alt="transparency" />
-            </div>
-            <div class="value_hover_img">
-              <img src="img/home/vector_hover.png" alt="reliability" />
-            </div>
-            <h5 class="text_md ptb_20">Transparency</h5>
-            <div class="value_shape_desc pt_20">
-              <p class="text_reg">When you partner with us, you partner with an organisation that
-                practises
-                sustainability through ethical alliances, and gives you the option to trace the origin
-                of each and every
-                diamond.</p>
-            </div>
-          </div>
-
-          <div class="values_shape_box border_r15 toTop" data-scroll>
-            <div class="value_shape_img">
-              <img src="img/home/adaptive.png" alt="adaptability" />
-            </div>
-            <div class="value_hover_img">
-              <img src="img/home/vector_hover.png" alt="vector_hover" />
-            </div>
-            <h5 class="text_md ptb_20">Adaptability</h5>
-            <div class="value_shape_desc pt_20">
-              <p class="text_reg">Instilled in us since our inception is the importance of adapting to new
-                technologies,
-                techniques, and regulations to deliver an unparalleled experience to our clients.</p>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section> -->
-
         <section class="nature_main pb_100">
             <div class="container">
 
                 <div class="title_info d_flex pb_40 toTop" data-scroll>
                     <div class="title">
-                        <h2 class="text_xxl pb_20">Committed to Nature</h2>
+                        <h2 class="text_xxl pb_20">Committed to nature</h2>
                         <p class="text_reg">To honour the unmatched value of natural diamonds at every step of the
                             process, we have
                             alliances with top miners in the world. We only work with sustainably sourced natural
@@ -411,8 +356,7 @@
                         <img src="img/home/nature_vector_one.png" alt="nature_vector_one" />
                     </div>
                     <div class="vactor_two postion_vector">
-                        <img class="hidden-xs" src="img/home/nature_vector_two.png" alt="nature_vector_one" />
-                        <img class="visible-xs" src="img/home/solutions_layer_one.png" alt="nature_vector_one" />
+                        <img src="img/home/nature_vector_two.png" alt="nature_vector_one" />
                     </div>
                 </div>
 
@@ -432,7 +376,7 @@
                 <div class="container">
                     <div class="title_info pb_60 toTop" data-scroll>
                         <div class="title">
-                            <h2 class="text_xl pb_20">Working Across the Pipeline</h2>
+                            <h2 class="text_xl pb_20">Working across the pipeline</h2>
                             <p class="text_reg">Diambel has created a vertically integrated pipeline in the natural
                                 diamond industry,
                                 offering end-to-end solutions in rough and polished diamonds as well as jewellery.</p>
@@ -457,13 +401,13 @@
             </div>
         </section>
 
-        <section class="bg_main ptb_100" id="solutions">
+        <section class="bg_main ptb_100">
             <div class="solutions_diamonds">
                 <div class="container">
 
                     <div class="title_info d_flex pb_60 toTop" data-scroll>
                         <div class="title">
-                            <h2 class="text_xl pb_20">Solutions Beyond Diamonds</h2>
+                            <h2 class="text_xxl pb_20">Solutions beyond diamonds</h2>
                             <p class="text_reg">We go over and above the industry norms to provide you with 360-degree
                                 services, from
                                 customised orders to tech support to inventory management. Every step of the way, you
@@ -521,38 +465,6 @@
                                         <div class="header_icon_box">
                                             <div class="icon_box">
                                                 <div class="value_shape_img">
-                                                    <img src="img/home/Mine-To-Market.gif" alt="reliability" />
-                                                </div>
-                                                <div class="value_hover_img">
-                                                    <img src="img/home/faq_curve_bg.png" alt="faq_curve_bg" />
-                                                </div>
-                                            </div>
-                                            <div class="header_txt">
-                                                <h5 class="text_md">Mine To Market </h5>
-                                            </div>
-                                        </div>
-                                        <span>
-                                            <i class="fa-solid fa-plus"></i>
-                                        </span>
-                                    </a>
-                                    <div class="content">
-                                        <div class="content_box">
-                                            <span class="blank_content"></span>
-                                            <p class="text_reg">With the growing importance of provenance and a
-                                                transparent supply chain, we
-                                                offer a wide range of our rough and polished diamonds which can be
-                                                traced back to its origin,
-                                                adding value to your product line.</p>
-                                        </div>
-
-                                    </div>
-                                </div>
-
-                                <div class="faq_box toTop" data-scroll>
-                                    <a href="javascript:void(0)" class="faq_title" step-name="FQ1">
-                                        <div class="header_icon_box">
-                                            <div class="icon_box">
-                                                <div class="value_shape_img">
                                                     <img src="img/home/Tech-Support.gif" alt="reliability" />
                                                 </div>
                                                 <div class="value_hover_img">
@@ -570,13 +482,15 @@
                                     <div class="content">
                                         <div class="content_box">
                                             <span class="blank_content"></span>
-                                            <p class="text_reg">Get live access to our inventory, and the ability to
-                                                showcase the feed of our
-                                                inventory on your website. In addition, you can leverage our
-                                                technological features to
-                                                facilitate your buying journey. With readily available data, you can
-                                                make an informed buying
-                                                decision.</p>
+                                            <p class="text_reg">We partner exclusively with reputed miners for large
+                                                volume of specific
+                                                assortments that creates the right value for natural diamonds in the
+                                                market. We also offer a
+                                                special assortment of rough diamonds to manufacturers which fulfils
+                                                their requirements. Through
+                                                our relationship with jewellery manufacturers and brands, we work on
+                                                customised programmes to
+                                                help them achieve their product vision.</p>
                                         </div>
 
                                     </div>
@@ -604,15 +518,57 @@
                                     <div class="content">
                                         <div class="content_box">
                                             <span class="blank_content"></span>
-                                            <p class="text_reg">We offer customer support services that give you
-                                                real-time access to our
-                                                experts for any query you might have. We also have dedicated
-                                                professionals to guide you through
-                                                your buying journey and beyond.</p>
+                                            <p class="text_reg">We partner exclusively with reputed miners for large
+                                                volume of specific
+                                                assortments that creates the right value for natural diamonds in the
+                                                market. We also offer a
+                                                special assortment of rough diamonds to manufacturers which fulfils
+                                                their requirements. Through
+                                                our relationship with jewellery manufacturers and brands, we work on
+                                                customised programmes to
+                                                help them achieve their product vision.</p>
                                         </div>
 
                                     </div>
                                 </div>
+
+                                <div class="faq_box toTop" data-scroll>
+                                    <a href="javascript:void(0)" class="faq_title" step-name="FQ1">
+                                        <div class="header_icon_box">
+                                            <div class="icon_box">
+                                                <div class="value_shape_img">
+                                                    <img src="img/home/Mine-To-Market.gif" alt="reliability" />
+                                                </div>
+                                                <div class="value_hover_img">
+                                                    <img src="img/home/faq_curve_bg.png" alt="faq_curve_bg" />
+                                                </div>
+                                            </div>
+                                            <div class="header_txt">
+                                                <h5 class="text_md">Mine To Market </h5>
+                                            </div>
+                                        </div>
+                                        <span>
+                                            <i class="fa-solid fa-plus"></i>
+                                        </span>
+                                    </a>
+                                    <div class="content">
+                                        <div class="content_box">
+                                            <span class="blank_content"></span>
+                                            <p class="text_reg">We partner exclusively with reputed miners for large
+                                                volume of specific
+                                                assortments that creates the right value for natural diamonds in the
+                                                market. We also offer a
+                                                special assortment of rough diamonds to manufacturers which fulfils
+                                                their requirements. Through
+                                                our relationship with jewellery manufacturers and brands, we work on
+                                                customised programmes to
+                                                help them achieve their product vision.</p>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+
 
                             </div>
                         </div>
@@ -645,10 +601,7 @@
                             </div>
                         </div>
                         <div class="our_manufacturing_img">
-                            <img class="video_logo" src="img/home/video_logo.jpg" alt="video_logo" />
-                            <video autoplay loop muted playsinline class="manufacturing_video">
-                                <source src="img/home/Diambel_Manufacturing_Video.mp4" type="video/mp4">
-                            </video>
+                            <img src="img/home/our_manufaturing.jpg" alt="our_manufaturing" />
                         </div>
                     </div>
 
@@ -656,37 +609,14 @@
             </div>
 
         </section>
-        <section class="get_started">
-            <div class="container">
-                <div class="get_started_flex d_flex ptb_40 toTop" data-scroll>
-                    <div class="get_started_left">
-                        <h2 class="text_xxl">Let’s get started</h2>
-                    </div>
-                    <div class="get_started_right">
-                        <div class="btn_box">
 
-                            <a class="btn_project_default black_btn" href="javascript:void(0);">Register
-                                Here</a>
-                        </div>
-                        <div class="inquire_btn">
-                            <a onClick="openPopup('pop1');" class="btn_project_secondary"
-                                href="javascript:void(0);">Enquire Now</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="upcoming_events pt_60" id="events">
+        <section class="upcoming_events ptb_100">
             <div class="container">
 
                 <div class="title_info d_flex pb_20 toTop" data-scroll>
                     <div class="title">
-                        <h2 class="text_xxl">Upcoming Events</h2>
+                        <h2 class="text_xxl">Upcoming events</h2>
                     </div>
-                    <!-- <div class="btn_box hidden-xs">
-            <a class="btn_project_default black_btn" href="">View All</a>
-          </div> -->
                 </div>
 
                 <div class="upcoming_events_flex d_flex upcoming_events_slider toTop" data-scroll>
@@ -694,18 +624,17 @@
                     <div class="upcoming_events_content">
                         <div class="upcoming_events_box border_r15">
                             <div class="upcoming_btn pb_30">
-                                <!-- <a class="btn_project_default" href="">Abu Dhabi</a> -->
                                 <img src="img/home/logo_HKTDC.png" alt="logo_HKTDC" />
                             </div>
                             <h5 class="text_md ">Diamond Expo 2023</h5>
                             <div class="upcoming_events_desc">
-                                <p class="text_sm d_flex">
+                                <p class="text_reg d_flex">
                                     <span class="icon"><img src="img/home/location_icon.png"
                                             alt="location_icon" /></span>
-                                    <span class="box_txt">Hong kong National <br> Exhibition Centre</span>
+                                    <span class="box_txt">Hong kong National Exhibition Centre</span>
                                 </p>
 
-                                <p class="text_sm d_flex">
+                                <p class="text_reg d_flex">
                                     <span class="icon"><img src="img/home/date_icon.png" alt="location_icon" /></span>
                                     <span class="box_txt">January 8 - 10</span>
                                 </p>
@@ -719,18 +648,17 @@
                     <div class="upcoming_events_content">
                         <div class="upcoming_events_box border_r15">
                             <div class="upcoming_btn pb_30">
-                                <!-- <a class="btn_project_default" href="">Abu Dhabi</a> -->
                                 <img src="img/home/vo_logo.png" alt="logo_HKTDC" />
                             </div>
                             <h5 class="text_md ">Diamond Expo 2023</h5>
                             <div class="upcoming_events_desc">
-                                <p class="text_sm d_flex">
+                                <p class="text_reg d_flex">
                                     <span class="icon"><img src="img/home/location_icon.png"
                                             alt="location_icon" /></span>
-                                    <span class="box_txt">Abu Dhabi National <br>Exhibition Centre</span>
+                                    <span class="box_txt">Hong kong National Exhibition Centre</span>
                                 </p>
 
-                                <p class="text_sm d_flex">
+                                <p class="text_reg d_flex">
                                     <span class="icon"><img src="img/home/date_icon.png" alt="location_icon" /></span>
                                     <span class="box_txt">January 8 - 10</span>
                                 </p>
@@ -744,18 +672,17 @@
                     <div class="upcoming_events_content">
                         <div class="upcoming_events_box border_r15">
                             <div class="upcoming_btn pb_30">
-                                <!-- <a class="btn_project_default" href="">Abu Dhabi</a> -->
                                 <img src="img/home/JewelleryGem_logo_RGB.png" alt="logo_HKTDC" />
                             </div>
                             <h5 class="text_md ">Diamond Expo 2023</h5>
                             <div class="upcoming_events_desc">
-                                <p class="text_sm d_flex">
+                                <p class="text_reg d_flex">
                                     <span class="icon"><img src="img/home/location_icon.png"
                                             alt="location_icon" /></span>
-                                    <span class="box_txt">Abu Dhabi National <br>Exhibition Centre</span>
+                                    <span class="box_txt">Hong kong National Exhibition Centre</span>
                                 </p>
 
-                                <p class="text_sm d_flex">
+                                <p class="text_reg d_flex">
                                     <span class="icon"><img src="img/home/date_icon.png" alt="location_icon" /></span>
                                     <span class="box_txt">January 8 - 10</span>
                                 </p>
@@ -765,22 +692,20 @@
                             </div>
                         </div>
                     </div>
-
                     <div class="upcoming_events_content">
                         <div class="upcoming_events_box border_r15">
                             <div class="upcoming_btn pb_30">
-                                <!-- <a class="btn_project_default" href="">Abu Dhabi</a> -->
                                 <img src="img/home/logo_HKTDC.png" alt="logo_HKTDC" />
                             </div>
                             <h5 class="text_md ">Diamond Expo 2023</h5>
                             <div class="upcoming_events_desc">
-                                <p class="text_sm d_flex">
+                                <p class="text_reg d_flex">
                                     <span class="icon"><img src="img/home/location_icon.png"
                                             alt="location_icon" /></span>
-                                    <span class="box_txt">Hong kong National <br> Exhibition Centre</span>
+                                    <span class="box_txt">Hong kong National Exhibition Centre</span>
                                 </p>
 
-                                <p class="text_sm d_flex">
+                                <p class="text_reg d_flex">
                                     <span class="icon"><img src="img/home/date_icon.png" alt="location_icon" /></span>
                                     <span class="box_txt">January 8 - 10</span>
                                 </p>
@@ -794,18 +719,17 @@
                     <div class="upcoming_events_content">
                         <div class="upcoming_events_box border_r15">
                             <div class="upcoming_btn pb_30">
-                                <!-- <a class="btn_project_default" href="">Abu Dhabi</a> -->
                                 <img src="img/home/vo_logo.png" alt="logo_HKTDC" />
                             </div>
                             <h5 class="text_md ">Diamond Expo 2023</h5>
                             <div class="upcoming_events_desc">
-                                <p class="text_sm d_flex">
+                                <p class="text_reg d_flex">
                                     <span class="icon"><img src="img/home/location_icon.png"
                                             alt="location_icon" /></span>
-                                    <span class="box_txt">Abu Dhabi National <br>Exhibition Centre</span>
+                                    <span class="box_txt">Hong kong National Exhibition Centre</span>
                                 </p>
 
-                                <p class="text_sm d_flex">
+                                <p class="text_reg d_flex">
                                     <span class="icon"><img src="img/home/date_icon.png" alt="location_icon" /></span>
                                     <span class="box_txt">January 8 - 10</span>
                                 </p>
@@ -819,18 +743,17 @@
                     <div class="upcoming_events_content">
                         <div class="upcoming_events_box border_r15">
                             <div class="upcoming_btn pb_30">
-                                <!-- <a class="btn_project_default" href="">Abu Dhabi</a> -->
                                 <img src="img/home/JewelleryGem_logo_RGB.png" alt="logo_HKTDC" />
                             </div>
                             <h5 class="text_md ">Diamond Expo 2023</h5>
                             <div class="upcoming_events_desc">
-                                <p class="text_sm d_flex">
+                                <p class="text_reg d_flex">
                                     <span class="icon"><img src="img/home/location_icon.png"
                                             alt="location_icon" /></span>
-                                    <span class="box_txt">Abu Dhabi National <br>Exhibition Centre</span>
+                                    <span class="box_txt">Hong kong National Exhibition Centre</span>
                                 </p>
 
-                                <p class="text_sm d_flex">
+                                <p class="text_reg d_flex">
                                     <span class="icon"><img src="img/home/date_icon.png" alt="location_icon" /></span>
                                     <span class="box_txt">January 8 - 10</span>
                                 </p>
@@ -845,18 +768,15 @@
                 <div class="progress progress_green progress3">
                     <div class="progress_bar"></div>
                 </div>
-                <!-- <div class="btn_box visible-xs">
-          <a class="btn_project_default black_btn" href="">View All</a>
-        </div> -->
             </div>
         </section>
 
-        <section class="corporate_social pt_100" id="csr">
+        <section class="corporate_social pb_100">
             <div class="container">
 
                 <div class="title_info d_flex pb_40 toTop" data-scroll>
                     <div class="title">
-                        <h2 class="text_xxl pb_20">Corporate Social Responsibility </h2>
+                        <h2 class="text_xxl pb_20">Corporate Social Responsibilty </h2>
                         <p class="text_reg">We want to create a sustainable future where education, environment, and
                             economic
                             opportunities are accessible to everyone. By investing in these three key pillars of
@@ -864,9 +784,6 @@
                             a meaningful impact on communities around the world.
                         </p>
                     </div>
-                    <!-- <div class="btn_box hidden-xs">
-            <a class="btn_project_default black_btn" href="">View All</a>
-          </div> -->
                 </div>
 
                 <div class="parentBx">
@@ -957,136 +874,46 @@
                 <div class="progress progress_green progress4">
                     <div class="progress_bar"></div>
                 </div>
-
-                <!-- <div class="btn_box visible-xs">
-          <a class="btn_project_default black_btn" href="">View All</a>
-        </div> -->
             </div>
         </section>
 
-        <section class="roadMapSec ptb_100" id="roadmap">
+        <section class="get_started">
             <div class="container">
-                <div class="HeadTxt toTop" data-scroll>
-                    <h2 class="text_xxl">Roadmap 2030</h2>
-                </div>
-                <div class="dragBxMain">
-                    <div class="cmnBlock leftSection">
-                        <img class="roadmap_icon_one hidden-xs" src="img/home/roadmap_icon_one.png" alt="after" />
-                        <img class="roadmap_icon_two hidden-xs" src="img/home/roadmap_icon_two.png" alt="after" />
-                        <div class="imgBx hidden-xs">
-                            <div class="imgBxFx">
-                                <p>Education and <br>Health</p>
-                                <img src="img/home/Education_LOOP.gif" alt="">
-                            </div>
-                            <div class="imgBxFx">
-                                <p>Environment and <br>Sustainability</p>
-                                <img src="img/home/Environment_LOOP.gif" alt="">
-                            </div>
-                            <div class="imgBxFx">
-                                <p>Economic <br>Development</p>
-                                <img src="img/home/Economic_LOOP.gif" alt="">
-                            </div>
-                        </div>
-                        <div class="contentBx">
-                            <h3 class="contentHead toTop" data-scroll>
-                                Business Goals
-                            </h3>
-                            <p class="contentPara toTop" data-scroll>
-                                We want to continue building an<br class="visible-lg">ecosystem that breeds excellence,
-                                and<br class="visible-lg">enables
-                                us
-                                to provide industry-leading<br class="visible-lg"> services.
-                            </p>
-                        </div>
-                        <div class="imgBx visible-xs toTop" data-scroll>
-                            <div class="imgBxFx">
-                                <img src="img/home/Grow-Our-Global-Footprint_LOOP.gif" alt="">
-                                <p>Grow Our Global <br>Footprint</p>
-                            </div>
-                            <div class="imgBxFx">
-                                <img src="img/home/Embrace-Technological-Advancements_LOOP.gif" alt="">
-                                <p>Embrace <br>Technological <br>Advancements</p>
-                            </div>
-                            <div class="imgBxFx">
-                                <img src="img/home/Strengthen_Our.gif" alt="">
-                                <p>Strengthen Our <br>Diamond Pipeline</p>
-                            </div>
-                        </div>
+                <div class="get_started_flex d_flex ptb_40 toTop" data-scroll>
+                    <div class="get_started_left">
+                        <h2 class="text_xl">Let’s get started</h2>
                     </div>
-                    <div class="before-after">
-                        <img class="img back-img" src="img/home/diamond-front.png" alt="before" />
-                        <img class="img front-img" src="img/home/diamond-front.png" alt="after" />
-                        <img class="roadmap_icon_one visible-xs" src="img/home/roadmap_icon_one.png" alt="after" />
-                        <img class="roadmap_icon_two visible-xs" src="img/home/roadmap_icon_two.png" alt="after" />
-                        <div class="scrollerBlock">
-                            <label for="slider" class="draggerPoint">
-                                <img src="img/home/sm-arrow.svg" class="smAroow leftAr" alt="">
-                                <img src="img/home/sm-arrow.svg" class="smAroow rightAr" alt="">
-                            </label>
-                            <input type="range" min="1" max="100" value="50" class="slider inputRange" name="slider"
-                                id="slider" />
+                    <div class="get_started_right">
+                        <div class="btn_box">
+
+                            <a onClick="openPopup('pop1');" class="btn_project_default black_btn"
+                                href="javascript:void(0);">Register
+                                Here</a>
                         </div>
-                    </div>
-                    <div class="cmnBlock rightSection activeClass">
-                        <img class="roadmap_icon_one hidden-xs" src="img/home/roadmap_icon_one.png" alt="after" />
-                        <img class="roadmap_icon_two hidden-xs" src="img/home/roadmap_icon_two.png" alt="after" />
-                        <div class="imgBx hidden-xs">
-                            <div class="imgBxFx">
-                                <img src="img/home/Grow-Our-Global-Footprint_LOOP.gif" alt="">
-                                <p>Grow Our Global <br>Footprint</p>
-                            </div>
-                            <div class="imgBxFx">
-                                <img src="img/home/Embrace-Technological-Advancements_LOOP.gif" alt="">
-                                <p>Embrace <br>Technological <br>Advancements</p>
-                            </div>
-                            <div class="imgBxFx">
-                                <img src="img/home/Strengthen_Our.gif" alt="">
-                                <p>Strengthen Our <br>Diamond Pipeline</p>
-                            </div>
-                        </div>
-                        <div class="contentBx">
-                            <h3 class="contentHead toTop" data-scroll>
-                                Corporate Social<br>
-                                Responsibility Goals
-                            </h3>
-                            <p class="contentPara toTop" data-scroll>
-                                Through our CSR efforts and partnerships with organisations, we want to focus
-                                on three
-                                important pillars of society and give back to the community we are a part of.
-                            </p>
-                        </div>
-                        <div class="imgBx visible-xs toTop" data-scroll>
-                            <div class="imgBxFx">
-                                <img src="img/home/Education_LOOP.gif" alt="">
-                                <p>Education and Health</p>
-                            </div>
-                            <div class="imgBxFx">
-                                <img src="img/home/Environment_LOOP.gif" alt="">
-                                <p>Environment and <br>Sustainability</p>
-                            </div>
-                            <div class="imgBxFx">
-                                <img src="img/home/Economic_LOOP.gif" alt="">
-                                <p>Economic Development</p>
-                            </div>
+                        <div class="inquire_btn">
+                            <a class="btn_project_secondary" href="">Inquire Now</a>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-
-
 
         <section class="subscribe_main pb_60">
             <div class="container">
-                <div class="subscribe_box">
-                    <div class="subscribe_box_flex">
-                        <h2 class="text_xl">Subscribe for our newsletter</h2>
+                <div class="subscribe_flex d_flex toTop" data-scroll>
+                    <div class="subscribe_left">
+                        <img class="mail_icon" src="img/home/mail.png" alt="mail">
+                        <h2 class="text_lg">Subscribe to our newsletter</h2>
+                    </div>
+                    <div class="subscribe_right">
+                        <div class="input_group">
+                            <input type="email" class="input_control text_sm" placeholder="Email Address">
+                        </div>
                         <div class="btn_box">
-                            <a class="btn_project_default black_btn" onClick="openPopup('pop2');">Click Here</a>
+                            <a class="btn_project_default black_btn" href="">Submit</a>
                         </div>
                     </div>
                 </div>
-
             </div>
         </section>
 
@@ -1099,7 +926,7 @@
                     <img src="img/home/closeBtn.png" alt="">
                 </div>
                 <div class="modalPop">
-                    <div class="">
+                    <div class="container">
                         <div class="moadalFlex">
                             <div class="modalItem">
                                 <form id="register_form">
@@ -1107,118 +934,21 @@
                                     <div class="group_flex">
                                         <div class="input_group">
                                             <input type="text" class="input_control text_sm" id="name" name="Name"
-                                                placeholder="Name*" required>
+                                                placeholder="Name" required>
                                         </div>
                                         <div class="input_group">
                                             <input type="email" class="input_control text_sm" id="email" name="email"
-                                                placeholder="Email ID*" required>
+                                                placeholder="Email ID" required>
                                         </div>
                                     </div>
                                     <div class="group_flex">
-                                        <div class="input_group">
-                                            <input type="text" class="input_control text_sm" id="cname" name="cname"
-                                                placeholder="Company Name*" required>
-                                        </div>
                                         <div class="input_group">
                                             <input type="text" class="input_control text_sm" id="contact" name="contact"
-                                                placeholder="Contact Number*" required>
-                                        </div>
-                                    </div>
-                                    <div class="group_flex">
-                                        <div class="input_group">
-                                            <select name="businessType" id="select_option1"
-                                                class="newsletter_select text_sm" required>
-                                                <option value="" data-display="Business Type*">
-                                                    Diamond Manufacturer</option>
-                                                <option value="Jewellery Manufacturer">Jewellery Manufacturer</option>
-                                                <option value="Wholesaler">Wholesaler</option>
-                                                <option value="Broker">Broker</option>
-                                                <option value="Retailer">Retailer</option>
-                                            </select>
+                                                placeholder="Contact" required>
                                         </div>
                                         <div class="input_group">
-                                            <select name="interestedIn" id="select_option2"
-                                                class="newsletter_select text_sm">
-                                                <option value="" data-display="Interested In*">Rough Diamonds</option>
-                                                <option value="Polished Diamonds">Polished Diamonds</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                    <div class="group_flex">
-                                        <div class="input_group pb_20">
-                                            <input type="text" class="input_control text_sm" id="message*"
-                                                name="message" placeholder="Message*" required>
-                                        </div>
-                                    </div>
-                                    <div class="group_flex">
-                                        <div class="input_group custom_check">
-                                            <input type="checkbox" id="subscribe">
-                                            <label for="subscribe">Subscribe to our newsletter</label>
-                                        </div>
-                                    </div>
-                                    <div class="btn_box">
-                                        <button type="submit" class="btn_project_default black_btn"
-                                            href="javascript:void(0);">Submit
-                                        </button>
-                                    </div>
-
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div id="pop2" class="popup" style="display:none;">
-            <div class="overlay">
-            </div>
-            <div class="modalOuter">
-                <div class="cancel" onclick="closePopup();">
-                    <img src="img/home/closeBtn.png" alt="">
-                </div>
-                <div class="modalPop">
-                    <div class="">
-                        <div class="moadalFlex">
-                            <div class="modalItem">
-                                <form id="register_form1">
-                                    <div class="group_flex">
-                                        <div class="input_group">
-                                            <input type="text" class="input_control text_sm" id="rname" name="rname"
-                                                placeholder="Name*" required>
-                                        </div>
-                                        <div class="input_group">
-                                            <input type="email" class="input_control text_sm" id="remail" name="remail"
-                                                placeholder="Email ID*" required>
-                                        </div>
-                                    </div>
-                                    <div class="group_flex">
-                                        <div class="input_group">
-                                            <input type="text" class="input_control text_sm" id="rcname" name="rcname"
-                                                placeholder="Company Name*" required>
-                                        </div>
-                                        <div class="input_group">
-                                            <input type="text" class="input_control text_sm" id="cnumber" name="cnumber"
-                                                placeholder="Contact Number*" required>
-                                        </div>
-                                    </div>
-                                    <div class="group_flex">
-                                        <div class="input_group">
-                                            <select name="businessType1" id="select_option3"
-                                                class="newsletter_select text_sm" required>
-                                                <option value="" data-display="Business Type*">
-                                                    Diamond Manufacturer</option>
-                                                <option value="Jewellery Manufacturer">Jewellery Manufacturer</option>
-                                                <option value="Wholesaler">Wholesaler</option>
-                                                <option value="Broker">Broker</option>
-                                                <option value="Retailer">Retailer</option>
-                                            </select>
-                                        </div>
-                                        <div class="input_group">
-                                            <select name="interestedIn1" id="select_option4"
-                                                class="newsletter_select text_sm" required>
-                                                <option value="" data-display="Interested In*">Rough Diamonds</option>
-                                                <option value="Polished Diamonds">Polished Diamonds</option>
-                                            </select>
+                                            <input type="text" class="input_control text_sm" id="message" name="message"
+                                                placeholder="Message" required>
                                         </div>
                                     </div>
                                     <div class="btn_box">
@@ -1362,17 +1092,25 @@
     </div>
   </div>
 </footer>    <script src="dist/js/app.min.js"></script>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/css/nice-select.min.css"
-        rel="stylesheet" />
+    <script>
+    const slider = document.getElementById("slider");
+    slider.addEventListener("input", function() {
+        const frontImage = document.querySelector(".front-img");
+        frontImage.style.clipPath = `polygon(0 0, ${this.value}% 0, ${this.value}% 100%, 0% 100%)`;
+        $('.draggerPoint').css("left", this.value + '%');
+    });
+    $('.inputRange').on('input change', function() {
+        var thisValue = $(this).val()
+        if (thisValue >= 90) {
+            $('.leftSection').removeClass('activeClass')
+            $('.rightSection').addClass('activeClass')
+        } else if (thisValue <= 10) {
+            $('.rightSection').removeClass('activeClass')
+            $('.leftSection').addClass('activeClass')
+        }
+    })
+    </script>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/js/jquery.nice-select.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.15.0/jquery.validate.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.15.0/additional-methods.min.js"></script>
-
-
-    <!-- <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/jquery.slick/1.4.1/slick.min.js"></script> -->
     <script>
     //for letters only
     $.validator.addMethod("lettersonly", function(value, element) {
@@ -1383,20 +1121,8 @@
     $.validator.addMethod("emailtest", function(value, element) {
         return this.optional(element) || /^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$/i.test(value);
     });
-
-    $('#select_option1').niceSelect();
-    $('#select_option2').niceSelect();
-    $('#select_option3').niceSelect();
-    $('#select_option4').niceSelect();
     $("#register_form").validate({
-        ignore: [],
         rules: {
-            businessType: {
-                required: true
-            },
-            interestedIn: {
-                required: true
-            },
             name: {
                 required: true,
                 lettersonly: true,
@@ -1406,9 +1132,6 @@
                 emailtest: true,
                 required: true,
                 email: true
-            },
-            cname: {
-                required: true,
             },
             contact: {
                 required: true,
@@ -1418,12 +1141,6 @@
             },
         },
         messages: {
-            businessType: {
-                required: "This field is required",
-            },
-            interestedIn: {
-                required: "This field is required",
-            },
             name: {
                 required: "This field is required",
                 lettersonly: "Please enter a text only"
@@ -1432,77 +1149,12 @@
                 required: "This field is required",
                 emailtest: "Please enter a valid email address"
             },
-            cname: {
+            contact: {
                 required: "This field is required",
             },
             message: {
                 required: "This field is required",
             },
-        },
-        errorPlacement: function(error, element) {
-            console.log(element);
-            if (element.is('select:hidden')) {
-                error.insertAfter(element.next('.nice-select'));
-            } else {
-                error.insertAfter(element);
-            }
-        },
-    });
-    $("#register_form1").validate({
-        ignore: [],
-        rules: {
-            businessType1: {
-                required: true
-            },
-            interestedIn1: {
-                required: true
-            },
-            rname: {
-                required: true,
-                lettersonly: true,
-                minlength: 2
-            },
-            remail: {
-                emailtest: true,
-                required: true,
-                email: true
-            },
-            rcname: {
-                required: true,
-            },
-            cnumber: {
-                required: true,
-            },
-        },
-        messages: {
-            businessType1: {
-                required: "This field is required",
-            },
-            interestedIn1: {
-                required: "This field is required",
-            },
-            rname: {
-                required: "This field is required",
-                lettersonly: "Please enter a text only"
-            },
-            remail: {
-                required: "This field is required",
-                emailtest: "Please enter a valid email address"
-            },
-            rcname: {
-                required: "This field is required",
-            },
-            cnumber: {
-                required: "This field is required",
-            },
-        },
-        errorPlacement: function(error, element) {
-            console.log(element);
-            if (element.is('select:hidden')) {
-                error.insertAfter(element.next('.nice-select'));
-            } else {
-                error.insertAfter(element);
-            }
         },
     });
 
@@ -1594,8 +1246,8 @@
 
                         {
 
-                            duration: 5000,
-                            easing: 'linear',
+                            duration: 2000,
+                            easing: 'swing',
                             step: function() {
                                 $this.text(Math.floor(this.countNum));
                             },
@@ -1625,46 +1277,6 @@
         $(".popup").fadeOut(300);
         $("body").removeClass("overflow");
     }
-
-    const slider = document.getElementById("slider");
-    slider.addEventListener("input", function() {
-        const frontImage = document.querySelector(".front-img");
-        frontImage.style.clipPath = `polygon(0 0, ${this.value}% 0, ${this.value}% 100%, 0% 100%)`;
-        $('.draggerPoint').css("left", this.value + '%');
-    });
-    $('.inputRange').on('input change', function() {
-        var thisValue = $(this).val()
-        if (thisValue >= 60) {
-            $('.leftSection').removeClass('activeClass')
-            $('.rightSection').addClass('activeClass')
-        } else if (thisValue <= 40) {
-            $('.rightSection').removeClass('activeClass')
-            $('.leftSection').addClass('activeClass')
-        }
-    })
-
-
-    $(document).ready(function() {
-        //banner scroll script
-        $("#scrollbtna").click(function() {
-            $('html,body').animate({ //  fine in moz, still quicker in chrome. 
-                    scrollTop: $("#bannertabs").offset().top - 100
-                },
-                'slow');
-        });
-
-        //header menu scroll script
-        $('.scrollTo').click(function() {
-            $('html, body').animate({
-                scrollTop: $($(this).attr('href')).offset().top
-            }, 1000);
-            return false;
-        });
-
-
-        // FastClick.attach(document.body);
-
-    });
     </script>
 </body>
 
