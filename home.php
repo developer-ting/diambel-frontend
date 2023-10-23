@@ -384,7 +384,7 @@
                         </div>
                       </div>
                       <div class="header_txt">
-                        <h5 class="text_md">Programme-Based Offerings </h5>
+                        <h5 class="text_md">Programme-Based Offering </h5>
                       </div>
                     </div>
                     <span>
